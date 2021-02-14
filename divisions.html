@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="img/logo.png">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu-up.js"></script>
+    <title>MGOK</title>
+</head>
+
+<body id="home">
+    <!--navigation-->
+    <nav id="navbarUp" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <!--LOGO-->
+            <div class="logo d-flex justify-content-center">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="MGOK" class="mt-1 inner-logo">
+                </a>
+                <a href="index.html" class="navbar-brand text-logo font-weight-bold pl-1">МГОК</a>
+            </div>
+            <!--menu button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--dropdowns-->
+            <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
+                <ul class="navbar-nav nav-pills ml-auto mt-1">
+                    <li class="nav-item border border-primary rounded position-relative ">
+                        <a class="nav-link dropdown-toggle text-white font-weight-bold" data-toggle="dropdown" href="#" role="button" 
+                           aria-haspopup="true" aria-expanded="false">Производство</a>
+                        <div class="dropdown-menu position-absolute dropdown-content p-0 row border border-primary bg-primary text-center text-md-left text-lg-left width-dropdown-smallscreen">
+                            <a class="dropdown-item text-white col-md-12" href="prodaction-indicators.html">Производственные показатели</a>
+                            <a class="dropdown-item text-white col-md-12" href="enterprise-condition.html">Состояние производства</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#social" class="nav-link font-weight-bold text-white">Социальная сфера</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#other" class="nav-link font-weight-bold text-white">Прочее</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#directory" class="nav-link font-weight-bold text-white">Справочни<br class="d-none d-md-inline-block d-lg-none">ки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="divisions.html" class="nav-link font-weight-bold text-white">Подразделе<br class="d-none d-md-inline-block d-lg-none">ния</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--main container-->
+    <header class="container">
+        <!--breadcrumbs-->
+        <div class="row ml-0 mr-0">
+            <nav aria-label="breadcrumb" class="col-md-6 mt-5 pt-4 col pl-0 pr-0">
+                <ol class="breadcrumb mt-5 bg-dark border border-primary">
+                    <li class="breadcrumb-item "><a href="index.html">Главная</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Подразделения</li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <!--header section-->
+    <section id="indicators" class="container mt-5">
+        <!--phone numbers list-->
+        <table class="table table-dark table-striped table-responsive-sm table-bordered">
+            <caption class="bg-dark text-primary text-center">Список номеров телефонов</caption>
+            <thead>
+                <tr>
+                    <th scope="col" class="align-top">Код</th>
+                    <th scope="col" class="align-top">Наименование</th>
+                    <th scope="col" class="align-top">Внутренний телефон</th>
+                    <th scope="col" class="align-top">Для звонков с мобильного</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--3/5 row-->
+                <tr>
+                    <th scope="row">1</th>
+                    <td contenteditable='true'>Шахта 3/5</td>
+                    <td contenteditable='true'>3554</td>
+                    <td contenteditable='true'>+380500502015</td>
+                </tr>
+                <!--9/10 row-->
+                <tr>
+                    <th scope="row">2</th>
+                    <td contenteditable='true'>Шахта 9/10</td>
+                    <td contenteditable='true'>9110</td>
+                    <td contenteditable='true'>+380500502016</td>
+                </tr>
+                <!--14/15 row-->
+                <tr>
+                    <th scope="row">3</th>
+                    <td contenteditable='true'>Шахта 14/15</td>
+                    <td contenteditable='true'>1415</td>
+                    <td contenteditable='true'>+380500502017</td>
+                </tr>
+                <!--Basanskiy mine row-->
+                <tr>
+                    <th scope="row">4</th>
+                    <td contenteditable='true'>Басанский карьер</td>
+                    <td contenteditable='true'>1211</td>
+                    <td contenteditable='true'>+380500502018</td>
+                </tr>
+                <!--Grushavsky mine row-->
+                <tr>
+                    <th scope="row">5</th>
+                    <td contenteditable='true'>Грушевский карьер</td>
+                    <td contenteditable='true'>1212</td>
+                    <td contenteditable='true'>+380500502019</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!--footer-->
+    <footer id="footer" class="border-top border-primary">
+        <div class="container pt-2">
+            <div class="row">
+                <!--footer address-->
+                <div class="col-lg-4">
+                    <p>Украина, 53400, м. Марганец, ул. Едности,62 <br>
+                        тел.: +38(056)790-16-35<br>
+                        e-mail: mgzk.info@gmail.com
+                    </p>
+                    <!--social links on small screens-->
+                    <div class="d-inline-block d-lg-none">
+                        <a href="https://www.facebook.com/infoMGOK/?modal=admin_todo_tour" 
+                           target="_blank" class="lead pl-0 pt-sm-2 pr-4 pb-4 social-link"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UClwIjrpbN7aFZZVFoY3Bi-Q" 
+                           target="_blank" class="lead pl-0 pt-sm-2 pr-4 pb-4 social-link"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <p>&copy; Copyright Все права защищены<br>
+                        2021</p>
+                </div>
+                <!--social links on large screens-->
+                <div class="col-lg-4 d-none d-lg-flex">
+                    <a href="https://www.facebook.com/infoMGOK/?modal=admin_todo_tour" 
+                       target="_blank" class="lead pl-2 pt-0 pr-2 social-link"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UClwIjrpbN7aFZZVFoY3Bi-Q" 
+                       target="_blank" class="lead pl-2 pt-0 pr-2 social-link"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

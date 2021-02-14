@@ -1,0 +1,268 @@
+$bg-color: #333;
+$font-color: #fff;
+$primary-color: #0000cc;
+$primary-common: #007bff;
+$dark-overlay: rgba(0, 0, 0, .7);
+$icon-size: 1.2em;
+
+//hide the horizontal scroll
+html {
+    overflow-x: hidden;
+}
+
+//bg and color for body
+body {
+    background: $bg-color;
+    color: $font-color;
+}
+
+//size of the logo text
+.text-logo {
+    font-size: 1.6em !important;
+}
+
+//border for the navigation
+.navbar {
+    border-bottom: $primary-color 3px solid;
+    opacity: .8;
+    transition: top .5s;
+
+    /* Transition effect when sliding down (and up) */
+    //style for the menu button on hover/focus
+    button.navbar-toggler:hover {
+        background: $dark-overlay;
+    }
+
+    button.navbar-toggler:focus {
+        border: 1px solid $primary-color;
+    }
+
+    //transition values for navigation's links
+    .nav-link {
+        color: $font-color;
+        height: 100%;
+        transition: all .5s ease;
+    }
+
+    //on-hover behavior for navigation's links
+    .nav-link:hover,
+    .dropdown-item:hover {
+        color: $primary-common!important;
+        text-shadow: 1px 1px 1px $font-color;
+    }
+
+    //dropdown style
+    .dropdown-item:hover {
+        background-color: $bg-color;
+    }
+}
+
+//behavior of the navigation section on-hover
+.navbar:hover,
+.dropdown-item:hover {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+//bg for the home-section
+#home-section {
+    background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .1)),
+        url('../img/pexels-pixabay-33192.jpg') center/cover no-repeat fixed;
+
+    //rotative logo animation
+    .outter-animation {
+        min-height: 348px;
+        min-width: 348px;
+        animation: spin 30s linear infinite;
+
+        @keyframes spin {
+            100% {
+                -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+            }
+        }
+    }
+
+    //size for the inner-logo(inside the rotative)
+    .inner-logo {
+        min-height: 237px;
+        min-width: 237px;
+    }
+
+    //checks style
+    .fa {
+        color: $font-color;
+        background: $primary-common;
+        padding: .3em;
+        border-radius: .35em;
+        font-size: $icon-size;
+        opacity: .8;
+    }
+}
+
+//values for the main section
+#location-info {
+    background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .1)),
+        url('../img/pexels-pixabay-461789.png') center/cover no-repeat fixed;
+    min-height: 60vh;
+}
+
+//footer style
+#footer {
+    background: $bg-color;
+
+    //size of social links
+    .social-link {
+        font-size: 3em;
+    }
+
+    .social-link:hover {
+        color: $primary-color;
+        transition: all 1s ease;
+    }
+}
+
+//height for the "prodaction-indicators.html" body
+#indicators {
+    min-height: 65vh;
+}
+
+//slider
+#home-slide {
+    img {
+        vertical-align: middle;
+    }
+
+    .mySlides {
+        display: none;
+        max-height: 85vh;
+
+        .img-width {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    //Add a pointer when hovering over the thumbnail images
+    .cursor {
+        cursor: pointer;
+        width: 100%;
+    }
+
+    //Next & previous buttons 
+    .prev,
+    .next {
+        cursor: pointer;
+        top: 45%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: $primary-color;
+        font-size: 20px;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    // Position the "previous button" to the right
+    .prev {
+        left: 5%;
+    }
+
+    // Position the "next button" to the right 
+    .next {
+        right: 5%;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: $dark-overlay;
+        color: $font-color;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: $primary-common;
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+        opacity: .6;
+        width: 100%;
+    }
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+}
+#buttonShow {
+    .btn-primary:focus {
+        border: 1px solid $primary-color;
+        box-shadow: none;
+    }
+}
+// Gallery
+.gallery {
+    display: none;
+    
+    .work-item-img {
+        transition: all .5s linear;
+    }
+
+    // Hover effect for img 
+    .work-item:hover .work-item-img {
+        opacity: .5;
+        transform: scale(1.1);
+    }
+
+    .work-item-icon {
+        position: absolute;
+        color: $font-color;
+        top: 50%;
+        left: 50%;
+        font-size: 3.5rem;
+        text-decoration: none;
+        transition: all .5s ease;
+        transform: scale(0);
+    }
+
+    // Hover effect for icon
+    .work-item:hover .work-item-icon {
+        transform: scale(1.3) translate(-50%, -50%);
+    }
+
+    .work-item-icon:hover {
+        color: $dark-overlay;
+        cursor: pointer;
+    }
+
+    /*modal*/
+
+    .work-modal-close {
+        font-size: 3rem;
+        bottom: 95%;
+        right: 0%;
+        transition: al .5s linear;
+        cursor: pointer;
+        text-decoration: none;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 576px) {
+
+    #location-info,
+    #home-section {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .width-dropdown-smallscreen {
+        width: 100%;
+    }
+}
