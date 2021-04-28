@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="img/logo.png">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu-up.js"></script>
+    <title>MGOK</title>
+</head>
+
+<body id="home-slide">
+    <!--navigation-->
+    <nav id="navbarUp" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top shadow">
+        <div class="container">
+            <!--logo-->
+            <div class="logo mr-0 d-flex justify-content-center bg-linear">
+                <a href="index.php">
+                    <img src="img/logo.png" alt="MGOK" class="mt-1 ml-1 inner-logo">
+                </a>
+                <a href="index.php" class="navbar-brand text-logo font-weight-bold pl-1">МГОК</a>
+            </div>
+            <!--menu button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--dropdowns-->
+            <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
+                <ul class="navbar-nav nav-pills ml-auto mt-1">
+                    <li class="nav-item border border-primary rounded position-relative">
+                        <a class="nav-link dropdown-toggle text-white font-weight-bold" data-toggle="dropdown" href="#" role="button" 
+                           aria-haspopup="true" aria-expanded="false">Производство</a>
+                        <div class="dropdown-menu position-absolute dropdown-content p-0 row border border-primary bg-primary text-center text-md-left text-lg-left width-dropdown-smallscreen">
+                            <a class="dropdown-item text-white" href="production_data_insert.php">Производственные показатели</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#social" class="nav-link font-weight-bold text-white">Социальная сфера</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#other" class="nav-link font-weight-bold text-white">Прочее</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#directory" class="nav-link font-weight-bold text-white">Справочни<br class="d-none d-md-inline-block d-lg-none">ки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="divisions.html" class="nav-link font-weight-bold text-white pr-lg-0">Подразделе<br class="d-none d-md-inline-block d-lg-none">ния</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--exit-->
+    <nav class="container pt-5 d-flex justify-content-end">
+        <a href="logout.php" class="btn btn-small btn-primary text-white mt-5 shadow" role="button">Выйти</a>
+    </nav>
+    <!--breadcrumbs-->
+    <header class="container">
+        <div class="row ml-0 mr-0">
+            <nav aria-label="breadcrumb" class="col col-md-6 col-lg-4 pl-0 pr-0">
+                <ol class="breadcrumb mt-5 bg-dark border border-secondary p-1 shadow">
+                    <li class="breadcrumb-item pl-2"><a href="index.php">Главная</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Состояние производства</li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <!--slider-->
+    <!-- Container for the image gallery -->
+    <section class="container position-relative">
+        <!-- Full-width images with number text -->
+        <h1>Галерея</h1>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">1 / 12</div>
+            <img class="img-width" src="img/pexels-weir-esco-3906736.png" alt="Новый супернадежный ЭКГ">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">2 / 12</div>
+            <img class="img-width" src="img/pexels-weir-esco-3906748.png" alt="Новый ковш ЭКГ">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">3 / 12</div>
+            <img class="img-width" src="img/pexels-tom-fisk-2101137 (4).jpg" alt="Отгрузка породы">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">4 / 12</div>
+            <img class="img-width" src="img/pexels-weir-esco-3906748.png" alt="Новый ковш ЭКГ">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">5 / 12</div>
+            <img class="img-width" src="img/pexels-pixabay-33192.jpg" alt="Роторный экскаватор в работе">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">6 / 12</div>
+            <img class="img-width" src="img/pexels-jayson-delos-santos-1139553.png" alt="ЭКГ после ремонта">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">7 / 12</div>
+            <img class="img-width" src="img/pexels-kelly-lacy-6595785 (1).jpg" alt="Роторный экскаватор в работе">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">8 / 12</div>
+            <img class="img-width" src="img/pexels-dapurmelodi-1009926.png" alt="Бульдозер на рекультивации">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">9 / 12</div>
+            <img class="img-width" src="img/pexels-tom-fisk-2101137 (4).jpg" alt="Отгрузка породы">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">10 / 12</div>
+            <img class="img-width" src="img/pexels-weir-esco-3906748.png" alt="Новый ковш ЭКГ">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">11 / 12</div>
+            <img class="img-width" src="img/pexels-07.png" alt="Устройство защитного козырька копра">
+        </div>
+        <div class="mySlides overflow-hidden">
+            <div class="position-absolute numbertext">12 / 12</div>
+            <img class="img-width" src="img/pexels-pixabay-461789.png" alt="Погрузчик после ремонта">
+        </div>
+        <!--Next & previous buttons-->
+        <a class="position-absolute text-decoration-none font-weight-bold border border-primary rounded prev" onclick="plusSlides(-1)">❮</a>
+        <a class="position-absolute text-decoration-none font-weight-bold border border-primary rounded next" onclick="plusSlides(1)">❯</a>
+        <div class="pt-2 pb-2 caption-container">
+            <p id="caption" class="lead pb-0 mb-0"></p>
+        </div>
+        <div class="container">
+            <div class="row d-none d-sm-none d-md-flex overflow-hidden">
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-weir-esco-3906736.png" onclick="currentSlide(1)" alt="Новый супернадежный ЭКГ">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-weir-esco-3906748.png" onclick="currentSlide(2)" alt="Новый ковш ЭКГ">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-tom-fisk-2101137 (4).jpg" onclick="currentSlide(3)" alt="Отгрузка породы">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-weir-esco-3906748.png" onclick="currentSlide(4)" alt="Новый ковш ЭКГ">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-pixabay-33192.jpg" onclick="currentSlide(5)" alt="Роторный экскаватор в работе">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-jayson-delos-santos-1139553.png" onclick="currentSlide(6)" alt="ЭКГ после ремонта">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-kelly-lacy-6595785 (1).jpg" onclick="currentSlide(7)" alt="Роторный экскаватор в работе">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-dapurmelodi-1009926.png" onclick="currentSlide(8)" alt="Бульдозер на рекультивации">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-tom-fisk-2101137 (4).jpg" onclick="currentSlide(9)" alt="Отгрузка породы">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-weir-esco-3906748.png" onclick="currentSlide(10)" alt="Новый ковш ЭКГ">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-07.png" onclick="currentSlide(11)" alt="Устройство защитного козырька копра">
+                </div>
+                <div class="col-1 pl-0 pr-0 overflow-hidden">
+                    <img class="border demo cursor" src="img/pexels-pixabay-461789.png" onclick="currentSlide(12)" alt="Погрузчик после ремонта">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="buttonShow" class="container text-center mt-5">
+        <button class="btn btn-large btn-primary shadow showFunction" id="showSection">
+            Больше фотографий
+        </button>
+    </section>
+    <!-- gallery -->
+    <section id="gallery" class="gallery">
+        <!-- work-container -->
+        <div class="container mt-5">
+            <div class="row pl-3 pr-3">
+                <!-- item-1 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-pixabay-33192.jpg" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_1">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-2 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-pixabay-461789.png" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_2">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-3 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-tom-fisk-2101137 (4).jpg" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_3">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-4 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-weir-esco-3906748.png" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_4">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-5 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-kelly-lacy-6595785 (1).jpg" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_5">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-6 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-jayson-delos-santos-1139553.png" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_6">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-7 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-weir-esco-3906736.png" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_7">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-8 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-dapurmelodi-1009926.png" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_8">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-9 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-weir-esco-3906748.png" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_9">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+                <!-- item-10 -->
+                <article class="col-6 col-md-4 col-lg-3 position-relative overflow-hidden bg-primary pr-0 pl-0 border-left border-right work-item">
+                    <img src="img/pexels-07.png" alt="work" class="img-fluid work-item-img">
+                    <a href="#" role="button" class="position-absolute d-inline-block work-item-icon" data-toggle="modal" data-target="#item_10">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </article>
+            </div>
+        </div>
+        <!-- Modal-1 -->
+        <div class="modal fade-in" id="item_1" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-pixabay-33192.jpg" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-2-->
+        <div class="modal fade-in" id="item_2" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-pixabay-461789.png" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-3-->
+        <div class="modal fade-in" id="item_3" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-tom-fisk-2101137 (4).jpg" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-4-->
+        <div class="modal fade-in" id="item_4" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-weir-esco-3906748.png" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-5-->
+        <div class="modal fade-in" id="item_5" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-kelly-lacy-6595785 (1).jpg" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-6 -->
+        <div class="modal fade-in" id="item_6" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-jayson-delos-santos-1139553.png" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-7-->
+        <div class="modal fade-in" id="item_7" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-weir-esco-3906736.png" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-8-->
+        <div class="modal fade-in" id="item_8" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-dapurmelodi-1009926.png" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-9-->
+        <div class="modal fade-in" id="item_9" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-weir-esco-3906748.png" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-10-->
+        <div class="modal fade-in" id="item_10" data-backdrop="static" data-keyboard="false" tabindex="-1" 
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="img/pexels-07.png" alt="work" class="img-fluid work-item-img">
+                        <button type="button" class="close position-absolute work-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-3">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer id="footer" class="border-top border-primary mt-5">
+        <div class="container pt-2">
+            <div class="row">
+                <!--footer address-->
+                <div class="col-lg-4">
+                    <p>Украина, 53400, м. Марганец, ул. Едности,62 <br>
+                        тел.: +38(056)790-16-35<br>
+                        e-mail: mgzk.info@gmail.com
+                    </p>
+                    <!--social links on small screens-->
+                    <div class="d-inline-block d-lg-none">
+                        <a href="https://www.facebook.com/infoMGOK/?modal=admin_todo_tour" 
+                           target="_blank" class="lead pl-0 pt-sm-2 pr-4 pb-4 social-link"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UClwIjrpbN7aFZZVFoY3Bi-Q" 
+                           target="_blank" class="lead pl-0 pt-sm-2 pr-4 pb-4 social-link"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <p>&copy; Copyright Все права защищены<br>
+                        2021</p>
+                </div>
+                <!--social links on large screens-->
+                <div class="col-lg-4 d-none d-lg-flex">
+                    <a href="https://www.facebook.com/infoMGOK/?modal=admin_todo_tour" 
+                       target="_blank" class="lead pl-2 pt-0 pr-2 social-link"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UClwIjrpbN7aFZZVFoY3Bi-Q" 
+                       target="_blank" class="lead pl-2 pt-0 pr-2 social-link"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
