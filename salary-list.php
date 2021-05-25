@@ -22,15 +22,15 @@ session_start();
         <!--content-->
         <div class="container py-3 py-lg-4 pb-lg-3 px-sm-0 px-md-3">
             <nav aria-label="breadcrumb"
-                class="d-block d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-between mt-5 mb-2">
-                <ol class="d-none d-lg-flex breadcrumb bg-transparent px-0 pb-0 mb-0">
+                class="d-flex justify-content-end justify-content-md-between mt-5 mb-3">
+                <ol class="d-none d-md-flex breadcrumb bg-transparent px-0 pb-0 mb-0">
                     <li class="breadcrumb-item">
                         <a class="text-primary text-decoration-none" href="home.php">Головна</a>
                     </li>
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Розрахунковий лист</li>
                 </ol>
-                <a href="index.php" class="btn btn-small btn-dark text-white shadow border mt-3 mt-md-0"
+                <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white shadow border mt-3 mt-md-0"
                     role="button">Вийти</a>
             </nav>
             <!-- user-data -->
@@ -58,7 +58,7 @@ session_start();
                             <div class="col-12 col-sm-6 col-lg-12">
                                 <label for="validationTooltipMonth" class="m-0"></label>
                                 <select class="custom-select text_color" id="validationTooltipMonth" required="">
-                                    <option selected="" disabled="" value="">Обрати місяць...</option>
+                                    <option selected="" disabled="" value="">Місяць...</option>
                                     <option>Січень</option>
                                     <option>Лютий</option>
                                     <option>Березень</option>
@@ -79,11 +79,10 @@ session_start();
                             <div class="col-12 col-sm-6 col-lg-12">
                                 <label for="validationTooltipYear" class="m-0"></label>
                                 <select class="custom-select text_color" id="validationTooltipYear" required="">
-                                    <option selected="" disabled="" value="">Обрати Рік...</option>
-                                    <option>2021</option>
-                                    <option>2020</option>
-                                    <option>2019</option>
-                                    <option>2018</option>
+                                    <option selected="1" value="1">2021</option>
+                                    <option value="2">2020</option>
+                                    <option value="3">2019</option>
+                                    <option value="4">2018</option>
                                 </select>
                                 <div class="invalid-tooltip">
                                     Оберіть Рік!

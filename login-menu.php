@@ -1,7 +1,7 @@
 <!--navigation-->
-<header>
+    <header>
         <nav id="navbarUp" class="navbar navbar-dark navbar-expand-md fixed-top shadow">
-            <section class="container">
+            <div class="container">
                 <!--LOGO-->
                 <div class="logo mr-0 mt-md-0 d-flex justify-content-center bg-linear">
                     <a href="home.php">
@@ -30,11 +30,11 @@
                         </li>
                         <li class="nav-item px-md-0 pr-lg-0 pl-lg-1">
                             <a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Телефонний довідник"
-                                class="nav-link font-weight-bold text-white pr-lg-0 pr-md-0 pr-xl-2 pb-md-0 py-md-0"><i
+                                class="nav-link font-weight-bold text-white pr-lg-0 pr-md-0 pb-md-0 py-md-0"><i
                                     class="fas fa-phone-square fa-2x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
-            </section>
+            </div>
         </nav>
     </header>

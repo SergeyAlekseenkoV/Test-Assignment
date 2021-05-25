@@ -3,11 +3,11 @@
 // Initialize the session
 session_start();
 // logout
-$exit = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'd-none': 'd-inline-block';
+// $exit = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'd-none': 'd-inline-block';
 // access button
-$accessBtn = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'd-inline-block': 'd-none';
+// $accessBtn = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'd-inline-block': 'd-none';
 //Disable menu links for an unregistered user
-$access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'disabled': '';
+// $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'disabled': '';
 
 ?>
 <?php include_once "header.php"; ?>
@@ -18,18 +18,18 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
     <!-- main-section-->
     <section id="main" class="mt-0 pt-3 bg-transparent">       
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
-            <div class="d-flex justify-content-end justify-content-sm-between align-items-baseline mt-2 mt-sm-3 home_heading">
-                <h2 class="d-none d-sm-block pt-sm-2 pt-lg-3 text-left text_color">Акціонерне Товариство <br>"Марганецький гірничо-збагачувальний
+            <div class="d-flex justify-content-end justify-content-md-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
+                <h2 class="d-none d-md-block pt-sm-2 pt-lg-3 text-left text_color">Акціонерне Товариство <br>"Марганецький гірничо-збагачувальний
                 комбінат"</h2>
-                <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white mt-5 mb-3 mb-sm-0 shadow border" role="button">Вийти</a>
+                <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white mt-5 mb-3 shadow border" role="button">Вийти</a>
             </div>
-            <div class="row pb-sm-1 ml-0 pl-0 mr-0 pr-0">
+            <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <article class="col-sm-12 col-lg-2 pl-0 px-0 text-center">
                     <nav class="sticky-top accordion shadow" id="accordionLib">
                             <!-- home card -->
                             <div class="card bg-transparent">
                                 <div class="card-header p-0 bg-dark" id="homePage">
-                                        <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-white text-uppercase" 
+                                        <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-info text-uppercase" 
                                             href="home.php" type="button" role="button">
                                             Головна
                                         </a>
@@ -43,13 +43,6 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
                                             Новини
                                         </a>
                                 </div>
-                                <!-- <div id="news" class="collapse bg-transparent" aria-labelledby="news-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3">
-                                        <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="news.php" class="text_color"></a></li>
-                                    </ul>
-                                </div> -->
                             </div>
                             <!-- library card -->
                             <div class="card bg-transparent">
@@ -59,21 +52,6 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
                                             Бібліотека
                                         </a>
                                 </div>
-                                <!-- <div id="library" class="collapse bg-transparent" aria-labelledby="first-item"
-                                    data-parent="#accordionLib">
-                                    <p class="text_color mb-0 py-2 pl-3">Нормативно-правова база</p>
-                                    <ul class="card-body list-group px-3 pt-1 pb-3"> 
-                                        <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="#" class="text_color">Організаційно-розпорядчі документи<br>(загальні питання)</a></li>
-                                        <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="#" class="text_color">За напрямками</a></li> 
-                                        <p class="text_color mb-0 py-2">Моніторинг законодавства</p>
-                                        <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="#" class="text_color">Інформація щодо підприємства</a></li>
-                                        <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="#" class="text_color">Інформація щодо громадян</a></li>
-                                    </ul>
-                                </div> -->
                             </div>
                             <!-- gallary card -->
                             <div class="card bg-transparent">
@@ -84,15 +62,6 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
                                             Галерея
                                         </a>
                                 </div>
-                                <!-- <div id="collapseGallary" class="collapse bg-transparent" aria-labelledby="gallary-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3">
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="#" class="text_color">Парк МГЗК</a></li>
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="#" class="text_color">Відео з YouTube</a></li>
-                                    </ul>
-                                </div> -->
                             </div> 
                             <!-- ideas card -->
                             <div class="card bg-transparent">
@@ -104,15 +73,6 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
                                             База ідей
                                         </a>
                                 </div>
-                                <!-- <div id="collapseIdea" class="collapse bg-transparent" aria-labelledby="ideas-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3">
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="#" class="text_color">Подані пропозиції</a></li>
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-white">
-                                           <a href="#" class="text_color">Пропозиції для тиражування</a></li>
-                                    </ul>
-                                </div> -->
                             </div>
                             <!-- ask card -->
                             <div class="card bg-transparent">
@@ -123,13 +83,6 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
                                             Опитування
                                         </a>
                                 </div>
-                                <!-- <div id="collapseAsk" class="collapse bg-transparent" aria-labelledby="ask-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3 ">
-                                       <li class="list-group-item bg-transparent border-white px-3 py-2">
-                                           <a href="#" class="text_color">Ваші пропозиції з розвитку інфраструктури</a></li>
-                                    </ul>
-                                </div> -->
                             </div>
                             <!-- study card -->
                             <div class="card bg-transparent">
@@ -139,21 +92,6 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
                                             Навчання
                                         </a>
                                 </div>
-                                <!-- <div id="collapseStudy" class="collapse bg-transparent" aria-labelledby="study-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3">
-                                       <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Перелік професій</a></li>
-                                       <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Виробниче навчання</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Розклад занять груп</a></li>
-                                       <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">База знань</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Порядок оформлення заявок</a></li>
-                                    </ul>
-                                </div> -->
                             </div>
                             <!-- system card -->
                             <div class="card bg-transparent">
@@ -164,25 +102,6 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
                                             Система 5С
                                         </a>
                                 </div>
-                                <!-- <div id="collapseSystem" class="collapse bg-transparent" aria-labelledby="system-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3">
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Система безперервного вдосконалення</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Система принципів 5С</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Документи СБВ</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">5С-виробництво</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">5С-офіс</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Методичні та наочні</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-white">
-                                           <a href="#" class="text_color">Результати СБВ</a></li>
-                                    </ul>
-                                </div> -->
                             </div>
                     </nav>
                 </article>
@@ -366,188 +285,5 @@ $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'dis
             </div>
         </div>
     </section>
-    <!-- library section -->
-    <!-- <section id="info_library">
-        <div class="container py-3 pb-lg-3 px-sm-0 px-md-3">
-            <div class="row py-2 ml-0 pl-0 mr-0 pr-0">
-                <div class="col-sm-12 col-lg-3 pl-0 px-0 py-0"> -->
-                    <!-- <article class="rounded list_library" data-spy="scroll" data-offset="0">
-                        <h5 class="px-3 py-2">Розділи</h5>
-                        <nav class="accordion" id="accordionLib"> -->
-                            <!-- first card -->
-                            <!-- <div class="card bg-transparent">
-                                <div class="card-header p-0" id="first-item">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link bg-transparent btn-block text-left text-white" type="button"
-                                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">
-                                            Нормативно-правова база
-                                        </button>
-                                   </h2>
-                                </div>
-                                <div id="collapseOne" class="collapse bg-transparent" aria-labelledby="first-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3 text-white">
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-warning">
-                                           <a href="#" class="text-white">Організаційно-розпорядчі документи<br>(загальні питання)</a></li>
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-warning">
-                                           <a href="#" class="text-white">За напрямками</a></li>
-                                    </ul>
-                                </div>
-                            </div> -->
-                            <!-- second card -->
-                            <!-- <div class="card bg-transparent">
-                                <div class="card-header p-0" id="second-item">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link bg-transparent btn-block text-left text-white collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                            Моніторинг законодавства
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseTwo" class="collapse bg-transparent show" aria-labelledby="second-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3 text-white">
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-warning">
-                                           <a href="#" class="text-white">Інформація щодо підприємства</a></li>
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-warning">
-                                           <a href="#" class="text-white">Інформація щодо громадян</a></li>
-                                    </ul>
-                                </div>
-                            </div> -->
-                            <!-- third card -->
-                            <!-- <div class="card bg-transparent">
-                                <div class="card-header p-0" id="third-item">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block bg-transparent text-left text-white collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            Галерея
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseThree" class="collapse bg-transparent" aria-labelledby="third-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3 text-white">
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-warning">
-                                           <a href="#" class="text-white">Парк МГЗК</a></li>
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-warning">
-                                           <a href="#" class="text-white">Відео з YouTube</a></li>
-                                    </ul>
-                                </div>
-                            </div>  -->
-                            <!-- fourth card -->
-                            <!-- <div class="card bg-transparent">
-                                <div class="card-header p-0" id="fourth-item">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block bg-transparent text-left text-white collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour">
-                                            База ідей
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseFour" class="collapse bg-transparent" aria-labelledby="fourth-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3 text-white">
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-warning">
-                                           <a href="#" class="text-white">Подані пропозиції</a></li>
-                                       <li class="list-group-item bg-transparent px-3 py-2 border-warning">
-                                           <a href="#" class="text-white">Пропозиції для тиражування</a></li>
-                                    </ul>
-                                </div>
-                            </div> -->
-                            <!-- fifth card -->
-                            <!-- <div class="card bg-transparent">
-                                <div class="card-header p-0" id="fifth-item">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block bg-transparent text-left text-white collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive">
-                                            Опитування
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseFive" class="collapse bg-transparent show" aria-labelledby="fifth-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3 text-white">
-                                       <li class="list-group-item bg-transparent border-warning px-3 py-2">
-                                           <a href="#" class="text-white">Ваші пропозиції з розвитку інфраструктури</a></li>
-                                    </ul>
-                                </div>
-                            </div> -->
-                            <!-- sixth card -->
-                            <!-- <div class="card bg-transparent">
-                                <div class="card-header p-0" id="sixth-item">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block bg-transparent text-left text-white collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
-                                            aria-controls="collapseSix">
-                                            Навчання
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseSix" class="collapse bg-transparent" aria-labelledby="sixth-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3 text-white">
-                                       <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Перелік професій</a></li>
-                                       <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Виробниче навчання</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Розклад занять груп</a></li>
-                                       <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">База знань</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Порядок оформлення заявок</a></li>
-                                    </ul>
-                                </div>
-                            </div> -->
-                            <!-- seventh card -->
-                            <!-- <div class="card bg-transparent">
-                                <div class="card-header p-0" id="seventh-item">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block bg-transparent text-left text-white collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
-                                            aria-controls="collapseSeven">
-                                            Система 5С
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseSeven" class="collapse bg-transparent" aria-labelledby="seventh-item"
-                                    data-parent="#accordionLib">
-                                    <ul class="card-body list-group px-3 text-white">
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Система безперервного вдосконалення</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Система принципів 5С</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Документи СБВ</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">5С-виробництво</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">5С-офіс</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Методичні та наочні</a></li>
-                                        <li class="list-group-item px-3 py-2 bg-transparent border-warning">
-                                           <a href="#" class="text-white">Результати СБВ</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                         </nav>
-                    </article>
-                </div>
-                <div class="col-sm-12 col-lg-9 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-1 py-lg-0"> -->
-                    <!--YouTube is embeded-->
-                    <!-- <iframe class="d-block d-flex mt-4 mt-lg-0" src="https://www.youtube.com/embed/GIM-n68OebE"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        width="100%" height="400" allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <!--footer-->
     <?php include_once "footer.php"; ?>

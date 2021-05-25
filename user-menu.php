@@ -58,7 +58,7 @@
                         </li>
                         <li class="nav-item px-md-0 pr-lg-0 pl-lg-1">
                             <a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Телефонний довідник"
-                                class="nav-link font-weight-bold text-white pr-lg-0 pr-md-0 pr-xl-2 pb-md-0 py-md-0"><i
+                                class="nav-link font-weight-bold text-white pr-md-0 pb-md-0 py-md-0"><i
                                     class="fas fa-phone-square fa-2x" aria-hidden="true"></i></a>
                         </li>
                     </ul>

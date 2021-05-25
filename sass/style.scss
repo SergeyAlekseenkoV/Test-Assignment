@@ -1,5 +1,6 @@
 $white-color: #ffffff;
-$primary-color: rgb(48, 72, 120);
+$primary-color: #304878;
+$primary-color-through: rgba(48, 72, 120,.8);
 $primary-common: #659ed7;
 $primary-common-light: #bed5ec;
 $primary-dark: #277fd6;
@@ -149,7 +150,15 @@ h2 {
     color: $primary-common !important;
 }
 
-.border_color {
+.text-info {
+    color: $primary-common !important;
+}
+
+.text-info:hover {
+    color: $primary-common !important;
+}
+
+.border-primary {
     border: 1px $primary-color solid !important;
 }
 
@@ -358,8 +367,10 @@ caption {
 
 #main {
 
+    min-height: 100vh;
+
     .card-header:hover {
-        opacity: .8 !important;
+        opacity: .9 !important;
     }
     
         /*carousel*/
@@ -413,7 +424,18 @@ caption {
     .carousel-control-next:hover .carousel-control-next-icon {
         background-color: $primary-color;
     }
+    
+    .card-body {
+        background-color: $primary-color-through;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
+    .card-body:hover {
+        opacity: .9;
+    }
 }
 //values for the main section
 #location-info {
@@ -457,9 +479,6 @@ caption {
       /* Firefox */ 
     }
 
-    .card {
-      background: $primary-common !important; 
-    }
 }
 
 //footer style

@@ -19,7 +19,7 @@
                 <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
                     <ul class="navbar-nav nav-pills ml-auto mt-1 mb-0">
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2" id="navbarDropdownMenuLink"
+                            <a class="text-uppercase nav-link dropdown-toggle font-weight-bold text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Персонал</a>
                             <ul
@@ -78,7 +78,7 @@
                             </ul>
                         </li>
                         <li class="nav-item d-flex justify-content-center position-relative">
-                            <a class="nav-link dropdown-toggle font-weight-bold py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-white"
+                            <a class="text-uppercase nav-link dropdown-toggle font-weight-bold py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-white"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Виробництво</a>
                             <ul
@@ -92,7 +92,7 @@
                             </ul>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2"
+                            <a class="text-uppercase nav-link dropdown-toggle font-weight-bold text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Соціальна сфера</a>
                             <ul
@@ -106,9 +106,9 @@
                             </ul>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2"
+                            <a class="text-uppercase nav-link dropdown-toggle font-weight-bold text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                                aria-expanded="false">Інформація</a>
+                                aria-expanded="false">Інфо</a>
                             <ul
                                 class="dropdown-menu position-absolute dropdown-menu-md-right dropdown-content p-0 border border-white bg-primary row text-center text-md-right text-lg-right width_dropdown_smallscreen">
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Розклад руху
@@ -122,7 +122,7 @@
                             </ul>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-white py-3 py-md-1 py-lg-1 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1 pl-xl-2 pr-xl-2"
+                            <a class="text-uppercase nav-link dropdown-toggle font-weight-bold text-white py-3 py-md-1 py-lg-1 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1 pl-xl-2 pr-xl-2"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Гаряча лінія</a>
                             <ul
