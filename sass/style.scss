@@ -1,0 +1,597 @@
+$white-color: #ffffff;
+$primary-color: rgb(48, 72, 120);
+$primary-common: #659ed7;
+$primary-common-light: #bed5ec;
+$primary-dark: #277fd6;
+$primary-light: #c0c0c0;
+$primary-light-through: rgba(192, 192, 192, .8);
+$primary-lighter: #d8d8d8;
+$primary-lightest: #f0f0f0;
+$primary-lightest-through: rgba(240, 240, 240, 0.379);
+$dark-overlay: rgba(0, 0, 0, 0.7);
+$icon-size: 1.2em;
+$nav-link-focus: #4890d8;
+$bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, .9), rgba(72, 144, 216, .8)) !important;
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
+/*font-family: 'Fira Sans', sans-serif;*/
+
+// hide the horizontal scroll
+html {
+    overflow-x: hidden;
+}
+
+//bg and color for body
+body {
+    background: $primary-lightest;
+    color: $white-color;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+/*effect for the bg home page*/
+#home {
+	background: linear-gradient(-45deg, #304878, #669fd8, #ffffff,  #4033bd);
+	background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+
+    @keyframes gradient {
+	    0% {
+	    	background-position: 0% 50%;
+	    }
+	    50% {
+	    	background-position: 100% 50%;
+	    }
+	    100% {
+		    background-position: 0% 50%;
+	    }
+    }
+        /*effect for the bg birthday part*/
+        $particleSize: 30vmin;
+        $animationDuration: 6s;
+        $amount: 20;
+        .particles span {
+            width: $particleSize;
+            height: $particleSize;
+            border-radius: $particleSize;
+            backface-visibility: hidden;
+            position: absolute;
+            animation-name: move;
+            animation-duration: $animationDuration;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            $colors: (
+             #c986ff,
+             #f3d9ff,
+             #85e8ff
+            );
+  
+        @for $i from 1 through $amount {
+            &:nth-child(#{$i}) {
+                color: nth($colors, random(length($colors)));
+                top: random(100) * 1%;
+                left: random(100) * 1%;
+                animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
+                animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
+                transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
+                $blurRadius: (random() + 0.5) * $particleSize * 0.5;
+                $x: if(random() > 0.5, -1, 1);
+                box-shadow: ($particleSize * 2 * $x) 0 $blurRadius currentColor;
+            }
+        }
+
+        @keyframes move {
+            100% {
+                transform: translate3d(0, 0, 1px) rotate(360deg);
+            }
+        }
+    }
+}
+
+.bg_birthday {
+    background-color: $primary-lightest-through;
+    width: 39.8125em;
+    z-index: 1;
+}
+
+.bg_announcement {
+    background: url("../img/announcement-bg.jpg") left/cover no-repeat;
+}
+
+.width_announcement {
+    width: 39.8125em;
+    opacity: .8;
+}
+
+
+.tooltip-inner {
+    background: rgba(48, 72, 120, .95) !important;
+    border: 1px solid $primary-common !important;
+}
+  
+  .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+  .bs-tooltip-bottom .arrow::before {
+    border-bottom-color: $primary-common; 
+}
+
+h2 {
+    font-size: 1.2em;
+    text-shadow: #e0e0e0 1px 1px 0;     
+}
+/* styling scrollbars*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $white-color;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $primary-color;
+}
+
+.text_color {
+    color: $primary-color !important;
+}
+
+.text-primary {
+    color: $primary-common !important;
+}
+
+.border_color {
+    border: 1px $primary-color solid !important;
+}
+
+.bg_warning {
+    background-color: $nav-link-focus !important;
+}
+.bg_warning:hover {
+    opacity: .7 !important;
+}
+
+.btn-primary {
+    background-color: $primary-common!important;
+}
+
+.btn-primary:hover {
+    background-color: $primary-dark !important;
+    border: 1px solid $primary-color !important;
+}
+
+.btn-dark {
+    background-color: $primary-color !important;
+}
+
+.btn-dark:hover {
+    background-color: $primary-dark !important;
+}
+
+.btn-info {
+    background-color: $primary-common-light !important;
+}
+
+.btn-info:hover {
+    background-color: $primary-common !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn_responsive {
+    width: 100%;
+}
+
+select:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.bg-secondary {
+    background-color: $primary-light !important;
+}
+
+.bg-primary {
+    background-color: $primary-common !important;
+}
+
+.bg-dark {
+    background-color: $primary-color !important;
+}
+
+.bg-info {
+    background-color: $primary-common-light !important;
+}
+
+// bg-menu
+
+.navbar {
+    background:  linear-gradient(to bottom, rgba(48, 72, 120, .9), rgba(72, 144, 216, .8)),
+        url("../img/nav-bar.jpg") repeat-x;
+}
+// set border to the logo
+.logo {
+    border: 2px $white-color solid;
+    border-radius: 40px;
+    background: $white-color !important;
+}
+.logo:hover {
+    background: $primary-light!important;
+}
+//size of the logo text
+.text-logo {
+    font-size: 2.2em !important;
+}
+
+//remove check on the dropdown link
+li {
+    > a.dropdown-toggle {
+        &:after {
+            display: none !important;
+        }
+    }
+}
+
+caption { 
+    caption-side:top !important; 
+}
+
+.navbar-nav :nth-child(6) > .nav-link:focus,
+.navbar-nav :nth-child(7) > .nav-link:focus,
+.navbar-nav :nth-child(8) > .nav-link:focus,
+.navbar-nav :nth-child(9) > .nav-link:focus,
+.navbar-nav :last-child > .nav-link:focus {
+    background-color: transparent!important;
+}  
+
+//border for the navigation
+.navbar {
+    border-bottom: $white-color 3px solid;
+    opacity: 0.95;
+    transition: top 0.5s;
+
+    /*toggler*/
+    button.navbar-toggler {
+        background-color: $primary-common !important;
+        border: $white-color;
+    }
+
+    //style for the menu button on focus
+
+    button.navbar-toggler:focus {
+        background: $primary-color !important;
+        border: 1px solid $white-color !important;
+    }
+
+    //transition values for navigation's links
+    .nav-link {
+        color: $white-color;
+        height: 100%;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-link:hover {
+        color: $primary-light !important;
+    }
+    .nav-link:focus,
+    .nav-link:active {
+        color: $primary-color !important;
+        background-color: $nav-link-focus!important;
+    }
+
+    .dropdown-item {
+        background-color: $primary-common !important;
+    }
+
+    //on-hover behavior for navigation's links
+    .dropdown-item:hover,
+    .dropdown-item:active {
+        background-color: $primary-dark !important;
+    }
+
+    // submenus
+      
+    .dropdown-submenu .dropdown-menu {
+        top: -2px;
+        left: 226px;
+    }
+
+}
+
+
+//behavior of the navigation section on-hover
+.navbar:hover,
+.dropdown-item:hover {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+// li.nav-item:hover .dropdown-menu {
+//     display: block!important;
+//     transform: scaleZ(.999) translateZ(0) perspective(-1px);
+//     zoom: 99.999999%;
+// }
+// login page
+#login {
+    
+    section .log_in {
+        min-height: 80vh;
+    }
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+   }
+
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+
+    input::placeholder:focus {
+        color: $primary-color !important;
+    }
+
+    ::placeholder {
+        color: $primary-color !important;
+    }
+
+    .link_to_registration:hover {
+        color: $primary-dark !important;
+    }
+
+}
+
+#main {
+
+    .card-header:hover {
+        opacity: .8 !important;
+    }
+    
+        /*carousel*/
+        > div .carousel-caption {
+            background-color: $primary-light-through !important;
+        }
+       
+    /*reset standard styles*/
+    .carousel-control-prev,
+    .carousel-control-prev:hover {
+        filter: none;
+        opacity: 0.7;
+        text-shadow: none;
+    }
+
+    .carousel-control-next,
+    .carousel-control-next:hover {
+        filter: none;
+        opacity: 0.7;
+        text-shadow: none;
+    }
+    /*end reset standard styles*/
+    .carousel-indicators li {
+        background-color: $primary-color !important;
+    }
+
+    .carousel-control-prev .carousel-control-prev-icon,
+    .carousel-control-next .carousel-control-next-icon {
+        background-color: $primary-light;
+        font-size: 1em;
+        height: 2em;
+        line-height: 2em;
+        margin-top: -2em;
+        width: 2em;
+        border: 1px solid $primary-common;
+        border-radius: 0.2em;
+        transition: all 1.2s ease;
+    }
+
+    .carousel-control-prev .carousel-control-prev-icon {
+        left: 0.8em;
+        margin-left: 0;
+    }
+
+    .carousel-control-next .carousel-control-next-icon {
+        right: 0.8em;
+        margin-right: 0;
+    }
+
+    .carousel-control-prev:hover .carousel-control-prev-icon,
+    .carousel-control-next:hover .carousel-control-next-icon {
+        background-color: $primary-color;
+    }
+
+}
+//values for the main section
+#location-info {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+        url("../img/pexels-pixabay-461789.png") center/cover no-repeat fixed;
+    min-height: 60vh;
+}
+
+#salary-list{
+    min-height: 90vh;
+}
+
+#personalRoom {
+    background-color: $primary-lightest;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .btn-transparent:hover {
+      color: $primary-common !important; 
+    }
+
+    .list_library button.btn-link:hover,
+    .list_library button.btn-link:focus {
+        text-decoration: none !important;
+        color: $primary-color !important; 
+    }
+      #personalRoom .list_library ul {
+        list-style-type: none; 
+    }
+    .list_library a:hover,
+    .list_library a:focus {
+        text-decoration: none !important;
+        color: $primary-color !important; 
+    }
+    .list_library::-webkit-scrollbar {
+      display: none; 
+    }
+    .list_library {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */ 
+    }
+
+    .card {
+      background: $primary-common !important; 
+    }
+}
+
+//footer style
+#footer {
+    background: $primary-color;
+    //size of social links
+    .social_link {
+        color: $primary-common!important;
+    }
+
+    .social_link:hover {
+        color: $primary-common-light !important;
+        transition: all 1s ease;
+    }
+}
+
+// Gallery
+.gallery {
+    display: none;
+
+    .work-item-img {
+        transition: all 0.5s linear;
+    }
+
+    // Hover effect for img
+    .work-item:hover .work-item-img {
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+
+    .work-item-icon {
+        position: absolute;
+        color: $white-color;
+        top: 50%;
+        left: 50%;
+        font-size: 3.5rem;
+        text-decoration: none;
+        transition: all 0.5s ease;
+        transform: scale(0);
+    }
+
+    // Hover effect for icon
+    .work-item:hover .work-item-icon {
+        transform: scale(1.3) translate(-50%, -50%);
+    }
+
+    .work-item-icon:hover {
+        color: $dark-overlay;
+        cursor: pointer;
+    }
+
+    /*modal*/
+
+    .work-modal-close {
+        font-size: 3rem;
+        bottom: 95%;
+        right: 0%;
+        transition: al 0.5s linear;
+        cursor: pointer;
+        text-decoration: none;
+        opacity: 1;
+    }
+}
+
+.ajax-action-links {
+    cursor: pointer;
+}
+
+#add_more:hover {
+    background-color: $primary-color !important;
+}
+@media screen and (min-width: 480px) and (max-width: 576px) {
+    #login,
+    #main,
+    #info_library,
+    #location-info,
+    #home-section {
+        background-attachment: scroll;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1198px){
+    /*submenus*/ 
+    .navbar .dropdown-submenu .dropdown-menu {
+        top: -2px;
+        left: 218px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .btn_responsive {
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+    h2{
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 768px) {
+    h2{
+        font-size: 1.4em;
+    }
+} 
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 1.6em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .width_dropdown_smallscreen {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+
+    h2  {
+        font-size: 2.4em;
+    }
+
+    #main {
+
+        .info_announcement {
+            height: 277px;
+        }
+    }
+}
