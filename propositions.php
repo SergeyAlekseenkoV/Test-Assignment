@@ -60,9 +60,9 @@ session_start();
                                 </div>
                             </div>
                             <!-- second card -->
-                            <div class="card">
+                            <div class="card bg-dark">
                                 <div class="card-header p-0 bg-dark" id="second-item">
-                                    <a class="btn btn-link btn-block bg-transparent text-center text-lg-left text-white collapsed"
+                                    <a class="btn btn-link btn-block text-center text-lg-left text-white collapsed"
                                         type="button" href="#">
                                         Подати пропозицію
                                     </a>

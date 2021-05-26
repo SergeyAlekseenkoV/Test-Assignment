@@ -50,15 +50,16 @@ session_start();
             </div>
             <div class="row py-2 ml-0 pl-0 mr-0 pr-0">
                 <div class="col-sm-12 col-lg-2 px-0 py-0">
-                    <article class="rounded border shadow bg-dark p-3 mb-3">
+                    <article class="rounded border shadow bg-dark p-3 mb-3 text-center">
                         <p>Мій E-mail: <br><span class="font-weight-bold">pereby-nis@gmail.com</span></p>
-                        <p class="mb-0">Мій телефон: <br><span class="font-weight-bold">(050) 039 09 49</span></p>
+                        <p class="mb-0 mt-0 mt-lg-2">Мій телефон: <br><span class="font-weight-bold">(050) 039 09 49</span></p>
+                        <p class="mt-1 mt-xl-4"><a href="change-password.php" class="btn btn-primary">Зміна паролю</a></p>
                     </article>
                 </div>
                 <!-- main content -->
                 <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-3 py-0 pr-lg-0">
                     <aside class="mt-2 mt-lg-0 shadow">
-                        <form class="col p-4 shadow bg-light align-self-center text-center border border-primary"
+                        <form class="col p-5 shadow bg-light align-self-center text-center border border-primary"
                             action="" method="post" novalidate>
                             <div class="row mt-md-3">
                                 <div class="col-12 col-md-6">
