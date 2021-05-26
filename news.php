@@ -95,21 +95,19 @@
                         </div>
                     </nav>
                 </article>
-                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
+                <aside id="news-category" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
                     <!-- cards news -->
                     <div class="row mx-0 px-0">
                         <!-- mgok news -->
-                        <div class="col-12 px-0 mx-0 pt-lg-0">
+                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0">
                             <div class="card border position-relative">
-                                <a href="MGOK-news.php">
-                                    <img src="img/pexels-08.jpg" alt="фото" class="card-img-top">
-                                </a>
+                                <img src="img/pexels-08.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
                                             <a href="MGOK-news.php"
-                                                class="d-flex flex-column text-uppercase text-white">
-                                                <span class="align-self-center"><i class="fas fa-cogs fa-7x"></i></span>
+                                                class="d-flex flex-column text-uppercase text-white py-5 news_link">
+                                                <span class="align-self-center"><i class="fas fa-cogs fa-3x"></i></span>
                                                 Новини комбінату</a>
                                         </p>
                                     </div>
@@ -117,17 +115,15 @@
                             </div>
                         </div>
                         <!-- city news -->
-                        <div class="col-12 pt-3 px-0 mx-0">
+                        <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 mx-0">
                             <div class="card border position-relative">
-                                <a href="MGOK-news.php">
-                                    <img src="img/city2.jpg" alt="фото" class="card-img-top">
-                                </a>
+                                <img src="img/city2.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
                                             <a href="MGOK-news.php"
-                                                class="d-flex flex-column text-uppercase text-white">
-                                                <span class="align-self-center"><i class="fas fa-city fa-7x"></i></span>
+                                                class="d-flex flex-column text-uppercase text-white py-5 news_link">
+                                                <span class="align-self-center"><i class="fas fa-city fa-3x"></i></span>
                                                 Новини міста</a>
                                         </p>
                                     </div>
@@ -135,18 +131,16 @@
                             </div>
                         </div>
                         <!-- sport news -->
-                        <div class="col-12 pt-3 px-0 mx-0">
+                        <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 mx-0">
                             <div class="card border position-relative">
-                                <a href="sport-news.php">
-                                    <img src="img/sport.jpg" alt="фото" class="card-img-top">
-                                </a>
+                                <img src="img/sport.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
                                             <a href="sport-news.php"
-                                                class="d-flex flex-column text-uppercase text-white">
+                                                class="d-flex flex-column text-uppercase text-white py-5 news_link">
                                                 <span class="align-self-center"><i
-                                                        class="fas fa-dumbbell fa-7x"></i></span> Новини спорту</a>
+                                                        class="fas fa-dumbbell fa-3x"></i></span> Новини спорту</a>
                                         </p>
                                     </div>
                                 </div>

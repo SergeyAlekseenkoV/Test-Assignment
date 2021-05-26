@@ -84,29 +84,6 @@ session_start();
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group text-left mt-1 mt-sm-2 mt-md-3">
-                                        <label for="newpassword" class="text_color">Новий пароль</label>
-                                        <input type="password" name="newPassword"
-                                            class="form-control border-primary shadow p-lg-4 bg-light"
-                                            placeholder="Пароль мінімум 8 знаків" id="newpassword"
-                                            aria-describedby="newpassword" required>
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group text-left mt-1 mt-sm-2 mt-md-3">
-                                        <label for="newpasswordRestore" class="text_color">Підтвердити новий
-                                            пароль</label>
-                                        <input type="password" name=""
-                                            class="form-control border-primary shadow p-lg-4 bg-light"
-                                            placeholder="Повторити пароль" id="newpasswordRestore"
-                                            aria-describedby="newpasswordRestore" required>
-                                        <div class="invalid-feedback"></div>
-                                    </div>
-                                </div>
-                            </div>
                             <button type="submit" class="btn btn-lg btn-primary mt-4 mt-sm-3 mt-md-3 shadow text-white"
                                 value="">Змінити данні</button>
                         </form>
