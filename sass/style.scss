@@ -19,7 +19,10 @@ $bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216
 
 // hide the horizontal scroll
 html {
+    width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+        
 }
 
 //bg and color for body
@@ -198,7 +201,12 @@ h2 {
     width: 100%;
 }
 
+select {
+    cursor: pointer !important;
+}
+
 select:focus {
+    cursor: pointer !important;
     box-shadow: none !important;
     outline: none !important;
 }
@@ -575,6 +583,16 @@ caption {
 #add_more:hover {
     background-color: $primary-color !important;
 }
+
+.scrollup{
+    display: none;
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    background-color: $primary-lightest-through;
+    z-index: 1000;
+}
+
 @media screen and (min-width: 480px) and (max-width: 576px) {
     #login,
     #main,

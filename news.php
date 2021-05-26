@@ -97,10 +97,10 @@
                 </article>
                 <aside id="news-category" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
                     <!-- cards news -->
-                    <div class="row mx-0 px-0">
+                    <div class="row mx-0 p-1 border border-dark">
                         <!-- mgok news -->
                         <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0">
-                            <div class="card border position-relative">
+                            <div class="card border position-relative m-1">
                                 <img src="img/pexels-08.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
@@ -116,7 +116,7 @@
                         </div>
                         <!-- city news -->
                         <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 mx-0">
-                            <div class="card border position-relative">
+                            <div class="card border position-relative m-1">
                                 <img src="img/city2.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
@@ -132,7 +132,7 @@
                         </div>
                         <!-- sport news -->
                         <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 mx-0">
-                            <div class="card border position-relative">
+                            <div class="card border position-relative m-1">
                                 <img src="img/sport.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">

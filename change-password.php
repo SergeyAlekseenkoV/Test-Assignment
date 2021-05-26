@@ -49,6 +49,3 @@
            $( "p" ).addClass( "d-block" );
         });
     </script>
-</body>
-
-</html>

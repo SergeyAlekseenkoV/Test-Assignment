@@ -101,7 +101,7 @@
                         <!-- news item-->
                         <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 pt-3 pb-0 py-lg-1">
                             <div class="card border border-white mx-1">
-                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top image-fluid" alt="equipment">
+                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top" alt="equipment">
                                 <div class="card-body bg-info">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
@@ -116,7 +116,7 @@
                         <!-- news item -->
                         <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 pt-3 pb-0 py-lg-1">
                             <div class="card border border-white mx-1">
-                               <img src="img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top image-fluid" alt="equipment">
+                               <img src="img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top" alt="equipment">
                                 <div class="card-body bg-info">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
@@ -131,7 +131,7 @@
                         <!-- news item -->
                         <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 pt-3 pb-0 py-lg-1">
                             <div class="card border border-white mx-1">
-                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top image-fluid" alt="equipment">
+                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top" alt="equipment">
                                 <div class="card-body bg-info">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
@@ -146,7 +146,7 @@
                         <!-- news item-->
                         <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 pt-3 pb-0 py-lg-1">
                             <div class="card border border-white mx-1">
-                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top image-fluid" alt="equipment">
+                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top" alt="equipment">
                                 <div class="card-body bg-info">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
@@ -161,7 +161,7 @@
                         <!-- news item -->
                         <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 pt-3 pb-0 py-lg-1">
                             <div class="card border border-white mx-1">
-                               <img src="img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top image-fluid" alt="equipment">
+                               <img src="img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top" alt="equipment">
                                 <div class="card-body bg-info">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
@@ -176,7 +176,7 @@
                         <!-- news item -->
                         <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 pt-3 pb-0 py-lg-1">
                             <div class="card border border-white mx-1">
-                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top image-fluid" alt="equipment">
+                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top" alt="equipment">
                                 <div class="card-body bg-info">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
