@@ -19,7 +19,7 @@
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group mt-1 mt-sm-2 mt-md-3 mt-lg-5 mb-4 mb-lg-4">
-                        <label for="emailInput" class="text_color">Ваш E-mail (вказаний у Персональном кабінеті)</label>
+                        <label for="emailInput" class="text_color">Ваш E-mail (вказаний у Персональному кабінеті)</label>
                         <input type="email" name="userEmail"
                             class="form-control border-primary shadow p-lg-4 bg-light"
                             placeholder="Ваш e-mail" id="emailInput" aria-describedby="emailInput"
@@ -30,6 +30,9 @@
                             value="login">Надіслати пароль</button>
                 </fieldset>
             </form>
+            <p class="text-center mt-4">
+                <a href="index.php" class="btn btn-dark text-white border"><< Назад</a href="my-data.php">
+            </p>
         </div>
     </div>
 </section>

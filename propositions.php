@@ -73,9 +73,9 @@ session_start();
                 </div>
                 <!-- main content -->
                 <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-3 py-0 pr-lg-0">
-                    <aside class="mt-2 mt-lg-0">
-                        <h3 class="bg-dark text-white pl-3 py-2">Пропозиція 1</h3>
-                        <p class="lead text-justify bg-light p-3 shadow text_color">Lorem, ipsum dolor sit amet
+                    <aside class="mt-2 mt-lg-0 bg-light border border-dark shadow">
+                        <h3 class="bg-info text_color pl-3 py-2">Пропозиція 1</h3>
+                        <p class="lead text-justify bg-light p-3 text_color">Lorem, ipsum dolor sit amet
                             consectetur adipisicing elit.
                             Quod repudiandae velit fugiat. Quisquam atque at quod neque eveniet obcaecati incidunt
                             corporis,

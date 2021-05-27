@@ -33,7 +33,7 @@
         </div>
     </div>
 </footer>
-<a href="#" class="scrollup btn border border-dark text_color"><i class="fas fa-chevron-up fa-2x"></i></a>
+<a href="#" class="btn border border-dark scrollup text_color"><i class="fas fa-chevron-up fa-2x"></i></a>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
@@ -47,5 +47,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" 
             integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
 <script src="js/dropdownJquery.js"></script>
+<script src="js/attention-msg.js"></script>
+<script src="js/card-link.js"></script>
 </body>
 </html>

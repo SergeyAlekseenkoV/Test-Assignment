@@ -19,8 +19,8 @@ session_start();
     <section id="main" class="mt-0 pt-3 bg-transparent">       
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div class="d-flex justify-content-end justify-content-md-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
-                <h2 class="d-none d-md-block pt-sm-2 pt-lg-3 text-left text_color">Акціонерне Товариство <br>"Марганецький гірничо-збагачувальний
-                комбінат"</h2>
+                <h3 class="d-none d-md-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Акціонерне Товариство "Марганецький гірничо-збагачувальний
+                комбінат"</h3>
                 <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white mt-5 mb-3 shadow border" role="button">Вийти</a>
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
@@ -236,33 +236,33 @@ session_start();
                         <div class="bg_birthday text-justify pt-3 m-4 rounded border">
                             <h4 class="px-3 text-center text_color">Вітаємо з днем народження!</h4>
                             <ul class="list-unstyled px-3 text_color">
-                                <li><b class="text-uppercase">11.03.1971р. Вітько А.В.</b>
+                                <li><b class="text-uppercase">11.03.1971 Вітько А.В.</b>
                                     Заступник Голови правління з охорони праці</li>
-                                <li><b class="text-uppercase">17.03.1973р. Зленко Р.І.</b>
+                                <li><b class="text-uppercase">17.03.1973 Зленко Р.І.</b>
                                     Головний інженер</li>
-                                <li><b class="text-uppercase">17.03.1951р.Постоєнко</b>
-                                        Ю.Д. Начальник цеху мереж та підстанцій</li>
-                                <li><b class="text-uppercase">11.03.1971р. Вітько А.В.</b>
+                                <li><b class="text-uppercase">17.03.1951 Постоєнко
+                                        Ю.Д.</b> Начальник цеху мереж та підстанцій</li>
+                                <li><b class="text-uppercase">11.03.1971 Вітько А.В.</b>
                                     Заступник Голови правління з охорони праці</li>
-                                <li><b class="text-uppercase">17.03.1973р. Зленко Р.І.</b>
+                                <li><b class="text-uppercase">17.03.1973 Зленко Р.І.</b>
                                     Головний інженер</li>
-                                <li><b class="text-uppercase">20.03.1960р. Новінська О.С.</b>
+                                <li><b class="text-uppercase">20.03.1960 Новінська О.С.</b>
                                     Начальник планово-економічний відділ</li>     
-                                <li><b class="text-uppercase">17.03.1951р. Постоєнко
+                                <li><b class="text-uppercase">17.03.1951 Постоєнко
                                         Ю.Д.</b> Начальник цеху мереж та підстанцій</li>
-                                <li><b class="text-uppercase">11.03.1971р. Вітько А.В.</b>
+                                <li><b class="text-uppercase">11.03.1971 Вітько А.В.</b>
                                     Заступник Голови правління з охорони праці</li>
-                                <li><b class="text-uppercase">17.03.1973р. Зленко Р.І.</b>
+                                <li><b class="text-uppercase">17.03.1973 Зленко Р.І.</b>
                                     Головний інженер</li>
-                                <li><b class="text-uppercase">17.03.1951р. Постоєнко
+                                <li><b class="text-uppercase">17.03.1951 Постоєнко
                                         Ю.Д.</b> Начальник цеху мереж та підстанцій</li>
-                                <li><b class="text-uppercase">17.03.1973р. Зленко Р.І.</b>
+                                <li><b class="text-uppercase">17.03.1973 Зленко Р.І.</b>
                                     Головний інженер</li>
-                                <li><b class="text-uppercase">17.03.1951р. Постоєнко
+                                <li><b class="text-uppercase">17.03.1951 Постоєнко
                                         Ю.Д.</b> Начальник цеху мереж та підстанцій</li>
-                                <li><b class="text-uppercase">11.03.1971р. Вітько А.В.</b>
+                                <li><b class="text-uppercase">11.03.1971 Вітько А.В.</b>
                                     Заступник Голови правління з охорони праці</li>
-                                <li><b class="text-uppercase">17.03.1973р. Зленко Р.І.</b>
+                                <li><b class="text-uppercase">17.03.1973 Зленко Р.І.</b>
                                     Головний інженер</li>
                             </ul>
                         </div>
