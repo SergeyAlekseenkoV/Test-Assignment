@@ -38,3 +38,12 @@ $(document).ready(function () {
     return false;
   });
 });
+
+// show gallery in news-description
+document.getElementById('showPhotos').onclick = function() {
+  document.getElementById('gallery').classList.add('d-flex');
+}
+// hide gallery in news-description
+document.getElementById('hidePhotos').onclick = function() {
+  document.getElementById('gallery').classList.remove('d-flex');
+}
