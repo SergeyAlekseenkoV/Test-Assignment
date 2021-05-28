@@ -8,8 +8,8 @@
     <section id="main" class="mt-0 pt-3">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div
-                class="d-flex justify-content-end justify-content-md-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
-                <h3 class="d-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Перелік категорій новин</h3>
+                class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
+                <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Перелік категорій новин</h3>
                 <h3 class="d-none d-md-block align-self-baseline d-lg-none pt-sm-2 pt-lg-3 text-left mb-2 text-uppercase text_color">
                     Акціонерне Товариство "Марганецький гірничо-збагачувальний
                     комбінат"</h3>

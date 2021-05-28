@@ -22,7 +22,9 @@ session_start();
         <!--content-->
         <div class="container py-3 py-lg-4 pb-lg-3 px-sm-0 px-md-3">
             <nav aria-label="breadcrumb"
-                class="d-flex justify-content-end justify-content-md-between mt-5 mb-3">
+                class="d-flex justify-content-between align-items-baseline mt-5 mb-3">
+                
+                <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Мої данні</h3>
                 <ol class="d-none d-md-flex breadcrumb bg-transparent px-0 pb-0 mb-0">
                     <li class="breadcrumb-item">
                         <a class="text-primary text-decoration-none" href="home.php">Головна</a>

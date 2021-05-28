@@ -31,7 +31,7 @@
                 </fieldset>
             </form>
             <p class="text-center mt-4">
-                <a href="index.php" class="btn btn-dark text-white border"><< Назад</a href="my-data.php">
+                <a href="index.php" class="btn btn-dark text-white border"><span>&laquo;</span> Назад</a href="my-data.php">
             </p>
         </div>
     </div>

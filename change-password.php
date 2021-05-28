@@ -41,7 +41,7 @@
                     </fieldset>
                 </form>
             </div>
-            <a href="my-data.php" class="btn btn-dark"><< Назад</a href="my-data.php">
+            <a href="my-data.php" class="btn btn-dark"><span>&laquo;</span> Назад</a href="my-data.php">
         </div>
     </section>
     <!--footer-->

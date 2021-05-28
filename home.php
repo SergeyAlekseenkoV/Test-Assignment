@@ -18,10 +18,12 @@ session_start();
     <!-- main-section-->
     <section id="main" class="mt-0 pt-3 bg-transparent">       
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
-            <div class="d-flex justify-content-end justify-content-md-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
-                <h3 class="d-none d-md-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Акціонерне Товариство "Марганецький гірничо-збагачувальний
+        <div
+            class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
+            <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase mb-0 text_color"><i class="fas fa-home"></i></h3>
+            <h3 class="d-none d-md-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Акціонерне Товариство "Марганецький гірничо-збагачувальний
                 комбінат"</h3>
-                <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white mt-5 mb-3 shadow border" role="button">Вийти</a>
+            <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white mt-5 mb-3 shadow border" role="button">Вийти</a>
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <article class="col-sm-12 col-lg-2 pl-0 px-0 text-center">
@@ -128,12 +130,12 @@ session_start();
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
                                     <div class="d-flex d-md-none flex-row justify-content-center">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше <strong class="d-none d-sm-inline-block">>></strong></a>
+                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше <strong class="d-none d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                     <!-- lg-screen buttons -->
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><<</strong> Докладніше </a>
-                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block">>></strong></a>
+                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
+                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -148,12 +150,12 @@ session_start();
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
                                     <div class="d-flex d-md-none flex-row justify-content-center">
-                                        <a href="#" class="btn btn-dark mx-1 text-white border text-decoration-none">Докладніше <strong class="d-none d-sm-inline-block">>></strong></a>
+                                        <a href="#" class="btn btn-dark mx-1 text-white border text-decoration-none">Докладніше <strong class="d-none d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                     <!-- lg-screen buttons -->
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><<</strong> Докладніше </a>
-                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block">>></strong></a>
+                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
+                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span aria-hidden="true">&raquo;</span></strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -168,12 +170,12 @@ session_start();
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
                                     <div class="d-flex d-md-none flex-row justify-content-center">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше <strong class="d-none d-sm-inline-block">>></strong></a>
+                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше <strong class="d-none d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                     <!-- lg-screen buttons -->
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><<</strong> Докладніше </a>
-                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block">>></strong></a>
+                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
+                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -188,12 +190,12 @@ session_start();
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
                                     <div class="d-flex d-md-none flex-row justify-content-center">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше <strong class="d-none d-sm-inline-block">>></strong></a>
+                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше <strong class="d-none d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                     <!-- lg-screen buttons -->
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><<</strong> Докладніше </a>
-                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block">>></strong></a>
+                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
+                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                 </div>
                             </div>
