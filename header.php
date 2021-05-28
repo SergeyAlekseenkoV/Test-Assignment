@@ -9,7 +9,7 @@
          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link type="image/png" sizes="16x16" rel="icon" href="img/logo.png">
+    <link type="image/png" sizes="16x16" rel="icon" href="img/logo-dark.png">
     <!-- <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script> -->

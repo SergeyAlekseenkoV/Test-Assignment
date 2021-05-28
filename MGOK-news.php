@@ -181,7 +181,7 @@
                             </div>
                         </div>
                         <!-- news item -->
-                        <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 pt-3 pb-0 py-lg-1">
+                        <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 py-1">
                             <div class="card border mx-1 position-relative card_link">
                                 <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-info pb-3 pt-2 overflow-hidden">

@@ -230,7 +230,7 @@ select:focus {
 
 .navbar {
     background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
-        url("../img/nav-bar.jpg") repeat-x;
+        url("../img/logo-video.jpeg") center/cover no-repeat;
 }
 // set border to the logo
 .logo {
@@ -485,10 +485,15 @@ caption {
 
     #mgok-news {
         .card {
-
+            
             cursor: pointer;
             height: 35em;
             z-index: 1;
+            opacity: .8;
+            
+            &:hover {
+                opacity: 1;
+            }
 
             &::after {
                 content: "";
@@ -503,7 +508,6 @@ caption {
             &::after {
                 border: 2px solid $white-color;
                 transform: scale(0, 0);
-                transition: transform ease-in-out 250ms;
             }
 
             &:hover::after {

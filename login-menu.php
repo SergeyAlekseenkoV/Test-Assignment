@@ -5,7 +5,7 @@
                 <!--LOGO-->
                 <div class="logo mr-0 mt-md-0 d-flex justify-content-center bg-linear">
                     <a href="home.php">
-                        <img src="img/logo.png" alt="MGOK" class="inner-logo">
+                        <img src="img/logo-dark.png" alt="MGOK" class="inner-logo">
                     </a>
                 </div>
                 <span
