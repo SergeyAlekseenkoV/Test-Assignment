@@ -94,7 +94,7 @@ session_start();
                     </form>
                 </article>
                 <!-- main content -->
-                <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-3 py-0 pr-lg-0">
+                <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-2 pl-xl-3 py-0 pr-lg-0">
                     <aside class="mt-2 mt-lg-0 shadow">
                         <div class="table table-responsive mb-0">
                             <table class="table table-bordered bg-light mb-0 text_color">
