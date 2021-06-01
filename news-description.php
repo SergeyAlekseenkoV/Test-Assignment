@@ -103,23 +103,23 @@
                                 <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top"
                                     alt="equipment">
                                 <div class="card-body bg-info p-2">
-                                    <h4 class="card-title px-2 text_color">Lorem ipsum dolor sit amet consectetur,
+                                    <h4 class="card-title px-0 text_color">Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit.
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
                                     <div
                                         class="d-flex flex-row flex-wrap justify-content-between align-items-baseline border-top border-bottom border-dark py-2">
                                         <!-- button-show -->
-                                        <button class="btn btn-primary" id="showPhotos">Усі фото</button>
+                                        <button class="btn btn-dark py-0 px-1 mt-2" id="showPhotos"><i class="fas fa-camera fa-2x"></i></button>
                                         <!-- author name and date -->
-                                        <address class="mb-0 author text_color"><i class="fas fa-portrait"></i><a
+                                        <address class="mb-0 pb-2 text_color"><i class="fas fa-portrait"></i><a
                                                 rel="author" href="#" class="ml-2">Деякий Автор</a></address>
-                                        <time class="ml-0 mt-2 mt-md-0 ml-md-3 text_color" pubdate datetime="2021-05-28"
+                                        <time class="ml-0 ml-md-3 pb-2 text_color" pubdate datetime="2021-05-28"
                                             title="8 травня 2021">28 травня 2021</time>
                                     </div>
                                     <div class="row mx-0 gallery" id="gallery">
                                         <!-- item -->
                                         <article
-                                            class="col-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-07.png" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
@@ -130,7 +130,7 @@
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-weir-esco-3906736.png" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
@@ -141,7 +141,7 @@
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-tom-fisk-2101137 (4).jpg" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
@@ -152,7 +152,7 @@
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-weir-esco-3906748.png" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
@@ -163,7 +163,7 @@
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
                                             <img src="img/carosel2.jpg" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
@@ -174,7 +174,7 @@
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-jayson-delos-santos-1139553.png" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
@@ -299,7 +299,7 @@
                                         </div>
                                         <div class="col-12 text-center">
                                         <!-- button-show -->
-                                            <button class="btn btn-primary my-2" id="hidePhotos">Закрити</button>
+                                            <button class="btn btn-transparent my-3 p-0 text_color" id="hidePhotos"><i class="far fa-times-circle fa-2x"></i></button>
                                         </div>
                                     </div>
                                     <!-- <img src="img/pexels-jayson-delos-santos-1139553.png" style="float:left;" class="w-25" alt="equipment">

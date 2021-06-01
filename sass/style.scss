@@ -14,6 +14,9 @@ $icon-size: 1.2em;
 $nav-link-focus: #4890d8;
 $bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap');
+
+
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
 /*font-family: 'Fira Sans', sans-serif;*/
 
@@ -113,10 +116,15 @@ body {
     border-bottom-color: $primary-common;
 }
 
+h2 {
+    font-size: 1.8em;
+}
+
 h3 {
-    font-size: 1.2em !important;
+    font-size: 1.3em !important;
     text-shadow: #e0e0e0 1px 1px 0;
 }
+
 /* styling scrollbars*/
 /* width */
 ::-webkit-scrollbar {
@@ -591,6 +599,29 @@ caption {
             }
         }
     }
+
+    #respect-desk {
+        
+        .card .respect_name > h2 {
+            font-family: "Cormorant Infant", sans-serif;
+            text-shadow: $primary-color 0 0 3px; 
+        }
+
+        .card .respect_name > p {
+            text-shadow: $primary-color 0 0 2px;
+        }
+
+        .card .card-body {
+            text-align: justify;
+           > p {
+               line-height: 1.35;
+            }
+
+            .respect_item_name {
+                font-family: "Cormorant Infant", sans-serif;
+            }
+        }
+    }
 }
 //values for the main section
 
@@ -599,6 +630,7 @@ caption {
 }
 
 #personalRoom {
+    min-height: 120vh;
     background-color: $primary-lightest;
 
     /* Hide scrollbar for IE, Edge and Firefox */
@@ -670,24 +702,6 @@ caption {
         background-attachment: scroll;
     }
 
-    #news-category {
-        .card-body {
-            z-index: 1;
-
-            &::before,
-            &::after {
-                display: none;
-            }
-
-            &:hover::before {
-                transform: scale(0, 0);
-            }
-
-            &:hover::after {
-                transform: scale(0, 0);
-            }
-        }
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1198px) {
@@ -720,8 +734,30 @@ caption {
                 right: 0;
                 bottom: -117px;
                 transform: scale(2) !important;
-                opacity: .5;
+                opacity: 0.5;
             }
+        }
+    }
+
+    #respect-desk {
+
+        .card .respect_name {
+
+            width: 100%;
+            top: 90%;
+            left: 50%;
+            line-height: 1 !important;
+            transition: 0.5s ease;
+            opacity: 1;
+            transform: translate(-50%, -90%);
+        }
+        .card .card-img-top {
+            opacity: 1;
+            backface-visibility: visible;
+        }
+
+        .card not:hover .card-img-top {
+            transform: scale(1, 1);
         }
     }
 }
@@ -742,17 +778,87 @@ caption {
     h3 {
         font-size: 1.4em;
     }
+
+    #respect-desk {
+        
+        .card {
+            height: auto;
+            overflow: unset;
+        }
+    }
 }
 
 @media (min-width: 992px) {
     h3 {
         font-size: 1.6em;
     }
+
+    #respect-desk {
+        
+        .card {
+            height: 545px;
+            overflow: hidden;
+
+            .respect_name {
+                width: 100%;
+                top: 95%;
+                left: 50%;
+                line-height: 1 !important;
+                transition: 500ms ease;
+                opacity: 0;
+                transform: translate(50%, 95%);
+            }
+
+            .card-img-top {
+                opacity: 0.85;
+                transform: scale(1, 1);
+                transition: 1500ms linear;
+                backface-visibility: hidden;
+            }
+
+            &:hover .card-img-top {
+                transform: scale(1.2, 1.2);
+                opacity: 1;
+            }
+
+            &:hover .respect_name {
+                opacity: 1;
+                transform: translate(-50% ,-95%);
+            }
+
+            &:hover {
+                height: auto;
+                position: absolute;
+                overflow: unset;
+                z-index: 100;
+            }   
+            
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
     .width_dropdown_smallscreen {
         width: 100%;
+    }
+
+    #news-category {
+        .card-body {
+            z-index: 1;
+
+            &::before,
+            &::after {
+                display: none;
+            }
+
+            & not:hover::before {
+                transform: scale(0, 0);
+            }
+
+            & not:hover::after {
+                transform: scale(0, 0);
+            }
+        }
     }
 }
 

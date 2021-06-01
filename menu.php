@@ -25,7 +25,7 @@
                             <ul
                                 class="dropdown-menu dropdown-content dropdown-right position-absolute p-0 border border-white bg-primary row text-center text-md-left text-lg-left width_dropdown_smallscreen">
                                 <li>
-                                    <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Дошка
+                                    <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="respect-desk.php">Дошка
                                     пошани</a>
                                 </li>
                                 <li>

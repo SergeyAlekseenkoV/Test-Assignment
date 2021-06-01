@@ -198,7 +198,7 @@
                         <nav aria-label="Page navigation example" class="col-12 pt-3">
                             <ul class="pagination justify-content-center">
                                 <li class="page-item">
-                                   <a class="page-link text_color" href="#" aria-label="Previous">
+                                   <a class="page-link font-weight-bold text_color" href="#" aria-label="Previous">
                                        <span aria-hidden="true">&laquo;</span>
                                    </a>
                                 </li>
@@ -206,7 +206,7 @@
                                 <li class="page-item"><a class="page-link text_color" href="#">2</a></li>
                                 <li class="page-item"><a class="page-link text_color" href="#">3</a></li>
                                 <li class="page-item">
-                                    <a class="page-link text_color" href="#" aria-label="Next">
+                                    <a class="page-link font-weight-bold text_color" href="#" aria-label="Next">
                                         <span aria-hidden="true">&raquo;</span>
                                     </a>
                                 </li>
