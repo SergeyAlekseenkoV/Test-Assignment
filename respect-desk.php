@@ -99,7 +99,7 @@
                     <div class="row mx-0 p-1 pb-lg-5 border border-dark">
                         <!-- we proud of them -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h2 class="bg-dark text-uppercase px-0 mx-1 my-1 text-white">Ми пишаємося ними</h2>
+                            <h2 class="bg-dark text-uppercase px-0 py-3 mx-1 my-1 text-white">Ми пишаємося ними</h2>
                         </div>
                         <!-- respect-item -->
                         <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 position-relative">

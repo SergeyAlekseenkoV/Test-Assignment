@@ -112,8 +112,8 @@
                                         <button class="btn btn-dark py-0 px-1 mt-2" id="showPhotos"><i class="fas fa-camera fa-2x"></i></button>
                                         <!-- author name and date -->
                                         <address class="mb-0 pb-2 text_color"><i class="fas fa-portrait"></i><a
-                                                rel="author" href="#" class="ml-2">Деякий Автор</a></address>
-                                        <time class="ml-0 ml-md-3 pb-2 text_color" pubdate datetime="2021-05-28"
+                                                rel="author" href="#" class="ml-2 mb-2">Деякий Автор</a></address>
+                                        <time class="ml-0 ml-md-3 pb-2 mb-2 text_color" pubdate datetime="2021-05-28"
                                             title="8 травня 2021">28 травня 2021</time>
                                     </div>
                                     <div class="row mx-0 gallery" id="gallery">
@@ -298,12 +298,10 @@
                                             </div>
                                         </div>
                                         <div class="col-12 text-center">
-                                        <!-- button-show -->
+                                        <!-- button-close -->
                                             <button class="btn btn-transparent my-3 p-0 text_color" id="hidePhotos"><i class="far fa-times-circle fa-2x"></i></button>
                                         </div>
                                     </div>
-                                    <!-- <img src="img/pexels-jayson-delos-santos-1139553.png" style="float:left;" class="w-25" alt="equipment">
-                                    <img src="img/pexels-weir-esco-3906748.png" style="float:right;" class="w-25" alt="equipment"> -->
                                     <p class="lead card-text text_color">Some quick example text to build on the card
                                         title and make up the bulk of the card's content.
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ab nulla
