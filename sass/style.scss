@@ -15,7 +15,6 @@ $nav-link-focus: #4890d8;
 $bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap");
-
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
 /*font-family: 'Fira Sans', sans-serif;*/
 
@@ -37,7 +36,13 @@ body {
 
 /*effect for the bg home page*/
 #home {
-    background: linear-gradient(-45deg, #304878, #669fd8, #ffffff, #4033bd);
+    background: linear-gradient(
+        -45deg,
+        rgba(48, 72, 120, 0.8),
+        rgba(102, 159, 216, 0.8),
+        rgba(255, 255, 255, 0.8),
+        rgba(64, 51, 189, 0.8)
+    );
     background-size: 300% 300%;
     animation: gradient 15s ease infinite;
 
@@ -66,7 +71,7 @@ body {
         animation-duration: $animationDuration;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
-        $colors: (#c986ff, #f3d9ff, #85e8ff);
+        $colors: (#c885ff, #f3d9ff, #85e8ff);
 
         @for $i from 1 through $amount {
             &:nth-child(#{$i}) {
@@ -109,6 +114,7 @@ body {
     background: rgba(48, 72, 120, 0.95) !important;
     border: 1px solid $primary-common !important;
 }
+/* tooltips */
 
 .bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
 .bs-tooltip-bottom .arrow::before {
@@ -137,7 +143,7 @@ h3 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: $white-color;
+    background: $primary-common;
     border-radius: 5px;
 }
 
@@ -240,7 +246,7 @@ select:focus {
 // bg-menu
 .navbar {
     background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
-        url("../img/bg-test.jpg") 25% 75% / cover no-repeat;
+        url("../img/logo-video.jpeg") 50% 42%/cover no-repeat;
 }
 // set border to the logo
 .logo {
@@ -264,10 +270,7 @@ li {
         }
     }
 }
-
-caption {
-    caption-side: top !important;
-}
+/* nav-links on focus */
 
 .navbar-nav :nth-child(6) > .nav-link:focus,
 .navbar-nav :nth-child(7) > .nav-link:focus,
@@ -304,7 +307,7 @@ caption {
         height: 100%;
         width: 100%;
         position: relative;
-
+        /* inline border on hover */
         &::before {
             opacity: 0;
             content: "";
@@ -329,6 +332,8 @@ caption {
         background-color: $nav-link-focus !important;
     }
 
+    /* border for my-data button */ 
+
     #my-data a::after {
         content: "";
         display: block;
@@ -346,12 +351,13 @@ caption {
     }
 
     //on-hover behavior for navigation's links
+
     .dropdown-item:hover,
     .dropdown-item:active {
         background-color: $primary-dark !important;
     }
 
-    // submenus
+    /* submenus */
 
     .dropdown-submenu .dropdown-menu {
         top: -2px;
@@ -360,6 +366,7 @@ caption {
 }
 
 //behavior of the navigation section on-hover
+
 .navbar:hover,
 .dropdown-item:hover {
     opacity: 1;
@@ -371,8 +378,11 @@ caption {
 //     transform: scaleZ(.999) translateZ(0) perspective(-1px);
 //     zoom: 99.999999%;
 // }
-// login page
+
+/* login page */
+
 #login {
+
     section .log_in {
         min-height: 80vh;
     }
@@ -659,17 +669,11 @@ caption {
         }
     }
 }
-//values for the main section
-
-#salary-list {
-    min-height: 90vh;
-}
 
 #personalRoom {
     min-height: 120vh;
     background-color: $primary-lightest;
 
-    /* Hide scrollbar for IE, Edge and Firefox */
     .btn-transparent:hover {
         color: $primary-common !important;
     }
@@ -696,6 +700,121 @@ caption {
         scrollbar-width: none;
         /* Firefox */
     }
+    table {
+        table-layout: fixed !important;
+        line-height: 1 !important;
+        padding: 0.5em !important;
+        width: 100%;
+        font-size: 0.9em !important;
+        overflow: hidden !important;
+
+        tbody {
+            td,
+            th {
+                padding: 5px !important;
+                overflow: hidden !important;
+            }
+    
+            td:nth-of-type(2) {
+                width:.01%;
+            }
+            td:nth-of-type(3) {
+                width:6%;
+            }
+            td:nth-of-type(4) {
+                width:.1%;
+            }
+            td:nth-of-type(5) {
+                width: 7.5%;
+            }
+            td:nth-of-type(6) {
+                width:3.95%;
+            }
+            td:nth-of-type(7) {
+                width: 5%;
+            }
+            td:nth-of-type(8) {
+                width:3.95%;
+            }
+            td:nth-of-type(9) {
+                width:80px;
+            }
+            td:nth-of-type(10) {
+                width:.01%;
+            }
+            td:nth-of-type(12) {
+                width:.01%;	
+            }
+            td:nth-of-type(13) {
+                width:.01%;
+            }
+            td:nth-of-type(14) {
+                width:7%;
+            }
+            td:nth-of-type(15) {
+                width:.01%;
+            }
+            td:nth-of-type(16) {
+                width:.01%;
+            }
+            td:nth-of-type(17) {
+                width:80px;	
+            }
+
+            tr:first-of-type {
+                background-color: $primary-common-light !important;
+                font-size: 1.2em !important;
+                font-weight: 500 !important;
+                font-style: italic;
+            }
+
+            tr:nth-of-type(2),
+            tr:nth-of-type(8) {
+                font-size: .8em !important;
+                font-weight: 500 !important;
+                font-style: italic;
+            }
+    
+            tr:nth-of-type(3) {
+                > :first-child {
+                    font-size: 1.1em !important;
+                }
+            }
+    
+            tr:first-of-type,
+            tr:nth-of-type(3),
+            tr:nth-of-type(5),
+            tr:nth-of-type(7),
+            tr:nth-of-type(12),
+            tr:last-of-type {
+                font-weight: 700;
+            }
+
+            tr:nth-last-of-type(3){
+                font-weight: 700;
+            }
+
+
+            tr:first-of-type,
+            tr:nth-of-type(2),
+            tr:nth-of-type(3),
+            tr:nth-of-type(5) {
+                overflow: unset !important;
+            }
+    
+            tr:nth-of-type(10) {
+                background-color: $primary-common-light !important;
+                td:nth-of-type(5),
+                td:nth-of-type(7) {
+                    overflow: unset !important;
+                }
+            }
+
+            tr:nth-of-type(11) {
+                font-size: .75em !important;
+            }
+        }
+    }
 }
 
 //footer style
@@ -705,12 +824,11 @@ caption {
 
     //size of social links
     .social_link {
-        color: $primary-common !important;
+        color: $white-color !important;
     }
 
     .social_link:hover {
         color: $primary-common-light !important;
-        transition: all 1s ease;
     }
 }
 
@@ -746,6 +864,14 @@ caption {
     .navbar .dropdown-submenu .dropdown-menu {
         top: -2px;
         left: 218px;
+    }
+}
+
+@media screen and (max-width: 1198px) {
+    #personalRoom {
+        .table table {
+            width: 900px !important;
+        }
     }
 }
 
@@ -872,13 +998,11 @@ caption {
 @media screen and (max-width: 768px) {
     // bg-menu
     .navbar {
-        background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
-            url("../img/logo-video.jpeg") center/cover no-repeat;
 
         .nav-link:focus {
             background-color: transparent !important;
             color: $white-color !important;
-        }    
+        }
 
         #my-data a::after {
             content: "";

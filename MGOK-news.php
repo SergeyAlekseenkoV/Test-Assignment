@@ -97,7 +97,7 @@
                 </article>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
                     <!-- cards news -->
-                    <div id="mgok-news" class="row mx-0 p-1 bg-light border border-dark">
+                    <div id="mgok-news" class="row mx-0 p-1 bg-light border border-primary">
                         <!-- news item-->
                         <div class="col-12 col-md-6 col-lg-4 px-0 mx-0 py-1">
                             <div class="card border mx-1 position-relative card_link">

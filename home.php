@@ -21,12 +21,13 @@ session_start();
         <div
             class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
             <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase mb-0 text_color"><i class="fas fa-home"></i></h3>
-            <h3 class="d-none d-md-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Акціонерне Товариство "Марганецький гірничо-збагачувальний
+            <h3 class="d-none d-md-block pt-sm-2 pt-lg-3 text-left text-uppercase wow slideInLeft text_color" 
+                data-animation="slideInLeft">Акціонерне Товариство "Марганецький гірничо-збагачувальний
                 комбінат"</h3>
             <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white mt-5 mb-3 shadow border" role="button">Вийти</a>
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
-                <article class="col-sm-12 col-lg-2 pl-0 px-0 text-center">
+                <article class="col-sm-12 col-lg-2 pl-0 px-0 text-center wow slideInLeft" data-animation="slideInLeft">
                     <nav class="sticky-top accordion shadow" id="accordionLib">
                             <!-- home card -->
                             <div class="card bg-transparent">
@@ -42,7 +43,7 @@ session_start();
                                 <div class="card-header p-0 bg-dark" id="news-item">
                                         <a class="btn btn-link bg-transparent btn-block text-decoration-none text-lg-left collapsed text-white text-uppercase" type="button"
                                             href="news.php" role="button">
-                                            Новини
+                                            Новини 
                                         </a>
                                 </div>
                             </div>
@@ -110,8 +111,8 @@ session_start();
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
                     <!-- carousel slider -->
                     <div id="carouselExampleIndicators"
-                        class="carousel slide carousel-fade bg-transparent border" data-ride="carousel"
-                        keyboard="true">
+                        class="carousel slide carousel-fade bg-transparent border wow fadeInUp" data-ride="carousel"
+                        keyboard="true" data-animation="fadeInUp">
                         <ol class="carousel-indicators d-none d-lg-flex">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active text_color"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -213,7 +214,7 @@ session_start();
                         </a>
                     </div>
                     <!-- birthday block -->
-                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden position-relative bg-dark border particles">
+                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden position-relative bg-dark border particles wow fadeInUp" data-animation="fadeInUp">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -270,7 +271,7 @@ session_start();
                         </div>
                     </div>
                     <!-- announcement block -->
-                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden border border-primary bg_announcement">
+                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden border border-primary bg_announcement wow fadeInUp" data-animation="fadeInUp">
                         <div class="text-justify pt-3 m-4 rounded border text-white bg-dark width_announcement">
                             <h4 class="px-3 text-center">Оголошення</h4>
                             <ul class="list-unstyled px-3">

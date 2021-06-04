@@ -9,7 +9,7 @@
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div
                 class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
-                <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Перелік категорій новин</h3>
+                <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color wow fadeInLeft" data-animation="fadeInLeft">Перелік категорій новин</h3>
                 <h3 class="d-none d-md-block align-self-baseline d-lg-none pt-sm-2 pt-lg-3 text-left mb-2 text-uppercase text_color">
                     Акціонерне Товариство "Марганецький гірничо-збагачувальний
                     комбінат"</h3>
@@ -18,7 +18,7 @@
                     role="button">Вийти</a>
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
-                <article class="col-sm-12 col-lg-2 pl-0 px-0 text-center">
+                <article class="col-sm-12 col-lg-2 pl-0 px-0 text-center wow fadeInLeft" data-animation="fadeInLeft">
                     <nav class="sticky-top accordion shadow" id="accordionLib">
                         <!-- home card -->
                         <div class="card bg-transparent">
@@ -95,9 +95,9 @@
                         </div>
                     </nav>
                 </article>
-                <aside id="news-category" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
+                <aside id="news-category" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0 wow fadeInRight" data-animation="fadeInRight">
                     <!-- cards news -->
-                    <div class="row mx-0 p-1 border border-dark">
+                    <div class="row mx-0 p-1 border border-primary">
                         <!-- mgok news -->
                         <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0">
                             <div class="card border position-relative m-1">

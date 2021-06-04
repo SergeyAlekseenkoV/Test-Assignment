@@ -96,7 +96,7 @@
                     </nav>
                 </article>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
-                    <div id="news-description" class="row mx-0 p-1 bg-light border border-dark">
+                    <div id="news-description" class="row mx-0 p-1 bg-light border border-primary">
                         <!-- news item-description -->
                         <div class="col-12 px-0 mx-0 py-1">
                             <div class="card border mx-1 shadow">
@@ -106,8 +106,9 @@
                                     <h4 class="card-title px-0 text_color">Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit.
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
+                                        <hr class="bg-dark">
                                     <div
-                                        class="d-flex flex-row flex-wrap justify-content-between align-items-baseline border-top border-bottom border-dark py-2">
+                                        class="d-flex flex-row flex-wrap justify-content-between align-items-baseline">
                                         <!-- button-show -->
                                         <button class="btn btn-dark py-0 px-1 mt-2" id="showPhotos"><i class="fas fa-camera fa-2x"></i></button>
                                         <!-- author name and date -->
@@ -116,6 +117,7 @@
                                         <time class="ml-0 ml-md-3 pb-2 mb-2 text_color" pubdate datetime="2021-05-28"
                                             title="8 травня 2021">28 травня 2021</time>
                                     </div>
+                                    <hr class="bg-dark">
                                     <div class="row mx-0 gallery" id="gallery">
                                         <!-- item -->
                                         <article
