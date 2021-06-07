@@ -29,7 +29,7 @@
                                     пошани</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Кращий
+                                    <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="best-team.php">Кращий
                                     коллектив</a>
                                 </li>
                                 <li>

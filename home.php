@@ -108,7 +108,7 @@ session_start();
                             </div>
                     </nav>
                 </article>
-                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
+                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
                     <!-- carousel slider -->
                     <div id="carouselExampleIndicators"
                         class="carousel slide carousel-fade bg-transparent border wow fadeInUp" data-ride="carousel"

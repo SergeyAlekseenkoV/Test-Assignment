@@ -95,11 +95,11 @@
                         </div>
                     </nav>
                 </article>
-                <aside id="respect-desk" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0 wow fadeInUp" data-animation="fadeInUp">
-                    <div class="row mx-0 p-1 pb-lg-5 border border-primary">
+                <aside id="respect-desk" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 wow fadeInUp" data-animation="fadeInUp">
+                    <div class="row m-0 p-0 pb-lg-5 border border-primary rounded">
                         <!-- we proud of them -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h2 class="bg-dark text-uppercase px-0 py-3 mx-1 my-1 text-white">Ми пишаємося ними</h2>
+                            <h2 class="bg-dark text-uppercase px-0 py-3 mx-1 mt-1 mb-0 text-white">Ми пишаємося ними</h2>
                         </div>
                         <!-- respect-item -->
                         <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 position-relative">

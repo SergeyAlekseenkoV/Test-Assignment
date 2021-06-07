@@ -95,7 +95,7 @@
                         </div>
                     </nav>
                 </article>
-                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0">
+                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
                     <div id="news-description" class="row mx-0 p-1 bg-light border border-primary">
                         <!-- news item-description -->
                         <div class="col-12 px-0 mx-0 py-1">

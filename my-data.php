@@ -30,7 +30,7 @@ session_start();
                         <a class="text-primary text-decoration-none" href="home.php">Головна</a>
                     </li>
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
-                    <li class="breadcrumb-item active text_color" aria-current="page">Мої данні</li>
+                    <li class="breadcrumb-item active text_color" aria-current="page">Мої дані</li>
                 </ol>
                 <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white shadow border mt-3 mt-md-0"
                     role="button">Вийти</a>
@@ -59,9 +59,9 @@ session_start();
                     </article>
                 </div>
                 <!-- main content -->
-                <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-2 pl-xl-3 py-0 pr-lg-0">
+                <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-1 py-0 pr-lg-0">
                     <aside class="mt-2 mt-lg-0 shadow">
-                        <form class="col p-5 shadow bg-light align-self-center text-center border border-primary"
+                        <form class="col p-5 shadow bg-light align-self-center text-center border border-primary rounded"
                             action="" method="post" novalidate>
                             <div class="row mt-md-3">
                                 <div class="col-12 col-md-6">
@@ -88,7 +88,7 @@ session_start();
                                 </div>
                             </div>
                             <button type="submit" class="btn btn-lg btn-primary mt-4 mt-sm-3 mt-md-3 shadow text-white"
-                                value="">Змінити данні</button>
+                                value="">Змінити дані</button>
                         </form>
                     </aside>
                 </div>

@@ -73,8 +73,8 @@ session_start();
                     </article>
                 </div>
                 <!-- main content -->
-                <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-2 pl-xl-3 py-0 pr-lg-0">
-                    <aside class="mt-2 mt-lg-0 bg-light border border-dark shadow">
+                <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-1 py-0 pr-lg-0">
+                    <aside class="mt-2 mt-lg-0 bg-light border border-primary rounded shadow">
                         <h3 class="bg-info text_color pl-3 py-2">Пропозиція 1</h3>
                         <p class="lead text-justify bg-light p-3 text_color">Lorem, ipsum dolor sit amet
                             consectetur adipisicing elit.

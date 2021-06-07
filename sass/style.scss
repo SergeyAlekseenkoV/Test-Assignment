@@ -246,7 +246,7 @@ select:focus {
 // bg-menu
 .navbar {
     background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
-        url("../img/logo-video.jpeg") 50% 42%/cover no-repeat;
+        url("../img/logo-video.jpeg") 50% 42% / cover no-repeat;
 }
 // set border to the logo
 .logo {
@@ -332,7 +332,7 @@ li {
         background-color: $nav-link-focus !important;
     }
 
-    /* border for my-data button */ 
+    /* border for my-data button */
 
     #my-data a::after {
         content: "";
@@ -382,7 +382,6 @@ li {
 /* login page */
 
 #login {
-
     section .log_in {
         min-height: 80vh;
     }
@@ -668,6 +667,90 @@ li {
             }
         }
     }
+
+    //slider
+    #best-team {
+        h2 {
+            background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8));
+            font-family: "Cormorant Infant", sans-serif;
+            text-shadow: $white-color 0 0 3px;
+            animation: pulse 5000ms infinite;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .mySlides {
+            display: none;
+            max-height: 75vh;
+
+            .img-width {
+                width: 100%;
+            }
+        }
+
+        //Add a pointer when hovering over the thumbnail images
+        .cursor {
+            cursor: pointer;
+            width: 100%;
+        }
+
+        //Next & previous buttons
+        .prev,
+        .next {
+            cursor: pointer;
+            top: 45%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: $primary-color;
+            font-size: 20px;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        // Position the "previous button" to the right
+        .prev {
+            left: 5%;
+            border-radius: 3px 0 0 3px;
+        }
+
+        // Position the "next button" to the right
+        .next {
+            right: 5%;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: $primary-color-through;
+            color: $white-color;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: $primary-common;
+            font-size: 16px;
+            padding: 8px 12px;
+        }
+
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+            opacity: 0.8;
+            width: 100%;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+        
+        .team_descr {
+            text-align: justify;
+        }
+    }
 }
 
 #personalRoom {
@@ -714,51 +797,51 @@ li {
                 padding: 5px !important;
                 overflow: hidden !important;
             }
-    
+
             td:nth-of-type(2) {
-                width:.01%;
+                width: 0.01%;
             }
             td:nth-of-type(3) {
-                width:6%;
+                width: 6%;
             }
             td:nth-of-type(4) {
-                width:.1%;
+                width: 0.1%;
             }
             td:nth-of-type(5) {
                 width: 7.5%;
             }
             td:nth-of-type(6) {
-                width:3.95%;
+                width: 3.95%;
             }
             td:nth-of-type(7) {
                 width: 5%;
             }
             td:nth-of-type(8) {
-                width:3.95%;
+                width: 3.95%;
             }
             td:nth-of-type(9) {
-                width:80px;
+                width: 80px;
             }
             td:nth-of-type(10) {
-                width:.01%;
+                width: 0.01%;
             }
             td:nth-of-type(12) {
-                width:.01%;	
+                width: 0.01%;
             }
             td:nth-of-type(13) {
-                width:.01%;
+                width: 0.01%;
             }
             td:nth-of-type(14) {
-                width:7%;
+                width: 7%;
             }
             td:nth-of-type(15) {
-                width:.01%;
+                width: 0.01%;
             }
             td:nth-of-type(16) {
-                width:.01%;
+                width: 0.01%;
             }
             td:nth-of-type(17) {
-                width:80px;	
+                width: 80px;
             }
 
             tr:first-of-type {
@@ -770,17 +853,17 @@ li {
 
             tr:nth-of-type(2),
             tr:nth-of-type(8) {
-                font-size: .8em !important;
+                font-size: 0.8em !important;
                 font-weight: 500 !important;
                 font-style: italic;
             }
-    
+
             tr:nth-of-type(3) {
                 > :first-child {
                     font-size: 1.1em !important;
                 }
             }
-    
+
             tr:first-of-type,
             tr:nth-of-type(3),
             tr:nth-of-type(5),
@@ -790,10 +873,9 @@ li {
                 font-weight: 700;
             }
 
-            tr:nth-last-of-type(3){
+            tr:nth-last-of-type(3) {
                 font-weight: 700;
             }
-
 
             tr:first-of-type,
             tr:nth-of-type(2),
@@ -801,7 +883,7 @@ li {
             tr:nth-of-type(5) {
                 overflow: unset !important;
             }
-    
+
             tr:nth-of-type(10) {
                 background-color: $primary-common-light !important;
                 td:nth-of-type(5),
@@ -811,7 +893,7 @@ li {
             }
 
             tr:nth-of-type(11) {
-                font-size: .75em !important;
+                font-size: 0.75em !important;
             }
         }
     }
@@ -998,7 +1080,6 @@ li {
 @media screen and (max-width: 768px) {
     // bg-menu
     .navbar {
-
         .nav-link:focus {
             background-color: transparent !important;
             color: $white-color !important;

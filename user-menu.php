@@ -38,7 +38,7 @@
                         <li id="my-data" class="d-flex justify-content-center nav-item">
                             <a class="nav-link position-relative text-uppercase text-white py-3 py-md-1 px-md-1 px-lg-1 px-xl-2"
                                 href="my-data.php" role="button" aria-haspopup="true"
-                                aria-expanded="false">Мої данні</a>
+                                aria-expanded="false">Мої дані</a>
                         </li>
                     </ul>
                 </div>

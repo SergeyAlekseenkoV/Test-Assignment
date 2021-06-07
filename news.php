@@ -95,7 +95,7 @@
                         </div>
                     </nav>
                 </article>
-                <aside id="news-category" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-2 pl-xl-3 py-3 py-lg-0 wow fadeInRight" data-animation="fadeInRight">
+                <aside id="news-category" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 wow fadeInRight" data-animation="fadeInRight">
                     <!-- cards news -->
                     <div class="row mx-0 p-1 border border-primary">
                         <!-- mgok news -->
