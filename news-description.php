@@ -2,10 +2,10 @@
 <title>Портал-Новина перша</title>
 </head>
 
-<body>
+<body id="main">
     <?php include_once "menu.php"; ?>
     <!-- main-section-->
-    <section id="main" class="mt-0 pt-3">
+    <section class="mt-0 pt-3 news_description">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
                 <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Новини комбінату
@@ -96,7 +96,7 @@
                     </nav>
                 </article>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
-                    <div id="news-description" class="row mx-0 p-1 bg-light border border-primary">
+                    <div id="news-description" class="row mx-0 bg-transparent border border-primary rounded">
                         <!-- news item-description -->
                         <div class="col-12 px-0 mx-0 py-1">
                             <div class="card border mx-1 shadow">
@@ -106,18 +106,18 @@
                                     <h4 class="card-title px-0 text_color">Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit.
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
-                                        <hr class="bg-dark">
+                                        <hr class="bg-dark my-0">
                                     <div
                                         class="d-flex flex-row flex-wrap justify-content-between align-items-baseline">
                                         <!-- button-show -->
-                                        <button class="btn btn-dark py-0 px-1 mt-2" id="showPhotos"><i class="fas fa-camera fa-2x"></i></button>
+                                        <button class="btn bg-transparent py-0 pl-0 pr-1 text_color" id="showPhotos"><i class="fas fa-camera fa-2x"></i></button>
                                         <!-- author name and date -->
-                                        <address class="mb-0 pb-2 text_color"><i class="fas fa-portrait"></i><a
-                                                rel="author" href="#" class="ml-2 mb-2">Деякий Автор</a></address>
-                                        <time class="ml-0 ml-md-3 pb-2 mb-2 text_color" pubdate datetime="2021-05-28"
+                                        <address class="mb-0 py-0 text_color"><i class="fas fa-portrait"></i><a
+                                                rel="author" href="#" class="ml-2">Деякий Автор</a></address>
+                                        <time class="ml-0 py-0 ml-md-3 text_color" pubdate datetime="2021-05-28"
                                             title="8 травня 2021">28 травня 2021</time>
                                     </div>
-                                    <hr class="bg-dark">
+                                    <hr class="bg-dark my-0">
                                     <div class="row mx-0 gallery" id="gallery">
                                         <!-- item -->
                                         <article

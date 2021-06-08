@@ -2,10 +2,10 @@
 <title>Портал-Новини</title>
 </head>
 
-<body>
+<body id="main">
     <?php include_once "menu.php"; ?>
     <!-- main-section-->
-    <section id="main" class="mt-0 pt-3">
+    <section class="mt-0 pt-3 news">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div
                 class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
@@ -97,9 +97,9 @@
                 </article>
                 <aside id="news-category" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 wow fadeInRight" data-animation="fadeInRight">
                     <!-- cards news -->
-                    <div class="row mx-0 p-1 border border-primary">
+                    <div class="row mx-0 border border-primary rounded">
                         <!-- mgok news -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0">
+                        <div class="col-12 col-lg-6 px-0 m-0 pt-lg-0">
                             <div class="card border position-relative m-1">
                                 <img src="img/pexels-08.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                         <!-- city news -->
-                        <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 mx-0">
+                        <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 m-0">
                             <div class="card border position-relative m-1">
                                 <img src="img/city2.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                         <!-- sport news -->
-                        <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 mx-0">
+                        <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 m-0">
                             <div class="card border position-relative m-1">
                                 <img src="img/sport.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                         <!-- emergency news -->
-                        <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 mx-0">
+                        <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 m-0">
                             <div class="card border position-relative m-1">
                                 <img src="img/emergency.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">

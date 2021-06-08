@@ -10,6 +10,7 @@ $primary-lighter: #d8d8d8;
 $primary-lightest: #f0f0f0;
 $primary-lightest-through: rgba(240, 240, 240, 0.379);
 $dark-overlay: rgba(0, 0, 0, 0.7);
+$light-through: rgba(255, 255, 255, .84);
 $icon-size: 1.2em;
 $nav-link-focus: #4890d8;
 $bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
@@ -92,6 +93,57 @@ body {
                 transform: translate3d(0, 0, 1px) rotate(360deg);
             }
         }
+    }
+
+    /*carousel*/
+    .carousel-item > .carousel-caption {
+        background-color: $primary-lightest-through !important;
+    }
+    /*reset standard styles*/
+    .carousel-control-prev,
+    .carousel-control-prev:hover {
+        filter: none;
+        opacity: 0.7;
+        text-shadow: none;
+    }
+
+    .carousel-control-next,
+    .carousel-control-next:hover {
+        filter: none;
+        opacity: 0.7;
+        text-shadow: none;
+    }
+    /*end reset standard styles*/
+    .carousel-indicators li {
+        background-color: $primary-color !important;
+    }
+
+    .carousel-control-prev .carousel-control-prev-icon,
+    .carousel-control-next .carousel-control-next-icon {
+        background-color: $primary-light;
+        font-size: 1em;
+        height: 2em;
+        line-height: 2em;
+        margin-top: -2em;
+        width: 2em;
+        border: 1px solid $primary-common;
+        border-radius: 0.2em;
+        transition: all 1.2s ease;
+    }
+
+    .carousel-control-prev .carousel-control-prev-icon {
+        left: 0.8em;
+        margin-left: 0;
+    }
+
+    .carousel-control-next .carousel-control-next-icon {
+        right: 0.8em;
+        margin-right: 0;
+    }
+
+    .carousel-control-prev:hover .carousel-control-prev-icon,
+    .carousel-control-next:hover .carousel-control-next-icon {
+        background-color: $primary-color;
     }
 }
 
@@ -243,6 +295,23 @@ select:focus {
     background-color: $primary-color-through;
 }
 
+.bg_light_through {
+    background-color: $light-through;
+}
+
+.bg_through {
+    background-color: $primary-lightest-through !important;
+}
+
+.best_team,
+.log_in,
+.mgok_news,
+.news_description,
+.news,
+.respect_desk {
+    background-color: $light-through;
+}
+
 // bg-menu
 .navbar {
     background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
@@ -382,6 +451,8 @@ li {
 /* login page */
 
 #login {
+    background: url("../img/main-bg.jpg") bottom/cover fixed no-repeat;
+    
     section .log_in {
         min-height: 80vh;
     }
@@ -411,62 +482,14 @@ li {
 }
 
 #main {
+     
+    background: url("../img/main-bg.jpg") left/cover no-repeat;
+    
+
     min-height: 100vh;
 
     .card-header:hover {
         opacity: 0.9 !important;
-    }
-
-    /*carousel*/
-    > div .carousel-caption {
-        background-color: $primary-light-through !important;
-    }
-
-    /*reset standard styles*/
-    .carousel-control-prev,
-    .carousel-control-prev:hover {
-        filter: none;
-        opacity: 0.7;
-        text-shadow: none;
-    }
-
-    .carousel-control-next,
-    .carousel-control-next:hover {
-        filter: none;
-        opacity: 0.7;
-        text-shadow: none;
-    }
-    /*end reset standard styles*/
-    .carousel-indicators li {
-        background-color: $primary-color !important;
-    }
-
-    .carousel-control-prev .carousel-control-prev-icon,
-    .carousel-control-next .carousel-control-next-icon {
-        background-color: $primary-light;
-        font-size: 1em;
-        height: 2em;
-        line-height: 2em;
-        margin-top: -2em;
-        width: 2em;
-        border: 1px solid $primary-common;
-        border-radius: 0.2em;
-        transition: all 1.2s ease;
-    }
-
-    .carousel-control-prev .carousel-control-prev-icon {
-        left: 0.8em;
-        margin-left: 0;
-    }
-
-    .carousel-control-next .carousel-control-next-icon {
-        right: 0.8em;
-        margin-right: 0;
-    }
-
-    .carousel-control-prev:hover .carousel-control-prev-icon,
-    .carousel-control-next:hover .carousel-control-next-icon {
-        background-color: $primary-color;
     }
 
     #news-category {
@@ -659,7 +682,7 @@ li {
         .card .card-body {
             text-align: justify;
             > p {
-                line-height: 1.35;
+                line-height: 1.25 !important;
             }
 
             .respect_item_name {
@@ -755,7 +778,11 @@ li {
 
 #personalRoom {
     min-height: 120vh;
-    background-color: $primary-lightest;
+    background-color: $light-through;
+
+    .overflow_wrap {
+        overflow-wrap: break-word;
+    }
 
     .btn-transparent:hover {
         color: $primary-common !important;
@@ -903,6 +930,7 @@ li {
 #footer {
     background: linear-gradient(to top, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
         url("../img/bg-test.jpg") center/cover no-repeat;
+        line-height: 1.25 !important;
 
     //size of social links
     .social_link {
@@ -914,18 +942,11 @@ li {
     }
 }
 
-.ajax-action-links {
-    cursor: pointer;
-}
-
-#add_more:hover {
-    background-color: $primary-color !important;
-}
 
 .scrollup {
     display: none;
     position: fixed;
-    bottom: 140px;
+    bottom: 70px;
     right: 20px;
     background-color: $primary-lightest-through;
     z-index: 1000;
@@ -935,8 +956,7 @@ li {
     #login,
     #main,
     #info_library,
-    #location-info,
-    #home-section {
+    #home {
         background-attachment: scroll;
     }
 }
@@ -1018,6 +1038,11 @@ li {
 }
 
 @media (min-width: 768px) {
+    .navbar {
+        background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
+            url("../img/header-idea.jpg") left / cover no-repeat;
+    }
+
     h3 {
         font-size: 1.4em;
     }
@@ -1031,6 +1056,7 @@ li {
 }
 
 @media (min-width: 992px) {
+
     h3 {
         font-size: 1.6em;
     }
@@ -1074,6 +1100,15 @@ li {
                 z-index: 100;
             }
         }
+    }
+
+    .scrollup {
+        display: none;
+        position: fixed;
+        bottom: 155px;
+        right: 20px;
+        background-color: $primary-lightest-through;
+        z-index: 1000;
     }
 }
 

@@ -2,10 +2,10 @@
 <title>Дошка пошани</title>
 </head>
 
-<body>
+<body id="main">
     <?php include_once "menu.php"; ?>
     <!-- main-section-->
-    <section id="main" class="mt-0 pt-3 pb-lg-5">
+    <section class="mt-0 pt-3 pb-lg-5 respect_desk">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div
                 class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
@@ -96,7 +96,7 @@
                     </nav>
                 </article>
                 <aside id="respect-desk" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 wow fadeInUp" data-animation="fadeInUp">
-                    <div class="row m-0 p-0 pb-lg-5 border border-primary rounded">
+                    <div class="row m-0 p-0 border border-primary rounded shadow bg-transparent">
                         <!-- we proud of them -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2 class="bg-dark text-uppercase px-0 py-3 mx-1 mt-1 mb-0 text-white">Ми пишаємося ними</h2>
@@ -176,7 +176,7 @@
                         </div>
                         <!-- following two last childs must be with larger margin-bottom on lg screens-->
                         <!-- respect-item -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 pb-lg-5 mb-lg-5 position-relative">
+                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 mb-lg-5 position-relative">
                             <div class="card border m-1 shadow">
                                 <div class="d-flex justify-content-center position-relative">
                                     <div class="card-img overflow-hidden">
@@ -194,7 +194,7 @@
                             </div>
                         </div>
                         <!-- respect-item -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 pb-lg-5 mb-lg-5 position-relative">
+                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 mb-lg-5 position-relative">
                             <div class="card border m-1 shadow">
                                 <div class="d-flex justify-content-center position-relative">
                                     <div class="card-img overflow-hidden">

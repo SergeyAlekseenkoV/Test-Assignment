@@ -13,10 +13,10 @@ session_start();
 <?php include_once "header.php"; ?>
     <title>Портал-Головна</title>
 </head>
-<body id="home">
+<body id="main">
 <?php include_once "menu.php"; ?>
     <!-- main-section-->
-    <section id="main" class="mt-0 pt-3 bg-transparent">       
+    <section id="home" class="mt-0 pt-3">       
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
         <div
             class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
@@ -108,25 +108,25 @@ session_start();
                             </div>
                     </nav>
                 </article>
-                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
+                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 aside_info">
                     <!-- carousel slider -->
-                    <div id="carouselExampleIndicators"
+                    <div id="carouselIndicators"
                         class="carousel slide carousel-fade bg-transparent border wow fadeInUp" data-ride="carousel"
                         keyboard="true" data-animation="fadeInUp">
                         <ol class="carousel-indicators d-none d-lg-flex">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active text_color"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="0" class="active text_color"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="3"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="img/carosel1.jpg" alt="people">
                                 <!-- first new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0">1 Короткий опис новини декілька слів</p>
+                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded bg_through">1 Короткий опис новини декілька слів</p>
                                     <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold">1 Lorem ipsum dolor, 
+                                    <p class="lead d-none d-sm-block font-weight-bold rounded bg_through">1 Lorem ipsum dolor, 
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias distinctio
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
@@ -144,9 +144,9 @@ session_start();
                                 <img class="d-block w-100" src="img/carosel2.jpg" alt="people">
                                 <!-- second new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0">2 Короткий опис новини декілька слів</p>
+                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded bg_through">2 Короткий опис новини декілька слів</p>
                                     <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold">2 Lorem ipsum dolor, 
+                                    <p class="lead d-none d-sm-block font-weight-bold rounded bg_through">2 Lorem ipsum dolor, 
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias distinctio
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
@@ -164,9 +164,9 @@ session_start();
                                 <img class="d-block w-100" src="img/carosel3.png" alt="track">
                                 <!-- third new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0">3 Короткий опис новини декілька слів</p>
+                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded bg_through">3 Короткий опис новини декілька слів</p>
                                     <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold">3 Lorem ipsum dolor, 
+                                    <p class="lead d-none d-sm-block font-weight-bold rounded bg_through">3 Lorem ipsum dolor, 
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias distinctio
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
@@ -184,9 +184,9 @@ session_start();
                                 <img class="d-block w-100" src="img/carosel4.jpg" alt="people">
                                 <!-- fourth new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0">4 Короткий опис новини декілька слів</p>
+                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded bg_through">4 Короткий опис новини декілька слів</p>
                                     <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold">4 Lorem ipsum dolor, 
+                                    <p class="lead d-none d-sm-block font-weight-bold rounded bg_through">4 Lorem ipsum dolor, 
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias distinctio
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
@@ -202,12 +202,12 @@ session_start();
                             </div>
                         </div>
                         <!-- carousel indicators -->
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                        <a class="carousel-control-prev" href="#carouselIndicators" role="button"
                             data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                        <a class="carousel-control-next" href="#carouselIndicators" role="button"
                             data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>

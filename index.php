@@ -1,7 +1,7 @@
 <?php include_once "header.php"; ?>
 <title>Вхід у Портал</title>
 </head>
-<body id="login" class="bg-dark">
+<body id="login">
 <?php include_once "login-menu.php"; ?>
 <!-- log-in forms-->
 <section class="log_in">

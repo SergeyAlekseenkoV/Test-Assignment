@@ -2,10 +2,10 @@
 <title>Кращий колектив</title>
 </head>
 
-<body>
+<body id="main">
     <?php include_once "menu.php"; ?>
     <!-- main-section-->
-    <section id="main" class="mt-0 pt-3 pb-lg-5">
+    <section class="mt-0 pt-3 pb-lg-5 best_team">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
                 <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color wow slideInLeft"
@@ -106,7 +106,7 @@
                             <h2 class="bg-dark text-uppercase px-0 py-3 mx-0 mt-0 mb-1 text-white">Єдність запорука успіху</h2>
                         </div>
                         <!-- slider -->
-                        <div class="col-12 px-0 mx-0 pt-lg-0 position-relative">
+                        <div class="col-12 px-0 mx-0 pt-lg-0 bg-info position-relative">
                             <!-- Full-width images with number text -->
                             <div class="mySlides overflow-hidden">
                                 <div class="position-absolute numbertext">1 / 12</div>
@@ -225,7 +225,7 @@
                             </div>
                         </div>
                         <!-- end slider -->
-                        <div class="col-12 mx-0 px-0 shadow wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.5s">
+                        <div class="col-12 mx-0 px-0 shadow bg_light_through wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.5s">
                             <h4 class="position-relative my-3 text-center text_color">Колектив дільниці Прохідницьких робіт <br>шахта 14-15</h4>
                             <p class="lead my-3 p-1 text_color team_descr">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum eius illo natus suscipit unde, 
