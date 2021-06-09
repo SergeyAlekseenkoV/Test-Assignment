@@ -108,7 +108,7 @@
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
                                         <hr class="bg-dark my-0">
                                     <div
-                                        class="d-flex flex-row flex-wrap justify-content-between align-items-baseline">
+                                        class="d-flex flex-row flex-wrap justify-content-between align-items-center">
                                         <!-- button-show -->
                                         <button class="btn bg-transparent py-0 pl-0 pr-1 text_color" id="showPhotos"><i class="fas fa-camera fa-2x"></i></button>
                                         <!-- author name and date -->

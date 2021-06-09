@@ -169,7 +169,7 @@
                             <a class="position-absolute text-decoration-none font-weight-bold border border-primary rounded next"
                                 onclick="plusSlides(1)">❯</a>
                             <div class="pt-2 pb-2 caption-container">
-                                <p id="caption" class="lead pb-0 mb-0 text_color"></p>
+                                <h4 id="caption" class="pb-0 mb-0 text-center text-monospace text_color"></h4>
                             </div>
                             <div class="container">
                                 <div class="row d-none d-sm-none d-md-flex overflow-hidden">
@@ -226,7 +226,7 @@
                         </div>
                         <!-- end slider -->
                         <div class="col-12 mx-0 px-0 shadow bg_light_through wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.5s">
-                            <h4 class="position-relative my-3 text-center text_color">Колектив дільниці Прохідницьких робіт <br>шахта 14-15</h4>
+                            <h4 class="position-relative my-3 text-center text_color">Here should be some title<br>about something</h4>
                             <p class="lead my-3 p-1 text_color team_descr">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum eius illo natus suscipit unde, 
                                 laborum reiciendis rem distinctio doloribus velit facere quo necessitatibus, iste eum libero maiores. 
