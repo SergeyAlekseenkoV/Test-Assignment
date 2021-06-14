@@ -18,15 +18,18 @@
                             required>
                         <div class="invalid-feedback"></div>
                     </div>
-                    <div class="form-group mt-1 mt-sm-2 mt-md-3 mt-lg-5 mb-4 mb-lg-4">
+                    <div class="form-group mt-1 mt-sm-2 mt-md-3 mb-4 mb-lg-4">
                         <label for="passInput" class="text_color">Ваш пароль</label>
-                        <input type="password" name="password"
+                        <input type="password" name="password" data-toggle="password"
                             class="form-control border-primary shadow p-lg-4 bg-light"
                             placeholder="Пароль мінімум 6 знаків" id="passInput" aria-describedby="passInput"
                             required>
+                            <!-- <span class="far fa-eye field-icon text_color" onclick="showPass()"></span> -->
                         <div class="invalid-feedback"></div>
+                        <!-- An element to toggle between password visibility -->
+                        <!-- <input class="mt-4 mr-3" type="checkbox" onclick="showPass()"><small class="pb-1 text_color">Дивитись пароль</small> -->
                     </div>
-                    <button type="submit" class="btn btn-lg btn-primary mt-4 mt-sm-3 mt-md-4 mt-lg-5 shadow w-100 text-white"
+                    <button type="submit" class="btn btn-lg btn-primary mt-4 shadow w-100 text-white"
                             value="login">Увійти</button>
                     <div class="text-center mt-3 pb-0">
                         <p class="lead text_color">Забули пароль?</p>

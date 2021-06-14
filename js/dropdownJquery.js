@@ -11,14 +11,20 @@ $(document).ready(function () {
       $('.dropdown-submenu .show').removeClass("show");
     });
 
-
     return false;
   });
 
-
+  /* tooltips */
   $('[data-toggle="tooltip"]').tooltip();
+   
+  /* remove default tooltip from the bootstrap append icon */
+  $but = $(".form-group .input-group-append .btn-outline-secondary");
+    $but.mouseover(function(e){   
+         e.preventDefault();    
+        $(this).removeAttr('title');
+  });
 
-  // button scrollTo-top
+  // button scroll-to-top
 
   $(window).scroll(function () {
 

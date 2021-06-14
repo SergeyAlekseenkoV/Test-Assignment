@@ -87,8 +87,8 @@ session_start();
                                     Нажаль дані за обраний період тимчасово недоступні. Спробуйте пізніше.
                                 </h2>
                             </div> -->
-                            <!-- add or remove d-flex class (display:none; by default in style.css-->
-                            <div class="justify-content-center align-items-center">
+                            <!-- add or remove d-flex class (display:none; by default in style.css -->
+                            <div class="d-none justify-content-center align-items-center load">
                                 <div>
                                     <div class="preload"></div>
                                 </div>

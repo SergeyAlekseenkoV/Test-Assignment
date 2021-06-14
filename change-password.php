@@ -16,21 +16,21 @@
                         </p>
                         <div class="form-group text-left">
                             <label for="userInput" class="text_color">Діючий пароль</label>
-                            <input type="password" name="currentPass"
+                            <input type="password" name="currentPass" data-toggle="password"
                                 class="form-control border-primary shadow p-lg-4 bg-light" id="userInput"
                                 placeholder="Діючий пароль" value="" required>
                             <div class="invalid-feedback"></div>
                         </div>
                         <div class="form-group text-left mt-1 mt-sm-2 mt-md-3 mt-lg-5 mb-4 mb-lg-4">
                             <label for="newPass" class="text_color">Ваш новий пароль</label>
-                            <input type="password" name="newPass"
+                            <input type="password" name="newPass" data-toggle="password"
                                 class="form-control border-primary shadow p-lg-4 bg-light" id="newPass"
                                 placeholder="Не менше 8 знаків" value="" required>
                             <div class="invalid-feedback"></div>
                         </div>
                         <div class="form-group text-left mt-1 mt-sm-2 mt-md-3 mt-lg-5 mb-4 mb-lg-4">
                             <label for="repeatPass" class="text_color">Повторити пароль</label>
-                            <input type="password" name="repeatPassword"
+                            <input type="password" name="repeatPassword" data-toggle="password"
                                 class="form-control border-primary shadow p-lg-4 bg-light" placeholder="Повторити пароль"
                                 id="repeatPass" aria-describedby="emailInput" required>
                             <div class="invalid-feedback"></div>

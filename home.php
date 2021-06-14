@@ -108,7 +108,7 @@ session_start();
                             </div>
                     </nav>
                 </article>
-                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 aside_info">
+                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
                     <!-- carousel slider -->
                     <div id="carouselIndicators"
                         class="carousel slide carousel-fade bg-transparent border wow fadeInUp" data-ride="carousel"
@@ -124,9 +124,9 @@ session_start();
                                 <img class="d-block w-100" src="img/carosel1.jpg" alt="people">
                                 <!-- first new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded bg_through">1 Короткий опис новини декілька слів</p>
+                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">1 Короткий опис новини декілька слів</p>
                                     <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold rounded bg_through">1 Lorem ipsum dolor, 
+                                    <p class="lead d-none d-sm-block font-weight-bold rounded">1 Lorem ipsum dolor, 
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias distinctio
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
@@ -136,7 +136,7 @@ session_start();
                                     <!-- lg-screen buttons -->
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
                                         <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
+                                        <a href="news.php" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -144,9 +144,9 @@ session_start();
                                 <img class="d-block w-100" src="img/carosel2.jpg" alt="people">
                                 <!-- second new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded bg_through">2 Короткий опис новини декілька слів</p>
+                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">2 Короткий опис новини декілька слів</p>
                                     <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold rounded bg_through">2 Lorem ipsum dolor, 
+                                    <p class="lead d-none d-sm-block font-weight-bold rounded">2 Lorem ipsum dolor, 
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias distinctio
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
@@ -156,7 +156,7 @@ session_start();
                                     <!-- lg-screen buttons -->
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
                                         <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span aria-hidden="true">&raquo;</span></strong></a>
+                                        <a href="news.php" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span aria-hidden="true">&raquo;</span></strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -164,9 +164,9 @@ session_start();
                                 <img class="d-block w-100" src="img/carosel3.png" alt="track">
                                 <!-- third new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded bg_through">3 Короткий опис новини декілька слів</p>
+                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">3 Короткий опис новини декілька слів</p>
                                     <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold rounded bg_through">3 Lorem ipsum dolor, 
+                                    <p class="lead d-none d-sm-block font-weight-bold rounded">3 Lorem ipsum dolor, 
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias distinctio
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
@@ -176,7 +176,7 @@ session_start();
                                     <!-- lg-screen buttons -->
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
                                         <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
+                                        <a href="news.php" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -184,9 +184,9 @@ session_start();
                                 <img class="d-block w-100" src="img/carosel4.jpg" alt="people">
                                 <!-- fourth new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded bg_through">4 Короткий опис новини декілька слів</p>
+                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">4 Короткий опис новини декілька слів</p>
                                     <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold rounded bg_through">4 Lorem ipsum dolor, 
+                                    <p class="lead d-none d-sm-block font-weight-bold rounded">4 Lorem ipsum dolor, 
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias distinctio
                                          a nemo veniam ab, magni tempora hic nihil!</p>
                                     <!-- small-screen buttons  -->
@@ -196,7 +196,7 @@ session_start();
                                     <!-- lg-screen buttons -->
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
                                         <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="#" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
+                                        <a href="news.php" class="btn btn-info mx-1 border border-primary text_color">Усі новини <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
                                 </div>
                             </div>

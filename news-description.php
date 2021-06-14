@@ -121,72 +121,72 @@
                                     <div class="row mx-0 gallery" id="gallery">
                                         <!-- item -->
                                         <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-07.png" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
-                                                class="position-absolute d-inline-block work-item-icon"
+                                                class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_1">
                                                 <i class="fa fa-search"></i>
                                             </a>
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-weir-esco-3906736.png" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
-                                                class="position-absolute d-inline-block work-item-icon"
+                                                class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_2">
                                                 <i class="fa fa-search"></i>
                                             </a>
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-tom-fisk-2101137 (4).jpg" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
-                                                class="position-absolute d-inline-block work-item-icon"
+                                                class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_3">
                                                 <i class="fa fa-search"></i>
                                             </a>
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-weir-esco-3906748.png" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
-                                                class="position-absolute d-inline-block work-item-icon"
+                                                class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_4">
                                                 <i class="fa fa-search"></i>
                                             </a>
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/carosel2.jpg" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
-                                                class="position-absolute d-inline-block work-item-icon"
+                                                class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_5">
                                                 <i class="fa fa-search"></i>
                                             </a>
                                         </article>
                                         <!-- item -->
                                         <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 position-relative overflow-hidden bg-primary px-0 mx-0 border-left border-right work-item">
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-jayson-delos-santos-1139553.png" alt="work"
                                                 class="img-fluid work-item-img">
                                             <a href="#" role="button"
-                                                class="position-absolute d-inline-block work-item-icon"
+                                                class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_6">
                                                 <i class="fa fa-search"></i>
                                             </a>
                                         </article>
                                         <!-- Modal-1 -->
-                                        <div class="modal fade-in" id="item_1" data-backdrop="static"
+                                        <div class="modal fade-in pr-0" id="item_1" data-backdrop="static"
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -198,14 +198,14 @@
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
-                                                                class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-2">&times;</span>
+                                                                class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- Modal-2-->
-                                        <div class="modal fade-in" id="item_2" data-backdrop="static"
+                                        <div class="modal fade-in pr-0" id="item_2" data-backdrop="static"
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -217,14 +217,14 @@
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
-                                                                class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-2">&times;</span>
+                                                                class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- Modal-3-->
-                                        <div class="modal fade-in" id="item_3" data-backdrop="static"
+                                        <div class="modal fade-in pr-0" id="item_3" data-backdrop="static"
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -236,14 +236,14 @@
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
-                                                                class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-2">&times;</span>
+                                                                class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- Modal-4-->
-                                        <div class="modal fade-in" id="item_4" data-backdrop="static"
+                                        <div class="modal fade-in pr-0" id="item_4" data-backdrop="static"
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -255,14 +255,14 @@
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
-                                                                class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-2">&times;</span>
+                                                                class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- Modal-5-->
-                                        <div class="modal fade-in" id="item_5" data-backdrop="static"
+                                        <div class="modal fade-in pr-0" id="item_5" data-backdrop="static"
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -274,14 +274,14 @@
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
-                                                                class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-2">&times;</span>
+                                                                class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- Modal-6 -->
-                                        <div class="modal fade-in" id="item_6" data-backdrop="static"
+                                        <div class="modal fade-in pr-0" id="item_6" data-backdrop="static"
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -293,7 +293,7 @@
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
-                                                                class="text-primary border border-primary border-rounded bg-dark pl-3 pr-3 pb-2">&times;</span>
+                                                                class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
                                                     </div>
                                                 </div>
