@@ -17,7 +17,7 @@ session_start();
 <?php include_once "menu.php"; ?>
     <!-- main-section-->
     <section id="home" class="mt-0 pt-3">       
-        <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
+        <div class="container py-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
         <div
             class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
             <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase mb-0 text_color"><i class="fas fa-home"></i></h3>

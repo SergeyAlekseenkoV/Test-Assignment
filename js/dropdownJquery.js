@@ -54,9 +54,10 @@ $(document).ready(function () {
     $('#gallery').removeClass('d-flex');
   });
 
-
-  // var afterText = $("<span>space</span>").addClass("invisible");     // Create with jQuery
-  // $(".sum").append(afterText);         // Insert new elements after #sum
+  /* Create with jQuery */
+  // var salaryList = $("#tableMainBody");
+  /* Insert new elements after modal-body from the #tableMain*/
+  // $("#modalTableBody").append(salaryList);
 });
 
 // document.getElementById('showPhotos').onclick = function() {

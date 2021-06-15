@@ -19,10 +19,9 @@ session_start();
 <body id="home">
     <?php include_once "user-menu.php"; ?>
     <section id="personalRoom" class="pt-3 pb-5">
-        <!--content-->
-        <div class="container py-3 py-lg-4 pb-lg-3 px-sm-0 px-md-3">
-        <nav aria-label="breadcrumb"
-                class="d-flex justify-content-between align-items-baseline mt-5 mb-3">
+        <!--nav-block-->
+        <div class="container py-3 py-lg-3 pb-lg-3 px-sm-0 px-md-3">
+            <nav aria-label="breadcrumb" class="d-flex justify-content-between align-items-baseline mt-5 mb-2">
                 <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Пропозиції</h3>
                 <ol class="d-none d-md-flex breadcrumb bg-transparent px-0 pb-0 mb-0">
                     <li class="breadcrumb-item">
@@ -31,7 +30,8 @@ session_start();
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Пропозиції</li>
                 </ol>
-                <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white shadow border mt-2 mt-md-0"
+                <a href="index.php"
+                    class="align-self-baseline btn btn-small btn-dark text-white shadow border border-white mt-3 mt-md-0"
                     role="button">Вийти</a>
             </nav>
             <div class="row py-2 ml-0 pl-0 mr-0 pr-0">

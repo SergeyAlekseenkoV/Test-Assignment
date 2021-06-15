@@ -19,9 +19,9 @@ session_start();
 <body id="home">
     <?php include_once "user-menu.php"; ?>
     <section id="personalRoom" class="pt-3 pb-5">
-        <!--content-->
-        <div class="container py-3 py-lg-4 pb-lg-3 px-sm-0 px-md-3">
-            <nav aria-label="breadcrumb" class="d-flex justify-content-between align-items-baseline mt-5 mb-3">
+        <!--nav-block-->
+        <div class="container py-3 py-lg-3 pb-lg-3 px-sm-0 px-md-3">
+            <nav aria-label="breadcrumb" class="d-flex justify-content-between align-items-baseline mt-5 mb-2">
                 <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Розрахунковий лист</h3>
                 <ol class="d-none d-md-flex breadcrumb bg-transparent px-0 pb-0 mb-0">
                     <li class="breadcrumb-item">
@@ -29,10 +29,9 @@ session_start();
                     </li>
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Розрахунковий лист</li>
-                    <li class="breadcrumb-item active text_color" aria-current="page">Мої дані</li>
                 </ol>
                 <a href="index.php"
-                    class="align-self-baseline btn btn-small btn-dark text-white shadow border mt-3 mt-md-0"
+                    class="align-self-baseline btn btn-small btn-dark text-white shadow border border-white mt-3 mt-md-0"
                     role="button">Вийти</a>
             </nav>
             <!-- nav article -->
@@ -80,7 +79,11 @@ session_start();
                 </article>
                 <!-- main content -->
                 <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-1 py-0 pr-lg-0">
-                    <aside class="mt-2 mt-lg-0 shadow">
+                    <aside class="mt-2 mt-lg-0 position-relative shadow">
+                        <a href="#" role="button" class="position-absolute d-none d-sm-block text_color"
+                            data-toggle="modal" data-target="#tableLg">
+                            <i class="fa fa-search fa-2x"></i>
+                        </a>
                         <div class="table table-responsive mb-0 border-primary rounded text_color">
                             <!-- <div class="d-flex justify-content-center align-items-center bg-info" style="height: 44vh;">
                                 <h2 class="text-center p-3 text_color">
@@ -88,510 +91,297 @@ session_start();
                                 </h2>
                             </div> -->
                             <!-- add or remove d-flex class (display:none; by default in style.css -->
-                            <div class="d-none justify-content-center align-items-center load">
-                                <div>
+                            <div class="justify-content-center align-items-center" id="divloader">
+                                <div class="align-self-center">
                                     <div class="preload"></div>
                                 </div>
                             </div>
                             <table class="table-striped">
-                                <tbody>
-                                    <tr>
-                                        <td>Розрахунковий листок за Апрель 2021</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Організація: АТ "Марганецький ГЗК"</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>ПЕТРУК НАДІЯ ОЛЕКСІЇВНА</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Господарський цех</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Машиніст крана (кранівник) 5-го розряду</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Табельний номер: 3527</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Код за ДРФО: 2412414603</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Вид</td>
-                                        <td></td>
-                                        <td>Період</td>
-                                        <td></td>
-                                        <td>Відпрацьовано</td>
-                                        <td></td>
-                                        <td>Оплачено</td>
-                                        <td></td>
-                                        <td>Сума</td>
-                                        <td></td>
-                                        <td>Вид</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Період</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Сума</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Дні</td>
-                                        <td>Години</td>
-                                        <td>Дні</td>
-                                        <td>Години</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>1.Нараховано</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>2. Утримано</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Премия за выполнение плана рабочим</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>122 429,44</td>
-                                        <td></td>
-                                        <td>Удерж. за питание работников</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>370,20</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Доплата за интенсивность труда</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>175</td>
-                                        <td>188,96</td>
-                                        <td></td>
-                                        <td>Подписные издания</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>53,40</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Повременно-премиальная по ЧТС</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>22</td>
-                                        <td>175</td>
-                                        <td></td>
-                                        <td>175</td>
-                                        <td>5 398,75</td>
-                                        <td></td>
-                                        <td>Утримання за проживання в гуртожитку</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>1 769,80</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Выслуга лет</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>854,56</td>
-                                        <td></td>
-                                        <td>Взносы в больничную кассу</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>128,00</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Утримання за вик. листом відсотком до межі</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>1 428,34</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Проф,взносы 1%</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>88,72</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>НДФЛ</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>1 596,91</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Военный сбор</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>133,08</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Всього нараховано</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>8 871,71</td>
-                                        <td></td>
-                                        <td>Всього утримано</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>5 568,45</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3. Доходи в натуральній формі</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>4. Виплачено</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Чергова виплата з погашенням боргів</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>1 898,20</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Аванс (за попереднім розрахунком)</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>1 721,19</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Всього натуральних доходів</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Всього виплат</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>3 619,39</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Борг за підприємством на початок місяця</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>1 898,20</td>
-                                        <td></td>
-                                        <td>Борг за підприємством на кінець місяця</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>1 582,07</td>
-                                    </tr>
+                                <tbody id="tableMainBody">
+                                <TR><TD CLASS="R14C0" COLSPAN=16><SPAN STYLE="white-space:nowrap;max-width:0px;">Розрахунковий&nbsp;листок&nbsp;за&nbsp;Май&nbsp;2021</SPAN></TD>
+<TD CLASS="R14C16"><DIV STYLE="position:relative; height:31px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:31px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:31px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R15C0" COLSPAN=9>Організація: АТ "Марганецький ГЗК"</TD>
+<TD CLASS="R15C9" COLSPAN=7><SPAN></SPAN></TD>
+<TD CLASS="R15C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" COLSPAN=8 ROWSPAN=4>ГОРОДОВА НАТАЛІЯ МИКОЛАЇВНА</TD>
+<TD CLASS="R16C8" ROWSPAN=4><DIV STYLE="position:relative; height:24px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R16C9" COLSPAN=7 ROWSPAN=2>Господарський цех</TD>
+<TD CLASS="R16C16"><DIV STYLE="position:relative; height:24px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:24px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:24px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C16"><DIV STYLE="position:relative; height:24px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:24px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:24px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R15C0" COLSPAN=7 ROWSPAN=2>Старший комірник</TD>
+<TD CLASS="R15C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R15C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R15C9" COLSPAN=9><SPAN STYLE="white-space:nowrap;max-width:0px;">Табельний&nbsp;номер:&nbsp;441&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></TD>
+<TD CLASS="R15C9" COLSPAN=7><DIV STYLE="position:relative; height:15px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R15C16"><DIV STYLE="position:relative; height:15px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:15px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R21>
+<TD CLASS="R21C0" COLSPAN=9><SPAN STYLE="white-space:nowrap;max-width:0px;">Код&nbsp;за&nbsp;ДРФО:&nbsp;2794204402</SPAN></TD>
+<TD CLASS="R21C9"><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R21C9"><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R21C9"><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R21C9"><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R21C9"><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R21C9"><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R21C15"><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R21C9"><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:14px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:14px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" COLSPAN=16><DIV STYLE="position:relative; height:8px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C16"><DIV STYLE="position:relative; height:8px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:8px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R23C0" ROWSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">Вид</SPAN></TD>
+<TD CLASS="R23C0" COLSPAN=2 ROWSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">Період</SPAN></TD>
+<TD CLASS="R23C0" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">Відпрацьовано</SPAN></TD>
+<TD CLASS="R23C0" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">Оплачено</SPAN></TD>
+<TD CLASS="R23C0" COLSPAN=2 ROWSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">Сума</SPAN></TD>
+<TD CLASS="R23C0" COLSPAN=3 ROWSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">Вид</SPAN></TD>
+<TD CLASS="R23C0" COLSPAN=2 ROWSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">Період</SPAN></TD>
+<TD CLASS="R23C0" COLSPAN=2 ROWSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">Сума</SPAN></TD>
+<TD CLASS="R23C16"><DIV STYLE="position:relative; height:15px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:15px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R24C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">Дні</SPAN></TD>
+<TD CLASS="R24C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">Години</SPAN></TD>
+<TD CLASS="R24C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">Дні</SPAN></TD>
+<TD CLASS="R24C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">Години</SPAN></TD>
+<TD CLASS="R23C16"><DIV STYLE="position:relative; height:15px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:15px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R25C0" COLSPAN=9><SPAN STYLE="white-space:nowrap;max-width:0px;">1.Нараховано</SPAN></TD>
+<TD CLASS="R25C0" COLSPAN=7><SPAN STYLE="white-space:nowrap;max-width:0px;">2.&nbsp;Утримано</SPAN></TD>
+<TD CLASS="R23C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R26C0">Выслуга лет</TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">622,50</SPAN></TD>
+<TD CLASS="R26C9" COLSPAN=3>Проф,взносы 1%</TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">76,06</SPAN></TD>
+<TD CLASS="R23C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R28C0">Премия за выполнение плана рабочим</TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">1 772,75</SPAN></TD>
+<TD CLASS="R28C9" COLSPAN=3>Подписные издания</TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">53,40</SPAN></TD>
+<TD CLASS="R28C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R26C0">Доплата за интенсивность труда</TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">144</SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">145,25</SPAN></TD>
+<TD CLASS="R26C9" COLSPAN=3>Взносы в больничную кассу</TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">128,00</SPAN></TD>
+<TD CLASS="R23C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R26C0">Доплата за совмещение</TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN></SPAN></TD>
+<TD CLASS="R26C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">144</SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">915,01</SPAN></TD>
+<TD CLASS="R26C9" COLSPAN=3>Военный сбор</TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">114,08</SPAN></TD>
+<TD CLASS="R23C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R28C0">Повременно-премиальная по окладу</TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">18</SPAN></TD>
+<TD CLASS="R28C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">144</SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN STYLE="white-space:nowrap;max-width:0px;">144</SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">4 150,00</SPAN></TD>
+<TD CLASS="R28C9" COLSPAN=3>НДФЛ</TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">1 368,99</SPAN></TD>
+<TD CLASS="R28C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R31C0" COLSPAN=7><SPAN STYLE="white-space:nowrap;max-width:0px;">Всього&nbsp;нараховано</SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">7 605,51</SPAN></TD>
+<TD CLASS="R31C0" COLSPAN=5><SPAN STYLE="white-space:nowrap;max-width:0px;">Всього&nbsp;утримано</SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">1 740,53</SPAN></TD>
+<TD CLASS="R23C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R25C0" COLSPAN=9><SPAN STYLE="white-space:nowrap;max-width:0px;">3.&nbsp;Доходи&nbsp;в&nbsp;натуральній&nbsp;формі</SPAN></TD>
+<TD CLASS="R25C0" COLSPAN=7><SPAN STYLE="white-space:nowrap;max-width:0px;">4.&nbsp;Виплачено</SPAN></TD>
+<TD CLASS="R23C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R28C0"><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C9" COLSPAN=3>Аванс (за попереднім розрахунком)</TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">2 544,00</SPAN></TD>
+<TD CLASS="R28C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R28C0"><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C3"><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C9" COLSPAN=3>Чергова виплата з погашенням боргів</TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R28C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">2 009,00</SPAN></TD>
+<TD CLASS="R28C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R31C0" COLSPAN=7><SPAN STYLE="white-space:nowrap;max-width:0px;">Всього&nbsp;натуральних&nbsp;доходів</SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN></SPAN></TD>
+<TD CLASS="R31C0" COLSPAN=5><SPAN STYLE="white-space:nowrap;max-width:0px;">Всього&nbsp;виплат</SPAN></TD>
+<TD CLASS="R26C1" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">4 553,00</SPAN></TD>
+<TD CLASS="R23C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R36C0" COLSPAN=7><SPAN STYLE="white-space:nowrap;max-width:0px;">Борг&nbsp;за&nbsp;підприємством&nbsp;на&nbsp;початок&nbsp;місяця</SPAN></TD>
+<TD CLASS="R36C7" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">2 463,62</SPAN></TD>
+<TD CLASS="R36C0" COLSPAN=5><SPAN STYLE="white-space:nowrap;max-width:0px;">Борг&nbsp;за&nbsp;підприємством&nbsp;на&nbsp;кінець&nbsp;місяця</SPAN></TD>
+<TD CLASS="R36C7" COLSPAN=2><SPAN STYLE="white-space:nowrap;max-width:0px;">3 775,60</SPAN></TD>
+<TD CLASS="R23C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R37C0" COLSPAN=16><SPAN></SPAN></TD>
+<TD CLASS="R37C16"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C0"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C1"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C2"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R13C16"><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:22px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:22px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R14>
+</TR>
                                 </tbody>
                             </table>
                         </div>
+                    
+                        <!-- Modal-1 -->
+                        <div class="modal fade-in px-0" id="tableLg" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog" style="min-width:100%;">
+                                <div class="modal-content bg-light">
+                                    <div class="modal-body modal-centered border-primary rounded p-0 p-lg-3 text_color">
+                                        <table class="table-striped" id="modalRootTable">
+                                            <tbody>
+                                                
+                                            </tbody>
+                                        </table>
+                                        <a role="button" href="#" class="position-absolute close_table"
+                                            data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true" class="btn btn-transparent p-0 text_color"><i
+                                                    class="far fa-times-circle fa-4x"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end modal -->
                     </aside>
                 </div>
             </div>

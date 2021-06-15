@@ -137,7 +137,7 @@ h3 {
     background-color: $primary-common !important;
 }
 
-.btn-outline-secondary{
+.btn-outline-secondary {
     border: 1px solid $primary-color !important;
     color: $primary-color !important;
 
@@ -233,6 +233,7 @@ li {
 /* navigation */
 .navbar {
     /*bg-menu*/
+    min-height: 71px;
     background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
         url("../img/logo-video.jpeg") 50% 42% / cover no-repeat;
     border-bottom: $white-color 3px solid;
@@ -505,7 +506,7 @@ li {
 
 #login {
     background: url("../img/main-bg.jpg") bottom/cover fixed no-repeat;
-    
+
     section .log_in {
         min-height: 80vh;
     }
@@ -659,7 +660,7 @@ li {
 
             /* Hover effect for img */
             .work-item:hover .work-item-img {
-                opacity: .5;
+                opacity: 0.5;
             }
 
             .work-item-icon {
@@ -671,7 +672,6 @@ li {
                 text-decoration: none;
                 transition: all 500ms linear;
                 transform: scale(0);
-                
             }
 
             /* Hover effect for icon */
@@ -832,8 +832,8 @@ li {
     min-height: 120vh;
     background-color: $light-through;
     /* preloader */
-    .load {
-        // display: none;
+    aside > .table > #divloader {
+        display: none;
         min-height: 50vh;
 
         .preload {
@@ -917,6 +917,24 @@ li {
         scrollbar-width: none;
         /* Firefox */
     }
+
+    aside {
+        > a[data-toggle="modal"] {
+            top: 0.35em;
+            right: 0.35em;
+
+            &:hover,
+            :focus {
+                opacity: 0.7;
+                transition: all 500ms ease-in-out;
+            }
+        }
+        .modal-body > a[data-dismiss="modal"] {
+            right: 1.8%;
+            bottom: 88%;
+        }
+    }
+
     /* table styling */
     table {
         table-layout: fixed !important;
@@ -924,59 +942,61 @@ li {
         padding: 0.5em !important;
         width: 100%;
         font-size: 0.9em !important;
-        overflow: hidden !important;
 
         tbody {
             td,
             th {
-                padding: 5px !important;
-                overflow: hidden !important;
+                padding: .3em !important;
+                overflow: unset !important;
+            }
+            .R26C0 {
+                white-space: break-word;
+                hyphens: auto;
             }
 
-            td:nth-of-type(2) {
-                width: 0.01%;
+            .R28C0 {
+                white-space: break-word;
+                hyphens: auto;
             }
-            td:nth-of-type(3) {
-                width: 6%;
+            
+            tr {
+                .R14C16,
+                .R15C16,
+                .R16C16,
+                .R21C9,
+                .R22C16,
+                .R23C16,
+                .R28C16,
+                .R37C16{
+                    display: none !important;
+                }
+                .R23C0,
+                .R26C1,
+                .R28C1,
+                .R36C7 {
+                    text-align: right;
+                }
+
+                .R24C3 {
+                    max-width: 34px;
+                }
+
+                td:last-of-type,
+                td:nth-last-of-type(2) {
+                    display: none !important;
+                }
             }
-            td:nth-of-type(4) {
-                width: 0.1%;
+
+            tr:last-of-type,
+            tr:nth-last-of-type(2),
+            tr:nth-last-of-type(3) {
+                display: none !important;
             }
-            td:nth-of-type(5) {
-                width: 7.5%;
-            }
-            td:nth-of-type(6) {
-                width: 3.95%;
-            }
-            td:nth-of-type(7) {
-                width: 5%;
-            }
-            td:nth-of-type(8) {
-                width: 3.95%;
-            }
-            td:nth-of-type(9) {
-                width: 80px;
-            }
-            td:nth-of-type(10) {
-                width: 0.01%;
-            }
-            td:nth-of-type(12) {
-                width: 0.01%;
-            }
-            td:nth-of-type(13) {
-                width: 0.01%;
-            }
-            td:nth-of-type(14) {
-                width: 7%;
-            }
-            td:nth-of-type(15) {
-                width: 0.01%;
-            }
-            td:nth-of-type(16) {
-                width: 0.01%;
-            }
-            td:nth-of-type(17) {
-                width: 80px;
+
+            tr:nth-last-of-type(4),
+            tr:nth-last-of-type(5),
+            tr:nth-last-of-type(7) {
+               font-weight: bold;
             }
 
             tr:first-of-type {
@@ -1021,6 +1041,26 @@ li {
 
             tr:nth-of-type(10) {
                 background-color: $primary-common-light !important;
+
+                td:nth-of-type(2) {
+                    width: 3.95% !important;
+                }
+                td:nth-of-type(3) {
+                    width: 6% !important;
+                }
+                td:nth-of-type(4) {
+                    width: 5% !important;
+                }
+                td:nth-of-type(5) {
+                    width: 80px !important;
+                }
+                td:nth-of-type(7) {
+                    width: 3.95% !important;
+                }
+                td:nth-of-type(8) {
+                    width: 80px !important;
+                }
+                 
                 td:nth-of-type(5),
                 td:nth-of-type(7) {
                     overflow: unset !important;
@@ -1095,7 +1135,6 @@ li {
             .work-item:hover .work-item-img {
                 opacity: 1 !important;
             }
-
 
             .work-item-icon {
                 width: min-content;
@@ -1277,6 +1316,34 @@ li {
 
             & not:hover::after {
                 transform: scale(0, 0);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #personalRoom {
+        .modal-body > table {
+            tbody {
+                tr:nth-of-type(10) {
+                    td:nth-of-type(7) {
+                        overflow: hidden !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 917px) {
+    #personalRoom {
+        .modal-body > table {
+            tbody {
+                tr:nth-of-type(10) {
+                    td:nth-of-type(5) {
+                        overflow: hidden !important;
+                    }
+                }
             }
         }
     }
