@@ -895,29 +895,6 @@ li {
         color: $primary-common !important;
     }
 
-    .list_library button.btn-link:hover,
-    .list_library button.btn-link:focus {
-        text-decoration: none !important;
-        color: $primary-color !important;
-    }
-    #personalRoom .list_library ul {
-        list-style-type: none;
-    }
-    .list_library a:hover,
-    .list_library a:focus {
-        text-decoration: none !important;
-        color: $primary-color !important;
-    }
-    .list_library::-webkit-scrollbar {
-        display: none;
-    }
-    .list_library {
-        -ms-overflow-style: none;
-        /* IE and Edge */
-        scrollbar-width: none;
-        /* Firefox */
-    }
-
     aside {
         > a[data-toggle="modal"] {
             top: 0.35em;
@@ -929,6 +906,11 @@ li {
                 transition: all 500ms ease-in-out;
             }
         }
+
+        .modal-dialog {
+            min-width: 100%;
+        }
+
         .modal-body > a[data-dismiss="modal"] {
             right: 1.8%;
             bottom: 88%;
@@ -939,16 +921,16 @@ li {
     table {
         table-layout: fixed !important;
         line-height: 1 !important;
-        padding: 0.5em !important;
+        padding: .5em !important;
         width: 100%;
-        font-size: 0.9em !important;
+        font-size: .9em !important;
 
         tbody {
             td,
             th {
                 padding: .3em !important;
-                overflow: unset !important;
             }
+
             .R26C0 {
                 white-space: break-word;
                 hyphens: auto;
@@ -985,6 +967,11 @@ li {
                 td:nth-last-of-type(2) {
                     display: none !important;
                 }
+
+                .R31C0,
+                .R26C1 {
+                    font-weight: bold;
+                }
             }
 
             tr:last-of-type,
@@ -995,9 +982,14 @@ li {
 
             tr:nth-last-of-type(4),
             tr:nth-last-of-type(5),
-            tr:nth-last-of-type(7) {
+            tr:nth-last-of-type(7),
+            tr:nth-last-of-type(9) {
                font-weight: bold;
             }
+
+            tr:nth-last-of-type(9) {
+                font-style: italic;
+             }
 
             tr:first-of-type {
                 background-color: $primary-common-light !important;
@@ -1023,12 +1015,7 @@ li {
             tr:nth-of-type(3),
             tr:nth-of-type(5),
             tr:nth-of-type(7),
-            tr:nth-of-type(12),
-            tr:last-of-type {
-                font-weight: 700;
-            }
-
-            tr:nth-last-of-type(3) {
+            tr:nth-of-type(12) { 
                 font-weight: 700;
             }
 
@@ -1041,29 +1028,15 @@ li {
 
             tr:nth-of-type(10) {
                 background-color: $primary-common-light !important;
-
-                td:nth-of-type(2) {
-                    width: 3.95% !important;
-                }
-                td:nth-of-type(3) {
-                    width: 6% !important;
-                }
-                td:nth-of-type(4) {
-                    width: 5% !important;
-                }
-                td:nth-of-type(5) {
-                    width: 80px !important;
-                }
-                td:nth-of-type(7) {
-                    width: 3.95% !important;
-                }
-                td:nth-of-type(8) {
-                    width: 80px !important;
-                }
                  
                 td:nth-of-type(5),
                 td:nth-of-type(7) {
-                    overflow: unset !important;
+                    overflow: unset;
+                }
+
+                td:first-of-type,
+                td:nth-of-type(6){
+                    text-align: left !important;
                 }
             }
 
@@ -1121,7 +1094,7 @@ li {
 @media screen and (max-width: 1198px) {
     #personalRoom {
         .table table {
-            width: 900px !important;
+            width: 820px !important;
         }
     }
 }
@@ -1321,12 +1294,25 @@ li {
     }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 715px) {
     #personalRoom {
         .modal-body > table {
+
             tbody {
+
+                .R28C3 {
+                    text-align: right !important;
+                }
+
                 tr:nth-of-type(10) {
-                    td:nth-of-type(7) {
+                    > :nth-of-type(3) {
+                        overflow: hidden !important;
+                    }
+                }
+
+                tr:nth-of-type(11) {
+                    > :nth-of-type(2),
+                      :nth-of-type(4) {
                         overflow: hidden !important;
                     }
                 }
@@ -1335,12 +1321,25 @@ li {
     }
 }
 
-@media screen and (max-width: 917px) {
+@media screen and (max-width: 775px) {
     #personalRoom {
+        aside {
+            > a[data-toggle="modal"] {
+                top: 0.5em;
+                right: 0.4em;
+    
+                &:not(:hover),
+                :focus {
+                    opacity: 0.7;
+                    transition: all 500ms ease-in-out;
+                }
+            }
+        }
         .modal-body > table {
             tbody {
-                tr:nth-of-type(10) {
-                    td:nth-of-type(5) {
+                tr:nth-last-of-type(4) {
+                    > :first-child,
+                      :nth-of-type(3) {
                         overflow: hidden !important;
                     }
                 }
@@ -1354,9 +1353,21 @@ li {
         font-size: 2.4em;
     }
 
+    #login {
+        > .log_in {
+           height: 100vh !important;
+        }
+    }
+
     #main {
         .info_announcement {
             height: 277px;
+        }
+    }
+
+    #personalRoom {
+        .modal-content {
+            width: 1150px;
         }
     }
 }

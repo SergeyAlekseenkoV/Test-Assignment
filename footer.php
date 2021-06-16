@@ -40,6 +40,5 @@
 </footer>
 <a href="#" class="btn border border-primary scrollup text_color"><i class="fas fa-chevron-up fa-2x"></i></a>
 <script src="js/slider-for-best-team.js"></script>
-<script src="js/showPass.js"></script>
 </body>
 </html>
