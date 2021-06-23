@@ -172,7 +172,7 @@
                                 <h4 id="caption" class="pb-0 mb-0 text-center text-monospace text_color"></h4>
                             </div>
                             <div class="container">
-                                <div class="row d-none d-sm-none d-md-flex overflow-hidden">
+                                <div class="row d-none d-sm-none d-md-flex bg-dark overflow-hidden">
                                     <div class="col-1 pl-0 pr-0 overflow-hidden">
                                         <img class="border demo cursor" src="img/pexels-weir-esco-3906736.png"
                                             onclick="currentSlide(1)" alt="Новый супернадежный ЭКГ">

@@ -38,7 +38,7 @@ session_start();
             <div class="row py-2 mx-0">
                 <article class="col-sm-12 col-lg-2 px-0 py-0 mb-1">
                     <form class="sticky-top rounded needs-validation bg-dark p-3 text-center" novalidate="">
-                        <p class="font-weight-bold mb-0">Зформувати лист</p>
+                        <p class="font-weight-bold mb-0 text-uppercase">Сформувати лист</p>
                         <div class="form-row">
                             <div class="col-12 col-sm-6 col-lg-12">
                                 <label for="validationTooltipMonth" class="m-0"></label>
@@ -80,9 +80,13 @@ session_start();
                 <!-- main content -->
                 <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-1 py-0 pr-lg-0">
                     <aside class="mt-2 mt-lg-0 position-relative shadow">
-                        <a href="#" role="button" class="position-absolute d-none d-sm-block text_color"
+                        <a href="#" role="button" 
+                           class="position-absolute d-none d-sm-block"
                             data-toggle="modal" data-target="#tableLg">
-                            <i class="fa fa-search fa-2x"></i>
+                            <span data-toggle="tooltip" data-placement="bottom" 
+                                  data-original-title="Збільшити">
+                                  <i class="fa fa-search fa-2x"></i>
+                            </span>
                         </a>
                         <div class="table table-responsive mb-0 border-primary rounded text_color">
                             <!-- <div class="d-flex justify-content-center align-items-center bg-info" style="height: 44vh;">
@@ -96,7 +100,7 @@ session_start();
                                     <div class="preload"></div>
                                 </div>
                             </div>
-                            <table class="table-striped">
+                            <table class="table-striped table-hover table-bordered">
                                 <tbody id="tableMainBody">
                                     <TR>
                                         <TD CLASS="R14C0" COLSPAN=16><SPAN
@@ -572,7 +576,7 @@ session_start();
                             <div class="modal-dialog d-flex justify-content-center align-items-center">
                                 <div class="modal-content bg-light">
                                     <div class="modal-body modal-centered border-primary rounded p-0 p-lg-3 text_color">
-                                        <table class="table-striped" id="modalRootTable">
+                                        <table class="table-striped table-hover table-bordered" id="modalRootTable">
                                             <tbody>
                                                 <TR>
                                                     <TD CLASS="R14C0" COLSPAN=16><SPAN
@@ -1122,6 +1126,7 @@ session_start();
     </section>
     <!--footer-->
     <?php include_once "footer.php"; ?>
+</script>
 </body>
 
 </html>

@@ -16,7 +16,7 @@ session_start();
 <body id="main">
 <?php include_once "menu.php"; ?>
     <!-- main-section-->
-    <section id="home" class="mt-0 pt-3">       
+    <section id="home" class="mt-0 pt-3 pb-5">       
         <div class="container py-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
         <div
             class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
@@ -111,7 +111,7 @@ session_start();
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
                     <!-- carousel slider -->
                     <div id="carouselIndicators"
-                        class="carousel slide carousel-fade bg-transparent border wow fadeInUp" data-ride="carousel"
+                        class="carousel slide carousel-fade bg-transparent border border-primary wow fadeInUp" data-ride="carousel"
                         keyboard="true" data-animation="fadeInUp">
                         <ol class="carousel-indicators d-none d-lg-flex">
                             <li data-target="#carouselIndicators" data-slide-to="0" class="active text_color"></li>
@@ -214,7 +214,7 @@ session_start();
                         </a>
                     </div>
                     <!-- birthday block -->
-                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden position-relative bg-dark border particles wow fadeInUp" data-animation="fadeInUp">
+                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden position-relative border border-primary bg_dark_through particles wow fadeInUp" data-animation="fadeInUp">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -236,7 +236,7 @@ session_start();
                         <span></span>
                         <span></span>
                         <span></span>
-                        <div class="bg_birthday text-justify pt-3 m-4 rounded border">
+                        <div class="bg_birthday text-justify pt-3 m-4 rounded border border-primary">
                             <h4 class="px-3 text-center text_color">Вітаємо з днем народження!</h4>
                             <ul class="list-unstyled px-3 text_color">
                                 <li><b class="text-uppercase">11.03.1971 Вітько А.В.</b>
@@ -272,14 +272,14 @@ session_start();
                     </div>
                     <!-- announcement block -->
                     <div class="d-flex justify-content-center text-left mt-3 overflow-hidden border border-primary bg_announcement wow fadeInUp" data-animation="fadeInUp">
-                        <div class="text-justify pt-3 m-4 rounded border text-white bg-dark width_announcement">
-                            <h4 class="px-3 text-center">Оголошення</h4>
+                        <div class="text-justify pt-3 m-4 rounded border text-white bg_dark_through width_announcement">
+                            <h4 class="px-3 text-center text-white">Оголошення</h4>
                             <ul class="list-unstyled px-3">
-                                <li>Оголошення перше Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum culpa consequatur, 
+                                <li>&nbsp;Оголошення перше Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum culpa consequatur, 
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora, porro cumque?</li>
-                                <li>Оголошення друге Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum culpa consequatur, 
+                                <li>&nbsp;Оголошення друге Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum culpa consequatur, 
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora, porro cumque?</li>
-                                <li>Оголошення третє Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum culpa consequatur, 
+                                <li>&nbsp;Оголошення третє Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum culpa consequatur, 
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora, porro cumque?</li>
                             </ul>
                         </div>

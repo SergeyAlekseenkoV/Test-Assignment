@@ -99,10 +99,10 @@
                     <div id="news-description" class="row mx-0 bg-transparent border border-primary rounded">
                         <!-- news item-description -->
                         <div class="col-12 px-0 mx-0 py-1">
-                            <div class="card border mx-1 shadow">
+                            <div class="card bg-transparent border mx-1 shadow">
                                 <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top"
                                     alt="equipment">
-                                <div class="card-body bg-info p-2">
+                                <div class="card-body p-2 bg_info_through">
                                     <h4 class="card-title px-0 text_color">Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit.
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
@@ -110,7 +110,8 @@
                                     <div
                                         class="d-flex flex-row flex-wrap justify-content-between align-items-center">
                                         <!-- button-show -->
-                                        <button class="btn bg-transparent py-0 pl-0 pr-1 text_color" id="showPhotos"><i class="fas fa-camera fa-2x"></i></button>
+                                        <button class="btn bg-transparent position-relative py-0 pl-0 pr-1 text_color" id="showPhotos" 
+                                                data-toggle="tooltip" data-placement="bottom" data-original-title="Усі фото"><i class="fas fa-camera fa-2x"></i></button>
                                         <!-- author name and date -->
                                         <address class="mb-0 py-0 text_color"><i class="fas fa-portrait"></i><a
                                                 rel="author" href="#" class="ml-2">Деякий Автор</a></address>
@@ -301,7 +302,7 @@
                                         </div>
                                         <div class="col-12 text-center">
                                         <!-- button-close -->
-                                            <button class="btn btn-transparent my-3 p-0 text_color" id="hidePhotos"><i class="far fa-times-circle fa-2x"></i></button>
+                                            <button class="btn btn-transparent my-3 p-0" id="hidePhotos"><i class="far fa-times-circle fa-2x"></i></button>
                                         </div>
                                     </div>
                                     <p class="lead card-text text_color">Some quick example text to build on the card

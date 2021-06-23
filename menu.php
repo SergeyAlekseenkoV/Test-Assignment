@@ -132,15 +132,13 @@
                             </ul>
                         </li>
                         <!-- for collapsed-menu -->
-                        <li class="nav-item d-flex flex-row justify-content-center d-md-none pt-3 px-md-0 pr-lg-0 pl-lg-1">
-                            <a href="salary-list.php"
-                                class="nav-link bg-transparent text-white pr-md-0 pr-lg-0 pb-md-0 py-md-0"><i
-                                    class="fas fa-user-circle fa-2x" aria-hidden="true"></i></a>
-                        </li>
-                        <li class="nav-item d-flex flex-row justify-content-between d-md-none px-md-0 pr-lg-0 pl-lg-1">
+                        <li class="nav-item d-flex flex-row justify-content-between d-md-none pt-3 px-md-0 pr-lg-0 pl-lg-1">
                             <a href="#"
                                 class="nav-link bg-transparent text-white pr-md-0 pr-lg-0 pr-xl-2 pb-md-0 py-2 py-md-0"><i
                                     class="far fa-calendar-alt fa-2x" aria-hidden="true"></i></a>
+                            <a href="salary-list.php"
+                                class="nav-link bg-transparent text-white pr-md-0 pr-lg-0 pb-md-0 py-md-0"><i
+                                    class="fas fa-user-circle fa-2x" aria-hidden="true"></i></a>
                             <a href="#"
                                 class="nav-link bg-transparent text-white pr-lg-0 pr-md-0 pr-xl-2 pb-md-0 py-md-0"><i
                                     class="fas fa-phone-square fa-2x" aria-hidden="true"></i></a>

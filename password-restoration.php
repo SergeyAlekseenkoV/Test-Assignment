@@ -4,8 +4,8 @@
 <body id="login" class="bg-dark">
 <?php include_once "login-menu.php"; ?>
 <!-- log-in forms-->
-<section class="log_in">
-    <div class="container py-5">
+<section class="py-5 log_in">
+    <div class="container py-5 mt-5">
         <div class="row d-flex flex-column justify-content-center my-5">
             <form class="col col-md-8 col-lg-6 align-self-center px-sm-0" action=""
                 method="post" novalidate>
@@ -37,4 +37,5 @@
     </div>
 </section>
 <!--footer-->
-<?php include_once "footer.php"; ?>
+</body>
+</html>

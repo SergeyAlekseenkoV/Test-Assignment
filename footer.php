@@ -17,7 +17,7 @@
                         class="lead pl-0 pt-sm-2 pb-4 social_link"><i class="fab fa-youtube fa-2x"></i></a>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 d-flex justify-content-between justify-content-lg-around align-items-baseline p-3 pt-3 pt-lg-0 px-lg-0 text-center text-lg-left">
+            <div class="col-12 col-lg-6 d-flex justify-content-between justify-content-lg-around align-items-baseline p-3 p-lg-0 text-center text-lg-left">
                 
                     <p class="text-left">&copy; Copyright <br>Усі права захищені<br>
                         <?php echo date('Y/d/m'); ?><br>

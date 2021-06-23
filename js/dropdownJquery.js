@@ -15,7 +15,10 @@ $(document).ready(function () {
   });
 
   /* tooltips */
-  $('[data-toggle="tooltip"]').tooltip();
+  $('[data-toggle="tooltip"]').tooltip({
+    trigger : 'hover'
+  })  
+
    
   /* remove default tooltip from the bootstrap append icon */
   $but = $(".form-group .input-group-append .btn-outline-secondary");
