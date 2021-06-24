@@ -30,13 +30,12 @@ session_start();
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Пропозиції</li>
                 </ol>
-                <a href="index.php"
-                    class="align-self-baseline btn btn-small btn-dark text-white shadow border border-white mt-3 mt-md-0"
-                    role="button">Вийти</a>
+                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-1 mt-md-2 mt-xl-3 p-1 text-uppercase font-weight-bold border border-primary rounded shadow text_color">
+                    Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </nav>
             <div class="row py-2 ml-0 pl-0 mr-0 pr-0">
                 <div class="col-sm-12 col-lg-2 px-0 py-0">
-                    <article class="sticky-top rounded bg-dark text-center text-lg-left shadow">
+                    <article class="sticky-top rounded bg-dark text-center text-lg-left text-white shadow">
                         <h5 class="px-3 py-1">Розділи</h5>
                         <nav class="accordion" id="accordionPerson">
                             <!-- first card -->

@@ -18,7 +18,7 @@
                 <!--dropdowns-->
                 <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
                     <ul class="navbar-nav nav-pills ml-auto mt-1 mb-0">
-                        <li class="d-flex justify-content-center nav-item text-uppercase">
+                        <li class="d-flex justify-content-center nav-item text-uppercase text-white">
                             Тільки для працівників АТ "МГЗК" 
                         </li>
                     </ul>

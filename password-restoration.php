@@ -4,9 +4,9 @@
 <body id="login" class="bg-dark">
 <?php include_once "login-menu.php"; ?>
 <!-- log-in forms-->
-<section class="py-5 log_in">
-    <div class="container py-5 mt-5">
-        <div class="row d-flex flex-column justify-content-center my-5">
+<section class="pb-5 log_in">
+    <div class="container py-5">
+        <div class="row d-flex flex-column justify-content-center py-5 mt-5">
             <form class="col col-md-8 col-lg-6 align-self-center px-sm-0" action=""
                 method="post" novalidate>
                 <fieldset class="p-4 rounded shadow bg-light border border-primary">

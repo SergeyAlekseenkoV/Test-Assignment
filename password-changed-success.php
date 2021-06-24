@@ -17,9 +17,8 @@
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Зміна паролю</li>
                 </ol>
-                <a href="index.php"
-                    class="align-self-baseline btn btn-small btn-dark text-white shadow border border-white mt-3 mt-md-0"
-                    role="button">Вийти</a>
+                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-3 p-1 text-uppercase font-weight-bold border border-primary rounded shadow text_color">
+                    Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </nav>
             <!-- success message -->
             <div class="row py-5 pl-0 mt-5 mb-1 text-center text_color">

@@ -17,14 +17,15 @@ session_start();
 <?php include_once "menu.php"; ?>
     <!-- main-section-->
     <section id="home" class="mt-0 pt-3 pb-5">       
-        <div class="container py-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
+        <div class="container py-2 px-sm-0 pb-lg-3 px-md-3 px-lg-3">
         <div
-            class="d-flex justify-content-between align-items-baseline mt-3 mt-md-2 mt-lg-3 home_heading">
-            <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase mb-0 text_color"><i class="fas fa-home"></i></h3>
-            <h3 class="d-none d-md-block pt-sm-2 pt-lg-3 text-left text-uppercase wow slideInLeft text_color" 
+            class="d-flex justify-content-between align-items-baseline mt-3 mt-md-3 mt-lg-3 mt-xl-4 home_heading">
+            <h3 class="d-md-none pt-1 text-left text-uppercase mb-0 text_color"><i class="fas fa-home"></i></h3>
+            <h3 class="d-none d-md-block pt-md-0 pt-lg-3 text-left text-uppercase wow slideInLeft text_color" 
                 data-animation="slideInLeft">Акціонерне Товариство "Марганецький гірничо-збагачувальний
                 комбінат"</h3>
-            <a href="index.php" class="align-self-baseline btn btn-small btn-dark text-white mt-5 mb-3 shadow border" role="button">Вийти</a>
+            <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-5 mb-3 p-1 text-uppercase font-weight-bold border border-primary rounded shadow text_color">
+                Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <article class="col-sm-12 col-lg-2 pl-0 px-0 text-center wow slideInLeft" data-animation="slideInLeft">
@@ -32,7 +33,7 @@ session_start();
                             <!-- home card -->
                             <div class="card bg-transparent">
                                 <div class="card-header p-0 bg-dark" id="homePage">
-                                        <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-info text-uppercase" 
+                                        <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-white text-uppercase" 
                                             href="home.php" type="button" role="button">
                                             Головна
                                         </a>

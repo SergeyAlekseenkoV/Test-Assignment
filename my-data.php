@@ -30,9 +30,8 @@ session_start();
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Мої дані</li>
                 </ol>
-                <a href="index.php"
-                    class="align-self-baseline btn btn-small btn-dark text-white shadow border border-white mt-3 mt-md-0"
-                    role="button">Вийти</a>
+                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-1 mt-md-2 mt-xl-3 p-1 text-uppercase font-weight-bold border border-primary rounded shadow text_color">
+                    Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </nav>
             <!-- user-data -->
             <div class="row py-0 pl-0 mt-0 mb-1">
@@ -51,7 +50,7 @@ session_start();
             </div>
             <div class="row py-2 ml-0 pl-0 mr-0 pr-0">
                 <div class="col-sm-12 col-lg-2 px-0 py-0">
-                    <article class="rounded border shadow bg-dark px-2 py-3 mb-3 text-center">
+                    <article class="rounded border shadow bg-dark px-2 py-3 mb-3 text-center text-white">
                         <p class="overflow_wrap">Мій E-mail: <br><span class="font-weight-bold">pereby-nisewgfhgfrert@gmail.com</span></p>
                         <p class="mb-0 mt-0 mt-lg-2">Мій телефон: <br><span class="font-weight-bold">(050) 039 09 49</span></p>
                         <p class="mt-2 mt-md-1 mt-xl-4"><a href="change-password.php" class="btn btn-primary">Зміна паролю</a></p>

@@ -17,7 +17,7 @@
                 </button>
                 <!--dropdowns-->
                 <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
-                    <ul class="navbar-nav nav-pills ml-auto mt-1 mb-0">
+                    <ul class="navbar-nav nav-pills ml-1 ml-md-auto mt-1 mb-0">
                         <li class="d-flex justify-content-center nav-item position-relative">
                             <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
@@ -132,13 +132,15 @@
                             </ul>
                         </li>
                         <!-- for collapsed-menu -->
-                        <li class="nav-item d-flex flex-row justify-content-between d-md-none pt-3 px-md-0 pr-lg-0 pl-lg-1">
+                        <li class="nav-item d-md-none pt-3 px-md-0 pr-lg-0 pl-lg-1">
+                            <a href="salary-list.php" data-toggle="tooltip" data-placement="bottom" data-original-title="Персональний кабінет"
+                                class="nav-link bg-transparent text-white pr-md-0 pr-lg-0 pb-md-0 py-md-0"><i
+                                    class="fas fa-user-circle fa-2x" aria-hidden="true"></i></a>   
+                        </li>
+                        <li class="nav-item d-flex flex-row justify-content-around d-md-none pt-3 px-md-0 pr-lg-0 pl-lg-1">
                             <a href="#"
                                 class="nav-link bg-transparent text-white pr-md-0 pr-lg-0 pr-xl-2 pb-md-0 py-2 py-md-0"><i
                                     class="far fa-calendar-alt fa-2x" aria-hidden="true"></i></a>
-                            <a href="salary-list.php"
-                                class="nav-link bg-transparent text-white pr-md-0 pr-lg-0 pb-md-0 py-md-0"><i
-                                    class="fas fa-user-circle fa-2x" aria-hidden="true"></i></a>
                             <a href="#"
                                 class="nav-link bg-transparent text-white pr-lg-0 pr-md-0 pr-xl-2 pb-md-0 py-md-0"><i
                                     class="fas fa-phone-square fa-2x" aria-hidden="true"></i></a>

@@ -20,7 +20,7 @@ session_start();
     <?php include_once "user-menu.php"; ?>
     <section id="personalRoom" class="pt-3 pb-5">
         <!--nav-block-->
-        <div class="container py-3 py-lg-3 pb-lg-3 px-sm-0 px-md-3">
+        <div class="container py-3 py-lg-3 pb-lg-3 px-sm-0 px-md-3 mt-1 mt-md-0">
             <nav aria-label="breadcrumb" class="d-flex justify-content-between align-items-baseline mt-5 mb-2">
                 <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Розрахунковий лист</h3>
                 <ol class="d-none d-md-flex breadcrumb bg-transparent px-0 pb-0 mb-0">
@@ -30,15 +30,14 @@ session_start();
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Розрахунковий лист</li>
                 </ol>
-                <a href="index.php"
-                    class="align-self-baseline btn btn-small btn-dark text-white shadow border border-white mt-3 mt-md-0"
-                    role="button">Вийти</a>
+                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-1 mt-md-2 mt-xl-3 p-1 text-uppercase font-weight-bold border border-primary rounded shadow text_color">
+                    Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </nav>
             <!-- nav article -->
             <div class="row py-2 mx-0">
                 <article class="col-sm-12 col-lg-2 px-0 py-0 mb-1">
                     <form class="sticky-top rounded needs-validation bg-dark p-3 text-center" novalidate="">
-                        <p class="font-weight-bold mb-0 text-uppercase">Сформувати лист</p>
+                        <p class="font-weight-bold mb-0 text-uppercase text-white">Сформувати лист</p>
                         <div class="form-row">
                             <div class="col-12 col-sm-6 col-lg-12">
                                 <label for="validationTooltipMonth" class="m-0"></label>
@@ -316,7 +315,7 @@ session_start();
                                         <TD CLASS="R26C3"><SPAN></SPAN></TD>
                                         <TD CLASS="R26C3"><SPAN></SPAN></TD>
                                         <TD CLASS="R26C1" COLSPAN=2><SPAN
-                                                STYLE="white-space:nowrap;max-width:0px;">622,50</SPAN></TD>
+                                                STYLE="white-space:nowrap;max-width:0px;">122622,50</SPAN></TD>
                                         <TD CLASS="R26C9" COLSPAN=3>Проф,взносы 1%</TD>
                                         <TD CLASS="R26C1" COLSPAN=2><SPAN></SPAN></TD>
                                         <TD CLASS="R26C1" COLSPAN=2><SPAN
@@ -477,7 +476,7 @@ session_start();
                                                 STYLE="white-space:nowrap;max-width:0px;">Борг&nbsp;за&nbsp;підприємством&nbsp;на&nbsp;кінець&nbsp;місяця</SPAN>
                                         </TD>
                                         <TD CLASS="R36C7" COLSPAN=2><SPAN
-                                                STYLE="white-space:nowrap;max-width:0px;">3 775,60</SPAN></TD>
+                                                STYLE="white-space:nowrap;max-width:0px;">313 775,60</SPAN></TD>
                                         <TD CLASS="R23C16"><SPAN></SPAN></TD>
                                         <TD><SPAN></SPAN></TD>
                                         <TD></TD>
