@@ -13,7 +13,7 @@ session_start();
 
 <?php include_once "header.php";?>
 
-<title>Мої данні</title>
+<title>Мої дані</title>
 </head>
 
 <body id="home">
@@ -30,17 +30,15 @@ session_start();
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Мої дані</li>
                 </ol>
-                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-1 mt-md-2 mt-xl-3 p-1 text-uppercase font-weight-bold border border-primary rounded shadow text_color">
+                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-1 mt-md-2 mt-xl-3 p-1 text-uppercase border border-primary rounded shadow text_color">
                     Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </nav>
             <!-- user-data -->
             <div class="row py-0 pl-0 mt-0 mb-1">
                 <div class="col-12">
-                    <div class="row text_color mx-0 my-0 pt-3 pb-0 pb-lg-3">
+                    <div class="row text_color mx-0 my-0 pt-2 pb-0">
                         <div class="col-8 px-0">
                             <h4 class="mb-2 font-weight-bold">Петров Іван Перебий-ніс</h4>
-                            <p class="lead mb-0">Цех автоматизованих систем управління</p>
-                            <p class="lead mb-0">Інженер-програміст</p>
                         </div>
                         <div class="col-4 px-0 text-right">
                             <p class="lead mb-0">Таб.№: <span class="font-weight-bold">17847</span></p>

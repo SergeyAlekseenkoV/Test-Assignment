@@ -1,10 +1,10 @@
     <!--navigation-->
     <header>
-        <nav id="navbarUp" class="navbar navbar-dark navbar-expand-md fixed-top shadow">
+        <nav id="navbarUp" class="navbar navbar-dark navbar-expand-md fixed-top pr-2 pr-md-3 shadow">
             <div class="container">
                 <!--LOGO-->
-                <div class="logo mr-0 mt-md-0 d-flex justify-content-center bg-linear">
-                    <a href="index.php">
+                <div class="logo mr-0 mt-md-0 d-flex justify-content-center align-items-center">
+                    <a href="index.php" class="align-self-center">
                         <img src="img/logo-dark.png" alt="MGOK" class="inner-logo">
                     </a>
                 </div>
@@ -21,22 +21,22 @@
                 <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
                     <ul class="navbar-nav nav-pills ml-auto mt-1 mb-0">
                         <li class="nav-item d-flex justify-content-center position-relative">
-                            <a class="nav-link text-uppercase py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-white user_menu_item"
+                            <a class="nav-link text-uppercase my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-white user_menu_item"
                                  href="salary-list.php" role="button" aria-haspopup="true"
                                 aria-expanded="false">Розрахунковий лист</a>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link text-uppercase text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
-                                href="#" role="button"
+                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
+                                href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Форми звернення</a>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link text-uppercase text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
+                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
                                 href="propositions.php" role="button" aria-haspopup="true"
                                 aria-expanded="false">Пропозиції</a>
                         </li>
                         <li id="my-data" class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link text-uppercase text-white py-3 py-md-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
+                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
                                 href="my-data.php" role="button" aria-haspopup="true"
                                 aria-expanded="false">Мої дані</a>
                         </li>

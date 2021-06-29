@@ -6,7 +6,7 @@
 <!-- log-in forms-->
 <section class="pb-5 log_in">
     <div class="container py-5">
-        <div class="row d-flex flex-column justify-content-center py-5 mt-5">
+        <div class="row d-flex flex-column justify-content-center py-5 mt-3 mt-md-5">
             <form class="col col-md-8 col-lg-6 align-self-center px-sm-0" action=""
                 method="post" novalidate>
                 <fieldset class="p-4 rounded shadow bg-light border border-primary">

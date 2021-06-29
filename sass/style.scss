@@ -231,6 +231,10 @@ li {
     }
 }
 
+small.form-text {
+    color: $primary-color !important;
+}
+
 /* end GLOBALS */
 
 /* gradient with opacity for sections */
@@ -268,7 +272,15 @@ li {
     opacity: 0.95;
     transition: top 0.5s;
 
-    /* nav-links on focus */
+    /* nav-links on focus/hover */
+
+    .navbar-nav :nth-child(6) > .nav-link:hover,
+    .navbar-nav :nth-child(7) > .nav-link:hover,
+    .navbar-nav :nth-child(8) > .nav-link:hover,
+    .navbar-nav :nth-child(9) > .nav-link:hover,
+    .navbar-nav :nth-child(10) > .nav-link:hover {
+        opacity: .5;
+    }
 
     .navbar-nav :nth-child(6) > .nav-link:focus,
     .navbar-nav :nth-child(7) > .nav-link:focus,
@@ -278,11 +290,13 @@ li {
         background-color: transparent !important;
     }
 
+
+
     /*toggler*/
     button.navbar-toggler {
         background-color: $primary-common !important;
         border: $white-color;
-        margin-right: -0.25rem;
+        margin-right: 2px;
     }
 
     //style for the menu button on focus
@@ -364,8 +378,8 @@ li {
     .user_menu_item:hover,
     .user_menu_item:focus {
         color: $white-color !important;
-        background-color: $primary-lightest-through;
-        text-shadow: 0 0 2px $primary-color;
+        background-color: transparent;
+        text-shadow: 0 0 2px $white-color;
         transition: all 500ms ease;
         &::after {
             content: "";
@@ -1359,12 +1373,20 @@ li {
 
 @media screen and (max-width: 768px) {
     // bg-menu
+
+    /* nav-links on focus */
+
+    .navbar-nav :nth-child(6) > .nav-link:active,
+    .navbar-nav :nth-child(7) > .nav-link:active,
+    .navbar-nav :nth-child(8) > .nav-link:active,
+    .navbar-nav :nth-child(9) > .nav-link:active,
+    .navbar-nav :nth-child(10) > .nav-link:active {
+        background-color: transparent !important;
+        opacity: .5;
+    }
+
     .navbar {
         overflow-y: scroll;
-        .nav-link:focus {
-            background-color: transparent !important;
-            color: $white-color !important;
-        }
 
         .nav-item > .dropdown-toggle {
             /* inline border on focus */
@@ -1380,7 +1402,7 @@ li {
                 position: absolute;
                 z-index: -1;
             }
-    
+
             &:focus::before {
                 opacity: 1;
                 background-color: $nav-link-focus;
@@ -1392,7 +1414,7 @@ li {
         .user_menu_item:focus {
             color: $white-color !important;
             background-color: transparent;
-            text-shadow: 0 0 2px $primary-color;
+            text-shadow: 0 0 2px $white-color;
             transition: all 500ms ease;
             &::after {
                 content: "";
@@ -1401,8 +1423,8 @@ li {
                 background-color: $nav-link-focus;
                 top: 10px;
                 bottom: 10px;
-                left: 10em;
-                right: 10em;
+                left: 15%;
+                right: 15%;
                 border-radius: 0.25em;
                 border: 1px solid $white-color;
                 z-index: -1;
@@ -1415,8 +1437,8 @@ li {
             position: absolute;
             top: 10px;
             bottom: 10px;
-            left: 10em;
-            right: 10em;
+            left: 15%;
+            right: 15%;
             border-radius: 0.25em;
             border: 1px solid $white-color;
         }

@@ -1,10 +1,10 @@
     <!--navigation-->
     <header>
-        <nav id="navbarUp" class="navbar navbar-dark navbar-expand-md fixed-top shadow">
+        <nav id="navbarUp" class="navbar navbar-dark navbar-expand-md fixed-top pr-2 pr-md-3 shadow">
             <section class="container">
                 <!--LOGO-->
-                <div class="logo mr-0 mt-md-0 d-flex justify-content-center bg-linear">
-                    <a href="home.php">
+                <div class="logo mr-0 mt-md-0 d-flex justify-content-center align-items-center">
+                    <a href="home.php" class="align-self-center">
                         <img src="img/logo-dark.png" alt="MGOK" class="inner-logo">
                     </a>
                 </div>

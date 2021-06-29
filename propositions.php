@@ -30,7 +30,7 @@ session_start();
                     <li class="breadcrumb-item text_color" aria-current="page">Персональний кабінет</li>
                     <li class="breadcrumb-item active text_color" aria-current="page">Пропозиції</li>
                 </ol>
-                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-1 mt-md-2 mt-xl-3 p-1 text-uppercase font-weight-bold border border-primary rounded shadow text_color">
+                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-1 mt-md-2 mt-xl-3 p-1 text-uppercase border border-primary rounded shadow text_color">
                     Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </nav>
             <div class="row py-2 ml-0 pl-0 mr-0 pr-0">

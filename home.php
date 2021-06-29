@@ -24,7 +24,7 @@ session_start();
             <h3 class="d-none d-md-block pt-md-0 pt-lg-3 text-left text-uppercase wow slideInLeft text_color" 
                 data-animation="slideInLeft">Акціонерне Товариство "Марганецький гірничо-збагачувальний
                 комбінат"</h3>
-            <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-5 mb-3 p-1 text-uppercase font-weight-bold border border-primary rounded shadow text_color">
+            <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-5 mb-3 p-1 text-uppercase border border-primary rounded shadow text_color">
                 Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
