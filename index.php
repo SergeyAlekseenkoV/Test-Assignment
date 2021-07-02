@@ -9,11 +9,11 @@
         <div class="row d-flex flex-column justify-content-center py-5 mt-3 mt-md-5">
             <form class="col col-md-8 col-lg-6 align-self-center px-sm-0" action=""
                 method="post" novalidate>
-                <fieldset class="p-4 rounded shadow bg-light border border-primary">
+                <fieldset class="p-4 p-md-5 rounded shadow bg-light border border-primary">
                     <div class="form-group">
                         <label for="userInput" class="text_color">Ваш табельний номер</label>
                         <input type="number" name="tabNumber"
-                            class="form-control border-primary shadow p-lg-4 bg-light"
+                            class="form-control border-primary shadow bg-light"
                             id="userInput" placeholder="Табельний номер" value=""
                             required>
                         <div class="invalid-feedback"></div>
@@ -21,7 +21,7 @@
                     <div class="form-group mt-1 mt-sm-2 mt-md-3 mb-4 mb-lg-4">
                         <label for="passInput" class="text_color">Ваш пароль</label>
                         <input type="password" name="password" data-toggle="password"
-                            class="form-control border-primary shadow p-lg-4 bg-light"
+                            class="form-control border-primary shadow bg-light"
                             placeholder="Пароль мінімум 6 знаків" id="passInput" aria-describedby="passInput"
                             required>
                             <!-- <span class="far fa-eye field-icon text_color" onclick="showPass()"></span> -->

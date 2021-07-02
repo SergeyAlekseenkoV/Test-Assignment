@@ -20,7 +20,7 @@ session_start();
     <?php include_once "user-menu.php"; ?>
     <section id="personalRoom" class="pt-3 pb-5">
         <!--nav-block-->
-        <div class="container py-3 py-lg-3 pb-lg-3 px-sm-0 px-md-3 mt-1 mt-md-0">
+        <div class="container py-3 px-sm-0 px-md-3 mt-1 mt-md-0">
             <nav aria-label="breadcrumb" class="d-flex justify-content-between align-items-baseline mt-5 mb-2">
                 <h3 class="d-md-none pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Розрахунковий лист</h3>
                 <ol class="d-none d-md-flex breadcrumb bg-transparent px-0 pb-0 mb-0">
@@ -33,6 +33,13 @@ session_start();
                 <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-1 mt-md-2 mt-xl-3 p-1 text-uppercase border border-primary rounded shadow text_color">
                     Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </nav>
+            <!-- email-info message -->
+            <div class="row py-2 mx-0 mt-3 mb-2 border border-danger rounded">
+                <div class="col-12 text-center">
+                    <p class="small mb-0 text-danger text-monospace">* Важливо!<br>
+                        Ви не вказали адресу ел.пошти у розділі "Мої дані", щоб мати можливість відновити пароль у разі його втрати!</p>
+                </div>
+            </div>
             <!-- nav article -->
             <div class="row py-2 mx-0">
                 <article class="col-sm-12 col-lg-2 px-0 py-0 mb-1">

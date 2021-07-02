@@ -18,6 +18,8 @@ $shadow: #e0e0e0 1px 1px 0;
 $shadow-dark: $dark-overlay 1px 1px 0;
 $bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
 
+/* GLOBALS */
+
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
 /*font-family: 'Fira Sans', sans-serif;*/
@@ -28,6 +30,13 @@ html {
     margin: 0;
     overflow-x: hidden;
     overflow-y: scroll;
+    scrollbar-color: $primary-color transparent;
+    scrollbar-width:5px;
+}
+
+::selection {
+    color: $white-color;
+    background-color: $primary-color;
 }
 
 /* body styling */
@@ -41,8 +50,6 @@ body {
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
 }
-
-/* GLOBALS */
 
 /* tooltips */
 
@@ -78,29 +85,37 @@ h3 {
 }
 
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: $primary-common;
     border-radius: 5px;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: $primary-color;
+    border-radius: 5px;
 }
 
-input {
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    font-size: 1.2em;
     color: $primary-color;
-    opacity: 1;
 }
 
 input:focus,
 input:active {
+    background-color: $primary-common-light !important;
     color: $primary-color;
     opacity: 1;
 }
 
 ::placeholder {
     color: $primary-color !important;
+    opacity: .5 !important;
 }
 
 input::placeholder:focus,
@@ -118,10 +133,9 @@ input::placeholder:active {
 
 .text-info {
     color: $primary-common !important;
-}
-
-.text-info:hover {
-    color: $primary-common !important;
+    &:hover{
+        color: $primary-common !important;
+    }
 }
 
 .border-primary {
@@ -170,7 +184,7 @@ input::placeholder:active {
     }
 }
 
-/* remove outlines from buttons and select*/
+/* remove outlines from buttons and select */
 .btn:focus {
     box-shadow: none !important;
     outline: none !important;
@@ -274,12 +288,9 @@ small.form-text {
 
     /* nav-links on focus/hover */
 
-    .navbar-nav :nth-child(6) > .nav-link:hover,
-    .navbar-nav :nth-child(7) > .nav-link:hover,
-    .navbar-nav :nth-child(8) > .nav-link:hover,
-    .navbar-nav :nth-child(9) > .nav-link:hover,
-    .navbar-nav :nth-child(10) > .nav-link:hover {
+    .navbar-nav :last-child > ul > li > a:hover {
         opacity: .5;
+        transition: all 500ms ease;
     }
 
     .navbar-nav :nth-child(6) > .nav-link:focus,
@@ -297,6 +308,12 @@ small.form-text {
         background-color: $primary-common !important;
         border: $white-color;
         margin-right: 2px;
+    }
+
+    @-moz-document url-prefix() {
+        button.navbar-toggler {
+            margin-right: -5px;
+        }
     }
 
     //style for the menu button on focus
@@ -333,7 +350,6 @@ small.form-text {
     .nav-link:focus,
     .nav-link:active {
         background-color: $nav-link-focus !important;
-        text-shadow: 0 0 2px $white-color;
     }
 
     /* border for my-data button */
@@ -374,12 +390,29 @@ small.form-text {
         top: -2px;
         left: 226px;
     }
-
-    .user_menu_item:hover,
-    .user_menu_item:focus {
+    
+    .user_menu_item:hover {
         color: $white-color !important;
         background-color: transparent;
         text-shadow: 0 0 2px $white-color;
+        transition: all 500ms ease;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 1px;
+            bottom: 1px;
+            left: 1px;
+            right: 1px;
+            border-radius: 0.25em;
+            border: 1px solid $white-color;
+        }
+    }
+
+    .user_menu_item:focus {
+        color: $white-color !important;
+        background-color: transparent;
+        text-shadow: 0 0 2px $primary-color;
         transition: all 500ms ease;
         &::after {
             content: "";
@@ -1160,6 +1193,14 @@ small.form-text {
 
 /* media queries for different screen resolutions */
 
+@media screen and (min-width: 571px) and (max-width: 756px) {
+    @-moz-document url-prefix() {
+        .navbar button.navbar-toggler {
+            margin-right: -2px;
+        }
+    }
+}
+
 @media screen and (min-width: 480px) and (max-width: 576px) {
     #login,
     #main,
@@ -1371,7 +1412,7 @@ small.form-text {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     // bg-menu
 
     /* nav-links on focus */
