@@ -33,7 +33,7 @@
                                     коллектив</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Трудове
+                                    <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="competition.php">Трудове
                                     змагання</a>
                                 </li>
                                 <li class="dropdown-submenu position-relative">
@@ -75,6 +75,7 @@
                                     </ul>
                                 </li>   
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Вакансії</a></li>
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Кадрові призначення</a></li>
                             </ul>
                         </li>
                         <li class="nav-item mt-1 d-flex justify-content-center position-relative">

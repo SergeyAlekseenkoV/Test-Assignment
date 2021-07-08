@@ -12,16 +12,26 @@ $primary-lightest: #f0f0f0;
 $primary-lightest-through: rgba(240, 240, 240, 0.379);
 $dark-overlay: rgba(0, 0, 0, 0.7);
 $light-through: rgba(255, 255, 255, 0.84);
-$icon-size: 1.2em;
 $nav-link-focus: #4890d8;
 $shadow: #e0e0e0 1px 1px 0;
 $shadow-dark: $dark-overlay 1px 1px 0;
+$shadow-dark-primary: $primary-dark 1px 1px 0;
 $bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
 
 /* GLOBALS */
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
+@font-face {
+    font-family: "Cormorant Infant";
+    src: url("/fonts/Cormorant_Infant/CormorantInfant-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url("/fonts/Fira_Sans/FiraSans-Regular.ttf");
+}
+
+// @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
 /*font-family: 'Fira Sans', sans-serif;*/
 
 /* hide horizontal scroll */
@@ -31,7 +41,7 @@ html {
     overflow-x: hidden;
     overflow-y: scroll;
     scrollbar-color: $primary-color transparent;
-    scrollbar-width:5px;
+    scrollbar-width: 5px;
 }
 
 ::selection {
@@ -48,6 +58,7 @@ body {
     margin: 0;
     color: $primary-color;
     font-family: "Fira Sans", sans-serif;
+    font-weight: normal;
     font-size: 16px;
 }
 
@@ -115,7 +126,7 @@ input:active {
 
 ::placeholder {
     color: $primary-color !important;
-    opacity: .5 !important;
+    opacity: 0.5 !important;
 }
 
 input::placeholder:focus,
@@ -133,7 +144,7 @@ input::placeholder:active {
 
 .text-info {
     color: $primary-common !important;
-    &:hover{
+    &:hover {
         color: $primary-common !important;
     }
 }
@@ -249,6 +260,11 @@ small.form-text {
     color: $primary-color !important;
 }
 
+.winner_hover:hover {
+    background-color: rgba(64, 51, 189, 0.25) !important;
+    transition: background-color 500ms ease;
+}
+
 /* end GLOBALS */
 
 /* gradient with opacity for sections */
@@ -289,7 +305,7 @@ small.form-text {
     /* nav-links on focus/hover */
 
     .navbar-nav :last-child > ul > li > a:hover {
-        opacity: .5;
+        opacity: 0.5;
         transition: all 500ms ease;
     }
 
@@ -300,8 +316,6 @@ small.form-text {
     .navbar-nav :nth-child(10) > .nav-link:focus {
         background-color: transparent !important;
     }
-
-
 
     /*toggler*/
     button.navbar-toggler {
@@ -390,7 +404,7 @@ small.form-text {
         top: -2px;
         left: 226px;
     }
-    
+
     .user_menu_item:hover {
         color: $white-color !important;
         background-color: transparent;
@@ -588,37 +602,81 @@ small.form-text {
         h4 {
             text-shadow: $shadow;
         }
+
+        li > b {
+            text-shadow: $shadow;
+        }
     }
 
     .bg_announcement {
-        background: url("../img/announcement-bg.jpg") center/cover no-repeat;
-        opacity: 0.9;
-    }
-
-    .width_announcement {
-        width: 39.8125em;
-
+        background: $bg-navbar;
+        line-height: 1 !important;
+        text-align: justify;
+        
         h4 {
-            text-shadow: $shadow-dark;
+            width: fit-content;
+            height: fit-content;
+            text-shadow: $shadow;
+            float: left;
+            background: linear-gradient(
+                    -35deg,
+                    rgba(64, 51, 189, 0.4),
+                    rgba(255, 255, 255, 0.4),
+                    rgba(64, 51, 189, 0.4)
+                );
+            background-size: 150% 150%;
+            animation: gradient 4000ms ease infinite;
+
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 100%;
+                }
+                50% {
+                    background-position: 100% 0%;
+                }
+                100% {
+                    background-position: 0% 100%;
+                }
+            }
         }
 
-        > ul > li::before {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            float: left;
-            width: 1.2em;
-            height: 1.2em;
-            color: $white-color;
-            font-style: normal;
-            font-variant: normal;
-            text-rendering: auto;
-            font-weight: 700;
-            font-size: 1.2em;
-            border: 1px solid $white-color;
-            border-radius: 0.6em;
-            content: "!";
+        > ul > li {
+
+            &::before {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                float: left;
+                width: 1.2em;
+                height: 1.2em;
+                color: $white-color;
+                font-style: normal;
+                font-variant: normal;
+                text-rendering: auto;
+                font-weight: 700;
+                font-size: 1.2em;
+                border: 1px dashed $primary-common-light;
+                border-radius: 0.6em;
+                content: "!";
+            }
+        }
+
+        > ul > li > a {
+            > span {
+                margin-left: 1em;
+                opacity: 0;
+            }
+
+            &:hover,
+            &:focus {
+                text-decoration: none !important;
+                > span {
+                    opacity: 1;
+                    margin-left: 2em;
+                    transition: all 1000ms ease;
+                }
+            }
         }
     }
 }
@@ -792,34 +850,12 @@ small.form-text {
         }
     }
 
-    #respect-desk {
-        h2 {
+    #respect-desk,
+    #competition-list {
+        h2,
+        h3 {
             background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8));
-            font-family: "Cormorant Infant", sans-serif;
-            text-shadow: $white-color 0 0 3px;
-            animation: pulse 5000ms infinite;
-        }
-
-        @keyframes pulse {
-            0% {
-                text-shadow: $white-color 0 0 0px;
-            }
-
-            25% {
-                text-shadow: $white-color 0 0 1px;
-            }
-
-            50% {
-                text-shadow: $white-color 0 0 2px;
-            }
-
-            75% {
-                text-shadow: $white-color 0 0 3px;
-            }
-
-            100% {
-                text-shadow: $white-color 0 0 1px;
-            }
+            text-shadow: $primary-color 0 0 3px;
         }
 
         .card .respect_name > p {
@@ -833,8 +869,54 @@ small.form-text {
             }
 
             .respect_item_name {
-                font-family: "Cormorant Infant", sans-serif;
+                font-size: 1.2em;
             }
+        }
+    }
+
+    #competition-list {
+        > :first-child {
+            background-color: $primary-common-light-through;
+            transition: all 500ms ease;
+        }
+
+        h5 {
+            color: $white-color;
+            text-shadow: $shadow-dark;
+            background: linear-gradient(
+                    -35deg,
+                    rgba(48, 72, 120, 0.7),
+                    rgba(72, 144, 216, 0.5),
+                    rgba(48, 72, 120, 0.7)
+                );
+            background-size: 150% 150%;
+            animation: gradient 6000ms ease infinite;
+
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 100%;
+                }
+                50% {
+                    background-position: 100% 0%;
+                }
+                100% {
+                    background-position: 0% 100%;
+                }
+            }
+        }
+        .left_lg_list p.d-flex {
+            min-height: 78px;
+            border: $primary-common solid 1px;
+        }
+
+        .right_lg_list p.d-flex {
+            min-height: 50px;
+            max-height: 100px;
+            border: $primary-common solid 1px;
+        }
+
+        .type_title {
+            border: $primary-color 1px dotted;
         }
     }
 
@@ -842,9 +924,6 @@ small.form-text {
     #best-team {
         h2 {
             background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8));
-            font-family: "Cormorant Infant", sans-serif;
-            text-shadow: $white-color 0 0 3px;
-            animation: pulse 5000ms infinite;
         }
 
         img {
@@ -915,10 +994,6 @@ small.form-text {
         .active,
         .demo:hover {
             opacity: 1;
-        }
-
-        .team_descr {
-            text-align: justify;
         }
     }
 }
@@ -1042,12 +1117,14 @@ small.form-text {
             }
 
             tr {
+                .R13C16,
                 .R14C16,
                 .R15C16,
                 .R16C16,
                 .R21C9,
                 .R22C16,
                 .R23C16,
+                .R27C16,
                 .R28C16,
                 .R37C16 {
                     display: none !important;
@@ -1423,7 +1500,7 @@ small.form-text {
     .navbar-nav :nth-child(9) > .nav-link:active,
     .navbar-nav :nth-child(10) > .nav-link:active {
         background-color: transparent !important;
-        opacity: .5;
+        opacity: 0.5;
     }
 
     .navbar {
@@ -1449,6 +1526,10 @@ small.form-text {
                 background-color: $nav-link-focus;
                 transition: opacity 550ms ease;
             }
+        }
+
+        .user_menu_item {
+            width: 65%;
         }
 
         .user_menu_item:hover,

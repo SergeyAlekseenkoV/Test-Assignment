@@ -29,8 +29,10 @@ gulp.task('sass', function () {
   return gulp.src('./sass/**/*.scss')
     .pipe(sass())
     .pipe(autoprefixer({
-       browsers: ['> 1%', 
+       browsers: ['cover 99.5% in UA', 
        'last 2 versions', 
+       'Firefox ESR',
+       'not dead',
        'firefox >= 4', 
        'safari 7', 
        'safari 8', 

@@ -8,7 +8,7 @@
     <section class="mt-0 pt-3 mgok_news">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div
-                class="d-flex justify-content-between align-items-baseline mt-3 mt-md-3 mt-lg-3 mt-xl-4 home_heading">
+                class="d-flex justify-content-between align-items-baseline mt-3 mt-md-3 mt-lg-3 mt-xl-4">
                 <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Новини комбінату</h3>
                 <h3 class="d-none d-md-block align-self-baseline d-lg-none pt-sm-2 pt-lg-3 text-left mb-2 text-uppercase text_color">
                     Акціонерне Товариство "Марганецький гірничо-збагачувальний
@@ -17,83 +17,7 @@
                     Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
-                <article class="col-sm-12 col-lg-2 pl-0 px-0 text-center">
-                    <nav class="sticky-top accordion shadow" id="accordionLib">
-                        <!-- home card -->
-                        <div class="card bg-transparent">
-                            <div class="card-header p-0 bg-dark" id="homePage">
-                                <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-white text-uppercase"
-                                    href="home.php" type="button" role="button">
-                                    Головна
-                                </a>
-                            </div>
-                        </div>
-                        <!-- news card -->
-                        <div class="card bg-transparent">
-                            <div class="card-header p-0 bg-dark text-info" id="news-item">
-                                <a class="btn btn-link bg-transparent btn-block text-decoration-none text-lg-left collapsed text-info text-uppercase"
-                                    type="button" href="news.php" role="button">
-                                    Новини
-                                </a>
-                            </div>
-                        </div>
-                        <!-- library card -->
-                        <div class="card bg-transparent">
-                            <div class="card-header p-0 bg-dark" id="first-item">
-                                <a class="btn btn-link bg-transparent btn-block text-decoration-none text-lg-left text-white text-uppercase"
-                                    type="button" href="library.php" role="button">
-                                    Бібліотека
-                                </a>
-                            </div>
-                        </div>
-                        <!-- gallary card -->
-                        <div class="card bg-transparent">
-                            <div class="card-header p-0 bg-dark" id="gallary-item">
-                                <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-white text-uppercase"
-                                    type="button" href="gallary.php" role="button">
-                                    Галерея
-                                </a>
-                            </div>
-                        </div>
-                        <!-- ideas card -->
-                        <div class="card bg-transparent">
-                            <div class="card-header p-0 bg-dark" id="ideas-item">
-
-                                <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-white text-uppercase"
-                                    type="button" href="ideas.php" role="button">
-                                    База ідей
-                                </a>
-                            </div>
-                        </div>
-                        <!-- ask card -->
-                        <div class="card bg-transparent">
-                            <div class="card-header p-0 bg-dark" id="ask-item">
-                                <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-white text-uppercase"
-                                    type="button" href="asking.php" role="button">
-                                    Опитування
-                                </a>
-                            </div>
-                        </div>
-                        <!-- study card -->
-                        <div class="card bg-transparent">
-                            <div class="card-header p-0 bg-dark" id="study-item">
-                                <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-white text-uppercase"
-                                    type="button" href="study.php" role="button">
-                                    Навчання
-                                </a>
-                            </div>
-                        </div>
-                        <!-- system card -->
-                        <div class="card bg-transparent">
-                            <div class="card-header p-0 bg-dark" id="system-item">
-                                <a class="btn btn-link btn-block bg-transparent text-decoration-none text-lg-left collapsed text-white text-uppercase"
-                                    type="button" href="system-five.php" role="button">
-                                    Система 5С
-                                </a>
-                            </div>
-                        </div>
-                    </nav>
-                </article>
+                <?php include_once "left-nav.php"; ?>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
                     <!-- cards news -->
                     <div id="mgok-news" class="row mx-0 bg-transparent border border-primary rounded">

@@ -7,7 +7,7 @@
     <!-- main-section-->
     <section class="mt-0 pt-3 pb-lg-5 best_team">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
-            <div class="d-flex justify-content-between align-items-baseline mt-3 mt-md-3 mt-lg-3 mt-xl-4 home_heading">
+            <div class="d-flex justify-content-between align-items-baseline mt-3 mt-md-3 mt-lg-3 mt-xl-4">
                 <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color wow slideInLeft"
                     data-animation="slideInLeft">Кращий колектив</h3>
                 <h3
@@ -105,7 +105,7 @@
                             <h2 class="bg-dark text-uppercase px-0 py-3 mx-0 mt-0 mb-1 text-white">Єдність запорука успіху</h2>
                         </div>
                         <!-- slider -->
-                        <div class="col-12 px-0 mx-0 pt-lg-0 bg-info position-relative">
+                        <div class="col-12 px-0 mx-0 pt-lg-0 position-relative">
                             <!-- Full-width images with number text -->
                             <div class="mySlides overflow-hidden">
                                 <div class="position-absolute numbertext">1 / 12</div>
@@ -167,7 +167,7 @@
                                 onclick="plusSlides(-1)">❮</a>
                             <a class="position-absolute text-decoration-none font-weight-bold border border-primary rounded next"
                                 onclick="plusSlides(1)">❯</a>
-                            <div class="pt-2 pb-2 caption-container">
+                            <div class="pt-2 pb-2 caption-container bg_info_through">
                                 <h4 id="caption" class="pb-0 mb-0 text-center text-monospace text_color"></h4>
                             </div>
                             <div class="container">
@@ -224,26 +224,6 @@
                             </div>
                         </div>
                         <!-- end slider -->
-                        <div class="col-12 mx-0 px-0 shadow bg_light_through wow fadeInUp" data-animation="fadeInUp" data-wow-delay="1.5s">
-                            <h4 class="position-relative my-3 text-center text_color">Here should be some title<br>about something</h4>
-                            <p class="lead my-3 p-1 text_color team_descr">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum eius illo natus suscipit unde, 
-                                laborum reiciendis rem distinctio doloribus velit facere quo necessitatibus, iste eum libero maiores. 
-                                Culpa quia dolorum non mollitia dolor harum repudiandae, doloremque consequatur ducimus. Eos aut 
-                                doloribus magnam, fugit quas, maxime laudantium tenetur voluptatibus iste laboriosam tempora vero 
-                                voluptas saepe ex nihil doloremque quos repellendus, fugiat distinctio ad? Ut animi quia aliquam 
-                                tenetur at. Iusto, maiores ex accusamus rem impedit numquam quam omnis autem veritatis placeat in 
-                                doloremque unde a, necessitatibus ducimus quisquam voluptate nulla quos id corporis? Aspernatur 
-                                molestiae dolor aperiam ipsam, illum consequuntur animi! Consequatur sequi explicabo officia iusto 
-                                eveniet laboriosam minus tempore facere nisi, fugiat accusantium, repudiandae adipisci sint sit 
-                                facilis praesentium doloribus debitis ad aliquid quis voluptatem similique id. Et deleniti nemo 
-                                cum odit nisi tempore labore numquam, vel rerum dolor repudiandae excepturi ex, nesciunt maiores 
-                                consectetur ullam temporibus culpa dicta cumque minus laborum praesentium, totam laboriosam. Mollitia 
-                                nulla amet veritatis modi sunt iste, porro ex facere! Adipisci maxime, reprehenderit expedita amet dicta 
-                                eiciendis odit in cum. Eius repudiandae vitae ab obcaecati corporis maxime tenetur quia eaque veritatis, 
-                                nihil voluptatum numquam reprehenderit ad odio. Natus sapiente veritatis, qui nemo tenetur vero iste?
-                            </p>
-                        </div>
                     </div>
                 </aside>
             </div>

@@ -51,7 +51,7 @@ session_start();
                     <article class="rounded border shadow bg-dark px-2 py-3 mb-3 text-center text-white">
                         <p class="overflow_wrap">Мій E-mail: <br><span class="font-weight-bold">pereby-nisewgfhgfrert@gmail.com</span></p>
                         <p class="mb-0 mt-0 mt-lg-2">Мій телефон: <br><span class="font-weight-bold">(050) 039 09 49</span></p>
-                        <p class="mt-2 mt-md-1 mt-xl-4"><a href="change-password.php" class="btn btn-primary">Зміна паролю</a></p>
+                        <p class="mt-3 mt-xl-4"><a href="change-password.php" class="btn btn-primary">Зміна паролю</a></p>
                     </article>
                 </div>
                 <!-- main content -->
