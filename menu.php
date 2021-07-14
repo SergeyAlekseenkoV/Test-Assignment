@@ -42,7 +42,7 @@
                                         та оплата праці</a>
                                     <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Середня зар.плата по <br>провідним професіям</a></li>
-                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Тривалість чергових <br>відпусток</a></li>
+                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="vacations.php">Тривалість чергових <br>відпусток</a></li>
 
                                         <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a> -->
 

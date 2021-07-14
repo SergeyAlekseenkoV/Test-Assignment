@@ -19,7 +19,7 @@ session_start();
     <!-- main-section-->
     <section id="home" class="mt-0 pt-3 pb-5">
         <div class="container py-2 px-sm-0 pb-lg-3 px-md-3 px-lg-3">
-            <div class="d-flex justify-content-between align-items-baseline mt-3 mt-md-3 mt-lg-3 mt-xl-4">
+            <div class="d-flex justify-content-between align-items-baseline pl-2 ml-1 pl-md-0 ml-md-0 mt-3 mt-md-3 mt-lg-3 mt-xl-4">
                 <h3 class="d-md-none pt-1 text-left text-uppercase mb-0 text_color"><i class="fas fa-home"></i></h3>
                 <h3 class="d-none d-md-block pt-md-0 pt-lg-3 text-left text-uppercase wow slideInLeft text_color"
                     data-animation="slideInLeft">Акціонерне Товариство "Марганецький гірничо-збагачувальний
@@ -35,33 +35,33 @@ session_start();
                     <div class="d-block mt-0 mb-3 overflow-hidden border border-primary bg_announcement wow fadeInUp"
                         data-animation="fadeInUp">
                         <!-- <div class="text-justify pt-3 m-4 rounded border text-white bg_dark_through width_announcement"> -->
-                        <h4 class="mb-0 pb-0 px-1 mt-2 mx-2 text-center rounded border shadow text_color">
+                        <h4 class="px-1 mt-2 mb-1 ml-2 mr-3 text-center rounded border shadow text_color">
                             Оголошення</h4>
                         <ul class="list-unstyled px-2 my-2">
                             <li class="mb-2">&nbsp;
-                                <a href="#" class="text-white">Оголошення перше Lorem ipsum dolor sit
+                                <a href="#" class="text-white">Оголо&shy;шення перше Lorem ipsum dolor sit
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span>. . . &raquo;</span></a></li>
+                                    porro cumque?<span class="pr-1 text_color">. . . &raquo;</span></a></li>
                             <li class="mb-2">&nbsp;
                                 <a href="#" class="text-white">Оголошення друге Lorem ipsum dolor sit
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span>. . . &raquo;</span></a></li>
+                                    porro cumque?<span class="pr-1 text_color">. . . &raquo;</span></a></li>
                             <li class="mb-0">&nbsp;
                                 <a href="#" class="text-white">Оголошення третє Lorem ipsum dolor sit
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span>. . . &raquo;</span></a></li>
+                                    porro cumque?<span class="pr-1 text_color">. . . &raquo;</span></a></li>
                         </ul>
                         <!-- </div> -->
                     </div>
                     <!-- carousel slider -->
                     <div id="carouselIndicators"
-                        class="carousel slide carousel-fade bg-transparent border border-primary wow fadeInUp"
+                        class="d-none d-md-block carousel slide carousel-fade bg-transparent border border-primary wow fadeInUp"
                         data-ride="carousel" keyboard="true" data-animation="fadeInUp">
                         <ol class="carousel-indicators d-none d-lg-flex">
                             <li data-target="#carouselIndicators" data-slide-to="0" class="active text_color"></li>
@@ -70,7 +70,7 @@ session_start();
                             <li data-target="#carouselIndicators" data-slide-to="3"></li>
                         </ol>
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
+                            <div class="carousel-item active" data-touch="true">
                                 <img class="d-block w-100" src="img/carosel1.jpg" alt="people">
                                 <!-- first new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
@@ -97,7 +97,7 @@ session_start();
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-touch="true">
                                 <img class="d-block w-100" src="img/carosel2.jpg" alt="people">
                                 <!-- second new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
@@ -125,7 +125,7 @@ session_start();
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-touch="true">
                                 <img class="d-block w-100" src="img/carosel3.png" alt="track">
                                 <!-- third new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
@@ -152,7 +152,7 @@ session_start();
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-touch="true">
                                 <img class="d-block w-100" src="img/carosel4.jpg" alt="people">
                                 <!-- fourth new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
@@ -182,13 +182,67 @@ session_start();
                         </div>
                         <!-- carousel indicators -->
                         <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
+                            <span class="carousel-control-prev-icon" aria-hidden="true">❮</span>
+                            <span class="sr-only"></span>
                         </a>
                         <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
+                            <span class="carousel-control-next-icon" aria-hidden="true">❯</span>
+                            <span class="sr-only"></span>
                         </a>
+                    </div>
+                    <!-- end slider -->
+                    <!-- news-cards for the extra-small screens -->
+                    <!-- card-item -->
+                    <div class="d-sm-none card bg-transparent border border-primary mx-0 mb-3 shadow">
+                        <img src="img/carosel1.jpg" alt="people" class="card-img-top">
+                        <div class="card-body p-2 bg_info_through">
+                            <h4 class="card-title px-0 text-center text_color">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit.
+                                Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
+                        </div>
+                        <div class="card-footer bg_info_through text-center border-top border-secondary">
+                            <a href="#" class="btn btn-dark border border-white">&laquo; Докладніше</a>
+                            <a href="#" class="btn btn-info border border-primary text_color">Усі новини &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- card-item -->
+                    <div class="d-md-none card bg-transparent border border-primary mx-0 mb-3 shadow">
+                        <img src="img/carosel2.jpg" alt="people" class="card-img-top">
+                        <div class="card-body p-2 bg_info_through">
+                            <h4 class="card-title px-0 text-center text_color">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit.
+                                Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
+                        </div>
+                        <div class="card-footer bg_info_through text-center border-top border-secondary">
+                            <a href="#" class="btn btn-dark border border-white">&laquo; Докладніше</a>
+                            <a href="#" class="btn btn-info border border-primary text_color">Усі новини &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- card-item -->
+                    <div class="d-md-none card bg-transparent border border-primary mx-0 mb-3 shadow">
+                        <img src="img/carosel3.png" alt="track" class="card-img-top">
+                        <div class="card-body p-2 bg_info_through">
+                            <h4 class="card-title px-0 text-center text_color">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit.
+                                Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
+                        </div>
+                        <div class="card-footer bg_info_through text-center border-top border-secondary">
+                            <a href="#" class="btn btn-dark border border-white">&laquo; Докладніше</a>
+                            <a href="#" class="btn btn-info border border-primary text_color">Усі новини &raquo;</a>
+                        </div>
+                    </div>
+                    <!-- card-item -->
+                    <div class="d-md-none card bg-transparent border border-primary mx-0 mb-3 shadow">
+                        <img src="img/carosel4.jpg" alt="people" class="card-img-top">
+                        <div class="card-body p-2 bg_info_through">
+                            <h4 class="card-title px-0 text-center text_color">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit.
+                                Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h4>
+                        </div>
+                        <div class="card-footer bg_info_through text-center border-top border-secondary">
+                            <a href="#" class="btn btn-dark border border-white">&laquo; Докладніше</a>
+                            <a href="#" class="btn btn-info border border-primary text_color">Усі новини &raquo;</a>
+                        </div>
                     </div>
                     <!-- birthday block -->
                     <div class="d-flex justify-content-center text-left mt-3 overflow-hidden position-relative border border-primary bg_dark_through particles wow fadeInUp"
@@ -215,7 +269,7 @@ session_start();
                         <span></span>
                         <span></span>
                         <div class="bg_birthday text-justify pt-3 m-4 rounded border border-primary">
-                            <h4 class="px-3 text-center text_color">Вітаємо з днем народження!</h4>
+                            <h4 class="px-3 text-center text_color">Вітаємо з Днем народження!</h4>
                             <ul class="list-unstyled px-3 text_color">
                                 <li><b class="text-uppercase">11.03.1971 Вітько А.В.</b>
                                     Заступник Голови правління з охорони праці</li>
@@ -254,3 +308,10 @@ session_start();
     </section>
     <!--footer-->
     <?php include_once "footer.php"; ?>
+    <script>
+        $(document).on("pagecreate","#pageone",function(){
+            $(".carousel-item").on("swipe",function(){
+              $(this).hide();
+            });                       
+        });
+    </script>

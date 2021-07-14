@@ -132,14 +132,14 @@
                         <!-- sport news -->
                         <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 m-0">
                             <div class="card border position-relative m-1">
-                                <img src="img/sport.jpg" alt="фото" class="card-img-top">
+                                <img src="img/social.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
                                             <a href="sport-news.php"
                                                 class="d-flex flex-column text-uppercase text-white py-5 news_link">
-                                                <span class="align-self-center"><i
-                                                        class="fas fa-dumbbell fa-3x"></i></span> Новини спорту</a>
+                                                <span class="align-self-center">
+                                                    <i class="fas fa-people-arrows fa-3x"></i></span> Соціальні новини</a>
                                         </p>
                                     </div>
                                 </div>
@@ -148,14 +148,14 @@
                         <!-- emergency news -->
                         <div class="col-12 col-lg-6 pt-3 pt-lg-0 px-0 m-0">
                             <div class="card border position-relative m-1">
-                                <img src="img/emergency.jpg" alt="фото" class="card-img-top">
+                                <img src="img/another.jpg" alt="фото" class="card-img-top">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
                                             <a href="sport-news.php"
                                                 class="d-flex flex-column text-uppercase text-white py-5 news_link">
                                                 <span class="align-self-center"><i 
-                                                    class="fas fa-headset fa-3x"></i></span> МЧС інфо</a>
+                                                    class="fab fa-sketch fa-3x"></i></span> Інше</a>
                                         </p>
                                     </div>
                                 </div>

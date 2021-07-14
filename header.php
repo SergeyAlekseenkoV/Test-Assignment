@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 
 <head>
      <meta http-equiv="x-ua-compatible" content="ie=edge">

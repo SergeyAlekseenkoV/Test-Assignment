@@ -226,7 +226,7 @@
                                         </div>
                                         <div class="col-12 text-center">
                                         <!-- button-close -->
-                                            <button class="btn btn-transparent my-3 p-0" id="hidePhotos"><i class="far fa-times-circle fa-2x"></i></button>
+                                            <button class="btn btn-transparent my-3 p-0 text_color" id="hidePhotos"><i class="far fa-times-circle fa-2x"></i></button>
                                         </div>
                                     </div>
                                     <p class="lead card-text text_color">Some quick example text to build on the card

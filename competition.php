@@ -34,7 +34,7 @@
                         </div>
                         <!-- try version -->
                         <!-- left_lg_list -->
-                        <div class="col-12 col-lg-6 mt-1 px-1 left_lg_list">
+                        <div class="col-12 col-lg-6 mt-2 px-1 left_lg_list">
                             <!-- districts -->
                             <h5 class="text-center rounded font-weight-bold type_title">Переможці з виробничого змагання
                             </h5>
@@ -141,7 +141,7 @@
                         </div>
                         <!-- best professionals -->
                         <!-- right-lg-list -->
-                        <div class="col-12 col-lg-6 mt-1 px-1 right_lg_list">
+                        <div class="col-12 col-lg-6 mt-2 px-1 right_lg_list">
                             <h5 class="text-center rounded font-weight-bold type_title">Кращі за професією</h5>
                             <!-- best-professionals-items -->
                             <div class="row">
@@ -249,7 +249,7 @@
                         </div>
                         <!-- end right_lg_list -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h3 class="bg_dark_through px-0 py-3 mx-1 my-1 text-white">
+                            <h3 class="bg_dark_through px-1 px-md-0 py-3 mx-1 my-1 text-white">
                                 Постанова № 87/29 від 01.07.2021
                             </h3>
                         </div>
