@@ -4,7 +4,7 @@
         <div class="row">
             <!--footer address-->
             <div class="col-12 d-flex justify-content-between d-lg-block col-lg-4 text-center text-lg-left pr-3 pr-sm-0 pr-md-3">
-                <p class="text-left">Україна, 53400, м. Марганець, ул. Єдності,62 <br>
+                <p class="text-left">Україна, 53400, м. Марганець, вул. Єдності,62 <br>
                     тел.: +38(056)790-16-35<br>
                     e-mail: mgzk.info@gmail.com<br>
                     сайт: <a href="http://www.mgok.dp.ua/" class="text-white">http://www.mgok.dp.ua/</a>

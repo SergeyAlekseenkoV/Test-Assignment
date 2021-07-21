@@ -35,7 +35,7 @@ session_start();
                     <div class="d-block mt-0 mb-3 overflow-hidden border border-primary bg_announcement wow fadeInUp"
                         data-animation="fadeInUp">
                         <!-- <div class="text-justify pt-3 m-4 rounded border text-white bg_dark_through width_announcement"> -->
-                        <h4 class="px-1 mt-2 mb-1 ml-2 mr-3 text-center rounded border shadow text_color">
+                        <h4 class="px-0 mx-auto mt-2 text-center text-white">
                             Оголошення</h4>
                         <ul class="list-unstyled px-2 my-2">
                             <li class="mb-2">&nbsp;
@@ -91,7 +91,7 @@ session_start();
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
                                         <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong
                                                 class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="news.php"
+                                        <a href="allnews.php"
                                             class="btn btn-info mx-1 border border-primary text_color">Усі новини
                                             <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
@@ -118,7 +118,7 @@ session_start();
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
                                         <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong
                                                 class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="news.php"
+                                        <a href="allnews.php"
                                             class="btn btn-info mx-1 border border-primary text_color">Усі новини
                                             <strong class="d-sm-inline-block"><span
                                                     aria-hidden="true">&raquo;</span></strong></a>
@@ -146,7 +146,7 @@ session_start();
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
                                         <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong
                                                 class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="news.php"
+                                        <a href="allnews.php"
                                             class="btn btn-info mx-1 border border-primary text_color">Усі новини
                                             <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>
@@ -155,7 +155,7 @@ session_start();
                             <div class="carousel-item" data-touch="true">
                                 <img class="d-block w-100" src="img/carosel4.jpg" alt="people">
                                 <!-- fourth new -->
-                                <div class="carousel-caption p-2 border rounded text_color">
+                                <div class="carousel-caption bg_dark_overlay p-2 border rounded text_color">
                                     <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">4 Короткий опис новини
                                         декілька слів</p>
                                     <!-- appears on the sm screens and further -->
@@ -173,7 +173,7 @@ session_start();
                                     <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
                                         <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong
                                                 class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="news.php"
+                                        <a href="allnews.php"
                                             class="btn btn-info mx-1 border border-primary text_color">Усі новини
                                             <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
                                     </div>

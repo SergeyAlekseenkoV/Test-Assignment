@@ -30,7 +30,7 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="best-team.php">Кращий
-                                    коллектив</a>
+                                    колектив</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="competition.php">Трудове
@@ -41,7 +41,7 @@
                                     data-toggle="dropdown" role="link" aria-haspopup="true">Організація
                                         та оплата праці</a>
                                     <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Середня зар.плата по <br>провідним професіям</a></li>
+                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="avarage-salary.php">Середня зар.плата по <br>провідним професіям</a></li>
                                         <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="vacations.php">Тривалість чергових <br>відпусток</a></li>
 
                                         <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a> -->
@@ -70,11 +70,11 @@
                                     <a class="dropdown-item dropdown-toggle text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" type="button" 
                                     data-toggle="dropdown" role="link" aria-haspopup="true">Інформація профспілки</a>
                                     <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left">
-                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Оголошення</a></li>
+                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Оголошення профспілки</a></li>
                                         <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Колективний договір</a></li>
                                     </ul>
                                 </li>   
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Вакансії</a></li>
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="open-positions.php">Вакансії</a></li>
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Кадрові призначення</a></li>
                             </ul>
                         </li>

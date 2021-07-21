@@ -23,13 +23,13 @@
                 <aside id="competition-list"
                     class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 wow fadeInUp"
                     data-animation="fadeInUp">
-                    <div class="row m-0 p-0 border border-primary rounded shadow winner_hover">
+                    <div class="row m-0 p-0 border border-primary rounded shadow">
                         <!-- competition heading -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h3 class="bg-dark text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 text-white">
                                 Результати змагання
                                 серед цехів, дільниць, а також окремих працівників
-                                <br class="d-none d-xl-inline-block"> червень 2020
+                                <br class="d-none d-xl-inline-block"> червень 2021
                             </h3>
                         </div>
                         <!-- try version -->

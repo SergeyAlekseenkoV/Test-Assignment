@@ -9,11 +9,20 @@
                 </a>
             </div>
         </div>
+        <!-- announcement card -->
+        <div class="card bg-transparent">
+            <div class="card-header p-0 bg-dark text-info" id="announcement-item">
+                <a class="btn btn-link bg-transparent btn-block text-decoration-none text-lg-left collapsed text-white text-uppercase"
+                    type="button" href="ads_index.php" role="button">
+                    Оголошення
+                </a>
+            </div>
+        </div>
         <!-- news card -->
         <div class="card bg-transparent">
             <div class="card-header p-0 bg-dark text-info" id="news-item">
                 <a class="btn btn-link bg-transparent btn-block text-decoration-none text-lg-left collapsed text-white text-uppercase"
-                    type="button" href="news.php" role="button">
+                    type="button" href="allnews.php" role="button">
                     Новини
                 </a>
             </div>

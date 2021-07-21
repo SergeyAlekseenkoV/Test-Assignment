@@ -95,121 +95,67 @@
                     </nav>
                 </article>
                 <aside id="respect-desk" class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 wow fadeInUp" data-animation="fadeInUp">
-                    <div class="row m-0 p-0 border border-primary rounded shadow bg-transparent">
+                    <div class="row m-0 border border-primary rounded shadow bg-transparent">
                         <!-- we proud of them -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h2 class="bg-dark text-uppercase px-0 py-3 mx-1 mt-1 mb-0 text-white">Ми пишаємося ними</h2>
+                            <h2 class="bg-dark text-uppercase px-0 py-3 mx-1 my-1 text-white">Ми пишаємося ними</h2>
                         </div>
                         <!-- respect-item -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 position-relative">
-                            <div class="card border m-1 shadow">
-                                <div class="d-flex justify-content-center position-relative">
-                                    <div class="card-img overflow-hidden">
-                                        <img src="img/carosel2.jpg" alt="фото" class="card-img-top">
-                                    </div>
-                                </div>
-                                <div class="card-body bg-light p-2">
-                                    <p class="card-text lead text_color"><span class="respect_item_name font-weight-bold text-uppercase">Григорій Перебий-ніс</span> - Слюсар-черговий 
-                                       підземний з ремонту обладнання 
-                                       Ремонтно-механічного цеху, на підприємстві з 2008 року.
-                                       Оперативно, якісно та професійно виконує специфічні роботи з ремонту на конвеєрному транспорті кар’єрів та шахт. 
-                                       Зумів здобути низку суміжних професій, збагативши свій виробничий досвід. 
-                                       Зарекомендував себе відповідальним і технічно грамотним спеціалістом, гарним наставником та товаришем.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/1.jpg" alt="фото" class="img-fluid">
                         </div>
                         <!-- respect-item -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 position-relative">
-                            <div class="card border m-1 shadow">
-                                <div class="d-flex justify-content-center position-relative">
-                                    <div class="card-img overflow-hidden">
-                                        <img src="img/carosel2.jpg" alt="фото" class="card-img-top">
-                                    </div>
-                                </div>
-                                <div class="card-body bg-light p-2">
-                                    <p class="card-text lead text_color"><span class="respect_item_name font-weight-bold text-uppercase">Микола Король</span> - машиніст 
-                                       екскаватора 6 розряду ЕКГ №254 Грушівського кар’єра. 
-                                       На комбінаті працює з червня 1992 року. 
-                                       Сумлінно виконує найвідповідальніші завдання, користується повагою в колективі, займається виробничим навчанням молодих працівників. 
-                                       За час роботи зарекомендував себе технічно 
-                                       грамотним, відповідальним, сумлінним і старанним спеціалістом.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/2.jpg" alt="фото" class="img-fluid">
                         </div>
                         <!-- respect-item -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 position-relative">
-                            <div class="card border m-1 shadow">
-                                <div class="d-flex justify-content-center position-relative">
-                                    <div class="card-img overflow-hidden">
-                                        <img src="img/carosel2.jpg" alt="фото" class="card-img-top">
-                                    </div>
-                                </div>
-                                <div class="card-body bg-light p-2">
-                                    <p class="card-text lead text_color"><span class="respect_item_name font-weight-bold text-uppercase">Іван Сильний</span> - машиніст
-                                       екскаватора 6 розряду Грушівського кар’єра, на комбінаті працює з серпня 1990 року. 
-                                       Івана Васильовича заслужено цінують у колективі за наполегливість, відповідальний підхід до роботи, бездоганне знання гірницької справи, принциповість і справедливість. 
-                                       Він бере активну участь у громадському житті кар’єра, голова цехового комітету.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/3.jpg" alt="фото" class="img-fluid">
                         </div>
                         <!-- respect-item -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 position-relative">
-                            <div class="card border m-1 shadow">
-                                <div class="d-flex justify-content-center position-relative">
-                                    <div class="card-img overflow-hidden">
-                                        <img src="img/carosel2.jpg" alt="фото" class="card-img-top">
-                                    </div>
-                                </div>
-                                <div class="card-body bg-light p-2">
-                                    <p class="card-text lead text_color"><span class="respect_item_name font-weight-bold text-uppercase">Сергій Непийпиво</span> - машиніст 
-                                        екскаватора 6 розряду ЕК 6/45 №125 Грушівського кар’єра, на комбінаті працює з 
-                                        1996 року. За роки роботи в кар’єрі зарекомендував себе відповідальним та цілеспрямованим фахівцем. Якісно виконує завдання з 
-                                        підготовки земельних площ. Екіпаж екскаватора, який він очолює, 
-                                        постійно перевиконує планові показники. Учасник бойових дій в зоні АТО.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- following two last childs must be with larger margin-bottom on lg screens-->
-                        <!-- respect-item -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 mb-lg-5 position-relative">
-                            <div class="card border m-1 shadow">
-                                <div class="d-flex justify-content-center position-relative">
-                                    <div class="card-img overflow-hidden">
-                                        <img src="img/carosel2.jpg" alt="фото" class="card-img-top">
-                                    </div>
-                                </div>
-                                <div class="card-body bg-light p-2">
-                                    <p class="card-text lead text_color"><span class="respect_item_name font-weight-bold text-uppercase">Едуард Климовський</span> - електрослюсар черговий та з ремонту устаткування в кар’єрі 6 розряду Центральної енерголабораторії, 
-                                        на комбінаті працює з січня 1990 року. Кваліфікований, дисциплінований працівник, 
-                                        досконало володіє знаннями в галузі електротехніки, промислової електроніки, основ теорії технічної механіки. 
-                                        Є провідним фахівцем з проведення капітальних ремонтів приводів 
-                                        насосних установок гірничо-транспортних машин і механізмів.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/4.jpg" alt="фото" class="img-fluid">
                         </div>
                         <!-- respect-item -->
-                        <div class="col-12 col-lg-6 px-0 mx-0 pt-lg-0 mb-lg-5 position-relative">
-                            <div class="card border m-1 shadow">
-                                <div class="d-flex justify-content-center position-relative">
-                                    <div class="card-img overflow-hidden">
-                                        <img src="img/carosel2.jpg" alt="фото" class="card-img-top">
-                                    </div>
-                                </div>
-                                <div class="card-body bg-light p-2">
-                                    <p class="card-text lead text_color"><span class="respect_item_name font-weight-bold text-uppercase">Михайло Головко</span> - водій 
-                                       Автотранспортних засобів в кар’єрі по вивезенню гірничої маси Колони технологічних перевезень АТЦ. 
-                                       За час роботи зарекомендував 
-                                       себе висококваліфікованим, відповідальним, грамотним, дисциплінованим працівником, справжнім майстром своєї справи. 
-                                       За 2019 рік перевіз 91160 т гірничої маси. Норму виробітку виконав на 104,8%.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/5.jpg" alt="фото" class="img-fluid">
                         </div>
+                        <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/6.jpg" alt="фото" class="img-fluid">
+                        </div>
+                        <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/7.jpg" alt="фото" class="img-fluid">
+                        </div>
+                        <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/8.jpg" alt="фото" class="img-fluid">
+                        </div>
+                            <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/9.jpg" alt="фото" class="img-fluid">
+                        </div>
+                        <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/10.jpg" alt="фото" class="img-fluid">
+                        </div>
+                        <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/11.jpg" alt="фото" class="img-fluid">
+                        </div>
+                        <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/12.jpg" alt="фото" class="img-fluid">
+                        </div>
+                        <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/13.jpg" alt="фото" class="img-fluid">
+                        </div>
+                        <!-- respect-item -->
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
+                            <img src="../img/respect-desk/14.jpg" alt="фото" class="img-fluid">
+                        </div>    
                     </div>
                 </aside>
             </div>

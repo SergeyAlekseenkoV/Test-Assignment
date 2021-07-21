@@ -10,7 +10,7 @@ $primary-light-through: rgba(192, 192, 192, 0.8);
 $primary-lighter: #d8d8d8;
 $primary-lightest: #f0f0f0;
 $primary-lightest-through: rgba(240, 240, 240, 0.379);
-$dark-overlay: rgba(0, 0, 0, 0.7);
+$dark-overlay: rgba(0, 0, 0, 0.4);
 $light-through: rgba(255, 255, 255, 0.84);
 $nav-link-focus: #4890d8;
 $shadow: #e0e0e0 1px 1px 0;
@@ -219,6 +219,10 @@ select {
     overflow-wrap: break-word;
 }
 
+.bg_muted {
+    background-color: $primary-lightest;
+}
+
 .bg-secondary {
     background-color: $primary-light !important;
 }
@@ -229,6 +233,10 @@ select {
 
 .bg-dark {
     background-color: $primary-color !important;
+}
+
+.bg_dark_overlay {
+    background-color: $dark-overlay;
 }
 
 .bg-info {
@@ -247,6 +255,10 @@ select {
     background-color: $light-through;
 }
 
+.bg_linear_dark {
+    background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
+}
+
 /* remove check on the dropdown link */
 li {
     > a.dropdown-toggle {
@@ -260,15 +272,8 @@ small.form-text {
     color: $primary-color !important;
 }
 
-.winner_hover:hover {
-    background-color: rgba(64, 51, 189, 0.25) !important;
-    transition: background-color 500ms ease;
-}
-
 /*carousel*/
-.carousel-item {
-    max-height: 500px !important;
-}
+
 /*reset standard styles*/
 .carousel-control-prev,
 .carousel-control-prev:hover {
@@ -300,19 +305,28 @@ small.form-text {
 
 .carousel-control-prev .carousel-control-prev-icon {
     left: 0.8em;
-    margin-left: 0;
+    margin-left: -4.8vw;
     background-image: none !important;
 }
 
 .carousel-control-next .carousel-control-next-icon {
     right: 0.8em;
-    margin-right: 0;
+    margin-right: -4.8vw;
     background-image: none !important;
 }
 
 .carousel-control-prev:hover .carousel-control-prev-icon,
 .carousel-control-next:hover .carousel-control-next-icon {
     background-color: $primary-color;
+    cursor: pointer;
+}
+
+.float_left {
+    float: left;
+}
+
+.dot {
+    font-size: 10px !important;
 }
 
 /* end GLOBALS */
@@ -500,36 +514,8 @@ small.form-text {
     transition: all 1s ease;
 }
 
-// li.nav-item:hover .dropdown-menu {
-//     display: block!important;
-//     transform: scaleZ(.999) translateZ(0) perspective(-1px);
-//     zoom: 99.999999%;
-// }
-
 /*effect for the bg home page*/
 #home {
-    // background: linear-gradient(
-    //     -45deg,
-    //     rgba(48, 72, 120, 0.6),
-    //     rgba(102, 159, 216, 0.6),
-    //     rgba(255, 255, 255, 0.6),
-    //     rgba(64, 51, 189, 0.6)
-    // );
-    // background-size: 300% 300%;
-    // animation: gradient 15s ease infinite;
-
-    // @keyframes gradient {
-    //     0% {
-    //         background-position: 0% 50%;
-    //     }
-    //     50% {
-    //         background-position: 100% 50%;
-    //     }
-    //     100% {
-    //         background-position: 0% 50%;
-    //     }
-    // }
-
     /* animation effect for the bg birthday part */
     $particleSize: 30vmin;
     $animationDuration: 6s;
@@ -570,11 +556,25 @@ small.form-text {
     }
 
     /*carousel*/
+    .carousel-item {
+        max-height: 500px !important;
+    }
 
     .carousel-item > .carousel-caption {
-        background-color: $primary-lightest-through !important;
+        background-color: $primary-common-light-through;
+        transition: all 500ms ease;
+
+        &:hover {
+            background-color: $primary-color-through;
+
+            > p {
+                color: $white-color;
+                text-shadow: $shadow-dark;
+            }
+        }
 
         > p {
+            color: $primary-color;
             line-height: 1.2 !important;
             text-shadow: $shadow;
             opacity: 1 !important;
@@ -625,30 +625,7 @@ small.form-text {
         text-align: justify;
 
         h4 {
-            width: fit-content;
-            height: fit-content;
-            text-shadow: $shadow;
-            float: left;
-            background: linear-gradient(
-                -35deg,
-                rgba(64, 51, 189, 0.4),
-                rgba(255, 255, 255, 0.4),
-                rgba(64, 51, 189, 0.4)
-            );
-            background-size: 150% 150%;
-            animation: gradient 4000ms ease infinite;
-
-            @keyframes gradient {
-                0% {
-                    background-position: 0% 100%;
-                }
-                50% {
-                    background-position: 100% 0%;
-                }
-                100% {
-                    background-position: 0% 100%;
-                }
-            }
+            text-shadow: $shadow-dark;
         }
 
         > ul > li {
@@ -701,10 +678,7 @@ small.form-text {
 
 #main {
     background: url("../img/try3.png") left/cover no-repeat fixed;
-    min-height: 100vh;
-    .news {
-        min-height: 110vh;
-    }
+    min-height: 110vh;
 
     .card-header:hover,
     .card-header:focus {
@@ -712,6 +686,36 @@ small.form-text {
     }
 
     #news-category {
+        > div.col-6 > .card > .card-body {
+            background-color: $primary-color-through;
+
+            &::before {
+                border-top: 2px solid $white-color;
+                border-bottom: 2px solid $white-color;
+            }
+
+            &::after {
+                border-left: 2px solid $white-color;
+                border-right: 2px solid $white-color;
+            }
+        }
+
+        > :last-child {
+            .card-body {
+                background-color: $primary-common-light-through !important;
+
+                &::before {
+                    border-top: 2px solid $primary-color !important;
+                    border-bottom: 2px solid $primary-color !important;
+                }
+
+                &::after {
+                    border-left: 2px solid $primary-color !important;
+                    border-right: 2px solid $primary-color !important;
+                }
+            }
+        }
+
         .card-body {
             background-color: $primary-color-through;
             top: 0;
@@ -724,18 +728,18 @@ small.form-text {
             &::after {
                 content: "";
                 position: absolute;
-                top: 3.25em;
-                bottom: 3.25em;
-                left: 3.25em;
-                right: 3.25em;
+                top: 0.25em;
+                bottom: 0.25em;
+                left: 0.25em;
+                right: 0.25em;
                 z-index: -1;
             }
 
             &::before {
                 transform: scale(0, 1);
                 transition: transform ease-in-out 250ms;
-                border-top: 3px solid $white-color;
-                border-bottom: 3px solid $white-color;
+                border-top: 2px solid $white-color;
+                border-bottom: 2px solid $white-color;
             }
 
             &:hover::before {
@@ -745,8 +749,8 @@ small.form-text {
             &::after {
                 transform: scale(1, 0);
                 transition: transform ease-in-out 250ms;
-                border-left: 3px solid $white-color;
-                border-right: 3px solid $white-color;
+                border-left: 2px solid $white-color;
+                border-right: 2px solid $white-color;
             }
 
             &:hover::after {
@@ -755,6 +759,57 @@ small.form-text {
 
             .news_link:hover {
                 opacity: 0.8;
+            }
+        }
+    }
+
+    #announcement-description {
+        .card > .row > div > .card-block {
+            > img {
+                width: 50%;
+            }
+
+            > p {
+                text-align: justify;
+            }
+        }
+    }
+
+    #announcement-list {
+        .card {
+            height: auto;
+            z-index: 2;
+            opacity: 0.85;
+
+            .card-block {
+                height: 150px;
+                overflow: hidden;
+            }
+            .img-fluid {
+                z-index: -1;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 3px;
+                bottom: 3px;
+                left: 3px;
+                right: 3px;
+                z-index: -1;
+            }
+
+            &::after {
+                border: 2px solid $primary-common;
+                transform: scale(0, 0);
+            }
+
+            &:hover::after {
+                transform: scale(1, 1);
             }
         }
     }
@@ -798,6 +853,7 @@ small.form-text {
         .card-title,
         .card-text {
             text-align: justify;
+            line-height: 1.2 !important;
         }
 
         .card-footer > a {
@@ -934,12 +990,20 @@ small.form-text {
 
     /* slider */
     #best-team {
-        .best_team {
-            min-height: 80vh;
-        }
+        min-height: 110vh;
 
         h2 {
             background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8));
+        }
+
+        .see_modal {
+            top: 0;
+            left: 0;
+        }
+
+        #carousel-indicators .carousel-item {
+            max-height: 650px;
+            bottom: 0;
         }
 
         .carousel > ol.carousel-indicators {
@@ -954,88 +1018,80 @@ small.form-text {
             }
         }
 
-        .carousel-item > .carousel-caption {
-            background-color: $primary-common-light-through !important;
-            left: 0 !important;
-            right: 0 !important;
-            bottom: 0 !important;
-
-            > p {
-                font-size: 2em !important;
-                line-height: 1.2 !important;
-                text-shadow: $shadow;
-                opacity: 1 !important;
+        #carouselModal > .carousel-inner > .carousel-item {
+            .carousel-inner > .carousel-item {
+                max-height: auto !important;
             }
         }
 
-        // img {
-        //     vertical-align: middle;
-        // }
+        .modal > .modal-dialog {
+            max-width: 1200px !important;
+            margin: 0 auto !important;
 
-        // .mySlides {
-        //     display: none;
-        //     max-height: 500px;
+            .modal_slider_close {
+                right: 0;
+                z-index: 10;
+            }
+        }
 
-        //     .img-width {
-        //         width: 100%;
-        //     }
-        // }
+        .carousel-control-prev,
+        .carousel-control-next {
+            top: -140px !important;
+            margin-top: 225px;
+            height: 50%;
+        }
+    }
 
-        /* Add a pointer when hovering over the thumbnail images */
-        // .cursor {
-        //     cursor: pointer;
-        //     width: 100%;
-        // }
+    #avarage-salary {
+        > :first-child {
+            background-color: $primary-color-through;
+            transition: all 500ms ease;
+        }
 
-        /* Next & previous buttons */
-        // .prev,
-        // .next {
-        //     cursor: pointer;
-        //     top: 45%;
-        //     width: auto;
-        //     padding: 16px;
-        //     margin-top: -50px;
-        //     color: $white-color;
-        //     font-size: 20px;
-        //     user-select: none;
-        //     -webkit-user-select: none;
-        // }
+        div.table > table {
+            line-height: 1 !important;
+            border-color: $primary-dark !important;
+        }
 
-        /* Position the "previous button" to the right */
-        // .prev {
-        //     left: 5%;
-        //     border-radius: 3px 0 0 3px;
-        // }
+        .table-hover tbody tr:hover {
+            color: $primary-dark !important;
+        }
+        .table-hover .table-light:hover {
+            background-color: $white-color !important;
+        }
 
-        /* Position the "next button" to the right */
-        // .next {
-        //     right: 5%;
-        //     border-radius: 3px 0 0 3px;
-        // }
+        .table-light tbody + tbody,
+        .table-light td,
+        .table-light th,
+        .table-light thead th {
+            border-color: $primary-dark !important;
+        }
+    }
 
-        /* On hover, add a black background color with a little bit see-through */
-        // .prev:hover,
-        // .next:hover {
-        //     background-color: $primary-color-through;
-        // }
+    #open-positions {
+        > :nth-of-type(2) > .row > ul > li {
+            padding: .5em 1em;
+            border: transparent 1px dotted;
+            transition: all 500ms ease;
+            > a {
+                margin-left: 2em;
+                text-decoration: none !important;
+                transition: all 500ms ease;
+            }
+            &:hover {
+                margin-left: 1.8em;
+                background-color: $white-color;
+                border: $primary-common-light 1px dotted;
+            }
 
-        /* Number text (1/3 etc) */
-        // .numbertext {
-        //     color: $primary-common;
-        //     font-size: 16px;
-        //     padding: 8px 12px;
-        // }
+            &:hover a {
+                margin-left: .2em;
+            }
+        }
 
-        /* Add a transparency effect for thumnbail images */
-        // .demo {
-        //     opacity: 0.7;
-        //     width: 100%;
-        // }
-
-        // .active,
-        // .demo:hover {
-        //     opacity: 1;
-        // }
+        > :nth-of-type(2) > :first-child > img {
+            opacity: .5;
+        }
     }
 }
 
@@ -1334,6 +1390,37 @@ small.form-text {
     #personalRoom {
         .table table {
             width: 830px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #main {
+        #mgok-news {
+            .card {
+                height: auto;
+                z-index: 1;
+                opacity: 0.8;
+
+                &:not(hover) {
+                    opacity: 1;
+                }
+            }
+        }
+
+        #announcement-description {
+            .card-body {
+                position: absolute;
+                border: $white-color 5px solid;
+                top: 1.5em;
+                left: 1.5em;
+                bottom: 1.5em;
+                right: 1.5em;
+
+                p {
+                    line-height: 1 !important;
+                }
+            }
         }
     }
 }
@@ -1652,6 +1739,30 @@ small.form-text {
             }
         }
     }
+
+    #main {
+        #best-team {
+            .carousel-control-prev .carousel-control-prev-icon,
+            .carousel-control-next .carousel-control-next-icon {
+                margin-top: 0;
+            }
+        }
+
+        #announcement-description {
+            .float_left {
+                float: unset;
+            }
+            .card > .row > div > .card-block {
+                > img {
+                    width: 100%;
+                }
+
+                > p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 715px) {
@@ -1748,15 +1859,10 @@ small.form-text {
         }
     }
 
-    #best-team {
-        .slider_team > .caption-container > h4 {
-            text-shadow: $shadow;
-        }
-
-        .caption-container {
-            z-index: 1;
-            left: 0;
-            top: 457px;
+    #carouselModal {
+        .carousel-control-prev,
+        .carousel-control-next {
+            margin-top: 300px !important;
         }
     }
 }
