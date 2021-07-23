@@ -63,7 +63,7 @@
                                     <a class="dropdown-item dropdown-toggle text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" type="button" 
                                        data-toggle="dropdown" role="link" aria-haspopup="true">Кадрові документи</a>
                                     <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left">
-                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Зразки документів</a></li>
+                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="HR_documents_index.php">Зразки документів</a></li>
                                     </ul>
                                 <li>
                                 <li class="dropdown-submenu position-relative">
@@ -75,7 +75,7 @@
                                     </ul>
                                 </li>   
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="open-positions.php">Вакансії</a></li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Кадрові призначення</a></li>
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="HR_movement.php">Кадрові призначення</a></li>
                             </ul>
                         </li>
                         <li class="nav-item mt-1 d-flex justify-content-center position-relative">

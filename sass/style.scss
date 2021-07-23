@@ -763,6 +763,12 @@ small.form-text {
         }
     }
 
+    #HR-movement {
+        :nth-of-type(3) > div > img {
+            opacity: 0.8;
+        }
+    }
+
     #announcement-description {
         .card > .row > div > .card-block {
             > img {
@@ -771,6 +777,13 @@ small.form-text {
 
             > p {
                 text-align: justify;
+                &::first-letter {
+                    float: left;
+                    font-size: 200%;
+                    color: $primary-dark !important;
+                    margin-top: -5px;
+                    margin-right: 0.3em;
+                }
             }
         }
     }
@@ -867,6 +880,14 @@ small.form-text {
     }
 
     #news-description {
+        .card-body > p::first-letter {
+            font-size: 200%;
+            color: $primary-dark !important;
+            float: left;
+            margin-right: 0.15em;
+            margin-top: -5px;
+        }
+
         .card-title,
         .card-text {
             text-align: justify;
@@ -1070,7 +1091,7 @@ small.form-text {
 
     #open-positions {
         > :nth-of-type(2) > .row > ul > li {
-            padding: .5em 1em;
+            padding: 0.5em 1em;
             border: transparent 1px dotted;
             transition: all 500ms ease;
             > a {
@@ -1085,12 +1106,105 @@ small.form-text {
             }
 
             &:hover a {
-                margin-left: .2em;
+                margin-left: 0.2em;
             }
         }
 
         > :nth-of-type(2) > :first-child > img {
-            opacity: .5;
+            opacity: 0.5;
+        }
+    }
+
+    #HR-movement > #carouselSelection {
+        /* previous and next buttons styling */
+
+        .carousel-inner .carousel-item a.btn-info {
+            border-radius: unset !important;
+
+            &:hover {
+                cursor: crosshair !important;
+            }
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            bottom: unset;
+            top: 5px !important;
+        }
+
+        .carousel-control-prev .carousel-control-prev-icon,
+        .carousel-control-next .carousel-control-next-icon {
+            background-color: transparent;
+            color: $primary-color;
+            font-size: 1.5em;
+            height: auto;
+            width: auto;
+            padding-top: unset;
+            border: 1px solid transparent;
+            border-radius: 0.2em;
+            transition: all 500ms ease;
+        }
+
+        .carousel-control-prev .carousel-control-prev-icon {
+            left: unset;
+            margin-left: unset;
+            background-image: none !important;
+        }
+
+        .carousel-control-next .carousel-control-next-icon {
+            right: unset;
+            margin-right: unset;
+            background-image: none !important;
+        }
+
+        .carousel-control-prev:hover .carousel-control-prev-icon,
+        .carousel-control-next:hover .carousel-control-next-icon {
+            color: $primary-dark;
+            transform: scale(1.5);
+            cursor: pointer;
+        }
+        > ul > li {
+            text-indent: unset !important;
+            width: unset !important;
+            height: unset !important;
+        }
+    }
+
+    .HR-documents-list,
+    .HR-movement {
+        min-height: 100vh;
+    }
+
+    #HR-documents-list > div > a {
+        > span {
+            position: relative;
+            top: 0;
+            transition: all 500ms ease;
+
+            &::after{
+                content: '';
+                position: absolute;
+                background-color: $primary-color;
+                border-bottom: $primary-color 2px solid;
+                width: 100%;
+                height: 2px;
+                opacity: 0;
+                left: 0;
+                bottom: 0;
+                transition: all 500ms ease;
+                z-index: 8;
+            }
+        }
+
+        &:hover span,
+        &:focus span {
+            top: 10px;
+        }
+
+        &:hover span::after {
+            width: 10em;
+            opacity: 1;
+            
         }
     }
 }

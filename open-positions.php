@@ -24,13 +24,13 @@
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_linear_dark">Досвід 
-                                <span class="dot mx-1 mx-md-2 mx-md-3"><i class="far fa-dot-circle"></i></span> Надійність 
-                                <span class="dot mx-1 mx-md-2 mx-md-3"><i class="far fa-dot-circle"></i></span> Перспектива</h2>
+                                <span class="d-none d-sm-inline-block dot mx-1 mx-md-2 mx-md-3"><i class="far fa-dot-circle"></i></span><span class="d-sm-none">-</span> Стабільність 
+                                <span class="d-none d-sm-inline-block dot mx-1 mx-md-2 mx-md-3"><i class="far fa-dot-circle"></i></span><span class="d-sm-none">-</span> Перспектива</h2>
                         </div>
                         <!-- text-positions -->
-                        <div class="col-12 mx-0 px-0">
-                            <div class="d-flex flex-row justify-content-center justify-content-md-start align-items-center mx-5">
-                                <img src="../img/employee-icon-png-29.png" width="50" height="60" alt="шукаємо" class="img-fluid" style="opacity: .5">
+                        <div class="col-12 mx-0 px-2">
+                            <div class="d-flex flex-row justify-content-center justify-content-md-start align-items-center mx-5 my-4">
+                                <img src="../img/employee-icon-png-29.png" width="50" height="60" alt="шукаємо" class="img-fluid">
                                 <h2 class="text-center text-md-left text_color">Вакансії</h2>
                             </div>
                             <p class="px-2 mb-2">АТ «МГЗК» <strong>запрошує до співпраці професіоналів</strong>, налаштованих на активний розвиток,
@@ -39,17 +39,20 @@
                                 можливість кар'єрного росту, визнання особистих досягнень і пошани від трудового колективу.</p>
                             <p class="px-2 mb-2">Нижче представлений список відкритих на сьогодні вакансій.</p>
                             <p class="px-2 mb-2">Натисніть на вакансію, що цікавить Вас, щоб подивитися більш детальну інформацію про неї і зв'язатися з відділом кадрів.</p>
-                            <p class="px-2 mb-2">З приводу <strong>працевлаштування</strong> звертатися у відділ кадрів за адресою: <strong>вул. Єдності,62</strong> або <strong>за телефоном <br>+38(056)790-16-35</strong></p>
+                            <p class="px-2 mb-2">З приводу <strong>працевлаштування</strong> звертатися у відділ кадрів за адресою: місто Марганець, <strong>вул. Єдності, 68</strong>
+                               (будівля поруч з міським Центром зайнятості) каб.№ 202 з 8-00 до 17-00 або <strong>за телефоном <br>+38(068)361-23-80</strong></p>
+                            <p class="px-2 mb-2">Кандидатам на <strong>працевлаштування без досвіду роботи, а також тих що не мають кваліфікаційних посвідчень</strong>, АТ «МГЗК» надає можливість працевлаштування учнями за професіями 
+                               (окрім водіїв) з терміном навчання від 3 міс. до 6 міс., в залежності від обраної професії.</p>
                             <div class="row m-2 border border-secondary rounded">
                                 <ul class="col-12 text-left mt-2">
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
-                                        <i class="fas fa-chevron-right"></i><a href="#">Інженер-наглядач 1 категорії будівництва</a></li>
+                                        <i class="fas fa-chevron-right"></i><a href="position-description.php" class="text_color">Підземний гірник очисного забою 5-6 розряду</a></li>
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
-                                        <i class="fas fa-chevron-right"></i><a href="#">Заступник головного інженера(Грушівський кар'єр)</a></li>
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник головного інженера(Грушівський кар'єр)</a></li>
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
-                                        <i class="fas fa-chevron-right"></i><a href="#">Заступник головного механіка(Грушівський кар'єр)</a></li>
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник головного механіка(Грушівський кар'єр)</a></li>
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
-                                        <i class="fas fa-chevron-right"></i><a href="#">Заступник головного енергетика(Грушівський кар'єр)</a></li>
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник головного енергетика(Грушівський кар'єр)</a></li>
                                 </ul>
                             </div>
                         </div>
