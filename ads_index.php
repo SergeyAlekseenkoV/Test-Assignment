@@ -25,7 +25,7 @@
                     <div id="announcement-list" class="row m-0 p-0 border border-primary rounded shadow">
                         <!-- announcement heading -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h2 class="text-uppercase px-0 py-3 mx-1 mt-1 mb-0 bg_linear_dark text-white">Список
+                            <h2 class="text-uppercase px-0 py-3 mx-1 mt-1 mb-0 text-white bg_headers">Список
                                 оголошень</h2>
                             <!-- filter here -->
                             <!-- end filter -->

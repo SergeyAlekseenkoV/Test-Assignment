@@ -37,25 +37,37 @@ session_start();
                         <!-- <div class="text-justify pt-3 m-4 rounded border text-white bg_dark_through width_announcement"> -->
                         <h4 class="px-0 mx-auto mt-2 text-center text-white">
                             Оголошення</h4>
-                        <ul class="list-unstyled px-2 my-2">
-                            <li class="mb-2">&nbsp;
+                        <ul class="list-unstyled px-3 my-2">
+                            <li class="mb-3">&nbsp;
                                 <a href="#" class="text-white">Оголо&shy;шення перше Lorem ipsum dolor sit
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span class="pr-1 text_color">. . . &raquo;</span></a></li>
-                            <li class="mb-2">&nbsp;
+                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
+                            <li class="mb-3">&nbsp;
                                 <a href="#" class="text-white">Оголошення друге Lorem ipsum dolor sit
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span class="pr-1 text_color">. . . &raquo;</span></a></li>
+                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
+                            <!-- <li class="mb-3">&nbsp;
+                                <a href="#" class="text-white">Оголошення третє Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
+                                    culpa consequatur,
+                                    modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
+                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
+                            <li class="mb-3">&nbsp;
+                                <a href="#" class="text-white">Оголошення друге Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
+                                    culpa consequatur,
+                                    modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
+                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
                             <li class="mb-0">&nbsp;
                                 <a href="#" class="text-white">Оголошення третє Lorem ipsum dolor sit
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span class="pr-1 text_color">. . . &raquo;</span></a></li>
+                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li> -->
                         </ul>
                         <!-- </div> -->
                     </div>
@@ -74,109 +86,37 @@ session_start();
                                 <img class="d-block w-100" src="img/carosel1.jpg" alt="people">
                                 <!-- first new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">1 Короткий опис новини
-                                        декілька слів</p>
-                                    <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold rounded">1 Lorem ipsum dolor,
+                                    <p class="lead font-weight-bold rounded"><a href="#">1 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
                                         distinctio
-                                        a nemo veniam ab, magni tempora hic nihil!</p>
-                                    <!-- small-screen buttons  -->
-                                    <div class="d-flex d-md-none flex-row justify-content-center">
-                                        <a href="#"
-                                            class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше
-                                            <strong class="d-none d-sm-inline-block"><span>&raquo;</span></strong></a>
-                                    </div>
-                                    <!-- lg-screen buttons -->
-                                    <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong
-                                                class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="allnews.php"
-                                            class="btn btn-info mx-1 border border-primary text_color">Усі новини
-                                            <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
-                                    </div>
+                                        a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
                             <div class="carousel-item" data-touch="true">
                                 <img class="d-block w-100" src="img/carosel2.jpg" alt="people">
-                                <!-- second new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">2 Короткий опис новини
-                                        декілька слів</p>
-                                    <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold rounded">2 Lorem ipsum dolor,
+                                    <p class="lead font-weight-bold rounded"><a href="#">2 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
                                         distinctio
-                                        a nemo veniam ab, magni tempora hic nihil!</p>
-                                    <!-- small-screen buttons  -->
-                                    <div class="d-flex d-md-none flex-row justify-content-center">
-                                        <a href="#"
-                                            class="btn btn-dark mx-1 text-white border text-decoration-none">Докладніше
-                                            <strong class="d-none d-sm-inline-block"><span>&raquo;</span></strong></a>
-                                    </div>
-                                    <!-- lg-screen buttons -->
-                                    <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong
-                                                class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="allnews.php"
-                                            class="btn btn-info mx-1 border border-primary text_color">Усі новини
-                                            <strong class="d-sm-inline-block"><span
-                                                    aria-hidden="true">&raquo;</span></strong></a>
-                                    </div>
+                                        a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
                             <div class="carousel-item" data-touch="true">
                                 <img class="d-block w-100" src="img/carosel3.png" alt="track">
-                                <!-- third new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">3 Короткий опис новини
-                                        декілька слів</p>
-                                    <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold rounded">3 Lorem ipsum dolor,
+                                    <p class="lead font-weight-bold rounded"><a href="#">3 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
                                         distinctio
-                                        a nemo veniam ab, magni tempora hic nihil!</p>
-                                    <!-- small-screen buttons  -->
-                                    <div class="d-flex d-md-none flex-row justify-content-center">
-                                        <a href="#"
-                                            class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше
-                                            <strong class="d-none d-sm-inline-block"><span>&raquo;</span></strong></a>
-                                    </div>
-                                    <!-- lg-screen buttons -->
-                                    <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong
-                                                class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="allnews.php"
-                                            class="btn btn-info mx-1 border border-primary text_color">Усі новини
-                                            <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
-                                    </div>
+                                        a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
                             <div class="carousel-item" data-touch="true">
                                 <img class="d-block w-100" src="img/carosel4.jpg" alt="people">
-                                <!-- fourth new -->
                                 <div class="carousel-caption bg_dark_overlay p-2 border rounded text_color">
-                                    <p class="d-sm-none lead font-weight-bold pb-0 mb-0 rounded">4 Короткий опис новини
-                                        декілька слів</p>
-                                    <!-- appears on the sm screens and further -->
-                                    <p class="lead d-none d-sm-block font-weight-bold rounded">4 Lorem ipsum dolor,
+                                    <p class="lead font-weight-bold rounded"><a href="#">4 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
                                         distinctio
-                                        a nemo veniam ab, magni tempora hic nihil!</p>
-                                    <!-- small-screen buttons  -->
-                                    <div class="d-flex d-md-none flex-row justify-content-center">
-                                        <a href="#"
-                                            class="btn btn-dark mx-1 border border-white text-white text-decoration-none">Докладніше
-                                            <strong class="d-none d-sm-inline-block"><span>&raquo;</span></strong></a>
-                                    </div>
-                                    <!-- lg-screen buttons -->
-                                    <div class="d-none d-md-flex flex-row justify-content-center pb-md-3">
-                                        <a href="#" class="btn btn-dark mx-1 border border-white text-white"><strong
-                                                class="d-sm-inline-block"><span>&laquo;</span></strong> Докладніше </a>
-                                        <a href="allnews.php"
-                                            class="btn btn-info mx-1 border border-primary text_color">Усі новини
-                                            <strong class="d-sm-inline-block"><span>&raquo;</span></strong></a>
-                                    </div>
+                                        a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
                         </div>
@@ -302,6 +242,21 @@ session_start();
                             </ul>
                         </div>
                     </div>
+                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden wow fadeInUp"
+                        data-animation="fadeInUp">
+                            <!-- you tube embeded -->
+                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/gvvHIsL5lSU" title="YouTube video player"
+                                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                    </div>  
+                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden wow fadeInUp"
+                        data-animation="fadeInUp">
+                            <!-- you tube embeded -->
+                            <iframe width="100%" height="480" src="https://www.youtube.com/embed/iGWQFQA-LgY" title="YouTube video player" 
+                                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                    </div>  
                 </aside>
             </div>
         </div>

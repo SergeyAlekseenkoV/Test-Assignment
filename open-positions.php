@@ -5,7 +5,7 @@
 <body id="main">
     <?php include_once "menu.php"; ?>
     <!-- main-section-->
-    <section class="mt-0 pt-3 news_description">
+    <section class="mt-0 pt-3 open_positions">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div class="d-flex justify-content-between align-items-baseline mt-3 mt-md-3 mt-lg-3 mt-xl-4">
                 <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color">Вакансії
@@ -23,7 +23,7 @@
                     <div id="open-positions" class="row mx-0 border border-primary rounded bg_muted">
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h2 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_linear_dark">Досвід 
+                            <h2 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_headers">Досвід 
                                 <span class="d-none d-sm-inline-block dot mx-1 mx-md-2 mx-md-3"><i class="far fa-dot-circle"></i></span><span class="d-sm-none">-</span> Стабільність 
                                 <span class="d-none d-sm-inline-block dot mx-1 mx-md-2 mx-md-3"><i class="far fa-dot-circle"></i></span><span class="d-sm-none">-</span> Перспектива</h2>
                         </div>
@@ -44,9 +44,11 @@
                             <p class="px-2 mb-2">Кандидатам на <strong>працевлаштування без досвіду роботи, а також тих що не мають кваліфікаційних посвідчень</strong>, АТ «МГЗК» надає можливість працевлаштування учнями за професіями 
                                (окрім водіїв) з терміном навчання від 3 міс. до 6 міс., в залежності від обраної професії.</p>
                             <div class="row m-2 border border-secondary rounded">
+                                <!-- destination for the link from the position-description page -->
+                                <a name="start-of-list"></a>
                                 <ul class="col-12 text-left mt-2">
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
-                                        <i class="fas fa-chevron-right"></i><a href="position-description.php" class="text_color">Підземний гірник очисного забою 5-6 розряду</a></li>
+                                        <i class="fas fa-chevron-right"></i><a href="position-description.php" class="text_color">Підземний гірник очисного вибою 5-6 розряду</a></li>
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
                                         <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник головного інженера(Грушівський кар'єр)</a></li>
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">

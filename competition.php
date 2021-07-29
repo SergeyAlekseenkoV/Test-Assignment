@@ -26,7 +26,7 @@
                     <div class="row m-0 p-0 border border-primary rounded shadow">
                         <!-- competition heading -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h3 class="bg-dark text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 text-white">
+                            <h3 class="text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 text-white bg_headers">
                                 Результати змагання
                                 серед цехів, дільниць, а також окремих працівників
                                 <br class="d-none d-xl-inline-block"> червень 2021

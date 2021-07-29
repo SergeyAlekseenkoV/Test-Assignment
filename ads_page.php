@@ -5,7 +5,7 @@
 <body id="main">
     <?php include_once "menu.php"; ?>
     <!-- main-section-->
-    <section class="mt-0 pt-3 pb-lg-5">
+    <section class="mt-0 pt-3 pb-lg-5 ads_page_descr">
         <div class="container pt-2 pb-2 pb-lg-3 px-sm-0 px-md-3 px-lg-3 px-xl-3">
             <div class="d-flex justify-content-between align-items-baseline mt-3 mt-md-3 mt-lg-3 mt-xl-4">
                 <h3 class="d-md-none d-lg-block pt-sm-2 pt-lg-3 text-left text-uppercase text_color wow slideInLeft"
@@ -26,12 +26,12 @@
                     <div id="announcement-description" class="row m-0 p-0 border border-primary rounded shadow">
                         <!-- card-item -->
                         <div class="card shadow">
-                            <div class="row">
-                                <div class="col-12 pr-md-1 pt-lg-0">
-                                    <div class="card-block p-2 p-md-1">
-                                        <img src="img/carosel1.jpg" alt="фото" class="position-relative mr-2 float_left">
+                            <div class="row mx-1">
+                                <div class="col-12 mx-auto px-0 pt-1">
+                                    <div class="card-block p-1">
+                                        <img src="img/carosel1.jpg" alt="фото" class="position-relative mr-md-2 float_left">
                                         <h4 class="card-title my-1 font-weight-bold">Lorem ipsum dolor sit amet</h4>
-                                        <p class="card-text lead pr-md-3 text_color">
+                                        <p class="card-text lead text_color">
                                             Consectetur adipiscing elit, sed do
                                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                             minim veniam,
@@ -48,7 +48,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-12 mx-0">
+                                <div class="col-12 px-0 mx-0">
                                     <div
                                         class="card-footer d-flex py-2 py-md-1 justify-content-between align-items-baseline flex-wrap text_color">
                                         <span class="my-2 date_out">26 травня 2021</span>

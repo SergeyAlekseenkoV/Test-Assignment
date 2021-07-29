@@ -26,7 +26,7 @@
                     <div class="row mx-0 p-1 border border-primary rounded">
                         <!-- unity slogan -->
                         <div class="col-12 mx-0 px-0 text-center mb-1 mb-md-0">
-                            <h2 class="text-uppercase px-0 py-3 mx-0 my-0 mb-md-1 text-white">Єдність - запорука
+                            <h2 class="text-uppercase px-0 py-3 mx-0 my-0 mb-md-1 text-white bg_headers">Єдність - запорука
                                 успіху</h2>
                         </div>
                         <!-- extra-small screens -->

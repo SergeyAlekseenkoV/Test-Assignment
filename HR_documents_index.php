@@ -25,33 +25,33 @@
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2
-                                class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 m-1 text-white bg_linear_dark">
+                                class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 m-1 text-white bg_headers">
                                 Список зразків кадрових документів
                             </h2>
                         </div>
                         <!-- documents-list -->
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 col-xl-8 p-1 mx-0">
                             <a href="settingFile.php"
                                 class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
-                                на прийом</a>
+                                на прийняття</a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 col-xl-12 p-1 mx-0">
                             <a href="transfer.php"
                                 class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                 на переведення</a>
                         </div>
 
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 col-xl-8 p-1 mx-0">
                             <a href="firing.php"
                                 class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                 на звільнення</a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 col-xl-12 p-1 mx-0">
                             <a href="replacement.php"
                                 class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
                                 на заміщення</a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 col-xl-8 p-1 mx-0">
                             <a href="asked-firing.php"
                                 class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
                                 на звільнення</a>

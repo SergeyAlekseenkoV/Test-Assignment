@@ -14,6 +14,7 @@ $(document).ready(function () {
     return false;
   });
 
+
   /* tooltips */
   $('[data-toggle="tooltip"]').tooltip({
     trigger : 'hover'

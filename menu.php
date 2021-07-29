@@ -1,7 +1,7 @@
     <!--navigation-->
     <header>
         <nav id="navbarUp" class="navbar navbar-dark navbar-expand-md fixed-top pr-2 pr-md-3 shadow">
-            <section class="container">
+            <div class="container">
                 <!--LOGO-->
                 <div class="logo mr-0 mt-md-0 d-flex justify-content-center align-items-center">
                     <a href="home.php" class="align-self-center">
@@ -17,7 +17,7 @@
                 </button>
                 <!--dropdowns-->
                 <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
-                    <ul class="navbar-nav nav-pills ml-1 ml-md-auto my-0">
+                    <ul class="navbar-nav nav-pills ml-0 ml-md-auto my-0">
                         <li class="d-flex justify-content-center nav-item mt-1 position-relative">
                             <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
@@ -40,7 +40,7 @@
                                     <a class="dropdown-item dropdown-toggle text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" type="button" 
                                     data-toggle="dropdown" role="link" aria-haspopup="true">Організація
                                         та оплата праці</a>
-                                    <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left" aria-labelledby="navbarDropdownMenuLink">
+                                    <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left list-unstyled" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="avarage-salary.php">Середня зар.плата по <br>провідним професіям</a></li>
                                         <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="vacations.php">Тривалість чергових <br>відпусток</a></li>
 
@@ -71,7 +71,7 @@
                                     data-toggle="dropdown" role="link" aria-haspopup="true">Інформація профспілки</a>
                                     <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left">
                                         <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Оголошення профспілки</a></li>
-                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Колективний договір</a></li>
+                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="union-doc.php">Колективний договір</a></li>
                                     </ul>
                                 </li>   
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="open-positions.php">Вакансії</a></li>
@@ -168,6 +168,6 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </div>
         </nav>
     </header>

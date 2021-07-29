@@ -25,7 +25,7 @@
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2
-                                class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_linear_dark">
+                                class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_headers">
                                 ДОСВІД - ЧИСЛЕННА ПРАКТИКА ТА ЗУСИЛЛЯ
                             </h2>
                         </div>
@@ -54,10 +54,6 @@
                                     <div class="col-12 mx-0 px-1 text-center">
                                         <h1 class="w-50 w-md-25 border border-primary rounded mx-auto shadow">2020</h1>
                                         <div class="row mx-0">
-                                            <div class="col-4 col-md-3 px-0">
-                                                <a href="#"
-                                                    class="btn btn-lg btn-info p-0 px-md-3 w-100 py-3 border-primary text_color">Грудень</a>
-                                            </div>
                                             <div class="col-4 col-md-3 px-0">
                                                 <a href="#"
                                                     class="btn btn-lg btn-info p-0 px-md-3 w-100 py-3 border-primary text_color">Січень</a>
@@ -105,6 +101,10 @@
                                                 <a href="#"
                                                     class="btn btn-lg btn-info p-0 px-md-3 w-100 py-3 border-primary text_color">Листопад</a>
                                             </div>
+                                            <div class="col-4 col-md-3 px-0">
+                                                <a href="#"
+                                                    class="btn btn-lg btn-info p-0 px-md-3 w-100 py-3 border-primary text_color">Грудень</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -112,10 +112,6 @@
                                     <div class="col-12 mx-0 px-1 text-center">
                                         <h1 class="w-50 w-md-25 border border-primary rounded mx-auto shadow">2021</h1>
                                         <div class="row mx-0">
-                                            <div class="col-4 col-md-3 px-0">
-                                                <a href="#"
-                                                    class="disabled btn btn-lg btn-info w-100 p-0 px-md-3 py-3 border-primary text_color">Грудень</a>
-                                            </div>
                                             <div class="col-4 col-md-3 px-0">
                                                 <a href="#"
                                                     class="btn btn-lg btn-info w-100 p-0 px-md-3 py-3 border-primary text_color"
@@ -330,6 +326,10 @@
                                             <div class="col-4 col-md-3 px-0">
                                                 <a href="#"
                                                     class="disabled btn btn-lg btn-info w-100 p-0 px-md-3 py-3 border-primary text_color">Листопад</a>
+                                            </div>
+                                            <div class="col-4 col-md-3 px-0">
+                                                <a href="#"
+                                                    class="disabled btn btn-lg btn-info w-100 p-0 px-md-3 py-3 border-primary text_color">Грудень</a>
                                             </div>
                                         </div>
                                     </div>

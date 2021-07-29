@@ -62,6 +62,10 @@ body {
     font-size: 16px;
 }
 
+section {
+    min-height: 105vh;
+}
+
 /* tooltips */
 
 .tooltip-inner {
@@ -81,7 +85,13 @@ h2 {
 
 h3 {
     font-size: 1.3em !important;
-    text-shadow: $shadow;
+}
+
+h2.bg_headers,
+h3.bg_headers {
+    background: linear-gradient(to bottom, rgba(48, 72, 120, 0.8), rgba(72, 144, 216, 0.7)),
+        url("../img/head-title-bg.png") center/cover no-repeat;
+    text-shadow: 2px 2px 0px $primary-color;
 }
 
 /* styling scrollbars*/
@@ -344,8 +354,33 @@ small.form-text {
     border-radius: 40px;
     background: $white-color !important;
 }
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
 .logo:hover {
     opacity: 0.65;
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 100px;
 }
 /* size of the logo text */
 .text-logo {
@@ -358,8 +393,6 @@ small.form-text {
     /*bg-menu*/
     min-height: 71px;
     max-height: 100vh;
-    // background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
-    //     url("../img/logo-video.jpeg") 50% 42% / cover no-repeat;
     background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
         url("../img/mgok-video.jpg") center/cover no-repeat;
     border-bottom: $white-color 3px solid;
@@ -567,13 +600,13 @@ small.form-text {
         &:hover {
             background-color: $primary-color-through;
 
-            > p {
+            > p.lead > a {
                 color: $white-color;
                 text-shadow: $shadow-dark;
             }
         }
 
-        > p {
+        > p.lead > a {
             color: $primary-color;
             line-height: 1.2 !important;
             text-shadow: $shadow;
@@ -607,9 +640,10 @@ small.form-text {
 
     .bg_birthday {
         background-color: $primary-lightest-through;
-        min-height: 70vh;
         width: 39.8125em;
         z-index: 1;
+        h2,
+        h3,
         h4 {
             text-shadow: $shadow;
         }
@@ -620,8 +654,10 @@ small.form-text {
     }
 
     .bg_announcement {
-        background: $bg-navbar;
+        background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
+            url("../img/default-ads-bg.jpg") center/cover no-repeat;
         line-height: 1.1 !important;
+        text-shadow: $shadow-dark;
         text-align: justify;
 
         h4 {
@@ -658,7 +694,7 @@ small.form-text {
 
             &:hover,
             &:focus {
-                background-color: $primary-common;
+                background-color: $primary-color-through;
                 text-decoration: none !important;
                 > span {
                     opacity: 1;
@@ -686,6 +722,10 @@ small.form-text {
     }
 
     #news-category {
+        .card {
+            border-radius: 0 !important;
+        }
+
         > div.col-6 > .card > .card-body {
             background-color: $primary-color-through;
 
@@ -763,10 +803,8 @@ small.form-text {
         }
     }
 
-    #HR-movement {
-        :nth-of-type(3) > div > img {
-            opacity: 0.8;
-        }
+    .ads_page_descr {
+        min-height: 105vh;
     }
 
     #announcement-description {
@@ -827,6 +865,10 @@ small.form-text {
         }
     }
 
+    .mgok_news {
+        min-height: 105vh;
+    }
+
     #mgok-news {
         .card {
             cursor: pointer;
@@ -855,6 +897,10 @@ small.form-text {
 
             &:hover::after {
                 transform: scale(1, 1);
+            }
+
+            .card-img-top {
+                max-height: 70%;
             }
         }
         /* label for the img card */
@@ -939,14 +985,7 @@ small.form-text {
         }
     }
 
-    #respect-desk,
-    #competition-list {
-        h2,
-        h3 {
-            background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8));
-            text-shadow: $primary-color 0 0 3px;
-        }
-
+    #respect-desk {
         .card .respect_name > p {
             text-shadow: $white-color 0 0 2px;
         }
@@ -963,10 +1002,57 @@ small.form-text {
         }
     }
 
+    #respect-desk {
+        > .row > .position-relative {
+            &::after {
+                content: "";
+                position: absolute;
+                top: 8px;
+                bottom: 8px;
+                left: 8px;
+                right: 8px;
+                z-index: 1;
+                opacity: 0;
+            }
+
+            &::after {
+                border: 1px solid $white-color;
+            }
+
+            &:hover::after {
+                opacity: 1;
+            }
+
+            &:last-of-type {
+                opacity: 0.3;
+
+                > div {
+                    min-height: 100%;
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                &:hover::after {
+                    opacity: 1;
+                    border: 1px solid $primary-common;
+                }
+            }
+        }
+    }
+
     #competition-list {
         > :first-child {
             background-color: $primary-common-light-through;
             transition: all 500ms ease;
+        }
+
+        div > p.d-flex {
+            transition: all 250ms ease-in-out;
+            &:hover {
+                background-color: $primary-lighter !important;
+            }
         }
 
         h5 {
@@ -1012,10 +1098,6 @@ small.form-text {
     /* slider */
     #best-team {
         min-height: 110vh;
-
-        h2 {
-            background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8));
-        }
 
         .see_modal {
             top: 0;
@@ -1115,6 +1197,12 @@ small.form-text {
         }
     }
 
+    #HR-movement {
+        :nth-of-type(3) > div > img {
+            opacity: 0.8;
+        }
+    }
+
     #HR-movement > #carouselSelection {
         /* previous and next buttons styling */
 
@@ -1181,8 +1269,8 @@ small.form-text {
             top: 0;
             transition: all 500ms ease;
 
-            &::after{
-                content: '';
+            &::after {
+                content: "";
                 position: absolute;
                 background-color: $primary-color;
                 border-bottom: $primary-color 2px solid;
@@ -1204,7 +1292,6 @@ small.form-text {
         &:hover span::after {
             width: 10em;
             opacity: 1;
-            
         }
     }
 }
@@ -1484,6 +1571,15 @@ small.form-text {
     }
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #home {
+        .bg_announcement {
+            background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
+                url("../img/default-ads-bg.jpg") center/contain repeat-y;
+        }
+    }
+}
+
 @media screen and (min-width: 480px) and (max-width: 576px) {
     #login,
     #main,
@@ -1512,7 +1608,7 @@ small.form-text {
     #main {
         #mgok-news {
             .card {
-                height: auto;
+                max-height: auto;
                 z-index: 1;
                 opacity: 0.8;
 
@@ -1621,15 +1717,66 @@ small.form-text {
     }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    #home {
+        .bg_announcement {
+            background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
+                url("../img/default-ads-bg.jpg") right/cover no-repeat;
+        }
+    }
+}
+
 @media (min-width: 992px) {
     /* accordion left-menu styling*/
 
     #accordionLib {
+        .card-header > a {
+            text-shadow: $shadow-dark;
+        }
+
         .card:hover {
             .card-header {
                 opacity: 0.9 !important;
-                border-left: 2px solid $primary-dark;
-                transition: border 450ms ease-in-out;
+                transition: all 450ms ease-in-out;
+            }
+        }
+
+        .card:first-of-type > .card-header > a {
+            > svg {
+                transition: all 450ms ease-in-out;
+            }
+
+            &:hover,
+            &:focus {
+                > svg {
+                    transform: rotateZ(180deg);
+                }
+            }
+        }
+
+        .card:nth-of-type(2n) > .card-header > a {
+            > svg {
+                transition: all 450ms ease-in-out;
+            }
+
+            &:hover,
+            &:focus {
+                > svg {
+                    transform: rotateY(180deg);
+                }
+            }
+        }
+
+        .card:nth-of-type(2n + 1) > .card-header > a {
+            > svg {
+                transition: all 450ms ease-in-out;
+            }
+
+            &:hover,
+            &:focus {
+                > svg {
+                    transform: rotateZ(180deg);
+                }
             }
         }
     }
@@ -1820,17 +1967,11 @@ small.form-text {
         }
     }
 
-    .bg_announcement {
+    #home {
         > ul > li > a {
             > span {
                 margin-left: 1.8em !important;
                 opacity: 1 !important;
-            }
-
-            &:not(hover),
-            &:not(focus) {
-                background-color: $primary-common;
-                text-decoration: none !important;
             }
         }
     }
@@ -1958,6 +2099,7 @@ small.form-text {
 
     #main {
         background: url("../img/try3.png") center/cover no-repeat fixed;
+        min-height: unset;
     }
 
     h3 {
@@ -1978,5 +2120,52 @@ small.form-text {
         .carousel-control-next {
             margin-top: 300px !important;
         }
+    }
+
+    .competition_list,
+    .open_positions,
+    .position_description,
+    .HR-movement {
+        min-height: 105vh;
+    }
+
+    .carousel-control-prev .carousel-control-prev-icon {
+        margin-left: -2.8vw;
+    }
+
+    .carousel-control-next .carousel-control-next-icon {
+        margin-right: -2.8vw;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .light {
+        display: block;
+        color: $white-color !important;
+        .card > .card-header {
+            background-color: $primary-color !important;
+            > a {
+                color: $white-color !important;
+                text-shadow: $shadow-dark !important;
+            }
+        }
+    }
+}
+/* dropdown hoverable large menu */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item .dropdown-menu > .dropdown-submenu > .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu > .dropdown-submenu:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
     }
 }

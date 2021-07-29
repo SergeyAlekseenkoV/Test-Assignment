@@ -115,9 +115,9 @@
                         </div>
                         <!-- divisions between salaries -->
                         <div class="col-12 p-0 m-0 text-center">
-                            <h4 class="bg-info p-3 px-md-0 mx-1 my-0 border border-primary text_color">
+                            <h3 class="bg-info p-3 px-md-0 mx-1 my-0 border border-primary text-uppercase text_color">
                                 Розподіл робітників за розмірами заробітної плати
-                            </h4>
+                            </h3>
                         </div>
                         <!-- divisions table -->
                         <div class="col-12 mt-1 px-1">
@@ -127,7 +127,7 @@
                                         <tr class="bg-secondary">
                                             <th scope="col" class="align-top">Діапазон, грн</th>
                                             <th scope="col" class="align-top text-center">Кількість осіб</th>
-                                            <th scope="col" class="align-top text-center">Співвідношення,%</th>
+                                            <th scope="col" class="align-top text-center">Співвідношення, %</th>
                                         </tr>
                                     </thead>
                                     <tbody>
