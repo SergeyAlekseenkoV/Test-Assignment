@@ -26,10 +26,10 @@
                     <div class="row m-0 p-0 border border-primary rounded shadow">
                         <!-- competition heading -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h3 class="text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 text-white bg_headers">
+                            <h3 class="text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 text-white border bg_headers">
                                 Результати змагання
                                 серед цехів, дільниць, а також окремих працівників
-                                <br class="d-none d-xl-inline-block"> червень 2021
+                                <br class="d-none d-xl-inline-block"> червень 2021р.
                             </h3>
                         </div>
                         <!-- try version -->
@@ -74,7 +74,7 @@
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1">
-                                            <b>Серед начальників основних цехів</b></p>
+                                            <b>Серед начальників допоміжних цехів</b></p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1">
                                             <b>Колєснік О.Д</b><small>(начальник ЦПВКМ)</small></p>
@@ -96,7 +96,7 @@
                                         </p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
-                                            126,5%</p>
+                                            126,5%<small>(вик.плану)</small></p>
                                     </div>
                                 </div>
                                 <!-- among masters -->
@@ -115,7 +115,7 @@
                                         </p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
-                                            126,5%</p>
+                                            126,5%<small>(вик.плану)</small></p>
                                     </div>
                                 </div>
                                 <!-- among-teams -->
@@ -123,7 +123,7 @@
                                     <div class="d-flex flex-row justify-content-around align-items-center text-center">
                                         <h5
                                             class="d-flex flex-column justify-content-center align-items-center bg-secondary rounded shadow w-100 font-weight-bold type_title">
-                                            Серед начальників змін (майстрів)</h5>
+                                            Серед бригад</h5>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -134,7 +134,7 @@
                                         </p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
-                                            150,6%</p>
+                                            150,6%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                                             ГРОЗ - <b>Лашкін В.М.</b> - в.д. шахти № 9/10 - шахта №14/15</p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
-                                            150,6%</p>
+                                            150,6%<small>(вик.плану)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -162,7 +162,7 @@
                                             Кріпильник - <b>Деревінський О.П.</b> - в.д.шахти № 9/10 - шахта №14/15</p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
-                                            115%</p>
+                                            115%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -173,7 +173,7 @@
                                         </p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
-                                            153,6%</p>
+                                            153,6%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -184,7 +184,7 @@
                                             в.д.шахти № 9/10 - шахта №14/15</p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
-                                            162,4%</p>
+                                            162,4%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -242,15 +242,15 @@
                                         </p>
                                         <p
                                             class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
-                                            120%</p>
+                                            120%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- end right_lg_list -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h3 class="bg_dark_through px-1 px-md-0 py-3 mx-1 my-1 text-white">
-                                Постанова № 87/29 від 01.07.2021
+                            <h3 class="px-1 px-md-0 py-3 mx-1 my-1 border-top border-secondary text_color">
+                                * Постанова № 87/29 від 01.07.2021р.
                             </h3>
                         </div>
                     </div>

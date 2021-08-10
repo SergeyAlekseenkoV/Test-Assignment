@@ -26,13 +26,14 @@
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2
                                 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_headers">
-                                ДОСВІД - ЧИСЛЕННА ПРАКТИКА ТА ЗУСИЛЛЯ
+                                Кадрові призначення
                             </h2>
                         </div>
                         <!-- blockquote -->
                         <div class="col-12 d-flex flex-row justify-content-end mx-0 px-2 text-right">
-                            <blockquote class="small font-italic w-50 mt-3 mb-0">
-                               "Хто хоче зрушити світ, нехай зрушить себе!" <br> <strong>(Сократ)</strong>
+                            <blockquote class="font-italic mt-3 mb-0">
+                               <p class="mb-0 position-relative">Хто хоче зрушити світ,<br class="d-md-none"> нехай зрушить себе!</p>
+                               <footer class="blockquote-footer text-right text_color">Сократ</footer>
                             </blockquote>
                         </div>
                         <!-- title -->
@@ -41,13 +42,29 @@
                                 class="d-flex flex-row justify-content-center justify-content-md-start align-items-center mx-5 my-4">
                                 <img src="../img/moveUp.png" width="59.45" height="57.605" alt="розвиток"
                                     class="img-fluid">
-                                <h2 class="text-center text-md-left ml-2 align-self-end text_color">Кадрові призначення
+                                <h2 class="text-center text-md-left ml-2 align-self-end text_color">
+                                    Досвід - численна практика та зусилля
                                 </h2>
+                            </div>
+                        </div>
+                        <!-- current month setting -->
+                        <div class="col-12 mx-0 mt-2 mb-5 px-2 border-top border-bottom">
+                            <div class="text-center">
+                                <h5 class="mx-auto my-3 text-secondary">Кадрові призначення, які відбулися у <strong class="text_color">липні 2021р.</strong></h5>
+                            </div>
+                            <div class="text-left mx-auto">
+                                <ol>
+                                    <li>Начальником бюро охорони праці відділу охорони праці та експертизи праці апарату
+                                        управління призначено - <strong class="name"><br>Фомченко Дмитра В’ячеславовича</strong></li>
+                                    <br>
+                                    <li>Старшим механіком автоколони вантажопасажирських перевезень автомобільного цеху
+                                        призначено - <strong class="name"><br>Жданова Павла Васильовича</strong></li>
+                                </ol>
                             </div>
                         </div>
                         <!-- selections -->
                         <!-- carousel slider -->
-                        <div id="carouselSelection" class="carousel slide bg-transparent wow fadeInUp"
+                        <div id="carouselSelection" class="carousel slide bg-transparent mb-1 mb-lg-0 wow fadeInUp"
                             data-interval="false" keyboard="true" data-animation="fadeInUp" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item" data-touch="true">
@@ -249,7 +266,6 @@
                                                 </div>
                                                 <!-- end modal -->
                                             </div>
-
                                             <div class="col-4 col-md-3 px-0">
                                                 <a href="#"
                                                     class="btn btn-lg btn-info w-100 p-0 px-md-3 py-3 border-primary text_color" 
@@ -312,7 +328,7 @@
                                             </div>
                                             <div class="col-4 col-md-3 px-0">
                                                 <a href="#"
-                                                    class="disabled btn btn-lg btn-info w-100 p-0 px-md-3 py-3 border-primary text_color">Серпень</a>
+                                                    class="btn btn-lg btn-info w-100 p-0 px-md-3 py-3 border-primary text_color">Серпень</a>
                                             </div>
 
                                             <div class="col-4 col-md-3 px-0">
@@ -344,12 +360,10 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true">❯</span>
                                 <span class="sr-only"></span>
                             </a>
-                            <ul class="carousel-indicators d-none d-lg-flex position-static list-unstyled mt-2">
+                            <ul class="carousel-indicators d-none d-lg-flex position-static list-unstyled my-2">
                                 <li data-target="#carouselSelection" data-slide-to="0" class=" px-1 rounded border-primary shadow text_color">2020
                                 </li>
                                 <li data-target="#carouselSelection" data-slide-to="1" class="active  px-1 rounded border-primary shadow text_color">2021</li>
-                                <!-- <li data-target="#carouselSelection" data-slide-to="2"></li>
-                                <li data-target="#carouselSelection" data-slide-to="3"></li> -->
                             </ul>
                         </div>
                         <!-- end slider -->

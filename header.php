@@ -39,6 +39,10 @@
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/fontawesome.min.css">
-     <link type="image/png" sizes="16x16" rel="icon" href="img/logo-dark.png">
+     <link type="image/png" sizes="16x16" rel="icon" href="../img/logo-dark-favicon.png" media="(prefers-color-scheme: no-preference)">
+     <link type="image/png" sizes="16x16" rel="icon" href="../img/logo-white.png" media="(prefers-color-scheme: dark)">
+     <link type="image/png" sizes="16x16" rel="icon" href="../img/logo-dark-favicon.png" media="(prefers-color-scheme: light)">
+
+     
     
 

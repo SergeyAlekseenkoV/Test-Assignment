@@ -26,9 +26,9 @@
                     <div class="row m-0 p-0 border border-primary rounded shadow">
                         <!-- competition heading -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h3 class="bg-info text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 border border-secondary">
+                            <h3 class="bg-info text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 border border-primary">
                                 Інформація з праці за
-                                <br class="d-block d-md-none"> червень 2021
+                                <br class="d-block d-md-none"> червень 2021р.
                             </h3>
                         </div>
                         <!-- table for avarage salary -->
@@ -38,7 +38,7 @@
                                     <thead>
                                         <tr class="bg-secondary text_color">
                                             <th scope="col" class="align-top">Назва показни&shy;ка</th>
-                                            <th scope="col" colspan="2" class="align-top text-center">червень</th>
+                                            <th scope="col" colspan="2" class="align-top text-center">Червень</th>
                                             <th scope="col" colspan="2" class="align-top text-center">З початку року
                                             </th>
                                         </tr>
@@ -53,7 +53,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row">Середньомісячна зарплата <br>провідних професій, грн
-                                                <br>ГРОЗ 6р
+                                                <br>ГРОЗ 6р.
                                             </th>
                                             <td class="text-center">31009,3</td>
                                             <td class="text-center">26319,3</td>
@@ -61,7 +61,7 @@
                                             <td class="text-center">24553,4</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">ГРОЗ 5р</th>
+                                            <th scope="row">ГРОЗ 5р.</th>
                                             <td class="text-center">24817,3</td>
                                             <td class="text-center">20172,4</td>
                                             <td class="text-center">23684,4</td>
@@ -115,8 +115,8 @@
                         </div>
                         <!-- divisions between salaries -->
                         <div class="col-12 p-0 m-0 text-center">
-                            <h3 class="bg-info p-3 px-md-0 mx-1 my-0 border border-primary text-uppercase text_color">
-                                Розподіл робітників за розмірами заробітної плати
+                            <h3 class="bg-info p-3 px-md-0 mx-1 my-0 border border-primary text-uppercase font-weight-bold text_color">
+                                Розмір заробітної плати серед співробітників
                             </h3>
                         </div>
                         <!-- divisions table -->
@@ -186,7 +186,7 @@
                             </div>
                         </div>
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h6 class="bg-transparent px-1 py-3 m-1 text-white">
+                            <h6 class="bg-transparent px-1 pt-0 pb-3 m-1 text-white">
                                * Згідно з інформацією Начальника Відділу праці та заробітної плати Ю.О Писанко
                             </h6>
                         </div>

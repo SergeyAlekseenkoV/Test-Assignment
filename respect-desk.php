@@ -83,7 +83,7 @@
                         <!-- respect-item -->
                         <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 position-relative">
                             <div class="d-flex flex-column justify-content-center align-items-center border border-primary bg-info text_color">
-                                <p class="py-5 my-5">Тут може бути Ваше фото...</p>
+                                <p class="py-5 my-5 position-relative">Тут може бути Ваше фото...</p>
                             </div>
                         </div>    
                     </div>

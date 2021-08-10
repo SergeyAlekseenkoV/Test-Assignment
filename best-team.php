@@ -31,60 +31,36 @@
                         </div>
                         <!-- extra-small screens -->
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="img/best-team-new/15.jpg" alt="працівники" class="img-fluid">
-                            <a href="#" role="button" class="position-absolute text-white see_modal bg_dark_through" data-toggle="modal"
-                                data-target="#modalSlider">
-                                   <i class="fa fa-search fa-2x"></i>
-                            </a>
+                            <img src="../img/best-team-new/15.jpg" alt="працівники" class="img-fluid">
+                            
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="img/best-team-new/16.jpg" alt="працівники" class="img-fluid">
-                            <a href="#" role="button" class="position-absolute text-white see_modal bg_dark_through" data-toggle="modal"
-                                data-target="#modalSlider">
-                                   <i class="fa fa-search fa-2x"></i>
-                            </a>
+                            <img src="../img/best-team-new/16.jpg" alt="працівники" class="img-fluid">
+                            
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="img/best-team-new/17.jpg" alt="працівники" class="img-fluid">
-                            <a href="#" role="button" class="position-absolute text-white see_modal bg_dark_through" data-toggle="modal"
-                                data-target="#modalSlider">
-                                   <i class="fa fa-search fa-2x"></i>
-                            </a>
+                            <img src="../img/best-team-new/17.jpg" alt="працівники" class="img-fluid">
+                            
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="img/best-team-new/18.jpg" alt="працівники" class="img-fluid">
-                            <a href="#" role="button" class="position-absolute text-white see_modal bg_dark_through" data-toggle="modal"
-                                data-target="#modalSlider">
-                                   <i class="fa fa-search fa-2x"></i>
-                            </a>
+                            <img src="../img/best-team-new/18.jpg" alt="працівники" class="img-fluid">
+                            
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="img/best-team-new/19.jpg" alt="працівники" class="img-fluid">
-                            <a href="#" role="button" class="position-absolute text-white see_modal bg_dark_through" data-toggle="modal"
-                                data-target="#modalSlider">
-                                   <i class="fa fa-search fa-2x"></i>
-                            </a>
+                            <img src="../img/best-team-new/19.jpg" alt="працівники" class="img-fluid">
+                            
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="img/best-team-new/20.jpg" alt="працівники" class="img-fluid">
-                            <a href="#" role="button" class="position-absolute text-white see_modal bg_dark_through" data-toggle="modal"
-                                data-target="#modalSlider">
-                                   <i class="fa fa-search fa-2x"></i>
-                            </a>
+                            <img src="../img/best-team-new/20.jpg" alt="працівники" class="img-fluid">
+                            
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="img/best-team-new/21.jpg" alt="працівники" class="img-fluid">
-                            <a href="#" role="button" class="position-absolute text-white see_modal bg_dark_through" data-toggle="modal"
-                                data-target="#modalSlider">
-                                   <i class="fa fa-search fa-2x"></i>
-                            </a>
+                            <img src="../img/best-team-new/21.jpg" alt="працівники" class="img-fluid">
+                            
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="img/best-team-new/22.jpg" alt="працівники" class="img-fluid">
-                            <a href="#" role="button" class="position-absolute text-white see_modal bg_dark_through" data-toggle="modal"
-                                data-target="#modalSlider">
-                                   <i class="fa fa-search fa-2x"></i>
-                            </a>
+                            <img src="../img/best-team-new/22.jpg" alt="працівники" class="img-fluid">
+                            
                         </div>
                         <!-- end xs-screens -->
                         <!-- slider -->
@@ -92,44 +68,48 @@
                         <div id="carouselIndicators"
                             class="d-none d-sm-block carousel slide position-relative overflow-hidden carousel-fade bg-transparent border border-primary wow fadeInUp"
                             data-ride="carousel" keyboard="true" data-animation="fadeInUp">
+                            <a href="#" role="button" class="position-absolute d-none d-sm-block m-2 see_modal" data-toggle="modal"
+                                data-target="#modalSlider">
+                                <span data-toggle="tooltip" data-placement="bottom" data-original-title="Збільшити слайдер">
+                                    <i class="fa fa-search fa-2x"></i>
+                                </span>
+                            </a>
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-touch="true">
-                                    <img class="d-block w-100" src="img/best-team-new/15.jpg" alt="працівники">
+                                    <img class="d-block w-100" src="../img/best-team-new/15.jpg" alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100" src="img/best-team-new/16.jpg" alt="працівники">
+                                    <img class="d-block w-100" src="../img/best-team-new/16.jpg" alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100" src="img/best-team-new/17.jpg"
+                                    <img class="d-block w-100" src="../img/best-team-new/17.jpg"
                                         alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100" src="img/best-team-new/18.jpg" alt="працівники">
+                                    <img class="d-block w-100" src="../img/best-team-new/18.jpg" alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100" src="img/best-team-new/19.jpg"
+                                    <img class="d-block w-100" src="../img/best-team-new/19.jpg"
                                         alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100" src="img/best-team-new/20.jpg"
+                                    <img class="d-block w-100" src="../img/best-team-new/20.jpg"
                                         alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100" src="img/best-team-new/21.jpg" alt="працівники">
+                                    <img class="d-block w-100" src="../img/best-team-new/21.jpg" alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="img-fluid" src="img/best-team-new/22.jpg"
+                                    <img class="img-fluid" src="../img/best-team-new/22.jpg"
                                         alt="працівники">
                                 </div>
                             </div>
                             <!-- carousel previous and next buttons -->
-                            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev"
-                                data-toggle="modal" data-target="#modalSlider">
+                            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true">❮</span>
                                 <span class="sr-only"></span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next"
-                                data-toggle="modal" data-target="#modalSlider">
+                            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true">❯</span>
                                 <span class="sr-only"></span>
                             </a>

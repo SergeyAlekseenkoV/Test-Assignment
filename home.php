@@ -242,7 +242,7 @@ session_start();
                             </ul>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden wow fadeInUp"
+                    <div class="d-flex justify-content-center mt-3 overflow-hidden wow fadeInUp"
                         data-animation="fadeInUp">
                             <!-- you tube embeded -->
                             <iframe width="100%" height="500" src="https://www.youtube.com/embed/gvvHIsL5lSU" title="YouTube video player"
@@ -250,13 +250,20 @@ session_start();
                                 allowfullscreen>
                             </iframe>
                     </div>  
-                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden wow fadeInUp"
+                    <div class="d-flex justify-content-end text-right mt-3 wow fadeInUp">
+                        <!-- blockquote -->
+                        <blockquote id="blockquote" class="pr-2 my-0">
+                            <p class="mb-0 text_color">Per aspera ad astra</p>
+                            <footer class="blockquote-footer text-right text_color">Lucius Annaeus Seneca</footer>
+                        </blockquote>
+                    </div> 
+                    <div class="d-flex justify-content-center mt-3 overflow-hidden wow fadeInUp"
                         data-animation="fadeInUp">
                             <!-- you tube embeded -->
                             <iframe width="100%" height="480" src="https://www.youtube.com/embed/iGWQFQA-LgY" title="YouTube video player" 
                                 frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
-                    </div>  
+                    </div> 
                 </aside>
             </div>
         </div>

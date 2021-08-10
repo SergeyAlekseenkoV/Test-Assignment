@@ -4,8 +4,11 @@
             <div class="container">
                 <!--LOGO-->
                 <div class="logo mr-0 mt-md-0 d-flex justify-content-center align-items-center">
-                    <a href="index.php" class="align-self-center">
-                        <img src="img/logo-dark.png" alt="MGOK" class="inner-logo">
+                    <a href="home.php" class="align-self-center rounded-circle border light">
+                        <img src="img/logo-dark.png" width="40" height="40" alt="MGOK" class="inner-logo">
+                    </a>
+                    <a href="home.php" class="align-self-center bg-dark rounded-circle border border-primary dark">
+                        <img src="img/logo-white.png" alt="MGOK" class="inner-logo">
                     </a>
                 </div>
                 <span

@@ -59,7 +59,7 @@
                                         <article
                                             class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-weir-esco-3906736.png" alt="work"
-                                                class="img-fluid work-item-img">
+                                                class="img-fluid work-item-img w-100">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_2">
@@ -70,7 +70,7 @@
                                         <article
                                             class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-tom-fisk-2101137 (4).jpg" alt="work"
-                                                class="img-fluid work-item-img">
+                                                class="img-fluid work-item-img w-100">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_3">
@@ -81,7 +81,7 @@
                                         <article
                                             class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-weir-esco-3906748.png" alt="work"
-                                                class="img-fluid work-item-img">
+                                                class="img-fluid work-item-img w-100">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_4">
@@ -92,7 +92,7 @@
                                         <article
                                             class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/carosel2.jpg" alt="work"
-                                                class="img-fluid work-item-img">
+                                                class="img-fluid work-item-img w-100">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_5">
@@ -103,7 +103,7 @@
                                         <article
                                             class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
                                             <img src="img/pexels-jayson-delos-santos-1139553.png" alt="work"
-                                                class="img-fluid work-item-img">
+                                                class="img-fluid work-item-img w-100">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_6">
@@ -118,7 +118,7 @@
                                                 <div class="modal-content bg-dark">
                                                     <div class="modal-body position-relative">
                                                         <img src="img/pexels-07.png" alt="work"
-                                                            class="img-fluid work-item-img">
+                                                            class="img-fluid work-item-img w-100">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
@@ -137,7 +137,7 @@
                                                 <div class="modal-content bg-dark">
                                                     <div class="modal-body position-relative">
                                                         <img src="img/pexels-weir-esco-3906736.png" alt="work"
-                                                            class="img-fluid work-item-img">
+                                                            class="img-fluid work-item-img w-100">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
@@ -156,7 +156,7 @@
                                                 <div class="modal-content bg-dark">
                                                     <div class="modal-body position-relative">
                                                         <img src="img/pexels-tom-fisk-2101137 (4).jpg" alt="work"
-                                                            class="img-fluid work-item-img">
+                                                            class="img-fluid work-item-img w-100">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
@@ -175,7 +175,7 @@
                                                 <div class="modal-content bg-dark">
                                                     <div class="modal-body position-relative">
                                                         <img src="img/pexels-weir-esco-3906748.png" alt="work"
-                                                            class="img-fluid work-item-img">
+                                                            class="img-fluid work-item-img w-100">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
@@ -194,7 +194,7 @@
                                                 <div class="modal-content bg-dark">
                                                     <div class="modal-body position-relative">
                                                         <img src="img/carosel2.jpg" alt="work"
-                                                            class="img-fluid work-item-img">
+                                                            class="img-fluid work-item-img w-100">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
@@ -213,7 +213,7 @@
                                                 <div class="modal-content bg-dark">
                                                     <div class="modal-body position-relative">
                                                         <img src="img/pexels-jayson-delos-santos-1139553.png" alt="work"
-                                                            class="img-fluid work-item-img">
+                                                            class="img-fluid work-item-img w-100">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">

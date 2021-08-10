@@ -59,7 +59,68 @@
                                 </ol>
                             <div class="row m-2">
                                 <div class="col-12 col-md-8 col-lg-6 text-center text-md-left">
-                                    <a href="#" class="btn btn-lg btn-dark text-uppercase my-4 mx-auto mx-md-0 shadow">Відгукнутися на вакансію</a>
+                                    <button class="btn btn-lg btn-dark text-uppercase my-4 mx-auto mx-md-0 shadow" data-toggle="modal" data-target="#position-form">Відгукнутися на вакансію</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="position-form" data-backdrop="static"
+                                        data-keyboard="false" tabindex="-1"
+                                        aria-labelledby="lable-position-form" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content border">
+                                                <div class="modal-header bg-dark">
+                                                    <h5 class="modal-title text-white" id="lable-position-form">
+                                                        Зворотній дзвінок за вакансією
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true" class="text-white">
+                                                            <i class="far fa-times-circle"></i>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body p-3">
+                                                    <form action=""
+                                                        method="post">
+                                                            <div class="form-group text-left">
+                                                                <label for="userInput" class="text_color mb-0"><ul><li>Ваші П.І.Б</li></ul></label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <span class="input-group-text border-primary bg_muted text_color">
+                                                                            <i class="fas fa-user-circle" aria-hidden="true"></i></span>
+                                                                    </div>
+                                                                    <input type="text"
+                                                                      class="form-control border-primary shadow bg-light"
+                                                                      id="userInput" placeholder="" value=""
+                                                                      required>
+                                                                </div>
+                                                                <div class="invalid-feedback"></div>
+                                                            </div>
+                                                            <div class="form-group text-left">
+                                                                <label for="telInput" class="text_color mb-0"><ul><li>Ваш телефон</li></ul></label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <span class="input-group-text border-primary px-3 bg_muted text_color">
+                                                                            <i class="fas fa-mobile-alt"></i></span>
+                                                                    </div>
+                                                                    <input type="tel" name="telephone"
+                                                                      class="form-control border-primary shadow bg-light"
+                                                                      placeholder="(XXX)XXX-XX-XX" id="telInput" aria-describedby="telInput"
+                                                                      required>
+                                                                </div>
+                                                                <div class="invalid-feedback"></div>
+                                                            </div>
+                                                            <div class="form-group text-center">
+                                                                <label for="expDescr" class="text_color">Ваш досвід роботи (стисло)</label>
+                                                                <textarea class="w-100 rounded shadow" id="expDescr" name="expDescr" rows="5" cols="49" required></textarea>
+                                                                <div class="invalid-feedback"></div>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-lg btn-primary mt-4 shadow w-100 text-white"
+                                                                    value="login">Відправити запит</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end modal -->
                                     <a href="open-positions.php#start-of-list" class="btn btn-lg btn-light text-uppercase my-3 mx-auto mx-md-0 border-primary shadow text_color">&laquo; Повернутися до списку вакансій</a>
                                 </div>
                             </div>

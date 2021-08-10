@@ -28,32 +28,33 @@
                                 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 m-1 text-white bg_headers">
                                 Список зразків кадрових документів
                             </h2>
+                            <p class="lead text-left ml-1">* Оберіть файл який ви бажаете завантажити</p>
                         </div>
                         <!-- documents-list -->
-                        <div class="col-12 col-md-6 col-xl-8 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="settingFile.php"
-                                class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                 на прийняття</a>
                         </div>
-                        <div class="col-12 col-md-6 col-xl-12 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="transfer.php"
-                                class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                 на переведення</a>
                         </div>
 
-                        <div class="col-12 col-md-6 col-xl-8 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="firing.php"
-                                class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                 на звільнення</a>
                         </div>
-                        <div class="col-12 col-md-6 col-xl-12 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="replacement.php"
-                                class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
                                 на заміщення</a>
                         </div>
-                        <div class="col-12 col-md-6 col-xl-8 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="asked-firing.php"
-                                class="btn btn-light border-primary shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
                                 на звільнення</a>
                         </div>
                         <!-- end list -->

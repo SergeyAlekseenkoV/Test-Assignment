@@ -46,15 +46,60 @@
                             <div class="row m-2 border border-secondary rounded">
                                 <!-- destination for the link from the position-description page -->
                                 <a name="start-of-list"></a>
+                                <h3 class="text-center mt-3 font-weight-bold">Актуальні вакансії АТ «Марганецький гірничо-збагачувальний комбінат» станом на 01.08.2021р.</h3>
+                                <p class="mb-0 ml-5 font-weight-bold">Інженерно-технічний персонал:</p>
                                 <ul class="col-12 text-left mt-2">
-                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
-                                        <i class="fas fa-chevron-right"></i><a href="position-description.php" class="text_color">Підземний гірник очисного вибою 5-6 розряду</a></li>
-                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
-                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник головного інженера(Грушівський кар'єр)</a></li>
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
                                         <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник головного механіка(Грушівський кар'єр)</a></li>
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
                                         <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник головного енергетика(Грушівський кар'єр)</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник начальника дільниці по безтранспортному розкриву Грушевського кар’єру</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Механік дільниці видобутку, розкриву  та осушення Грушевського кар’єру</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Начальник ремонтно-механічної дільниці Грушевського кар’єру</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Механік дільниці (підземної) шахти №9/10</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Заступник начальника шахти №3/5 з ОП</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="position-description.php" class="text_color">Заступник начальника дільниці (підземної) з механічної частини конвеєрного транспорту шахти №3/5</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Майстер гірничий (підземний) шахти №3/5</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Механік дільниці (підземної) шахти №3/5</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Начальник автоколони спеціальної техніки автомобільного цеху</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Електромеханік дільниці ГУОСС</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Інженер з контролю поводження з виробничими відходами бюро охорони навколишнього середовища</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Старша сестра медична ЦОЗ</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Начальник дільниці підстанцій ЦМП</a></li>
+                                </ul>
+                                <p class="mb-0 ml-5 font-weight-bold">В підземні цехи (шахти) за професіями:</p>
+                                <ul class="col-12 text-left mt-2">
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="position-description.php" class="text_color">Підземний гірник очисного вибою 5-6 розряду</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Підземний машиніст електровоза</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Підземний машиніст конвеєра</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Підземний кріпильник</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Підземний електрогазозварник</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Підземний електрослюсар черговий та з ремонту устаткування</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Постачальник кріпильних матеріалів</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="#" class="text_color">Підземний люковий</a></li>
+                                    <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">
+                                        <i class="fas fa-chevron-right"></i><a href="position-description.php" class="text_color">Підземний стовбуровий</a></li>
                                 </ul>
                             </div>
                         </div>

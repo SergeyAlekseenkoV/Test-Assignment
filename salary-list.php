@@ -88,7 +88,7 @@ session_start();
                 <!-- main content -->
                 <div class="col-sm-12 col-lg-10 px-0 pl-md-0 pl-lg-1 py-0 pr-lg-0">
                     <aside class="mt-2 mt-lg-0 position-relative shadow">
-                        <a href="#" role="button" class="position-absolute d-none d-sm-block" data-toggle="modal"
+                        <a href="#" role="button" class="position-absolute d-none d-sm-block m-2" data-toggle="modal"
                             data-target="#tableLg">
                             <span data-toggle="tooltip" data-placement="bottom" data-original-title="Збільшити">
                                 <i class="fa fa-search fa-2x"></i>
