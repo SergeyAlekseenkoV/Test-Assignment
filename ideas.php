@@ -31,20 +31,20 @@
                         <div class="col-12 mx-0 px-1 mt-2">
                             <!-- tabs navigation -->
                             <ul class="nav nav-tabs" id="ideasTab" role="tablist">
-                                <li class="nav-item w-50 bg-info" role="presentation">
-                                    <a class="nav-link active d-flex align-items-center justify-content-between my-0 py-0 text_color" id="passed-tab" data-toggle="tab"
-                                        href="#passed" role="tab" aria-controls="passed" aria-selected="true">Подані
-                                        пропозиції &nbsp;<span class="text-white mb-1"><strong>&raquo;</strong></a>
+                                <li class="nav-item w-50 bg-info rounded" role="presentation">
+                                    <a class="nav-link active d-flex align-items-center justify-content-between my-0 py-1 py-md-0 px-1 px-md-2 text_color" id="passed-tab" data-toggle="tab"
+                                        href="#passed" role="tab" aria-controls="passed" aria-selected="true">Подані<br class="d-sm-none">
+                                        пропозиції &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</a>
                                 </li>
-                                <li class="nav-item w-50 bg-info" role="presentation">
-                                    <a class="nav-link d-flex align-items-center justify-content-between my-0 py-0 text_color" id="approved-tab" data-toggle="tab" href="#approved"
-                                        role="tab" aria-controls="approved" aria-selected="false">Пропозиції для
-                                        тиражування &nbsp;<span class="text-white mb-1"><strong>&raquo;</strong></a>
+                                <li class="nav-item w-50 bg-info rounded" role="presentation">
+                                    <a class="nav-link d-flex align-items-center justify-content-between my-0 py-1 py-md-0 px-1 px-md-2 text_color" id="approved-tab" data-toggle="tab" href="#approved"
+                                        role="tab" aria-controls="approved" aria-selected="false">Пропозиції <br class="d-sm-none">
+                                        тиражування &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</a>
                                 </li>
                             </ul>
                             <!-- end tabs navigations -->
                             <!-- tabs content blocks -->
-                            <div class="tab-content px-0 border-top" id="myTabContent">
+                            <div class="tab-content px-0" id="myTabContent">
                                 <div class="tab-pane fade show active" id="passed" role="tabpanel"
                                     aria-labelledby="passed-tab">
                                     <div class="form-group mt-2 mb-0">
@@ -109,7 +109,7 @@
                                                     <td>Начальник дільниці ВШТ та ПВС</td>
                                                     <td>Тут буде детальний опис дуже дієвої пропозиції з використання нових технологій 
                                                         під час ремонту вагонів ВГ-1</td>
-                                                    <td>Тиражування</td>
+                                                    <td>Відхилено</td>
                                                 </tr>
                                                 <tr class="text-center">
                                                     <th scope="row"><a href="proposition-description.php">3&nbsp;&raquo;</a></th>

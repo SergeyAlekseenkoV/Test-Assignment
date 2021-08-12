@@ -29,14 +29,20 @@
                         </div>
                         <div class="col-12 px-2 text-center proposition_description">
                             <h2 class="my-2 text-monospace">Пропозиція щодо впровадження новітньої технології при зварюванні металів</h2>
-                            <p class="mb-0">Автор та співавтори:
-                                <span class="font-weight-bold">Іван Семенович Кожум'яка та Михайло Григорович Перебий-ніс</span>
+                            <p class="mb-0"><b>Автор та співавтори:</b>
+                                Іван Семенович Кожум'яка та Михайло Григорович Перебий-ніс
                             </p>
-                            <p>Напрямок:
-                                <span class="font-weight-bold">Підвищення якості експлуатації та обслуговування устаткування</span>
+                            <p class="mb-0"><b>E-mail:</b>
+                                ivan-semenovich@ukr.net
                             </p>
-                            <p>Статус:
-                                <span class="font-weight-bold">Тиражування</span>
+                            <p class="mb-0"><b>Контактний телефон:</b>
+                                050 038 17 49
+                            </p>
+                            <p><b>Напрямок:</b>
+                                Підвищення якості експлуатації та обслуговування устаткування
+                            </p>
+                            <p><b>Статус:</b>
+                                Тиражування
                             </p>
                             <!-- text description -->
                             <p class="lead font-weight-bold mb-0">Опис</p>
@@ -81,10 +87,10 @@
                             <!-- photos for description -->
                             <figure class="position-relative w-75 mx-auto mb-3">
                                 <img src="../img/ideas-photos/blueprint.jpg" alt="креслення" class="border border-primary rounded img-fluid shadow">
-                                <button class="btn px-1 py-0 position-absolute mr-xl-3 bg_light_through border border-secondary text_color" data-toggle="modal"
+                                <button class="btn px-1 py-0 position-absolute bg_light_through border border-secondary text_color" data-toggle="modal"
                                    data-target="#modalImg1">
                                        <span data-toggle="tooltip" data-placement="bottom" data-original-title="Збільшити"><i class="fas fa-search"></i></span></button>
-                                <figcaption class="font-weight-bold mb-3 ml-xl-3 position-absolute rounded px-1 border border-secondary text-monospace small bg_light_through">Схема креслення</figcaption>
+                                <figcaption class="font-weight-bold mb-3 position-absolute rounded px-1 border border-secondary text-monospace small bg_light_through">Схема креслення</figcaption>
                             </figure>
                             <!-- modal -->
                             <div class="modal fade" id="modalImg1" tabindex="-1" aria-hidden="true">
@@ -107,10 +113,10 @@
                             <!-- end modal -->
                             <figure class="position-relative w-75 mx-auto mb-3">
                                 <img src="../img/ideas-photos/plan.jpg" alt="план" class="border border-primary rounded img-fluid shadow">
-                                <button class="btn px-1 py-0 position-absolute mr-xl-3 bg_light_through border border-secondary text_color" data-toggle="modal"
+                                <button class="btn px-1 py-0 position-absolute bg_light_through border border-secondary text_color" data-toggle="modal"
                                    data-target="#modalImg2">
                                        <span data-toggle="tooltip" data-placement="bottom" data-original-title="Збільшити"><i class="fas fa-search"></i></span></button>
-                                <figcaption class="font-weight-bold mb-3 ml-xl-3 position-absolute rounded px-1 border border-secondary text-monospace small bg_light_through">План</figcaption>
+                                <figcaption class="font-weight-bold mb-3 position-absolute rounded px-1 border border-secondary text-monospace small bg_light_through">План</figcaption>
                             </figure>
                             <!-- modal -->
                             <div class="modal fade" id="modalImg2" tabindex="-1" aria-hidden="true">

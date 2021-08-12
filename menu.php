@@ -145,7 +145,7 @@
                             <a href="#"
                                 class="nav-link bg-transparent text-white pr-md-0 pr-lg-0 pr-xl-2 pb-md-0 py-2 py-md-0"><i
                                     class="far fa-calendar-alt fa-2x" aria-hidden="true"></i></a>
-                            <a href="#"
+                            <a href="phones-list.php"
                                 class="nav-link bg-transparent text-white pr-lg-0 pr-md-0 pr-xl-2 pb-md-0 py-md-0"><i
                                     class="fas fa-phone-square fa-2x" aria-hidden="true"></i></a>
                         </li>
@@ -158,7 +158,7 @@
                                             class="far fa-calendar-alt fa-2x" aria-hidden="true"></i></a>
                                 </li>
                                 <li class="list-unstyled nav_link">
-                                    <a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Телефонний довідник"
+                                    <a href="phones-list.php" data-toggle="tooltip" data-placement="bottom" data-original-title="Телефонний довідник"
                                         class="bg-transparent text-white px-1 pr-lg-2 pr-xl-3 py-md-0"><i
                                             class="fas fa-phone-square fa-2x" aria-hidden="true"></i></a>
                                 </li>
