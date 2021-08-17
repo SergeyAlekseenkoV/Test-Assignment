@@ -1,15 +1,3 @@
-<?php 
-
-// Initialize the session
-session_start();
-// logout
-// $exit = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'd-none': 'd-inline-block';
-// access button
-// $accessBtn = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'd-inline-block': 'd-none';
-//Disable menu links for an unregistered user
-// $access = !isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true ? 'disabled': '';
-
-?>
 <?php include_once "header.php"; ?>
 <title>Портал-Головна</title>
 </head>

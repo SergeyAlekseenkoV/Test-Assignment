@@ -620,325 +620,325 @@ small.form-text {
     -moz-animation-iteration-count: infinite;
     animation-iteration-count: infinite; }
     #home .particles span:nth-child(1) {
-      color: #f3d9ff;
-      top: 68%;
-      left: 67%;
+      color: #85e8ff;
+      top: 62%;
+      left: 7%;
+      -webkit-animation-duration: 15.5s;
+      -moz-animation-duration: 15.5s;
+      animation-duration: 15.5s;
+      -webkit-animation-delay: -13.8s;
+      -moz-animation-delay: -13.8s;
+      animation-delay: -13.8s;
+      -webkit-transform-origin: -13vw -10vh;
+      -moz-transform-origin: -13vw -10vh;
+      -ms-transform-origin: -13vw -10vh;
+      transform-origin: -13vw -10vh;
+      -webkit-box-shadow: -60vmin 0 11.69451vmin currentColor;
+      box-shadow: -60vmin 0 11.69451vmin currentColor; }
+    #home .particles span:nth-child(2) {
+      color: #85e8ff;
+      top: 29%;
+      left: 88%;
       -webkit-animation-duration: 10.3s;
       -moz-animation-duration: 10.3s;
       animation-duration: 10.3s;
-      -webkit-animation-delay: -7.1s;
-      -moz-animation-delay: -7.1s;
-      animation-delay: -7.1s;
-      -webkit-transform-origin: 5vw -12vh;
-      -moz-transform-origin: 5vw -12vh;
-      -ms-transform-origin: 5vw -12vh;
-      transform-origin: 5vw -12vh;
-      -webkit-box-shadow: -60vmin 0 9.62284vmin currentColor;
-      box-shadow: -60vmin 0 9.62284vmin currentColor; }
-    #home .particles span:nth-child(2) {
-      color: #c885ff;
-      top: 65%;
-      left: 76%;
+      -webkit-animation-delay: -12.9s;
+      -moz-animation-delay: -12.9s;
+      animation-delay: -12.9s;
+      -webkit-transform-origin: 6vw -7vh;
+      -moz-transform-origin: 6vw -7vh;
+      -ms-transform-origin: 6vw -7vh;
+      transform-origin: 6vw -7vh;
+      -webkit-box-shadow: -60vmin 0 21.21357vmin currentColor;
+      box-shadow: -60vmin 0 21.21357vmin currentColor; }
+    #home .particles span:nth-child(3) {
+      color: #f3d9ff;
+      top: 8%;
+      left: 39%;
+      -webkit-animation-duration: 15.4s;
+      -moz-animation-duration: 15.4s;
+      animation-duration: 15.4s;
+      -webkit-animation-delay: -13.7s;
+      -moz-animation-delay: -13.7s;
+      animation-delay: -13.7s;
+      -webkit-transform-origin: 18vw 10vh;
+      -moz-transform-origin: 18vw 10vh;
+      -ms-transform-origin: 18vw 10vh;
+      transform-origin: 18vw 10vh;
+      -webkit-box-shadow: 60vmin 0 9.81103vmin currentColor;
+      box-shadow: 60vmin 0 9.81103vmin currentColor; }
+    #home .particles span:nth-child(4) {
+      color: #f3d9ff;
+      top: 6%;
+      left: 68%;
+      -webkit-animation-duration: 15.2s;
+      -moz-animation-duration: 15.2s;
+      animation-duration: 15.2s;
+      -webkit-animation-delay: -12.5s;
+      -moz-animation-delay: -12.5s;
+      animation-delay: -12.5s;
+      -webkit-transform-origin: -3vw 22vh;
+      -moz-transform-origin: -3vw 22vh;
+      -ms-transform-origin: -3vw 22vh;
+      transform-origin: -3vw 22vh;
+      -webkit-box-shadow: 60vmin 0 7.95883vmin currentColor;
+      box-shadow: 60vmin 0 7.95883vmin currentColor; }
+    #home .particles span:nth-child(5) {
+      color: #f3d9ff;
+      top: 58%;
+      left: 36%;
+      -webkit-animation-duration: 13s;
+      -moz-animation-duration: 13s;
+      animation-duration: 13s;
+      -webkit-animation-delay: -6.3s;
+      -moz-animation-delay: -6.3s;
+      animation-delay: -6.3s;
+      -webkit-transform-origin: -14vw -7vh;
+      -moz-transform-origin: -14vw -7vh;
+      -ms-transform-origin: -14vw -7vh;
+      transform-origin: -14vw -7vh;
+      -webkit-box-shadow: 60vmin 0 14.0134vmin currentColor;
+      box-shadow: 60vmin 0 14.0134vmin currentColor; }
+    #home .particles span:nth-child(6) {
+      color: #f3d9ff;
+      top: 74%;
+      left: 16%;
+      -webkit-animation-duration: 14.2s;
+      -moz-animation-duration: 14.2s;
+      animation-duration: 14.2s;
+      -webkit-animation-delay: -9.6s;
+      -moz-animation-delay: -9.6s;
+      animation-delay: -9.6s;
+      -webkit-transform-origin: 6vw 3vh;
+      -moz-transform-origin: 6vw 3vh;
+      -ms-transform-origin: 6vw 3vh;
+      transform-origin: 6vw 3vh;
+      -webkit-box-shadow: -60vmin 0 10.06042vmin currentColor;
+      box-shadow: -60vmin 0 10.06042vmin currentColor; }
+    #home .particles span:nth-child(7) {
+      color: #85e8ff;
+      top: 64%;
+      left: 45%;
+      -webkit-animation-duration: 15.5s;
+      -moz-animation-duration: 15.5s;
+      animation-duration: 15.5s;
+      -webkit-animation-delay: -15.7s;
+      -moz-animation-delay: -15.7s;
+      animation-delay: -15.7s;
+      -webkit-transform-origin: -16vw -4vh;
+      -moz-transform-origin: -16vw -4vh;
+      -ms-transform-origin: -16vw -4vh;
+      transform-origin: -16vw -4vh;
+      -webkit-box-shadow: 60vmin 0 10.50378vmin currentColor;
+      box-shadow: 60vmin 0 10.50378vmin currentColor; }
+    #home .particles span:nth-child(8) {
+      color: #85e8ff;
+      top: 53%;
+      left: 12%;
       -webkit-animation-duration: 12.2s;
       -moz-animation-duration: 12.2s;
       animation-duration: 12.2s;
-      -webkit-animation-delay: -4.4s;
-      -moz-animation-delay: -4.4s;
-      animation-delay: -4.4s;
+      -webkit-animation-delay: -6.1s;
+      -moz-animation-delay: -6.1s;
+      animation-delay: -6.1s;
+      -webkit-transform-origin: -22vw -18vh;
+      -moz-transform-origin: -22vw -18vh;
+      -ms-transform-origin: -22vw -18vh;
+      transform-origin: -22vw -18vh;
+      -webkit-box-shadow: -60vmin 0 17.77263vmin currentColor;
+      box-shadow: -60vmin 0 17.77263vmin currentColor; }
+    #home .particles span:nth-child(9) {
+      color: #c885ff;
+      top: 75%;
+      left: 59%;
+      -webkit-animation-duration: 15.1s;
+      -moz-animation-duration: 15.1s;
+      animation-duration: 15.1s;
+      -webkit-animation-delay: -5.8s;
+      -moz-animation-delay: -5.8s;
+      animation-delay: -5.8s;
+      -webkit-transform-origin: -5vw -19vh;
+      -moz-transform-origin: -5vw -19vh;
+      -ms-transform-origin: -5vw -19vh;
+      transform-origin: -5vw -19vh;
+      -webkit-box-shadow: 60vmin 0 19.26168vmin currentColor;
+      box-shadow: 60vmin 0 19.26168vmin currentColor; }
+    #home .particles span:nth-child(10) {
+      color: #c885ff;
+      top: 92%;
+      left: 5%;
+      -webkit-animation-duration: 15.9s;
+      -moz-animation-duration: 15.9s;
+      animation-duration: 15.9s;
+      -webkit-animation-delay: -5.1s;
+      -moz-animation-delay: -5.1s;
+      animation-delay: -5.1s;
+      -webkit-transform-origin: 19vw 9vh;
+      -moz-transform-origin: 19vw 9vh;
+      -ms-transform-origin: 19vw 9vh;
+      transform-origin: 19vw 9vh;
+      -webkit-box-shadow: -60vmin 0 16.3595vmin currentColor;
+      box-shadow: -60vmin 0 16.3595vmin currentColor; }
+    #home .particles span:nth-child(11) {
+      color: #c885ff;
+      top: 69%;
+      left: 3%;
+      -webkit-animation-duration: 15.4s;
+      -moz-animation-duration: 15.4s;
+      animation-duration: 15.4s;
+      -webkit-animation-delay: -16s;
+      -moz-animation-delay: -16s;
+      animation-delay: -16s;
       -webkit-transform-origin: 8vw 5vh;
       -moz-transform-origin: 8vw 5vh;
       -ms-transform-origin: 8vw 5vh;
       transform-origin: 8vw 5vh;
-      -webkit-box-shadow: 60vmin 0 22.34049vmin currentColor;
-      box-shadow: 60vmin 0 22.34049vmin currentColor; }
-    #home .particles span:nth-child(3) {
-      color: #c885ff;
-      top: 43%;
-      left: 68%;
-      -webkit-animation-duration: 12.3s;
-      -moz-animation-duration: 12.3s;
-      animation-duration: 12.3s;
-      -webkit-animation-delay: -8.5s;
-      -moz-animation-delay: -8.5s;
-      animation-delay: -8.5s;
-      -webkit-transform-origin: 20vw 3vh;
-      -moz-transform-origin: 20vw 3vh;
-      -ms-transform-origin: 20vw 3vh;
-      transform-origin: 20vw 3vh;
-      -webkit-box-shadow: -60vmin 0 21.77394vmin currentColor;
-      box-shadow: -60vmin 0 21.77394vmin currentColor; }
-    #home .particles span:nth-child(4) {
-      color: #c885ff;
-      top: 33%;
-      left: 58%;
-      -webkit-animation-duration: 16s;
-      -moz-animation-duration: 16s;
-      animation-duration: 16s;
-      -webkit-animation-delay: -6s;
-      -moz-animation-delay: -6s;
-      animation-delay: -6s;
-      -webkit-transform-origin: -7vw -9vh;
-      -moz-transform-origin: -7vw -9vh;
-      -ms-transform-origin: -7vw -9vh;
-      transform-origin: -7vw -9vh;
-      -webkit-box-shadow: -60vmin 0 22.27761vmin currentColor;
-      box-shadow: -60vmin 0 22.27761vmin currentColor; }
-    #home .particles span:nth-child(5) {
-      color: #85e8ff;
-      top: 68%;
-      left: 81%;
-      -webkit-animation-duration: 14s;
-      -moz-animation-duration: 14s;
-      animation-duration: 14s;
-      -webkit-animation-delay: -8.9s;
-      -moz-animation-delay: -8.9s;
-      animation-delay: -8.9s;
-      -webkit-transform-origin: 13vw -18vh;
-      -moz-transform-origin: 13vw -18vh;
-      -ms-transform-origin: 13vw -18vh;
-      transform-origin: 13vw -18vh;
-      -webkit-box-shadow: -60vmin 0 15.92278vmin currentColor;
-      box-shadow: -60vmin 0 15.92278vmin currentColor; }
-    #home .particles span:nth-child(6) {
-      color: #f3d9ff;
-      top: 58%;
-      left: 31%;
-      -webkit-animation-duration: 12.9s;
-      -moz-animation-duration: 12.9s;
-      animation-duration: 12.9s;
-      -webkit-animation-delay: -6.7s;
-      -moz-animation-delay: -6.7s;
-      animation-delay: -6.7s;
-      -webkit-transform-origin: 3vw -14vh;
-      -moz-transform-origin: 3vw -14vh;
-      -ms-transform-origin: 3vw -14vh;
-      transform-origin: 3vw -14vh;
-      -webkit-box-shadow: -60vmin 0 20.87083vmin currentColor;
-      box-shadow: -60vmin 0 20.87083vmin currentColor; }
-    #home .particles span:nth-child(7) {
-      color: #85e8ff;
-      top: 48%;
-      left: 45%;
-      -webkit-animation-duration: 15.4s;
-      -moz-animation-duration: 15.4s;
-      animation-duration: 15.4s;
-      -webkit-animation-delay: -8.4s;
-      -moz-animation-delay: -8.4s;
-      animation-delay: -8.4s;
-      -webkit-transform-origin: -24vw 19vh;
-      -moz-transform-origin: -24vw 19vh;
-      -ms-transform-origin: -24vw 19vh;
-      transform-origin: -24vw 19vh;
-      -webkit-box-shadow: 60vmin 0 20.18705vmin currentColor;
-      box-shadow: 60vmin 0 20.18705vmin currentColor; }
-    #home .particles span:nth-child(8) {
-      color: #c885ff;
-      top: 63%;
-      left: 57%;
-      -webkit-animation-duration: 15.3s;
-      -moz-animation-duration: 15.3s;
-      animation-duration: 15.3s;
-      -webkit-animation-delay: -2.7s;
-      -moz-animation-delay: -2.7s;
-      animation-delay: -2.7s;
-      -webkit-transform-origin: -3vw -19vh;
-      -moz-transform-origin: -3vw -19vh;
-      -ms-transform-origin: -3vw -19vh;
-      transform-origin: -3vw -19vh;
-      -webkit-box-shadow: -60vmin 0 10.03858vmin currentColor;
-      box-shadow: -60vmin 0 10.03858vmin currentColor; }
-    #home .particles span:nth-child(9) {
-      color: #85e8ff;
-      top: 48%;
-      left: 7%;
-      -webkit-animation-duration: 14s;
-      -moz-animation-duration: 14s;
-      animation-duration: 14s;
-      -webkit-animation-delay: -15.2s;
-      -moz-animation-delay: -15.2s;
-      animation-delay: -15.2s;
-      -webkit-transform-origin: -24vw -7vh;
-      -moz-transform-origin: -24vw -7vh;
-      -ms-transform-origin: -24vw -7vh;
-      transform-origin: -24vw -7vh;
-      -webkit-box-shadow: 60vmin 0 17.79912vmin currentColor;
-      box-shadow: 60vmin 0 17.79912vmin currentColor; }
-    #home .particles span:nth-child(10) {
-      color: #f3d9ff;
-      top: 68%;
-      left: 29%;
-      -webkit-animation-duration: 14.2s;
-      -moz-animation-duration: 14.2s;
-      animation-duration: 14.2s;
-      -webkit-animation-delay: -7.9s;
-      -moz-animation-delay: -7.9s;
-      animation-delay: -7.9s;
-      -webkit-transform-origin: 22vw 5vh;
-      -moz-transform-origin: 22vw 5vh;
-      -ms-transform-origin: 22vw 5vh;
-      transform-origin: 22vw 5vh;
-      -webkit-box-shadow: 60vmin 0 7.53388vmin currentColor;
-      box-shadow: 60vmin 0 7.53388vmin currentColor; }
-    #home .particles span:nth-child(11) {
-      color: #f3d9ff;
-      top: 3%;
-      left: 82%;
-      -webkit-animation-duration: 14.1s;
-      -moz-animation-duration: 14.1s;
-      animation-duration: 14.1s;
-      -webkit-animation-delay: -5.6s;
-      -moz-animation-delay: -5.6s;
-      animation-delay: -5.6s;
-      -webkit-transform-origin: -7vw -22vh;
-      -moz-transform-origin: -7vw -22vh;
-      -ms-transform-origin: -7vw -22vh;
-      transform-origin: -7vw -22vh;
-      -webkit-box-shadow: 60vmin 0 8.60013vmin currentColor;
-      box-shadow: 60vmin 0 8.60013vmin currentColor; }
+      -webkit-box-shadow: -60vmin 0 9.54755vmin currentColor;
+      box-shadow: -60vmin 0 9.54755vmin currentColor; }
     #home .particles span:nth-child(12) {
-      color: #f3d9ff;
-      top: 38%;
-      left: 70%;
-      -webkit-animation-duration: 13s;
-      -moz-animation-duration: 13s;
-      animation-duration: 13s;
-      -webkit-animation-delay: -11.1s;
-      -moz-animation-delay: -11.1s;
-      animation-delay: -11.1s;
-      -webkit-transform-origin: -6vw -14vh;
-      -moz-transform-origin: -6vw -14vh;
-      -ms-transform-origin: -6vw -14vh;
-      transform-origin: -6vw -14vh;
-      -webkit-box-shadow: -60vmin 0 14.83705vmin currentColor;
-      box-shadow: -60vmin 0 14.83705vmin currentColor; }
-    #home .particles span:nth-child(13) {
-      color: #f3d9ff;
-      top: 40%;
-      left: 26%;
-      -webkit-animation-duration: 15.9s;
-      -moz-animation-duration: 15.9s;
-      animation-duration: 15.9s;
+      color: #c885ff;
+      top: 21%;
+      left: 50%;
+      -webkit-animation-duration: 14.9s;
+      -moz-animation-duration: 14.9s;
+      animation-duration: 14.9s;
       -webkit-animation-delay: -10.8s;
       -moz-animation-delay: -10.8s;
       animation-delay: -10.8s;
-      -webkit-transform-origin: 18vw 14vh;
-      -moz-transform-origin: 18vw 14vh;
-      -ms-transform-origin: 18vw 14vh;
-      transform-origin: 18vw 14vh;
-      -webkit-box-shadow: -60vmin 0 10.30392vmin currentColor;
-      box-shadow: -60vmin 0 10.30392vmin currentColor; }
-    #home .particles span:nth-child(14) {
+      -webkit-transform-origin: 0vw 0vh;
+      -moz-transform-origin: 0vw 0vh;
+      -ms-transform-origin: 0vw 0vh;
+      transform-origin: 0vw 0vh;
+      -webkit-box-shadow: -60vmin 0 12.02662vmin currentColor;
+      box-shadow: -60vmin 0 12.02662vmin currentColor; }
+    #home .particles span:nth-child(13) {
       color: #f3d9ff;
-      top: 36%;
-      left: 49%;
-      -webkit-animation-duration: 15.8s;
-      -moz-animation-duration: 15.8s;
-      animation-duration: 15.8s;
-      -webkit-animation-delay: -9.4s;
-      -moz-animation-delay: -9.4s;
-      animation-delay: -9.4s;
-      -webkit-transform-origin: -23vw 24vh;
-      -moz-transform-origin: -23vw 24vh;
-      -ms-transform-origin: -23vw 24vh;
-      transform-origin: -23vw 24vh;
-      -webkit-box-shadow: -60vmin 0 7.95335vmin currentColor;
-      box-shadow: -60vmin 0 7.95335vmin currentColor; }
-    #home .particles span:nth-child(15) {
-      color: #c885ff;
-      top: 91%;
-      left: 19%;
-      -webkit-animation-duration: 12.2s;
-      -moz-animation-duration: 12.2s;
-      animation-duration: 12.2s;
-      -webkit-animation-delay: -1.8s;
-      -moz-animation-delay: -1.8s;
-      animation-delay: -1.8s;
-      -webkit-transform-origin: 15vw -17vh;
-      -moz-transform-origin: 15vw -17vh;
-      -ms-transform-origin: 15vw -17vh;
-      transform-origin: 15vw -17vh;
-      -webkit-box-shadow: 60vmin 0 14.13062vmin currentColor;
-      box-shadow: 60vmin 0 14.13062vmin currentColor; }
-    #home .particles span:nth-child(16) {
-      color: #85e8ff;
-      top: 3%;
-      left: 9%;
-      -webkit-animation-duration: 15.6s;
-      -moz-animation-duration: 15.6s;
-      animation-duration: 15.6s;
-      -webkit-animation-delay: -13.5s;
-      -moz-animation-delay: -13.5s;
-      animation-delay: -13.5s;
-      -webkit-transform-origin: -8vw -17vh;
-      -moz-transform-origin: -8vw -17vh;
-      -ms-transform-origin: -8vw -17vh;
-      transform-origin: -8vw -17vh;
-      -webkit-box-shadow: -60vmin 0 18.49205vmin currentColor;
-      box-shadow: -60vmin 0 18.49205vmin currentColor; }
-    #home .particles span:nth-child(17) {
-      color: #85e8ff;
-      top: 83%;
-      left: 70%;
-      -webkit-animation-duration: 14.3s;
-      -moz-animation-duration: 14.3s;
-      animation-duration: 14.3s;
-      -webkit-animation-delay: -10s;
-      -moz-animation-delay: -10s;
-      animation-delay: -10s;
-      -webkit-transform-origin: 2vw 17vh;
-      -moz-transform-origin: 2vw 17vh;
-      -ms-transform-origin: 2vw 17vh;
-      transform-origin: 2vw 17vh;
-      -webkit-box-shadow: 60vmin 0 9.91384vmin currentColor;
-      box-shadow: 60vmin 0 9.91384vmin currentColor; }
-    #home .particles span:nth-child(18) {
-      color: #85e8ff;
-      top: 64%;
-      left: 74%;
-      -webkit-animation-duration: 14.2s;
-      -moz-animation-duration: 14.2s;
-      animation-duration: 14.2s;
+      top: 51%;
+      left: 30%;
+      -webkit-animation-duration: 15.2s;
+      -moz-animation-duration: 15.2s;
+      animation-duration: 15.2s;
       -webkit-animation-delay: -15.2s;
       -moz-animation-delay: -15.2s;
       animation-delay: -15.2s;
-      -webkit-transform-origin: 0vw 22vh;
-      -moz-transform-origin: 0vw 22vh;
-      -ms-transform-origin: 0vw 22vh;
-      transform-origin: 0vw 22vh;
-      -webkit-box-shadow: -60vmin 0 17.07989vmin currentColor;
-      box-shadow: -60vmin 0 17.07989vmin currentColor; }
-    #home .particles span:nth-child(19) {
-      color: #85e8ff;
-      top: 45%;
-      left: 78%;
-      -webkit-animation-duration: 10.1s;
-      -moz-animation-duration: 10.1s;
-      animation-duration: 10.1s;
-      -webkit-animation-delay: -5.2s;
-      -moz-animation-delay: -5.2s;
-      animation-delay: -5.2s;
-      -webkit-transform-origin: -19vw -15vh;
-      -moz-transform-origin: -19vw -15vh;
-      -ms-transform-origin: -19vw -15vh;
-      transform-origin: -19vw -15vh;
-      -webkit-box-shadow: 60vmin 0 19.9297vmin currentColor;
-      box-shadow: 60vmin 0 19.9297vmin currentColor; }
-    #home .particles span:nth-child(20) {
+      -webkit-transform-origin: 5vw 12vh;
+      -moz-transform-origin: 5vw 12vh;
+      -ms-transform-origin: 5vw 12vh;
+      transform-origin: 5vw 12vh;
+      -webkit-box-shadow: -60vmin 0 18.65962vmin currentColor;
+      box-shadow: -60vmin 0 18.65962vmin currentColor; }
+    #home .particles span:nth-child(14) {
+      color: #f3d9ff;
+      top: 85%;
+      left: 11%;
+      -webkit-animation-duration: 12.1s;
+      -moz-animation-duration: 12.1s;
+      animation-duration: 12.1s;
+      -webkit-animation-delay: -7.9s;
+      -moz-animation-delay: -7.9s;
+      animation-delay: -7.9s;
+      -webkit-transform-origin: 6vw -6vh;
+      -moz-transform-origin: 6vw -6vh;
+      -ms-transform-origin: 6vw -6vh;
+      transform-origin: 6vw -6vh;
+      -webkit-box-shadow: -60vmin 0 8.93467vmin currentColor;
+      box-shadow: -60vmin 0 8.93467vmin currentColor; }
+    #home .particles span:nth-child(15) {
       color: #c885ff;
-      top: 60%;
-      left: 54%;
-      -webkit-animation-duration: 12.7s;
-      -moz-animation-duration: 12.7s;
-      animation-duration: 12.7s;
-      -webkit-animation-delay: -13.4s;
-      -moz-animation-delay: -13.4s;
-      animation-delay: -13.4s;
-      -webkit-transform-origin: -19vw -4vh;
-      -moz-transform-origin: -19vw -4vh;
-      -ms-transform-origin: -19vw -4vh;
-      transform-origin: -19vw -4vh;
-      -webkit-box-shadow: 60vmin 0 19.73429vmin currentColor;
-      box-shadow: 60vmin 0 19.73429vmin currentColor; }
+      top: 9%;
+      left: 62%;
+      -webkit-animation-duration: 13.8s;
+      -moz-animation-duration: 13.8s;
+      animation-duration: 13.8s;
+      -webkit-animation-delay: -1.6s;
+      -moz-animation-delay: -1.6s;
+      animation-delay: -1.6s;
+      -webkit-transform-origin: 2vw 12vh;
+      -moz-transform-origin: 2vw 12vh;
+      -ms-transform-origin: 2vw 12vh;
+      transform-origin: 2vw 12vh;
+      -webkit-box-shadow: 60vmin 0 13.65586vmin currentColor;
+      box-shadow: 60vmin 0 13.65586vmin currentColor; }
+    #home .particles span:nth-child(16) {
+      color: #85e8ff;
+      top: 96%;
+      left: 49%;
+      -webkit-animation-duration: 12.3s;
+      -moz-animation-duration: 12.3s;
+      animation-duration: 12.3s;
+      -webkit-animation-delay: -9.4s;
+      -moz-animation-delay: -9.4s;
+      animation-delay: -9.4s;
+      -webkit-transform-origin: -16vw -6vh;
+      -moz-transform-origin: -16vw -6vh;
+      -ms-transform-origin: -16vw -6vh;
+      transform-origin: -16vw -6vh;
+      -webkit-box-shadow: -60vmin 0 18.19406vmin currentColor;
+      box-shadow: -60vmin 0 18.19406vmin currentColor; }
+    #home .particles span:nth-child(17) {
+      color: #f3d9ff;
+      top: 49%;
+      left: 82%;
+      -webkit-animation-duration: 16s;
+      -moz-animation-duration: 16s;
+      animation-duration: 16s;
+      -webkit-animation-delay: -15.4s;
+      -moz-animation-delay: -15.4s;
+      animation-delay: -15.4s;
+      -webkit-transform-origin: 22vw 21vh;
+      -moz-transform-origin: 22vw 21vh;
+      -ms-transform-origin: 22vw 21vh;
+      transform-origin: 22vw 21vh;
+      -webkit-box-shadow: -60vmin 0 14.44219vmin currentColor;
+      box-shadow: -60vmin 0 14.44219vmin currentColor; }
+    #home .particles span:nth-child(18) {
+      color: #f3d9ff;
+      top: 99%;
+      left: 56%;
+      -webkit-animation-duration: 12.5s;
+      -moz-animation-duration: 12.5s;
+      animation-duration: 12.5s;
+      -webkit-animation-delay: -4s;
+      -moz-animation-delay: -4s;
+      animation-delay: -4s;
+      -webkit-transform-origin: -12vw 15vh;
+      -moz-transform-origin: -12vw 15vh;
+      -ms-transform-origin: -12vw 15vh;
+      transform-origin: -12vw 15vh;
+      -webkit-box-shadow: 60vmin 0 19.71492vmin currentColor;
+      box-shadow: 60vmin 0 19.71492vmin currentColor; }
+    #home .particles span:nth-child(19) {
+      color: #f3d9ff;
+      top: 87%;
+      left: 19%;
+      -webkit-animation-duration: 16s;
+      -moz-animation-duration: 16s;
+      animation-duration: 16s;
+      -webkit-animation-delay: -0.9s;
+      -moz-animation-delay: -0.9s;
+      animation-delay: -0.9s;
+      -webkit-transform-origin: -6vw -9vh;
+      -moz-transform-origin: -6vw -9vh;
+      -ms-transform-origin: -6vw -9vh;
+      transform-origin: -6vw -9vh;
+      -webkit-box-shadow: 60vmin 0 9.26697vmin currentColor;
+      box-shadow: 60vmin 0 9.26697vmin currentColor; }
+    #home .particles span:nth-child(20) {
+      color: #f3d9ff;
+      top: 56%;
+      left: 60%;
+      -webkit-animation-duration: 11.1s;
+      -moz-animation-duration: 11.1s;
+      animation-duration: 11.1s;
+      -webkit-animation-delay: -2.5s;
+      -moz-animation-delay: -2.5s;
+      animation-delay: -2.5s;
+      -webkit-transform-origin: 5vw -4vh;
+      -moz-transform-origin: 5vw -4vh;
+      -ms-transform-origin: 5vw -4vh;
+      transform-origin: 5vw -4vh;
+      -webkit-box-shadow: -60vmin 0 18.34062vmin currentColor;
+      box-shadow: -60vmin 0 18.34062vmin currentColor; }
 
 @-webkit-keyframes move {
   100% {
@@ -1618,12 +1618,12 @@ small.form-text {
     border-bottom: 0 !important; }
   #main #ideas-storage .nav-tabs > .nav-item > .nav-link {
     min-height: 100%;
-    -webkit-border-bottom-left-radius: .25rem !important;
-    -moz-border-radius-bottomleft: .25rem !important;
-    border-bottom-left-radius: .25rem !important;
-    -webkit-border-bottom-right-radius: .25rem !important;
-    -moz-border-radius-bottomright: .25rem !important;
-    border-bottom-right-radius: .25rem !important;
+    -webkit-border-bottom-left-radius: 0.25rem !important;
+    -moz-border-radius-bottomleft: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+    -webkit-border-bottom-right-radius: 0.25rem !important;
+    -moz-border-radius-bottomright: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
     line-height: 1 !important;
     border-color: #304878;
     -webkit-transition: all 300ms ease;
@@ -1655,24 +1655,73 @@ small.form-text {
       height: 3em;
       text-align: justify;
       overflow: hidden; }
-  #main #study-part a.btn-light {
-    border: #659ed7 1px dashed; }
-    #main #study-part a.btn-light span {
-      margin-right: 1.5em;
-      -webkit-transition: all 300ms ease;
-      -moz-transition: all 300ms ease;
-      transition: all 300ms ease; }
-    #main #study-part a.btn-light:hover span,
-    #main #study-part a.btn-light:focus span {
-      margin-left: .5em; }
-  #main #proposition-description button.position-absolute {
-    right: 0;
-    z-index: 5; }
-  #main #proposition-description img {
-    min-height: 100%;
-    min-width: 100%; }
-  #main #proposition-description figcaption.position-absolute {
-    bottom: 0; }
+  #main .study_bg {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(190, 213, 236, 0.8)), to(rgba(192, 192, 192, 0.8))), url("../img/study-bg.jpeg") center/cover no-repeat;
+    background: -webkit-linear-gradient(top, rgba(190, 213, 236, 0.8), rgba(192, 192, 192, 0.8)), url("../img/study-bg.jpeg") center/cover no-repeat;
+    background: -moz- oldlinear-gradient(top, rgba(190, 213, 236, 0.8), rgba(192, 192, 192, 0.8)), url("../img/study-bg.jpeg") center/cover no-repeat;
+    background: linear-gradient(to bottom, rgba(190, 213, 236, 0.8), rgba(192, 192, 192, 0.8)), url("../img/study-bg.jpeg") center/cover no-repeat; }
+  #main #study-part {
+    min-height: 70vh; }
+    #main #study-part a.btn-light {
+      border: #659ed7 1px dashed; }
+      #main #study-part a.btn-light span {
+        margin-right: 1.5em;
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        transition: all 300ms ease; }
+      #main #study-part a.btn-light:hover span,
+      #main #study-part a.btn-light:focus span {
+        margin-left: 0.5em; }
+    #main #study-part .study_table table {
+      font-size: 0.8rem !important; }
+    #main #study-part .table-hover tr:hover {
+      color: #277fd6 !important; }
+    #main #study-part blockquote > p {
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content; }
+      #main #study-part blockquote > p::before {
+        content: "\201C";
+        font-size: 5rem;
+        line-height: 0;
+        margin: 0;
+        font-family: "Cormorant Infant", sans-serif;
+        font-weight: 400;
+        position: absolute;
+        top: 1.2rem;
+        left: -0.5em;
+        opacity: 0.5; }
+
+#proposition-description button.position-absolute {
+  right: 0;
+  z-index: 5; }
+
+#proposition-description img {
+  min-height: 100%;
+  min-width: 100%; }
+
+#proposition-description figcaption.position-absolute {
+  bottom: 0; }
+
+#rest-vacation p:not(.lead) {
+  text-indent: 1em; }
+
+#rest-vacation .rest_bg {
+  background: url("../img/traveller-bg.jpg") center/cover no-repeat; }
+
+#rest-vacation .img-fluid {
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+  opacity: 0.9; }
+  #rest-vacation .img-fluid:hover, #rest-vacation .img-fluid:focus {
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    opacity: 1; }
 
 #personalRoom {
   min-height: 120vh;
@@ -1688,7 +1737,7 @@ small.form-text {
     height: 1rem !important; }
   #personalRoom .custom-file > .custom-file-label::after {
     color: #304878 !important;
-    content: 'Файл';
+    content: "Файл";
     border-color: #304878 !important; }
   #personalRoom .custom-control > label.custom-control-label::after {
     cursor: pointer;
@@ -2103,7 +2152,21 @@ media queries for different screen resolutions
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .btn_responsive {
-    width: 50%; } }
+    width: 50%; }
+  h2 {
+    font-size: 1.5em; }
+  h3 {
+    font-size: 1.1em !important; }
+  #rest-vacation .row.costs_photos :nth-child(3).col-12.col-lg-4 {
+    height: 391px !important; } }
+
+@media screen and (max-width: 575px) {
+  #study-part blockquote > p {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
+    #study-part blockquote > p::before {
+      left: 0; } }
 
 @media (min-width: 576px) {
   h3 {

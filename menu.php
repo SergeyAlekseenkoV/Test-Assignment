@@ -45,11 +45,9 @@
                                         та оплата праці</a>
                                     <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left list-unstyled" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="avarage-salary.php">Середня зар.плата по <br>провідним професіям</a></li>
-                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="vacations.php">Тривалість чергових <br>відпусток</a></li>
-
-                                        <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a> -->
-
-                                            <!-- <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2 rounded" href="vacations.php">Тривалість чергових <br>відпусток</a></li>
+                                        <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+                                            <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
                                                 <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
                                             </ul>
@@ -74,11 +72,11 @@
                                     data-toggle="dropdown" role="link" aria-haspopup="true">Інформація профспілки</a>
                                     <ul class="dropdown-menu bg-primary border py-0 text-center text-md-left">
                                         <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="#">Оголошення профспілки</a></li>
-                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="union-doc.php">Колективний договір</a></li>
+                                        <li><a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2 rounded" href="union-doc.php">Колективний договір</a></li>
                                     </ul>
                                 </li>   
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="open-positions.php">Вакансії</a></li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="HR_movement.php">Кадрові призначення</a></li>
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2 rounded" href="HR_movement.php">Кадрові призначення</a></li>
                             </ul>
                         </li>
                         <li class="nav-item mt-1 d-flex justify-content-center position-relative">
@@ -96,17 +94,13 @@
                             </ul>
                         </li>
                         <li class="d-flex justify-content-center nav-item mt-1 position-relative">
-                            <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2"
+                            <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2" id="navbarDropdownSocial"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Соціальна сфера</a>
                             <ul
-                                class="dropdown-menu position-absolute dropdown-content p-0 border border-white bg-primary row text-center text-md-left text-lg-left width_dropdown_smallscreen">
-                                <li>
-                                    <a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2"
-                                       href="#">Санаторій-профілакторій</a>
-                                </li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Оздоровлення</a></li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Відпочинок</a></li>
+                                class="dropdown-menu dropdown-content dropdown-right position-absolute p-0 border border-white bg-primary row text-center text-md-left text-lg-left rounded width_dropdown_smallscreen">
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="rest-vacations.php">Оздоровлення</a></li>
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2 rounded" href="#">Санаторій-профілакторій</a></li>
                             </ul>
                         </li>
                         <li class="d-flex justify-content-center nav-item mt-1 position-relative">

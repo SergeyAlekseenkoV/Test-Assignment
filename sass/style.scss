@@ -1,5 +1,5 @@
 $white-color: #ffffff;
-$secondary: #b7babb;;
+$secondary: #b7babb;
 $primary-color: #304878;
 $primary-color-through: rgba(48, 72, 120, 0.9);
 $primary-common: #659ed7;
@@ -1494,8 +1494,8 @@ small.form-text {
 
         .nav-tabs > .nav-item > .nav-link {
             min-height: 100%;
-            border-bottom-left-radius: .25rem !important;
-            border-bottom-right-radius: .25rem !important;
+            border-bottom-left-radius: 0.25rem !important;
+            border-bottom-right-radius: 0.25rem !important;
             line-height: 1 !important;
             border-color: $primary-color;
             transition: all 300ms ease;
@@ -1503,7 +1503,7 @@ small.form-text {
             &:hover {
                 background-color: $secondary;
             }
-            
+
             > span {
                 font-size: 2em;
             }
@@ -1513,7 +1513,7 @@ small.form-text {
         .nav-tabs .nav-link.active {
             background-color: $primary-lightest !important;
         }
-        
+
         .nav-tabs > .nav-item > .active {
             border: transparent 1px solid !important;
 
@@ -1526,7 +1526,6 @@ small.form-text {
                 color: $primary-color !important;
             }
         }
-
 
         .tab-content > .tab-pane > div.table > table {
             line-height: 1.2 !important;
@@ -1550,8 +1549,14 @@ small.form-text {
             }
         }
     }
+    
+    .study_bg {
+        background: linear-gradient(to bottom, rgba(190, 213, 236, 0.8),rgba(192, 192, 192, 0.8)),
+        url("../img/study-bg.jpeg") center/cover no-repeat;
+    }
 
     #study-part {
+        min-height: 70vh;
         a.btn-light {
             border: $primary-common 1px dashed;
 
@@ -1562,24 +1567,71 @@ small.form-text {
 
             &:hover span,
             &:focus span {
-                margin-left: .5em;
+                margin-left: 0.5em;
+            }
+        }
+
+        .study_table table {
+            font-size: 0.8rem !important;
+        }
+
+        .table-hover tr:hover {
+            color: $primary-dark !important;
+        }
+
+        blockquote > p {
+            width: fit-content;
+            &::before {
+                content: "\201C";
+                font-size: 5rem;
+                line-height: 0;
+                margin: 0;
+                font-family: "Cormorant Infant", sans-serif;
+                font-weight: 400;
+                position: absolute;
+                top: 1.2rem;
+                left: -0.5em;
+                opacity: 0.5;
             }
         }
     }
+}
 
-    #proposition-description {
-        button.position-absolute {
-            right: 0;
-            z-index: 5;
-        }
-        
-        img {
-            min-height: 100%;
-            min-width: 100%;
-        }
+#proposition-description {
+    button.position-absolute {
+        right: 0;
+        z-index: 5;
+    }
 
-        figcaption.position-absolute {
-            bottom: 0;
+    img {
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+    figcaption.position-absolute {
+        bottom: 0;
+    }
+}
+
+#rest-vacation {
+    p:not(.lead) {
+        text-indent: 1em;
+    }
+
+    .rest_bg {
+        background: url("../img/traveller-bg.jpg") center/cover no-repeat;
+    }
+
+    .img-fluid {
+        min-width: 100%;
+        min-height: 100%;
+        transition: all 300ms ease;
+        opacity: 0.9;
+
+        &:hover,
+        &:focus {
+            transform: scale(1.01);
+            opacity: 1;
         }
     }
 }
@@ -1599,9 +1651,9 @@ small.form-text {
         }
     }
 
-    .custom-file > .custom-file-label::after {   
+    .custom-file > .custom-file-label::after {
         color: $primary-color !important;
-        content: 'Файл';
+        content: "Файл";
         border-color: $primary-color !important;
     }
 
@@ -2075,6 +2127,34 @@ media queries for different screen resolutions
     .btn_responsive {
         width: 50%;
     }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.1em !important;
+    }
+
+    #rest-vacation {
+        .row.costs_photos {
+            :nth-child(3).col-12.col-lg-4 {
+                height: 391px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #study-part {
+        blockquote > p {
+            width: fit-content;
+
+            &::before {
+                left: 0;
+            }
+        }
+    }
 }
 
 @media (min-width: 576px) {
@@ -2263,6 +2343,7 @@ media queries for different screen resolutions
             opacity: 1;
         }
     }
+
     .scrollup {
         display: none;
         position: fixed;
