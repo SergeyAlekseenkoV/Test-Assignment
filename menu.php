@@ -100,7 +100,7 @@
                             <ul
                                 class="dropdown-menu dropdown-content dropdown-right position-absolute p-0 border border-white bg-primary row text-center text-md-left text-lg-left rounded width_dropdown_smallscreen">
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="rest-vacations.php">Оздоровлення</a></li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2 rounded" href="#">Санаторій-профілакторій</a></li>
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2 rounded" href="sanatorium.php">Санаторій-профілакторій</a></li>
                             </ul>
                         </li>
                         <li class="d-flex justify-content-center nav-item mt-1 position-relative">
@@ -113,9 +113,9 @@
                                     автобусів</a></li>
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Маршрут руху
                                     автобусів</a></li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Графік роботи
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="schedule.php">Графік роботи
                                     каси</a></li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Підписка
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="newsletter-subscription.php">Підписка
                                     "Гірницький вісник"</a></li>
                             </ul>
                         </li>

@@ -11,6 +11,8 @@
      <script src="js/bootstrap.min.js"></script>
      <script src="js/bootstrap-show-password.js"></script>
      <script src="js/all.min.js"></script>
+     <script src="js/jquery.fancybox.min.js"></script>
+     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script> -->
      <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" 
            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
            crossorigin="anonymous"></script>
@@ -35,6 +37,8 @@
          <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"> -->
      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
      </script>  -->
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"> -->
+     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
      <link rel="stylesheet" href="css/animate.min.css">
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/style.css">
@@ -43,6 +47,7 @@
      <link type="image/png" sizes="16x16" rel="icon" href="../img/logo-white.png" media="(prefers-color-scheme: dark)">
      <link type="image/png" sizes="16x16" rel="icon" href="../img/logo-dark-favicon.png" media="(prefers-color-scheme: light)">
 
+     
      
     
 

@@ -112,6 +112,70 @@
                                             <td class="text-center">52-50</td>
                                             <td class="text-center">80-00</td>
                                         </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Автоцех</td>
+                                            <td>Вишневська Олена Іванівна</td>
+                                            <td>Економіст</td>
+                                            <td class="text-center">56-32</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Автоцех</td>
+                                            <td>Даниленко Євген Миколайович</td>
+                                            <td>Начальник тех.бюро</td>
+                                            <td class="text-center">56-38</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td><b>Автоцех</b></td>
+                                            <td><b>Диспетчер</b></td>
+                                            <td></td>
+                                            <td class="text-center"><b>55-58</b></td>
+                                            <td class="text-center"><b>84-82</b></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Автоцех</td>
+                                            <td>Мальцева Ірина Сергіївна</td>
+                                            <td>Бухгалтер</td>
+                                            <td></td>
+                                            <td class="text-center">80-00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Автоцех</td>
+                                            <td>Мужиченко Олександр Сергійович</td>
+                                            <td>Головний інженер</td>
+                                            <td class="text-center">55-86</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Автоцех</td>
+                                            <td>Педус Юлія Олександрівна</td>
+                                            <td>Заступник нач.цеху з охорони праці</td>
+                                            <td class="text-center">56-32</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td>Автоцех</td>
+                                            <td>Шаповалова Алевтина Анатольевна</td>
+                                            <td>Начальник Автоцеху</td>
+                                            <td class="text-center">55-46</td>
+                                            <td class="text-center"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td>Бухгалтерія</td>
+                                            <td>Онищенко Людмила Вікторівна</td>
+                                            <td>Головний бухгалтер</td>
+                                            <td class="text-center">52-50</td>
+                                            <td class="text-center">80-00</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>

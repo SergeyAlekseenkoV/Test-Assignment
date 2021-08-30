@@ -25,9 +25,9 @@
                             <h2 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_headers">Виробниче навчання</h2>
                             <!-- blockquote -->
                             <div class="d-flex flex-row justify-content-end mx-0 px-2 text-right">
-                                <blockquote class="font-italic mt-2 mb-0">
+                                <blockquote class="font-italic mt-2 mb-3">
                                    <p class="mb-0 position-relative">Учітесь, читайте,<br class="d-sm-none"> і чужому научайтесь, <br class="d-md-none">й свого не цурайтесь.</p>
-                                   <footer class="blockquote-footer text-right text_color">Т.Г Шевченко</footer>
+                                   <footer class="blockquote-footer text-right text_color">Т.Г Шевченко.</footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
                                 <li class="font-italic">покрівельник рулонних покрівель та покрівель із штучних матеріалів</li>
                             </ul>
                         </div>
-                        <div class="col-12 d-flex flex-column justify-content-end">
+                        <div class="col-12 d-flex flex-column justify-content-end mt-lg-5">
                             <p class="mb-0 text-right font-weight-bold text-monospace">
                                *З питань зарахування до групи звертайтесь до осіб, відповідальних за організацію навчання у Вашому цеху.
                             </p>

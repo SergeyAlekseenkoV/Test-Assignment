@@ -25,7 +25,7 @@
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2
                                 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_headers">
-                                Розділи</h2>
+                                Навчання - Розділи</h2>
                         </div>
                         <!-- study-list -->
                         <div class="col-12 col-md-6 p-1 mx-0">
@@ -49,7 +49,7 @@
                                 <span class="mr-3"><i class="far fa-calendar-alt"></i></span>Розклад занять груп</a>
                         </div>
                         <div class="col-12 col-md-6 p-1 mx-0">
-                            <a href="#"
+                            <a href="medical-course.php"
                                 class="btn btn-light shadow py-5 w-100 text-uppercase text_color">
                                 <span class="mr-3"><i class="fas fa-database"></i></span>База знань</a>
                         </div>

@@ -82,11 +82,11 @@ section {
 
 /* headers and typografy styling */
 h2 {
-    font-size: 1.8em;
+    font-size: 1.2em;
 }
 
 h3 {
-    font-size: 1.3em !important;
+    font-size: 1.15em !important;
 }
 
 h2.bg_headers,
@@ -181,6 +181,10 @@ input::placeholder:active {
 
 .border-primary {
     border: 1px $primary-color solid !important;
+}
+
+.border-info {
+    border: 1px $primary-dark solid !important;
 }
 
 /* components  (buttons) */
@@ -302,6 +306,66 @@ li {
 small.form-text {
     color: $primary-color !important;
 }
+
+.min-height {
+    min-height: 100%;
+}
+
+/* styling fancybox buttons*/
+
+.fancybox-progress {
+    background: $primary-dark !important;
+}
+
+button.fancybox-button[title="Previous"],
+button.fancybox-button[title="Next"]{
+    background-color: transparent;
+    border: 1px $white-color solid;
+    border-radius: .25em;
+    > div {
+       display: none;
+    }
+
+    &::after {
+        position: absolute;
+        display: grid;
+        align-content: center;
+        text-align: center;
+        color: $white-color;
+        font-size: 2em;
+        font-weight: 100;
+        inset: 0;
+    }
+
+    &:hover,
+    &:focus {
+        border: 1px $primary-dark solid
+    }
+
+    &:hover::after,
+    &:focus::after {
+        color: $primary-dark;
+    }
+}
+
+button.fancybox-button[title="Previous"] {
+    margin-left: .25em;
+    &::after {
+        content: '❮';
+    }
+}
+
+button.fancybox-button[title="Next"] {
+    margin-right: .25em;
+    &::after {
+        content: '❯';
+    }
+}
+
+.fancybox-thumbs__list a:before {
+    border: 6px solid $primary-dark !important;
+}
+
 /* modes */
 
 .light {
@@ -681,6 +745,10 @@ small.form-text {
         }
     }
 
+    .card-img-top {
+        height: auto !important;
+    }
+
     /*carousel*/
     .carousel-item {
         max-height: 500px !important;
@@ -733,6 +801,7 @@ small.form-text {
 
     .bg_birthday {
         background-color: $primary-lightest-through;
+        min-height: 400px;
         width: 39.8125em;
         z-index: 1;
         h2,
@@ -745,10 +814,11 @@ small.form-text {
             text-shadow: $shadow;
         }
     }
-
+     
     .bg_announcement {
         background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
             url("../img/default-ads-bg.jpg") center/cover no-repeat;
+        min-height: 150px ;
         line-height: 1.1 !important;
         text-shadow: $shadow-dark;
         text-align: justify;
@@ -1326,15 +1396,21 @@ small.form-text {
     }
 
     #open-positions {
+        p {
+            text-indent: 1em;
+        }
+
         > :nth-of-type(2) > .row > ul > li {
             padding: 0.5em 1em;
             border: transparent 1px dotted;
             transition: all 500ms ease;
+
             > a {
                 margin-left: 2em;
                 text-decoration: none !important;
                 transition: all 500ms ease;
             }
+
             &:hover {
                 margin-left: 1.8em;
                 background-color: $white-color;
@@ -1549,16 +1625,17 @@ small.form-text {
             }
         }
     }
-    
+
     .study_bg {
-        background: linear-gradient(to bottom, rgba(190, 213, 236, 0.8),rgba(192, 192, 192, 0.8)),
-        url("../img/study-bg.jpeg") center/cover no-repeat;
+        background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
+            url("../img/study-bg.jpeg") center/cover no-repeat;
     }
 
     #study-part {
-        min-height: 70vh;
+        min-height: calc(50vh - 66px);
         a.btn-light {
             border: $primary-common 1px dashed;
+            min-height: 100%;
 
             span {
                 margin-right: 1.5em;
@@ -1576,7 +1653,8 @@ small.form-text {
         }
 
         .table-hover tr:hover {
-            color: $primary-dark !important;
+            color: $primary-color !important;
+            background-color: $primary-common-light-through;
         }
 
         blockquote > p {
@@ -1593,6 +1671,143 @@ small.form-text {
                 left: -0.5em;
                 opacity: 0.5;
             }
+        }
+    }
+
+    #study-part-medical {
+        min-height: calc(50vh - 66px);
+        a.btn-light {
+            border: $primary-common 1px solid;
+            min-height: 100%;
+        }
+
+        .bg_sanatorium {
+            background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
+                url("../img/sanatorium/sanatorium15.jpg") center/cover no-repeat;
+        }
+
+        p.lead {
+            line-height: 1.3 !important;
+            text-indent: 1em;
+        }
+
+        img.img-fluid {
+            min-height: 100%;
+            opacity: 0.85;
+            transition: all 300ms ease;
+
+            &:hover,
+            &:focus {
+                opacity: 1;
+            }
+        }
+    }
+
+    #gallary-index-page {
+        a.py-5 {
+            position: relative;
+            z-index: 5;
+            min-height: 100%;
+            border-top: transparent 2px solid;
+            border-bottom: transparent 2px solid;
+            transition: all 300ms ease;
+
+            > span {
+                display: grid;
+                top: 0.5em;
+                bottom: 0.7em;
+                align-content: center;
+                text-align: center;
+                font-size: 1.4em;
+                color: $primary-color;
+            }
+
+            &:hover,
+            &:focus {
+                background-color: $primary-lightest-through;
+            }
+        }
+
+        > :nth-of-type(even) {
+            background-color: $primary-common;
+            background-clip: content-box;
+            color: $primary-color;
+
+            a:hover,
+            a:focus {
+                border-top-color: $white-color;
+                border-bottom-color: $white-color;
+            }
+        }
+
+        > :nth-of-type(odd) {
+            background-color: $primary-common-light;
+            background-clip: content-box;
+            color: $primary-color;
+
+            a:hover,
+            a:focus {
+                border-top-color: $primary-common;
+                border-bottom-color: $primary-common;
+            }
+        }
+
+        .img-fluid {
+            opacity: 0.25;
+            transition: all 300ms ease;
+
+            &:hover {
+                opacity: 0.15;
+            }
+        }
+    }
+
+    #gallary-item-page {
+        a {
+            opacity: .85;
+            transition: all 300ms ease;
+        }
+
+        a:hover,
+        a:focus {
+          opacity: 1;
+        }
+    }
+
+    #newsletter-subscription {
+        .bg_subscription {
+            background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.9)),
+                url("../img/faq.png") center/contain no-repeat;
+        }
+
+        p.lead::first-letter {
+            font-size: 200%;
+            float: left;
+            font-weight: bold;
+            color: $primary-dark !important;
+            margin-top: 0;
+            margin-right: 0.3em;
+        }
+
+        @-moz-document url-prefix() {
+            p.lead::first-letter {
+                margin-top: 9px;
+            }
+        }
+        p.lead {
+            line-height: 1.3 !important;
+        }
+        p:not(.lead) {
+            line-height: 1.25 !important;
+            text-indent: .8em;
+        }
+    }
+
+    #scheduel {
+        .bg_scheduel {
+            background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.7)),
+            url("../img/schedule.jpg") center/cover no-repeat;
+            min-height: 50vh;
         }
     }
 }
@@ -1974,6 +2189,28 @@ media queries for different screen resolutions
                 url("../img/default-ads-bg.jpg") center/contain repeat-y;
         }
     }
+
+    #main {
+        #gallary-index-page {
+            a {
+                border-top-color: $white-color;
+                border-bottom-color: $white-color;
+                background-color: $primary-light-through !important;
+
+                &:not(hover) {
+                    border-top-color: $white-color !important;
+                    border-bottom-color: $white-color !important;
+                }
+            }
+        }
+
+        #newsletter-subscription {
+            .bg_subscription {
+                background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.9)),
+                    url("../img/faq.png") 50% 74%/contain repeat-y;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 576px) {
@@ -2171,6 +2408,10 @@ media queries for different screen resolutions
             url("../img/mgok-video-header.png") center/cover no-repeat;
     }
 
+    h2 {
+        font-size: 1.6em;
+    }
+
     h3 {
         font-size: 1.4em;
     }
@@ -2190,9 +2431,43 @@ media queries for different screen resolutions
                 url("../img/default-ads-bg.jpg") right/cover no-repeat;
         }
     }
+
+    #main {
+        #gallary-index-page {
+            .col-12.col-md-6.col-lg-4::after {
+                font-size: 1.2em;
+            }
+            a {
+                border-top-color: $white-color;
+                border-bottom-color: $white-color;
+                background-color: $primary-light-through !important;
+
+                &:not(hover) {
+                    border-top-color: $white-color !important;
+                    border-bottom-color: $white-color !important;
+                }
+            }
+
+            > :nth-of-type(3n) {
+                background-color: $primary-common;
+            }
+
+            > :nth-of-type(3n + 1) {
+                background-color: $primary-common-light;
+            }
+        }
+    }
 }
 
 @media (min-width: 992px) {
+    h2 {
+        font-size: 1.85em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
     /* accordion left-menu styling*/
 
     #accordionLib {

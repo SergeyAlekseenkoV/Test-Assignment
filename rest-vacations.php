@@ -27,9 +27,9 @@
                         <!-- description -->
                         <div class="row mx-1 rest_bg">
                             <div class="col-12 border border-primary">
-                                <h3 class="text-center mt-2">
-                                    <i class="font-weight-bold">Шановні працівники комбінату!</i>                          
-                                </h3>  
+                                <h2 class="text-center mt-2">
+                                    <i>Шановні працівники комбінату!</i>                          
+                                </h2>  
                                 <p class="lead font-italic font-weight-bold text-justify">
                                     Адміністрація Марганецького ГЗК, спільно з міжнародними туристичними компаніями Сентоза-Тур і ТЕЗ-Тур, 
                                     пропонує Вам відпочити на всесвітньо відомих курортах Єгипту - Хургада, Шарм-ель-Шейх, і Туреччини - Анталія, Кемер!

@@ -28,7 +28,7 @@
                                 <span class="d-none d-sm-inline-block dot mx-1 mx-md-2 mx-md-3"><i class="far fa-dot-circle"></i></span><span class="d-sm-none">-</span> Перспектива</h2>
                         </div>
                         <!-- text-positions -->
-                        <div class="col-12 mx-0 px-2">
+                        <div class="col-12 mx-0 px-1 px-lg-3">
                             <div class="d-flex flex-row justify-content-center justify-content-md-start align-items-center mx-5 my-4">
                                 <img src="../img/employee-icon-png-29.png" width="50" height="60" alt="шукаємо" class="img-fluid">
                                 <h2 class="text-center text-md-left text_color">Вакансії</h2>
@@ -43,10 +43,10 @@
                                (будівля поруч з міським Центром зайнятості) каб.№ 202 з 8-00 до 17-00 або <strong>за телефоном <br>+38(068)361-23-80</strong></p>
                             <p class="px-2 mb-2">Кандидатам на <strong>працевлаштування без досвіду роботи, а також тих що не мають кваліфікаційних посвідчень</strong>, АТ «МГЗК» надає можливість працевлаштування учнями за професіями 
                                (окрім водіїв) з терміном навчання від 3 міс. до 6 міс., в залежності від обраної професії.</p>
-                            <div class="row m-2 border border-secondary rounded">
+                            <div class="row mx-2 mt-2 mb-3 mb-lg-4 p-1 border border-secondary rounded">
                                 <!-- destination for the link from the position-description page -->
                                 <a name="start-of-list"></a>
-                                <h3 class="text-center mt-3 font-weight-bold">Актуальні вакансії АТ «Марганецький гірничо-збагачувальний комбінат» станом на 01.08.2021р.</h3>
+                                <h3 class="text-center mx-auto mt-3 font-weight-bold">Актуальні вакансії АТ «Марганецький гірничо-збагачувальний комбінат»<br> станом на 01.08.2021р.</h3>
                                 <p class="mb-0 ml-5 font-weight-bold">Інженерно-технічний персонал:</p>
                                 <ul class="col-12 text-left mt-2">
                                     <li class="d-flex flex-row justify-content-start align-items-center my-0 rounded">

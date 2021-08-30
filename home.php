@@ -32,26 +32,8 @@
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
                                     porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
-                            <li class="mb-3">&nbsp;
-                                <a href="#" class="text-white">Оголошення друге Lorem ipsum dolor sit
-                                    amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
-                                    culpa consequatur,
-                                    modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
                             <!-- <li class="mb-3">&nbsp;
-                                <a href="#" class="text-white">Оголошення третє Lorem ipsum dolor sit
-                                    amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
-                                    culpa consequatur,
-                                    modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
-                            <li class="mb-3">&nbsp;
                                 <a href="#" class="text-white">Оголошення друге Lorem ipsum dolor sit
-                                    amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
-                                    culpa consequatur,
-                                    modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
-                            <li class="mb-0">&nbsp;
-                                <a href="#" class="text-white">Оголошення третє Lorem ipsum dolor sit
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
@@ -71,7 +53,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-touch="true">
-                                <img class="d-block w-100" src="img/carosel1.jpg" alt="people">
+                                <img class="d-block w-100 min-height" src="img/carosel1.jpg" alt="people">
                                 <!-- first new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">1 Lorem ipsum dolor,
@@ -81,7 +63,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item" data-touch="true">
-                                <img class="d-block w-100" src="img/carosel2.jpg" alt="people">
+                                <img class="d-block w-100 min-height" src="img/carosel2.jpg" alt="people">
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">2 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
@@ -90,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item" data-touch="true">
-                                <img class="d-block w-100" src="img/carosel3.png" alt="track">
+                                <img class="d-block w-100 min-height" src="img/carosel3.png" alt="track">
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">3 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
@@ -99,7 +81,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item" data-touch="true">
-                                <img class="d-block w-100" src="img/carosel4.jpg" alt="people">
+                                <img class="d-block w-100 min-height" src="img/carosel4.jpg" alt="people">
                                 <div class="carousel-caption bg_dark_overlay p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">4 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias

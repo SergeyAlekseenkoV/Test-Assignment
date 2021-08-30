@@ -25,7 +25,7 @@
             </div>
             <div class="card-header p-0 bg_dark_through dark">
                 <a class="btn btn-link btn-block bg-transparent text-white text-decoration-none text-lg-left collapsed text-uppercase d-lg-flex flex-row justify-content-between align-items-center px-1 px-sm-2"
-                    href="home.php" type="button" role="button">
+                    href="ads_index.php" type="button" role="button">
                     Оголошення<span class="d-none d-sm-inline-block">&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></span>
                 </a>
             </div>
@@ -40,7 +40,7 @@
             </div>
             <div class="card-header p-0 bg_dark_through dark" id="homePage">
                 <a class="btn btn-link btn-block bg-transparent text-white text-decoration-none text-lg-left collapsed text-uppercase d-lg-flex flex-row justify-content-between align-items-center px-1 px-sm-2"
-                    href="home.php" type="button">
+                    href="allnews.php" type="button">
                     Новини<span class="d-none d-sm-inline-block">&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></span>
                 </a>
             </div>
@@ -55,7 +55,7 @@
             </div>
             <div class="card-header p-0 bg_dark_through dark">
                 <a class="btn btn-link btn-block bg-transparent text-white text-decoration-none text-lg-left collapsed text-uppercase d-lg-flex flex-row justify-content-between align-items-center px-1 px-sm-2"
-                    href="home.php" type="button" role="button">
+                    href="library.php" type="button" role="button">
                     Бібліотека<span class="d-none d-sm-inline-block">&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></span>
                 </a>
             </div>
@@ -64,13 +64,13 @@
         <div class="col-4 col-lg-12 px-0 card bg-transparent">
             <div class="card-header p-0 bg_linear_dark light">
                 <a class="btn btn-link btn-block bg-transparent text-white text-decoration-none text-lg-left collapsed text-uppercase d-lg-flex flex-row justify-content-between align-items-center px-1 px-sm-2"
-                    type="button" href="gallary.php" role="button">
+                    type="button" href="gallery_index.php" role="button">
                     Галерея<span class="d-none d-sm-inline-block">&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></span>
                 </a>
             </div>
             <div class="card-header p-0 bg_dark_through dark">
                 <a class="btn btn-link btn-block bg-transparent text-white text-decoration-none text-lg-left collapsed text-uppercase d-lg-flex flex-row justify-content-between align-items-center px-1 px-sm-2"
-                    href="home.php" type="button" role="button">
+                    href="gallery_index.php" type="button" role="button">
                     Галерея<span class="d-none d-sm-inline-block">&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></span>
                 </a>
             </div>
@@ -85,7 +85,7 @@
             </div>
             <div class="card-header p-0 bg_dark_through dark">
                 <a class="btn btn-link btn-block bg-transparent text-white text-decoration-none text-lg-left collapsed text-uppercase d-lg-flex flex-row justify-content-between align-items-center px-1 px-sm-2"
-                    href="home.php" type="button" role="button">
+                    href="ideas.php" type="button" role="button">
                     База ідей<span class="d-none d-sm-inline-block">&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></span>
                 </a>
             </div>
@@ -100,7 +100,7 @@
             </div>
             <div class="card-header p-0 bg_dark_through dark">
                 <a class="btn btn-link btn-block bg-transparent text-white text-decoration-none text-lg-left collapsed text-uppercase d-lg-flex flex-row justify-content-between align-items-center px-1 px-sm-2"
-                    href="home.php" type="button" role="button">
+                    href="asking.php" type="button" role="button">
                     Опитування<span class="d-none d-sm-inline-block">&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></span>
                 </a>
             </div>
