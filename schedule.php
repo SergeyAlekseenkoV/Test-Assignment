@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <!-- simple slider -->
-                    <style>
+                    <!-- <style>
                         a:hover {
                             text-decoration: none !important;
                         }
@@ -133,10 +133,10 @@
                             from {opacity: .4}
                             to {opacity: 1}
                         }
-                    </style>
-                    <div class="slideshow-container position-relative mx-auto mt-2 w-100 border-primary rounded">
+                    </style> -->
+                    <!-- <div class="slideshow-container position-relative mx-auto mt-2 w-100 border-primary rounded"> -->
                         <!-- full images with numbers and message info -->
-                        <div class="containers fadeOut">
+                        <!-- <div class="containers fadeOut">
                             <div class="messageInfo position-absolute px-2 py-1 text_color">1 / 3</div>
                             <img class="w-100" src="../img/carosel1.jpg" alt="photo">
                             <div class="position-absolute text-center px-2 py-1 rounded bg_light_through info">First
@@ -155,23 +155,23 @@
                             <img class="w-100" src="../img/carosel3.png" alt="photo">
                             <div class="position-absolute text-center px-2 py-1 rounded bg_light_through info">Third
                                 caption</div>
-                        </div>
+                        </div> -->
 
                         <!-- buttons -->
-                        <a class="position-absolute p-2 back" onclick=plusSlides(-1)>&#10094;</a>
-                        <a class="position-absolute p-2 forward" onclick=plusSlides(1)>&#10095;</a>
-                    </div>
+                        <!-- <a class="position-absolute p-2 back" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="position-absolute p-2 forward" onclick="plusSlides(1)">&#10095;</a>
+                    </div> -->
                     <!-- the dots -->
-                    <div class="text-center mt-2">
+                    <!-- <div class="text-center mt-2">
                         <span class="rounded-circle mx-1 my-0 dots" onclick="currentSlide(1)"></span>
                         <span class="rounded-circle mx-1 my-0 dots" onclick="currentSlide(2)"></span>
                         <span class="rounded-circle mx-1 my-0 dots" onclick="currentSlide(3)"></span>
-                    </div>
+                    </div> -->
                 </aside>
             </div>
         </div>
     </section>
-    <script>
+    <!-- <script>
 
         /* slideshow by user action */
 
@@ -204,8 +204,8 @@
             }
             slides[slidePosition - 1].style.display = "block";
             circles[slidePosition - 1].className += " enable";
-        }
-
+        } -->
+<!-- 
         /* end user-slideshow */
 
         /* automtic slides */
@@ -223,7 +223,8 @@
         //   if (slidePosition > slides.length) {slidePosition = 1}
         //   slides[slidePosition-1].style.display = "block";
         //   setTimeout(SlideShow, 3000); // Change image every 3 seconds (likely to be equal with the fade animation)
-        // }
-    </script>
+        // } 
+    </script> -->
     <!--footer-->
     <?php include_once "footer.php"; ?>
+    

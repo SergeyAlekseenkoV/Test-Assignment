@@ -29,7 +29,7 @@
                         </div>
                         <div id="gallary-item-page" class="row mx-0">
                         <!-- gallary-list -->
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 thumb">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
                             <a data-fancybox="gallery" href="../img/MinerDay/DSC_0017.jpg">
                                 <img src="../img/MinerDay/DSC_0017.jpg" alt="фото" class="img-fluid w-100 min-height">
                             </a>
@@ -119,12 +119,12 @@
                                 <img src="../img/MinerDay/DSC_0329.jpg" alt="фото" class="img-fluid w-100 min-height">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-5 p-1 mx-0 overflow-hidden thumb">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
                             <a data-fancybox="gallery" href="../img/MinerDay/DSC_0160.jpg">
                                 <img src="../img/MinerDay/DSC_0160.jpg" alt="фото" class="img-fluid w-100 min-height">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-7 p-1 mx-0 overflow-hidden thumb">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
                             <a data-fancybox="gallery" href="../img/MinerDay/DSC_0352.jpg">
                                 <img src="../img/MinerDay/DSC_0352.jpg" alt="фото" class="img-fluid w-100 min-height">
                             </a>

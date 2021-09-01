@@ -23,11 +23,11 @@
                 <aside id="avarage-salary"
                     class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 wow fadeInUp"
                     data-animation="fadeInUp">
-                    <div class="row m-0 p-0 border border-primary rounded shadow">
+                    <div class="row m-0 p-0 border border-primary rounded shadow bg_info_through">
                         <!-- competition heading -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h3 class="bg-info text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 border border-primary">
-                                Інформація з праці за
+                            <h3 class="text-uppercase font-weight-bold px-0 py-3 mx-1 mt-1 mb-0 border border-primary text-white bg_headers">
+                                Інформація з праці по середній зарплаті за
                                 <br class="d-block d-md-none"> червень 2021р.
                             </h3>
                         </div>
@@ -36,7 +36,7 @@
                             <div class="table table-responsive table-striped table-bordered table-hover border-primary mb-1">
                                 <table class="table table-light table-striped mb-0 border border-primary text_color">
                                     <thead>
-                                        <tr class="bg-secondary text_color">
+                                        <tr class="text-white bg_linear_dark">
                                             <th scope="col" class="align-top">Назва показни&shy;ка</th>
                                             <th scope="col" colspan="2" class="align-top text-center">Червень</th>
                                             <th scope="col" colspan="2" class="align-top text-center">З початку року
@@ -114,84 +114,16 @@
                             </div>
                         </div>
                         <!-- divisions between salaries -->
-                        <div class="col-12 p-0 m-0 text-center">
-                            <h3 class="bg-info p-3 px-md-0 mx-1 my-0 border border-primary text-uppercase font-weight-bold text_color">
-                                Розмір заробітної плати серед співробітників
-                            </h3>
-                        </div>
-                        <!-- divisions table -->
-                        <div class="col-12 mt-1 px-1">
-                            <div class="table table-responsive table-striped table-bordered table-hover border-primary">
-                                <table class="table table-light table-striped mb-0 border border-primary text_color">
-                                    <thead>
-                                        <tr class="bg-secondary">
-                                            <th scope="col" class="align-top">Діапазон, грн</th>
-                                            <th scope="col" class="align-top text-center">Кількість осіб</th>
-                                            <th scope="col" class="align-top text-center">Співвідношення, %</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">до 6 000</th>
-                                            <td class="text-center">244</td>
-                                            <td class="text-center">7.5</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"> 6 000,01 - 7 000,00</th>
-                                            <td class="text-center">375</td>
-                                            <td class="text-center">11.6</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">7 000,01 - 8 000,00</th>
-                                            <td class="text-center">248</td>
-                                            <td class="text-center">7.6</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">8 000,01 - 10 000,00</th>
-                                            <td class="text-center">467</td>
-                                            <td class="text-center">14.4</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">10 000,01 - 12 000,00</th>
-                                            <td class="text-center">410</td>
-                                            <td class="text-center">12.6</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">12 000,01 - 15 000,00</th>
-                                            <td class="text-center">517</td>
-                                            <td class="text-center">15.9</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">15 000,01 - 20 000,00</th>
-                                            <td class="text-center">434</td>
-                                            <td class="text-center">13.4</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">20 000,01 - 25 000,00</th>
-                                            <td class="text-center">197</td>
-                                            <td class="text-center">6.1</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">25 000,01 - 30 000,00</th>
-                                            <td class="text-center">157</td>
-                                            <td class="text-center">4.8</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">понад 30 000,00</th>
-                                            <td class="text-center">197</td>
-                                            <td class="text-center">6.1</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h6 class="bg-transparent px-1 pt-0 pb-3 m-1 text-white">
+                            <h6 class="bg-transparent px-1 pt-0 pb-2 m-1">
                                * Згідно з інформацією Начальника Відділу праці та заробітної плати Ю.О Писанко
                             </h6>
+                            <a href="salary-divisions.php" class="btn btn-link btn-light border-primary mx-1 mt-0 mb-2 font-weight-bold text_color">
+                                Розподіл розміру зарплати <br class="d-md-none">серед співробітників &nbsp;&nbsp;&raquo;
+                            </a>
                         </div>
                     </div>
-            </div>
+                </div>
             </aside>
         </div>
     </section>

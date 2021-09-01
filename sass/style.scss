@@ -318,12 +318,12 @@ small.form-text {
 }
 
 button.fancybox-button[title="Previous"],
-button.fancybox-button[title="Next"]{
+button.fancybox-button[title="Next"] {
     background-color: transparent;
     border: 1px $white-color solid;
-    border-radius: .25em;
+    border-radius: 0.25em;
     > div {
-       display: none;
+        display: none;
     }
 
     &::after {
@@ -339,7 +339,7 @@ button.fancybox-button[title="Next"]{
 
     &:hover,
     &:focus {
-        border: 1px $primary-dark solid
+        border: 1px $primary-dark solid;
     }
 
     &:hover::after,
@@ -349,16 +349,16 @@ button.fancybox-button[title="Next"]{
 }
 
 button.fancybox-button[title="Previous"] {
-    margin-left: .25em;
+    margin-left: 0.25em;
     &::after {
-        content: '❮';
+        content: "❮";
     }
 }
 
 button.fancybox-button[title="Next"] {
-    margin-right: .25em;
+    margin-right: 0.25em;
     &::after {
-        content: '❯';
+        content: "❯";
     }
 }
 
@@ -401,8 +401,13 @@ button.fancybox-button[title="Next"] {
     .card-header {
         min-height: 100%;
         border-bottom: $primary-dark 2px solid !important;
-        > a {
+        > a,
+        > button {
             text-shadow: $shadow-dark;
+        }
+
+        .card-body a.small {
+            text-shadow: $shadow;
         }
     }
 }
@@ -814,11 +819,11 @@ button.fancybox-button[title="Next"] {
             text-shadow: $shadow;
         }
     }
-     
+
     .bg_announcement {
         background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
             url("../img/default-ads-bg.jpg") center/cover no-repeat;
-        min-height: 150px ;
+        min-height: 150px;
         line-height: 1.1 !important;
         text-shadow: $shadow-dark;
         text-align: justify;
@@ -1370,11 +1375,6 @@ button.fancybox-button[title="Next"] {
     }
 
     #avarage-salary {
-        > :first-child {
-            background-color: $primary-color-through;
-            transition: all 500ms ease;
-        }
-
         div.table > table {
             line-height: 1 !important;
             border-color: $primary-dark !important;
@@ -1764,13 +1764,13 @@ button.fancybox-button[title="Next"] {
 
     #gallary-item-page {
         a {
-            opacity: .85;
+            opacity: 0.85;
             transition: all 300ms ease;
         }
 
         a:hover,
         a:focus {
-          opacity: 1;
+            opacity: 1;
         }
     }
 
@@ -1799,14 +1799,14 @@ button.fancybox-button[title="Next"] {
         }
         p:not(.lead) {
             line-height: 1.25 !important;
-            text-indent: .8em;
+            text-indent: 0.8em;
         }
     }
 
     #scheduel {
         .bg_scheduel {
             background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.7)),
-            url("../img/schedule.jpg") center/cover no-repeat;
+                url("../img/schedule.jpg") center/cover no-repeat;
             min-height: 50vh;
         }
     }
@@ -2178,7 +2178,8 @@ media queries for different screen resolutions
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     #accordionLib {
-        .card-header > a {
+        .card-header > a,
+        .card-header > button {
             font-size: 0.8rem;
         }
     }
@@ -2190,25 +2191,10 @@ media queries for different screen resolutions
         }
     }
 
-    #main {
-        #gallary-index-page {
-            a {
-                border-top-color: $white-color;
-                border-bottom-color: $white-color;
-                background-color: $primary-light-through !important;
-
-                &:not(hover) {
-                    border-top-color: $white-color !important;
-                    border-bottom-color: $white-color !important;
-                }
-            }
-        }
-
-        #newsletter-subscription {
-            .bg_subscription {
-                background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.9)),
-                    url("../img/faq.png") 50% 74%/contain repeat-y;
-            }
+    #newsletter-subscription {
+        .bg_subscription {
+            background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.9)),
+                url("../img/faq.png") 50% 74% / contain repeat-y;
         }
     }
 }
@@ -2437,23 +2423,25 @@ media queries for different screen resolutions
             .col-12.col-md-6.col-lg-4::after {
                 font-size: 1.2em;
             }
-            a {
-                border-top-color: $white-color;
-                border-bottom-color: $white-color;
-                background-color: $primary-light-through !important;
-
-                &:not(hover) {
-                    border-top-color: $white-color !important;
-                    border-bottom-color: $white-color !important;
-                }
-            }
 
             > :nth-of-type(3n) {
                 background-color: $primary-common;
+
+                a:hover,
+                a:focus {
+                    border-top-color: $white-color;
+                    border-bottom-color: $white-color;
+                }
             }
 
             > :nth-of-type(3n + 1) {
                 background-color: $primary-common-light;
+
+                a:hover,
+                a:focus {
+                    border-top-color: $primary-common;
+                    border-bottom-color: $primary-common;
+                }
             }
         }
     }
@@ -2471,7 +2459,8 @@ media queries for different screen resolutions
     /* accordion left-menu styling*/
 
     #accordionLib {
-        .card-header > a {
+        .card-header > a,
+        .card-header > button {
             text-shadow: $shadow-dark;
             font-size: 1rem;
         }
@@ -2483,7 +2472,8 @@ media queries for different screen resolutions
             }
         }
 
-        .card:first-of-type > .card-header > a {
+        .card:first-of-type > .card-header > a,
+        .card:first-of-type > .card-header > button {
             > span > svg {
                 transition: all 450ms ease-in-out;
             }
@@ -2496,7 +2486,8 @@ media queries for different screen resolutions
             }
         }
 
-        .card:nth-of-type(2n) > .card-header > a {
+        .card:nth-of-type(2n) > .card-header > a,
+        .card:nth-of-type(2n) > .card-header > button {
             > span > svg {
                 transition: all 450ms ease-in-out;
             }
@@ -2509,7 +2500,8 @@ media queries for different screen resolutions
             }
         }
 
-        .card:nth-of-type(2n + 1) > .card-header > a {
+        .card:nth-of-type(2n + 1) > .card-header > a,
+        .card:nth-of-type(2n + 1) > .card-header > button {
             > span > svg {
                 transition: all 450ms ease-in-out;
             }
