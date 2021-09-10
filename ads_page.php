@@ -29,7 +29,7 @@
                             <div class="row mx-1">
                                 <div class="col-12 mx-auto px-0 pt-1">
                                     <div class="card-block p-1">
-                                        <img src="img/carosel1.jpg" alt="фото" class="position-relative mr-md-2 float_left">
+                                        <img src="img/pexels-08.png" alt="фото" class="img-fluid obj-fit height-210 position-relative mr-md-2 float_left">
                                         <h4 class="card-title my-1 font-weight-bold">Lorem ipsum dolor sit amet</h4>
                                         <p class="card-text lead text_color">
                                             Consectetur adipiscing elit, sed do

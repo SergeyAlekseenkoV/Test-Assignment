@@ -52,8 +52,8 @@
                             <li data-target="#carouselIndicators" data-slide-to="3"></li>
                         </ol>
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-touch="true">
-                                <img class="d-block w-100 min-height" src="img/carosel1.jpg" alt="people">
+                            <div class="carousel-item active height-em" data-touch="true">
+                                <img class="d-block w-100 height-100p obj-fit" src="../build/img/pexels-08.png" alt="people">
                                 <!-- first new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">1 Lorem ipsum dolor,
@@ -62,8 +62,8 @@
                                         a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
-                            <div class="carousel-item" data-touch="true">
-                                <img class="d-block w-100 min-height" src="img/carosel2.jpg" alt="people">
+                            <div class="carousel-item height-em" data-touch="true">
+                                <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel2.jpg" alt="people">
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">2 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
@@ -71,8 +71,8 @@
                                         a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
-                            <div class="carousel-item" data-touch="true">
-                                <img class="d-block w-100 min-height" src="img/carosel3.png" alt="track">
+                            <div class="carousel-item height-em" data-touch="true">
+                                <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel3.png" alt="track">
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">3 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
@@ -80,8 +80,8 @@
                                         a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
-                            <div class="carousel-item" data-touch="true">
-                                <img class="d-block w-100 min-height" src="img/carosel4.jpg" alt="people">
+                            <div class="carousel-item height-em" data-touch="true">
+                                <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel4.jpg" alt="people">
                                 <div class="carousel-caption bg_dark_overlay p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">4 Lorem ipsum dolor,
                                         sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
@@ -104,7 +104,7 @@
                     <!-- news-cards for the extra-small screens -->
                     <!-- card-item -->
                     <div class="d-sm-none card bg-transparent border border-primary mx-0 mb-3 shadow">
-                        <img src="img/carosel1.jpg" alt="people" class="card-img-top">
+                        <img src="../build/img/carosel1.jpg" alt="people" class="card-img-top height-210 obj-fit w-100">
                         <div class="card-body p-2 bg_info_through">
                             <h4 class="card-title px-0 text-center text_color">Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit.
@@ -117,7 +117,7 @@
                     </div>
                     <!-- card-item -->
                     <div class="d-md-none card bg-transparent border border-primary mx-0 mb-3 shadow">
-                        <img src="img/carosel2.jpg" alt="people" class="card-img-top">
+                        <img src="../build/img/carosel2.jpg" alt="people" class="card-img-top height-210 obj-fit w-100">
                         <div class="card-body p-2 bg_info_through">
                             <h4 class="card-title px-0 text-center text_color">Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit.
@@ -130,7 +130,7 @@
                     </div>
                     <!-- card-item -->
                     <div class="d-md-none card bg-transparent border border-primary mx-0 mb-3 shadow">
-                        <img src="img/carosel3.png" alt="track" class="card-img-top">
+                        <img src="../build/img/carosel3.png" alt="track" class="card-img-top height-210 obj-fit w-100">
                         <div class="card-body p-2 bg_info_through">
                             <h4 class="card-title px-0 text-center text_color">Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit.
@@ -143,7 +143,7 @@
                     </div>
                     <!-- card-item -->
                     <div class="d-md-none card bg-transparent border border-primary mx-0 mb-3 shadow">
-                        <img src="img/carosel4.jpg" alt="people" class="card-img-top">
+                        <img src="../build/img/carosel4.jpg" alt="people" class="card-img-top height-210 obj-fit w-100">
                         <div class="card-body p-2 bg_info_through">
                             <h4 class="card-title px-0 text-center text_color">Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit.

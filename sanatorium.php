@@ -53,104 +53,104 @@
                             </div>
                         </div>
                         <!-- gallary-list -->
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium1.jpg">
-                                <img src="../img/sanatorium/sanatorium1.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium1.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium1.jpg" alt="фото" class="img-fluid height-100p w-100 obj-fit">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium2.jpg">
-                                <img src="../img/sanatorium/sanatorium2.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium2.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium2.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium3.jpg">
-                                <img src="../img/sanatorium/sanatorium3.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium3.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium3.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium4.jpg">
-                                <img src="../img/sanatorium/sanatorium4.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium4.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium4.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium5.jpg">
-                                <img src="../img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium5.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium6.jpg">
-                                <img src="../img/sanatorium/sanatorium6.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium6.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium6.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium7.jpg">
-                                <img src="../img/sanatorium/sanatorium7.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium7.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium7.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium8.jpg">
-                                <img src="../img/sanatorium/sanatorium8.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium8.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium8.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium9.jpg">
-                                <img src="../img/sanatorium/sanatorium9.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium9.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium9.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium10.jpg">
-                                <img src="../img/sanatorium/sanatorium10.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium10.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium10.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium11.jpg">
-                                <img src="../img/sanatorium/sanatorium11.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium11.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium11.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium12.jpg">
-                                <img src="../img/sanatorium/sanatorium12.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium12.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium12.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium13.jpg">
-                                <img src="../img/sanatorium/sanatorium13.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium13.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium13.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium14.jpg">
-                                <img src="../img/sanatorium/sanatorium14.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium14.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium14.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium15.jpg">
-                                <img src="../img/sanatorium/sanatorium15.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium15.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium15.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium16.jpg">
-                                <img src="../img/sanatorium/sanatorium16.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium16.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium16.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium17.jpg">
-                                <img src="../img/sanatorium/sanatorium17.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium17.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium17.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium18.jpg">
-                                <img src="../img/sanatorium/sanatorium18.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium18.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium18.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-5 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium19.jpg">
-                                <img src="../img/sanatorium/sanatorium19.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium19.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium19.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-7 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium20.jpg">
-                                <img src="../img/sanatorium/sanatorium20.jpg" alt="фото" class="img-fluid w-100">
+                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../img/sanatorium/sanatorium20.jpg" class="height-100p d-block little-filter-effect">
+                                <img src="../img/sanatorium/sanatorium20.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
                         <!-- end list -->

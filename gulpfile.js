@@ -1,61 +1,62 @@
-'use strict';
- 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var browserSync = require('browser-sync');
-var reload = browserSync.reload;
-var paths = {
-   php:['./**/*.php']
-};
+/* try gulp
 
-gulp.task('php', function(){
-  return gulp.src(paths.php)
-  .pipe(reload({stream:true}));
-});
+const gulp = require('gulp');
 
-gulp.task('browserSync', function() {
-  browserSync({
-    proxy: 'portal.loc'
-  });
-});
+const requireDir = require('require-dir');
+const tasks = requireDir('./tasks');
 
-gulp.task('watch', function() {
-  gulp.watch(paths.php, ['php']);
-});
+exports.hello = tasks.hello; 
+*/
+const gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass'));
+const requireDir = require('require-dir');
+const tasks = requireDir('./tasks');
 
- 
-gulp.task('sass', function () {
-  return gulp.src('./sass/**/*.scss')
-    .pipe(sass())
-    .pipe(autoprefixer({
-       browsers: ['cover 99.5% in UA', 
-       'last 2 versions', 
-       'Firefox ESR',
-       'not dead',
-       'firefox >= 4', 
-       'safari 7', 
-       'safari 8', 
-       'IE 8', 
-       'IE 9', 
-       'IE 10', 
-       'IE 11'],
-       cascade: false
-    }))
-    .pipe(gulp.dest('./css'));
-});
- 
-gulp.task('sass:watch', function () {
-  gulp.watch('./sass/**/*.scss', 'sass');
-});
- 
-gulp.task('default', ['watch','browserSync','sass','php']);
+exports.style = tasks.style;
+exports.libs_style = tasks.libs_style;
+exports.build_js = tasks.build_js;
+exports.libs_js = tasks.libs_js;
+exports.dev_js = tasks.dev_js;
+// exports.html = tasks.html;
+exports.php = tasks.php;
+// exports.rastr = tasks.rastr;
+// exports.webp = tasks.webp;
+// exports.svg_css = tasks.svg_css;
+// exports.svg_sprite = tasks.svg_sprite;
+// exports.ttf = tasks.ttf;
+exports.fonts = tasks.fonts;
+// exports.bs_html = tasks.bs_html;
+exports.bs_php = tasks.bs_php;
+exports.watch = tasks.watch;
+// exports.deploy = tasks.deploy;
 
-//function defaultTask(cb) {
-  // place code for your default task here
-  //cb();
-//}
-
-// exports.default = defaultTask
-
-
+exports.default = gulp.parallel(
+	exports.libs_style,
+	exports.style,
+	exports.libs_js,
+	exports.dev_js,
+	// exports.rastr,
+	// exports.webp,
+	// exports.svg_css,
+	// exports.svg_sprite,
+	// exports.ttf,
+	exports.fonts,
+	// exports.html,
+	// exports.bs_html,
+	exports.watch
+)
+exports.dev_php = gulp.parallel(
+	exports.libs_style,
+	exports.style,
+	exports.libs_js,
+	exports.dev_js,
+	// exports.rastr,
+	// exports.webp,
+	// exports.svg_css,
+	// exports.svg_sprite,
+	// exports.ttf,
+	exports.fonts,
+	exports.php,
+	exports.bs_php,
+	exports.watch
+)

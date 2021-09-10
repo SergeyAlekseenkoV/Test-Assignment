@@ -201,8 +201,14 @@
                                         <option>Зниження трудомісткості на виконання робіт</option>
                                         <option>Скорочення часу на виконання робіт</option>
                                         <option>Покращення умов праці та порядку робочих місць</option>
-                                        <option>Поліпшення в галузid="sendingForm"
+                                        <option>Поліпшення в галузi промислової безпеки та охорони праці</option>
+                                        <option value="anotherChoice">Інше
+                                            <textarea id="anotherChoice" class="w-100 rounded shadow"
+                                               placeholder="Що саме ?" rows="5" cols="49">
+                                            </textarea>
+                                        </option>
                                 </div>
+                                
                                 <div class="form-group col-md-10 col-md-9">
                                     <label for="influenceIndicator" class="text_color">Показники на які може вплинути
                                         запропонована ідея</label>
@@ -268,24 +274,6 @@
     </section>
     <!--footer-->
     <?php include_once "footer.php"; ?>
-    <script>
-        $(document).ready(function () {
-            $("#propDirection").change(function () {
-                //     $("#" + $(this).val()).addClass("d-block");
-                if (this.value == 'anotherChoice') {
-                    $("#anotherChoice").show();
-                } else {
-                    $("#anotherChoice").hide();
-                }
-            });
-
-            $( "#sendingForm" ).submit(function( event ) {
-                $(this).addClass("d-none");
-                $("#successSent").addClass("d-flex");
-              event.preventDefault();
-            });
-        });
-    </script>
 </body>
 
 </html>

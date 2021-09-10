@@ -24,7 +24,7 @@
                         <!-- mgok news -->
                         <div class="col-6 col-md-3 pt-lg-0 px-0 m-0">
                             <div class="card position-relative mx-0">
-                                <img src="img/pexels-08.jpg" alt="фото" class="card-img-top">
+                                <img src="../build/img/pexels-08.jpg" alt="фото" class="card-img-top obj-fit height-100p">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
@@ -40,7 +40,7 @@
                         <!-- city news -->
                         <div class="col-6 col-md-3 pt-lg-0 px-0 m-0">
                             <div class="card position-relative mx-0">
-                                <img src="img/city2.jpg" alt="фото" class="card-img-top">
+                                <img src="../build/img/city2.jpg" alt="фото" class="card-img-top obj-fit height-100p">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
@@ -56,7 +56,7 @@
                         <!-- social news -->
                         <div class="col-6 col-md-3 pt-lg-0 px-0 m-0">
                             <div class="card position-relative mx-0">
-                                <img src="img/social.jpg" alt="фото" class="card-img-top">
+                                <img src="../build/img/social.jpg" alt="фото" class="card-img-top obj-fit height-100p">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
@@ -72,7 +72,7 @@
                         <!-- other news -->
                         <div class="col-6 col-md-3 pt-lg-0 px-0 m-0">
                             <div class="card position-relative mx-0">
-                                <img src="img/another.jpg" alt="фото" class="card-img-top">
+                                <img src="../build/img/another.jpg" alt="фото" class="card-img-top obj-fit height-100p">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title mb-1 mt-0 pt-0 text_color">
@@ -91,7 +91,7 @@
                         <!-- news item-->
                         <div class="col-12 col-md-6 col-lg-4 p-1">
                             <div class="card position-relative shadow card_link">
-                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top position-relative" alt="equipment">
+                               <img src="../build/img/pexels-jayson-delos-santos-1139553.png" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                <span class="position-absolute bg-primary rounded text-center text-uppercase small p-1 border text_color span_accent">Актуально</span>
                                 <div class="card-body border-bottom bg-info pb-3 pt-2 px-2 overflow-hidden">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -110,7 +110,7 @@
                         <!-- news item -->
                         <div class="col-12 col-md-6 col-lg-4 p-1">
                             <div class="card position-relative shadow card_link">
-                               <img src="img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top position-relative" alt="equipment">
+                               <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-info pb-3 pt-2 px-2 overflow-hidden">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
@@ -125,7 +125,7 @@
                         <!-- news item-->
                         <div class="col-12 col-md-6 col-lg-4 p-1">
                             <div class="card position-relative shadow card_link">
-                               <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top position-relative" alt="equipment">
+                               <img src="../build/img/pexels-jayson-delos-santos-1139553.png" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                <span class="position-absolute bg-primary rounded text-center text-uppercase small p-1 border text_color span_accent">Актуально</span>
                                 <div class="card-body border-bottom bg-info pb-3 pt-2 px-2 overflow-hidden">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -144,7 +144,7 @@
                         <!-- news item -->
                         <div class="col-12 col-md-6 col-lg-4 p-1">
                             <div class="card position-relative shadow card_link">
-                               <img src="img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top position-relative" alt="equipment">
+                               <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-info pb-3 pt-2 px-2 overflow-hidden">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
@@ -159,7 +159,7 @@
                         <!-- news item -->
                         <div class="col-12 col-md-6 col-lg-4 p-1">
                             <div class="card position-relative shadow card_link">
-                               <img src="img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top position-relative" alt="equipment">
+                               <img src="../build/img/pexels-08.png" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-info pb-3 pt-2 px-2 overflow-hidden">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>
@@ -174,7 +174,7 @@
                         <!-- news item -->
                         <div class="col-12 col-md-6 col-lg-4 p-1">
                             <div class="card position-relative shadow card_link">
-                               <img src="img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top position-relative" alt="equipment">
+                               <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" class="card-img-top height-210 obj-fit position-relative" alt="equipment">
                                 <div class="card-body border-bottom bg-info pb-3 pt-2 px-2 overflow-hidden">
                                     <h5 class="card-title text_color">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                                         Nostrum doloribus sapiente ullam accusamus reiciendis sit!</h5>

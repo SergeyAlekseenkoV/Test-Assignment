@@ -24,7 +24,7 @@
                         <!-- news item-description -->
                         <div class="col-12 px-0 mx-0 py-1">
                             <div class="card bg-transparent border mx-1 shadow">
-                                <img src="img/pexels-jayson-delos-santos-1139553.png" class="card-img-top"
+                                <img src="../build/img/pexels-jayson-delos-santos-1139553.png" class="card-img-top height-em obj-fit"
                                     alt="equipment">
                                 <div class="card-body p-2 bg_info_through">
                                     <h4 class="card-title px-0 text_color">Lorem ipsum dolor sit amet consectetur,
@@ -45,87 +45,87 @@
                                     <hr class="bg-dark my-0">
                                     <div class="row mx-0 gallery" id="gallery">
                                         <!-- item -->
-                                        <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
-                                            <img src="img/pexels-07.png" alt="work"
-                                                class="img-fluid work-item-img">
+                                        <figure
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mb-0 mx-0 border height-150 work-item">
+                                            <img src="../build/img/pexels-07.png" alt="work"
+                                                class="img-fluid work-item-img w-100 obj-fit height-100p">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_1">
                                                 <i class="fa fa-search"></i>
                                             </a>
-                                        </article>
+                                        </figure>
                                         <!-- item -->
-                                        <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
-                                            <img src="img/pexels-weir-esco-3906736.png" alt="work"
-                                                class="img-fluid work-item-img w-100">
+                                        <figure
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mb-0 mx-0 border height-150 work-item">
+                                            <img src="../build/img/pexels-weir-esco-3906736.png" alt="work"
+                                                class="img-fluid work-item-img w-100 obj-fit height-100p">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_2">
                                                 <i class="fa fa-search"></i>
                                             </a>
-                                        </article>
+                                        </figure>
                                         <!-- item -->
-                                        <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
-                                            <img src="img/pexels-tom-fisk-2101137 (4).jpg" alt="work"
-                                                class="img-fluid work-item-img w-100">
+                                        <figure
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mb-0 mx-0 border height-150 work-item">
+                                            <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" alt="work"
+                                                class="img-fluid work-item-img w-100 obj-fit height-100p">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_3">
                                                 <i class="fa fa-search"></i>
                                             </a>
-                                        </article>
+                                        </figure>
                                         <!-- item -->
-                                        <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
-                                            <img src="img/pexels-weir-esco-3906748.png" alt="work"
-                                                class="img-fluid work-item-img w-100">
+                                        <figure
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mb-0 mx-0 border height-150 work-item">
+                                            <img src="../build/img/pexels-weir-esco-3906748.png" alt="work"
+                                                class="img-fluid work-item-img w-100 obj-fit height-100p">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_4">
                                                 <i class="fa fa-search"></i>
                                             </a>
-                                        </article>
+                                        </figure>
                                         <!-- item -->
-                                        <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
-                                            <img src="img/carosel2.jpg" alt="work"
-                                                class="img-fluid work-item-img w-100">
+                                        <figure
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mb-0 mx-0 border height-150 work-item">
+                                            <img src="../build/img/carosel2.jpg" alt="work"
+                                                class="img-fluid work-item-img w-100 obj-fit height-100p">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_5">
                                                 <i class="fa fa-search"></i>
                                             </a>
-                                        </article>
+                                        </figure>
                                         <!-- item -->
-                                        <article
-                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mx-0 border-left border-right work-item">
-                                            <img src="img/pexels-jayson-delos-santos-1139553.png" alt="work"
-                                                class="img-fluid work-item-img w-100">
+                                        <figure
+                                            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 overflow-hidden position-relative bg-dark px-0 mb-0 mx-0 border height-150 work-item">
+                                            <img src="../build/img/pexels-jayson-delos-santos-1139553.png" alt="work"
+                                                class="img-fluid work-item-img w-100 obj-fit height-100p">
                                             <a href="#" role="button"
                                                 class="position-absolute d-none d-sm-block work-item-icon"
                                                 data-toggle="modal" data-target="#item_6">
                                                 <i class="fa fa-search"></i>
                                             </a>
-                                        </article>
+                                        </figure>
                                         <!-- Modal-1 -->
                                         <div class="modal fade-in pr-0" id="item_1" data-backdrop="static"
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
-                                                <div class="modal-content bg-dark">
-                                                    <div class="modal-body position-relative">
-                                                        <img src="img/pexels-07.png" alt="work"
-                                                            class="img-fluid work-item-img w-100">
+                                                <div class="modal-content bg-dark height-modal-img">
+                                                    <figure class="modal-body position-relative height-modal-img mb-0">
+                                                        <img src="../build/img/pexels-07.png" alt="work"
+                                                            class="img-fluid work-item-img w-100 obj-fit height-100p">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
                                                                 class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
-                                                    </div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
@@ -134,17 +134,17 @@
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
-                                                <div class="modal-content bg-dark">
-                                                    <div class="modal-body position-relative">
-                                                        <img src="img/pexels-weir-esco-3906736.png" alt="work"
-                                                            class="img-fluid work-item-img w-100">
+                                                <div class="modal-content bg-dark height-modal-img">
+                                                    <figure class="modal-body position-relative height-modal-img mb-0">
+                                                        <img src="../build/img/pexels-weir-esco-3906736.png" alt="work"
+                                                            class="img-fluid work-item-img w-100 obj-fit height-100p">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
                                                                 class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
-                                                    </div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
@@ -153,17 +153,17 @@
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
-                                                <div class="modal-content bg-dark">
-                                                    <div class="modal-body position-relative">
-                                                        <img src="img/pexels-tom-fisk-2101137 (4).jpg" alt="work"
-                                                            class="img-fluid work-item-img w-100">
+                                                <div class="modal-content bg-dark height-modal-img">
+                                                    <figure class="modal-body position-relative height-modal-img mb-0">
+                                                        <img src="../build/img/pexels-tom-fisk-2101137 (4).jpg" alt="work"
+                                                            class="img-fluid work-item-img w-100 obj-fit height-100p">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
                                                                 class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
-                                                    </div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
@@ -172,17 +172,17 @@
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
-                                                <div class="modal-content bg-dark">
-                                                    <div class="modal-body position-relative">
-                                                        <img src="img/pexels-weir-esco-3906748.png" alt="work"
-                                                            class="img-fluid work-item-img w-100">
+                                                <div class="modal-content bg-dark height-modal-img">
+                                                    <figure class="modal-body position-relative height-modal-img mb-0">
+                                                        <img src="../build/img/pexels-weir-esco-3906748.png" alt="work"
+                                                            class="img-fluid work-item-img w-100 obj-fit height-100p">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
                                                                 class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
-                                                    </div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
@@ -191,17 +191,17 @@
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
-                                                <div class="modal-content bg-dark">
-                                                    <div class="modal-body position-relative">
-                                                        <img src="img/carosel2.jpg" alt="work"
-                                                            class="img-fluid work-item-img w-100">
+                                                <div class="modal-content bg-dark height-modal-img">
+                                                    <figure class="modal-body position-relative height-modal-img mb-0">
+                                                        <img src="../build/img/carosel2.jpg" alt="work"
+                                                            class="img-fluid work-item-img w-100 obj-fit height-100p">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
                                                                 class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
-                                                    </div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
@@ -210,17 +210,17 @@
                                             data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-xl">
-                                                <div class="modal-content bg-dark">
-                                                    <div class="modal-body position-relative">
-                                                        <img src="img/pexels-jayson-delos-santos-1139553.png" alt="work"
-                                                            class="img-fluid work-item-img w-100">
+                                                <div class="modal-content bg-dark height-modal-img">
+                                                    <figure class="modal-body position-relative height-modal-img mb-0">
+                                                        <img src="../build/img/pexels-jayson-delos-santos-1139553.png" alt="work"
+                                                            class="img-fluid work-item-img w-100 obj-fit height-100p">
                                                         <button type="button"
                                                             class="close position-absolute work-modal-close"
                                                             data-dismiss="modal" aria-label="Close">
                                                             <span aria-hidden="true"
                                                                 class="btn btn-transparent mb-4 p-0 text-white"><i class="far fa-times-circle fa-4x"></i></span>
                                                         </button>
-                                                    </div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>

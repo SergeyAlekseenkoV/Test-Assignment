@@ -30,7 +30,7 @@
                         <!-- text-positions -->
                         <div class="col-12 mx-0 px-1 px-lg-3">
                             <div class="d-flex flex-row justify-content-center justify-content-md-start align-items-center mx-5 my-4">
-                                <img src="../img/employee-icon-png-29.png" width="50" height="60" alt="шукаємо" class="img-fluid">
+                                <img src="../build/img/employee-icon-png-29.png" width="50" height="60" alt="шукаємо" class="img-fluid">
                                 <h2 class="text-center text-md-left text_color">Вакансії</h2>
                             </div>
                             <p class="px-2 mb-2">АТ «МГЗК» <strong>запрошує до співпраці професіоналів</strong>, налаштованих на активний розвиток,

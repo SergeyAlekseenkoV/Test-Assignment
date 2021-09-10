@@ -86,7 +86,7 @@
                             </p>
                             <!-- photos for description -->
                             <figure class="position-relative w-75 mx-auto mb-3">
-                                <img src="../img/ideas-photos/blueprint.jpg" alt="креслення" class="border border-primary rounded img-fluid shadow">
+                                <img src="../build/img/ideas-photos/blueprint.jpg" alt="креслення" class="border border-primary rounded img-fluid shadow">
                                 <button class="btn px-1 py-0 position-absolute bg_light_through border border-secondary text_color" data-toggle="modal"
                                    data-target="#modalImg1">
                                        <span data-toggle="tooltip" data-placement="bottom" data-original-title="Збільшити"><i class="fas fa-search"></i></span></button>
@@ -98,7 +98,7 @@
                                     <div class="modal-content">
                                         <div class="modal-body position-relative p-0 mb-0 p-lg-1 p-xl-2">
                                             <figure class="position-relative">
-                                                <img src="../img/ideas-photos/blueprint.jpg" alt="креслення" class="border border-primary rounded img-fluid w-100 shadow">
+                                                <img src="../build/img/ideas-photos/blueprint.jpg" alt="креслення" class="border border-primary rounded img-fluid w-100 shadow">
                                                 <figcaption class="font-weight-bold rounded px-1 mt-3 text-monospace bg_light_through">Схема креслення</figcaption>
                                             </figure>
                                         </div>
@@ -112,7 +112,7 @@
                             </div>
                             <!-- end modal -->
                             <figure class="position-relative w-75 mx-auto mb-3">
-                                <img src="../img/ideas-photos/plan.jpg" alt="план" class="border border-primary rounded img-fluid shadow">
+                                <img src="../build/img/ideas-photos/plan.jpg" alt="план" class="border border-primary rounded img-fluid shadow">
                                 <button class="btn px-1 py-0 position-absolute bg_light_through border border-secondary text_color" data-toggle="modal"
                                    data-target="#modalImg2">
                                        <span data-toggle="tooltip" data-placement="bottom" data-original-title="Збільшити"><i class="fas fa-search"></i></span></button>
@@ -124,7 +124,7 @@
                                     <div class="modal-content">
                                         <div class="modal-body position-relative p-0 mb-0 p-lg-1 p-xl-2">
                                             <figure class="position-relative">
-                                                <img src="../img/ideas-photos/plan.jpg" alt="план" class="border border-primary rounded img-fluid w-100 shadow">
+                                                <img src="../build/img/ideas-photos/plan.jpg" alt="план" class="border border-primary rounded img-fluid w-100 shadow">
                                                 <figcaption class="font-weight-bold rounded px-1 mt-3 text-monospace bg_light_through">План</figcaption>
                                             </figure>
                                         </div>

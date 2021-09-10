@@ -47,16 +47,16 @@
                             </div>
                         </div>
                         <div class="row mx-0 mb-2 costs_photos">
-                            <div class="col-12 col-md-6 col-lg-4 mx-0 p-1 mx-0 overflow-hidden">
-                                <img src="../img/rest-vacations/cost.jpg" alt="фото курорту" class="img-fluid w-100"></div>
-                            <div class="col-12 col-md-6 col-lg-4 mx-0 p-1 mx-0 overflow-hidden">
-                                <img src="../img/rest-vacations/beach.jpg" alt="фото курорту" class="img-fluid w-100"></div>
-                            <div class="col-12 mb-0 mb-sm-1 mb-lg-0 col-lg-4 mx-0 p-1 mx-0 overflow-hidden">
-                                <img src="../img/rest-vacations/seacoast.jpg" alt="фото курорту" class="img-fluid w-100"></div>
-                            <div class="col-12 col-md-8 mx-0 p-1 mx-0 overflow-hidden">
-                                <img src="../img/rest-vacations/antalia.jpg" alt="фото курорту" class="img-fluid w-100"></div>
-                            <div class="col-12 col-md-4 col-lg-4 mx-0 p-1 mx-0 overflow-hidden">
-                                <img src="../img/rest-vacations/fishes.jpg" alt="фото курорту" class="img-fluid w-100"></div>
+                            <div class="col-12 col-md-6 col-lg-4 mx-0 p-0 overflow-hidden height-210">
+                                <img src="../img/rest-vacations/cost.jpg" alt="фото курорту" class="m-0 img-fluid w-100 height-100p obj-fit"></div>
+                            <div class="col-12 col-md-6 col-lg-4 mx-0 p-0 overflow-hidden height-210">
+                                <img src="../img/rest-vacations/beach.jpg" alt="фото курорту" class="m-0 img-fluid w-100 height-100p obj-fit"></div>
+                            <div class="col-12 mb-0 mb-sm-1 mb-lg-0 col-lg-4 p-0 mx-0 overflow-hidden height-210">
+                                <img src="../img/rest-vacations/seacoast.jpg" alt="фото курорту" class="m-0 img-fluid w-100 height-100p obj-fit"></div>
+                            <div class="col-12 col-md-8 mx-0 p-0 overflow-hidden height-210">
+                                <img src="../img/rest-vacations/antalia.jpg" alt="фото курорту" class="m-0 img-fluid w-100 height-100p obj-fit"></div>
+                            <div class="col-12 col-md-4 col-lg-4 mx-0 p-0 overflow-hidden height-210">
+                                <img src="../img/rest-vacations/fishes.jpg" alt="фото курорту" class="m-0 img-fluid w-100 height-100p obj-fit"></div>
                         </div>
                     </div>
                 </aside>

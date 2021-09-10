@@ -29,104 +29,104 @@
                         </div>
                         <div id="gallary-item-page" class="row mx-0">
                         <!-- gallary-list -->
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0017.jpg">
-                                <img src="../img/MinerDay/DSC_0017.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 mx-0 overflow-hidden height-210 thumb">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0017.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0017.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0021.jpg">
-                                <img src="../img/MinerDay/DSC_0021.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 mx-0 overflow-hidden height-210 thumb">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0021.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0021.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0047.jpg">
-                                <img src="../img/MinerDay/DSC_0047.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 mx-0 overflow-hidden height-210 thumb">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0047.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0047.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0273.jpg">
-                                <img src="../img/MinerDay/DSC_0273.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 mx-0 overflow-hidden height-210 thumb">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0273.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0273.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0094.jpg">
-                                <img src="../img/MinerDay/DSC_0094.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 mx-0 overflow-hidden height-210 thumb">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0094.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0094.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0102.jpg">
-                                <img src="../img/MinerDay/DSC_0102.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0102.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0102.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0131.jpg">
-                                <img src="../img/MinerDay/DSC_0131.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0131.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0131.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0135.jpg">
-                                <img src="../img/MinerDay/DSC_0135.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0135.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0135.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0150.jpg">
-                                <img src="../img/MinerDay/DSC_0150.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0150.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0150.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0350.jpg">
-                                <img src="../img/MinerDay/DSC_0350.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0350.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0350.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0166.jpg">
-                                <img src="../img/MinerDay/DSC_0166.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0166.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0166.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0212.jpg">
-                                <img src="../img/MinerDay/DSC_0212.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0212.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0212.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0246.jpg">
-                                <img src="../img/MinerDay/DSC_0246.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0246.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0246.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0070.jpg">
-                                <img src="../img/MinerDay/DSC_0070.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0070.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0070.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0288.jpg">
-                                <img src="../img/MinerDay/DSC_0288.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0288.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0288.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0305.jpg">
-                                <img src="../img/MinerDay/DSC_0305.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0305.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0305.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0321.jpg">
-                                <img src="../img/MinerDay/DSC_0321.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0321.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0321.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0329.jpg">
-                                <img src="../img/MinerDay/DSC_0329.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0329.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0329.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0160.jpg">
-                                <img src="../img/MinerDay/DSC_0160.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0160.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0160.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 overflow-hidden thumb">
-                            <a data-fancybox="gallery" href="../img/MinerDay/DSC_0352.jpg">
-                                <img src="../img/MinerDay/DSC_0352.jpg" alt="фото" class="img-fluid w-100 min-height">
+                        <div class="col-12 col-sm-6 col-lg-4 p-1 overflow-hidden thumb height-210">
+                            <a data-fancybox="gallery" href="../build/img/MinerDay/DSC_0352.jpg" class="d-block little-filter-effect height-100p">
+                                <img src="../build/img/MinerDay/DSC_0352.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p">
                             </a>
                         </div>
                         <!-- end list -->

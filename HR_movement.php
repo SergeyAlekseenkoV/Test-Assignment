@@ -40,7 +40,7 @@
                         <div class="col-12 mx-0 px-2">
                             <div
                                 class="d-flex flex-row justify-content-center justify-content-md-start align-items-center mx-5 my-4">
-                                <img src="../img/moveUp.png" width="59.45" height="57.605" alt="розвиток"
+                                <img src="../build/img/moveUp.png" width="59.45" height="57.605" alt="розвиток"
                                     class="img-fluid">
                                 <h2 class="text-center text-md-left ml-2 align-self-end text_color">
                                     Досвід - численна практика та зусилля
@@ -50,7 +50,7 @@
                         <!-- current month setting -->
                         <div class="col-12 mx-0 mt-2 mb-5 px-2 border-top border-bottom">
                             <div class="text-center">
-                                <h5 class="mx-auto my-3 text-secondary">Кадрові призначення, які відбулися у <strong class="text_color">липні 2021р.</strong></h5>
+                                <h5 class="mx-auto my-3">Кадрові призначення, які відбулися у <strong class="text_color">липні 2021р.</strong></h5>
                             </div>
                             <div class="text-left mx-auto">
                                 <ol>

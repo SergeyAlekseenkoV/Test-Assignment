@@ -29,40 +29,40 @@
                         </div>
                         <div id="gallary-index-page" class="row mx-0">
                             <!-- gallary-list -->
-                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                <a href="gallery-item-page.php" class="py-5 rounded-circle">
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="gallery-item-page.php" class="d-block filter-effect height-100p">
                                     <span class="position-absolute w-100 font-weight-bold text-uppercase">День шахтаря</span>
-                                    <img src="../img/MinerDay/gallery.jpg" alt="фото" class="img-fluid min-height w-100">
+                                    <img src="../build/img/MinerDay/gallery.jpg" alt="фото" class="img-fluid obj-fit-center w-100 height-100p">
                                 </a>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                <a href="#" class="py-5 rounded-circle">
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
                                     <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery with long title</span>
-                                    <img src="../img/sanatorium/sanatorium2.jpg" alt="фото" class="img-fluid min-height w-100">
+                                    <img src="../build/img/sanatorium/sanatorium2.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
                                 </a>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                <a href="#" class="py-5 rounded-circle">
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
                                     <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery</span>
-                                    <img src="../img/sanatorium/sanatorium3.jpg" alt="фото" class="img-fluid min-height w-100">
+                                    <img src="../build/img/sanatorium/sanatorium3.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
                                 </a>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                <a href="#" class="py-5 rounded-circle">
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
                                     <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery with long title</span>
-                                    <img src="../img/sanatorium/sanatorium4.jpg" alt="фото" class="img-fluid min-height w-100">
+                                    <img src="../build/img/sanatorium/sanatorium4.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
                                 </a>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                <a href="#" class="py-5 rounded-circle">
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
                                     <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery</span>
-                                    <img src="../img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid min-height w-100">
+                                    <img src="../build/img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
                                 </a>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                <a href="#" class="py-5 rounded-circle">
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
                                     <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery with long title</span>
-                                    <img src="../img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid min-height w-100">
+                                    <img src="../build/img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
                                 </a>
                             </div>
                             <!-- end list -->

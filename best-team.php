@@ -31,35 +31,35 @@
                         </div>
                         <!-- extra-small screens -->
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="../img/best-team-new/15.jpg" alt="працівники" class="img-fluid">
+                            <img src="../build/img/best-team-new/15.jpg" alt="працівники" class="img-fluid w-100 obj-fit">
                             
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="../img/best-team-new/16.jpg" alt="працівники" class="img-fluid">
+                            <img src="../build/img/best-team-new/16.jpg" alt="працівники" class="img-fluid w-100 obj-fit">
                             
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="../img/best-team-new/17.jpg" alt="працівники" class="img-fluid">
+                            <img src="../build/img/best-team-new/17.jpg" alt="працівники" class="img-fluid w-100 obj-fit">
                             
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="../img/best-team-new/18.jpg" alt="працівники" class="img-fluid">
+                            <img src="../build/img/best-team-new/18.jpg" alt="працівники" class="img-fluid w-100 obj-fit">
                             
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="../img/best-team-new/19.jpg" alt="працівники" class="img-fluid">
+                            <img src="../build/img/best-team-new/19.jpg" alt="працівники" class="img-fluid w-100 obj-fit">
                             
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="../img/best-team-new/20.jpg" alt="працівники" class="img-fluid">
+                            <img src="../build/img/best-team-new/20.jpg" alt="працівники" class="img-fluid w-100 obj-fit">
                             
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="../img/best-team-new/21.jpg" alt="працівники" class="img-fluid">
+                            <img src="../build/img/best-team-new/21.jpg" alt="працівники" class="img-fluid w-100 obj-fit">
                             
                         </div>
                         <div class="col-12 d-sm-none px-0 mt-1 mb-1">
-                            <img src="../img/best-team-new/22.jpg" alt="працівники" class="img-fluid">
+                            <img src="../build/img/best-team-new/22.jpg" alt="працівники" class="img-fluid w-100 obj-fit">
                             
                         </div>
                         <!-- end xs-screens -->
@@ -76,31 +76,31 @@
                             </a>
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-touch="true">
-                                    <img class="d-block w-100 min-height" src="../img/best-team-new/15.jpg" alt="працівники">
+                                    <img class="d-block w-100 img-fluid obj-fit" src="../build/img/best-team-new/15.jpg" alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100 min-height" src="../img/best-team-new/16.jpg" alt="працівники">
+                                    <img class="d-block w-100 img-fluid obj-fit" src="../build/img/best-team-new/16.jpg" alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100 min-height" src="../img/best-team-new/17.jpg"
+                                    <img class="d-block w-100 img-fluid obj-fit" src="../build/img/best-team-new/17.jpg"
                                         alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100 min-height" src="../img/best-team-new/18.jpg" alt="працівники">
+                                    <img class="d-block w-100 img-fluid obj-fit" src="../build/img/best-team-new/18.jpg" alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100 min-height" src="../img/best-team-new/19.jpg"
+                                    <img class="d-block w-100 img-fluid obj-fit" src="../build/img/best-team-new/19.jpg"
                                         alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100 min-height" src="../img/best-team-new/20.jpg"
+                                    <img class="d-block w-100 img-fluid obj-fit" src="../build/img/best-team-new/20.jpg"
                                         alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100 min-height" src="../img/best-team-new/21.jpg" alt="працівники">
+                                    <img class="d-block w-100 img-fluid obj-fit" src="../build/img/best-team-new/21.jpg" alt="працівники">
                                 </div>
                                 <div class="carousel-item" data-touch="true">
-                                    <img class="d-block w-100 min-height" src="../img/best-team-new/22.jpg"
+                                    <img class="d-block w-100 img-fluid obj-fit" src="../build/img/best-team-new/22.jpg"
                                         alt="працівники">
                                 </div>
                             </div>
@@ -118,45 +118,45 @@
                                 <li data-target="#carouselIndicators" data-slide-to="0"
                                     class="position-relative active m-0">
                                     <div class="d-block thumbnail position-absolute border">
-                                        <img class="img-fluid min-height" src="img/best-team-new/15.jpg" alt="працівники">
+                                        <img class="img-fluid min-height" src="../build/img/best-team-new/15.jpg" alt="працівники">
                                     </div>
                                 </li>
                                 <li data-target="#carouselIndicators" data-slide-to="1" class="position-relative m-0">
                                     <div class="d-block thumbnail position-absolute border">
-                                        <img class="img-fluid min-height" src="img/best-team-new/16.jpg" alt="працівники">
+                                        <img class="img-fluid min-height" src="../build/img/best-team-new/16.jpg" alt="працівники">
                                     </div>
                                 </li>
                                 <li data-target="#carouselIndicators" data-slide-to="2" class="position-relative m-0">
                                     <div class="d-block thumbnail position-absolute border">
-                                        <img class="img-fluid min-height" src="img/best-team-new/17.jpg"
+                                        <img class="img-fluid min-height" src="../build/img/best-team-new/17.jpg"
                                             alt="працівники">
                                     </div>
                                 </li>
                                 <li data-target="#carouselIndicators" data-slide-to="3" class="position-relative m-0">
                                     <div class="d-block thumbnail position-absolute border">
-                                        <img class="img-fluid min-height" src="img/best-team-new/18.jpg" alt="працівники">
+                                        <img class="img-fluid min-height" src="../build/img/best-team-new/18.jpg" alt="працівники">
                                     </div>
                                 </li>
                                 <li data-target="#carouselIndicators" data-slide-to="4" class="position-relative m-0">
                                     <div class="d-block thumbnail position-absolute border">
-                                        <img class="img-fluid min-height" src="img/best-team-new/19.jpg"
+                                        <img class="img-fluid min-height" src="../build/img/best-team-new/19.jpg"
                                             alt="працівники">
                                     </div>
                                 </li>
                                 <li data-target="#carouselIndicators" data-slide-to="5" class="position-relative m-0">
                                     <div class="d-block thumbnail position-absolute border">
-                                        <img class="img-fluid min-height" src="img/best-team-new/20.jpg"
+                                        <img class="img-fluid min-height" src="../build/img/best-team-new/20.jpg"
                                             alt="працівники">
                                     </div>
                                 </li>
                                 <li data-target="#carouselIndicators" data-slide-to="6" class="position-relative m-0">
                                     <div class="d-block thumbnail position-absolute border">
-                                        <img class="img-fluid min-height" src="img/best-team-new/21.jpg" alt="працівники">
+                                        <img class="img-fluid min-height" src="../build/img/best-team-new/21.jpg" alt="працівники">
                                     </div>
                                 </li>
                                 <li data-target="#carouselIndicators" data-slide-to="7" class="position-relative m-0">
                                     <div class="d-block thumbnail position-absolute border">
-                                        <img class="img-fluid min-height" src="img/best-team-new/22.jpg"
+                                        <img class="img-fluid min-height" src="../build/img/best-team-new/22.jpg"
                                             alt="працівники">
                                     </div>
                                 </li>
@@ -175,35 +175,35 @@
                                             data-ride="carousel" keyboard="true">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active" data-touch="true">
-                                                    <img class="d-block w-100 min-height" src="img/best-team-new/15.jpg"
+                                                    <img class="d-block w-100 min-height" src="../build/img/best-team-new/15.jpg"
                                                         alt="працівники">
                                                 </div>
                                                 <div class="carousel-item" data-touch="true">
-                                                    <img class="d-block w-100 min-height" src="img/best-team-new/16.jpg"
+                                                    <img class="d-block w-100 min-height" src="../build/img/best-team-new/16.jpg"
                                                         alt="працівники">
                                                 </div>
                                                 <div class="carousel-item" data-touch="true">
-                                                    <img class="d-block w-100 min-height" src="img/best-team-new/17.jpg"
+                                                    <img class="d-block w-100 min-height" src="../build/img/best-team-new/17.jpg"
                                                         alt="працівники">
                                                 </div>
                                                 <div class="carousel-item" data-touch="true">
-                                                    <img class="d-block w-100 min-height" src="img/best-team-new/18.jpg"
+                                                    <img class="d-block w-100 min-height" src="../build/img/best-team-new/18.jpg"
                                                         alt="працівники">
                                                 </div>
                                                 <div class="carousel-item" data-touch="true">
-                                                    <img class="d-block w-100 min-height" src="img/best-team-new/19.jpg"
+                                                    <img class="d-block w-100 min-height" src="../build/img/best-team-new/19.jpg"
                                                         alt="працівники">
                                                 </div>
                                                 <div class="carousel-item" data-touch="true">
-                                                    <img class="d-block w-100 min-height" src="img/best-team-new/20.jpg"
+                                                    <img class="d-block w-100 min-height" src="../build/img/best-team-new/20.jpg"
                                                         alt="працівники">
                                                 </div>
                                                 <div class="carousel-item" data-touch="true">
-                                                    <img class="d-block w-100 min-height" src="img/best-team-new/21.jpg"
+                                                    <img class="d-block w-100 min-height" src="../build/img/best-team-new/21.jpg"
                                                         alt="працівники">
                                                 </div>
                                                 <div class="carousel-item" data-touch="true">
-                                                    <img class="d-block w-100 min-height" src="img/best-team-new/22.jpg"
+                                                    <img class="d-block w-100 min-height" src="../build/img/best-team-new/22.jpg"
                                                         alt="працівники">
                                                 </div>
                                             </div>
@@ -223,56 +223,56 @@
                                                 <li data-target="#carouselModal" data-slide-to="0"
                                                     class="position-relative active m-0">
                                                     <div class="d-block thumbnail position-absolute border">
-                                                        <img class="img-fluid min-height" src="img/best-team-new/15.jpg"
+                                                        <img class="img-fluid min-height" src="../build/img/best-team-new/15.jpg"
                                                             alt="працівники">
                                                     </div>
                                                 </li>
                                                 <li data-target="#carouselModal" data-slide-to="1"
                                                     class="position-relative m-0">
                                                     <div class="d-block thumbnail position-absolute border">
-                                                        <img class="img-fluid min-height" src="img/best-team-new/16.jpg"
+                                                        <img class="img-fluid min-height" src="../build/img/best-team-new/16.jpg"
                                                             alt="працівники">
                                                     </div>
                                                 </li>
                                                 <li data-target="#carouselModal" data-slide-to="2"
                                                     class="position-relative m-0">
                                                     <div class="d-block thumbnail position-absolute border">
-                                                        <img class="img-fluid min-height" src="img/best-team-new/17.jpg"
+                                                        <img class="img-fluid min-height" src="../build/img/best-team-new/17.jpg"
                                                             alt="працівники">
                                                     </div>
                                                 </li>
                                                 <li data-target="#carouselModal" data-slide-to="3"
                                                     class="position-relative m-0">
                                                     <div class="d-block thumbnail position-absolute border">
-                                                        <img class="img-fluid min-height" src="img/best-team-new/18.jpg"
+                                                        <img class="img-fluid min-height" src="../build/img/best-team-new/18.jpg"
                                                             alt="працівники">
                                                     </div>
                                                 </li>
                                                 <li data-target="#carouselModal" data-slide-to="4"
                                                     class="position-relative m-0">
                                                     <div class="d-block thumbnail position-absolute border">
-                                                        <img class="img-fluid min-height" src="img/best-team-new/19.jpg"
+                                                        <img class="img-fluid min-height" src="../build/img/best-team-new/19.jpg"
                                                             alt="працівники">
                                                     </div>
                                                 </li>
                                                 <li data-target="#carouselModal" data-slide-to="5"
                                                     class="position-relative m-0">
                                                     <div class="d-block thumbnail position-absolute border">
-                                                        <img class="img-fluid min-height" src="img/best-team-new/20.jpg"
+                                                        <img class="img-fluid min-height" src="../build/img/best-team-new/20.jpg"
                                                             alt="працівники">
                                                     </div>
                                                 </li>
                                                 <li data-target="#carouselModal" data-slide-to="6"
                                                     class="position-relative m-0">
                                                     <div class="d-block thumbnail position-absolute border">
-                                                        <img class="img-fluid min-height" src="img/best-team-new/21.jpg"
+                                                        <img class="img-fluid min-height" src="../build/img/best-team-new/21.jpg"
                                                             alt="працівники">
                                                     </div>
                                                 </li>
                                                 <li data-target="#carouselModal" data-slide-to="7"
                                                     class="position-relative m-0">
                                                     <div class="d-block thumbnail position-absolute border">
-                                                        <img class="img-fluid min-height" src="img/best-team-new/22.jpg"
+                                                        <img class="img-fluid min-height" src="../build/img/best-team-new/22.jpg"
                                                             alt="працівники">
                                                     </div>
                                                 </li>

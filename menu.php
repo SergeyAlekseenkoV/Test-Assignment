@@ -5,10 +5,10 @@
                 <!--LOGO-->
                 <div class="logo mr-0 mt-md-0 d-flex justify-content-center align-items-center">
                     <a href="home.php" class="align-self-center rounded-circle border light">
-                        <img src="img/logo-dark.png" width="40" height="40" alt="MGOK" class="inner-logo rounded-circle">
+                        <img src="../build/img/logo-dark.png" width="40" height="40" alt="MGOK" class="inner-logo rounded-circle">
                     </a>
                     <a href="home.php" class="align-self-center bg-dark rounded-circle border border-primary dark">
-                        <img src="img/logo-white.png" alt="MGOK" class="inner-logo rounded-circle">
+                        <img src="../build/img/logo-white.png" alt="MGOK" class="inner-logo rounded-circle">
                     </a>
                 </div>
                 <span
@@ -28,7 +28,7 @@
                             <ul
                                 class="dropdown-menu dropdown-content dropdown-right position-absolute p-0 border border-white bg-primary row text-center text-md-left text-lg-left width_dropdown_smallscreen">
                                 <li>
-                                    <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="respect-desk.php">Дошка
+                                    <a class="dropdown-item text-white pl-md-1 px-md-1 px-lg-1 px-xl-2" href="respect-board.php">Дошка
                                     пошани</a>
                                 </li>
                                 <li>
