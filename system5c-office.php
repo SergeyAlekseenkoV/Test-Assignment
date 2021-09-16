@@ -29,21 +29,22 @@
                                 прикладів</h2>
                         </div>
                         <div class="col-12 mx-0 px-0 mb-1 mb-md-0 border border-primary position-relative overflow-hidden">
-                            <img src="../build/img/media/image1.jpeg" alt="photo" class="w-100 obj-fit-center height-100p">
+                            <img src="../build/img/media/bg-office5.jpeg" alt="photo" class="w-100 obj-fit-center height-100p">
                             <div
                                 class="d-flex flex-column justify-content-center align-items-center position-absolute img_button_block bg_dark_through">
                                 <button id="show-btn"
-                                    class="w-100 min-height btn-transparent position-absolute">&#10095;</button>
+                                    class="w-100 min-height btn-transparent position-absolute">
+                                    <span data-toggle="tooltip" data-placement="bottom" data-original-title="Каталог кращих прикладів">&#10095;</span></button>
                             </div>
                             <div
                                 class="d-flex flex-column justify-content-center align-items-center title position-absolute bg_info_through">
-                                <span class="text-uppercase"><strong class="shadows">5С - Офіс</strong></span>
+                                <span class="text-uppercase"><strong class="shadows">5С-Офіс</strong></span>
                             </div>
                         </div>
                         <div id="block-examples" class="col-12 px-0">
                             <div class="row w-100 mx-0 mt-1 mb-0 bg_info_through">
                                 <div class="col-12 px-0">
-                                    <h4 class="text-center"></h4>
+                                    <h4 class="text-center my-2"></h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image3-office.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -62,7 +63,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">В відділі кадрів діють сектори по роботі з персоналом, в бухгалтерії організовані місця для оформлення документів для працівників. </h4>
+                                    <h4 class="text-center my-2">В відділі кадрів діють сектори по роботі з персоналом, в бухгалтерії організовані місця для оформлення документів для працівників. </h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image4-office.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -73,7 +74,7 @@
                                         </div>
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image5-office.jpeg" class="position-relative little-filter-effect d-block height-100p text_color">
-                                                <p class="lead position-absolute mt-1 ml-1 mb-0 px-2 width-content bg_info_through"></p>
+                                                <p class="lead position-absolute mt-1 ml-1 mb-0 px-2 width-content bg_info_through">Відділ кадрів</p>
                                                 <img src="../build/img/media-office/image5-office.jpeg" alt="photo"
                                                     class="img-fluid p-1 obj-fit w-100 height-100p">
                                             </a>
@@ -81,11 +82,11 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">В канцелярії організовані робочі місця та впровадженні заходи, що забезпечили організований рух документів за функціональним напрямком.</h4>
+                                    <h4 class="text-center my-2">В канцелярії організовані робочі місця та впровадженні заходи, що забезпечили організований рух документів за функціональним напрямком.</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image6-office.png" class="position-relative little-filter-effect d-block height-100p text_color">
-                                                <p class="lead position-absolute mt-1 ml-1 mb-0 px-2 width-content bg_info_through"></p>
+                                                <p class="lead position-absolute mt-1 ml-1 mb-0 px-2 width-content bg_info_through">Канцелярія</p>
                                                 <img src="../build/img/media-office/image6-office.png" alt="photo"
                                                     class="img-fluid p-1 obj-fit w-100 height-100p">
                                             </a>
@@ -93,7 +94,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">Метод організації зберігання документів - кольорове кодування за тематикою документів</h4>
+                                    <h4 class="text-center my-2">Метод організації зберігання документів - кольорове кодування за тематикою документів</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image8-office.jpeg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -120,7 +121,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">Кольорове кодування зручний спосіб організації документів як на робочому місці так і в структурному підрозділі в цілому. 
+                                    <h4 class="text-center my-2">Кольорове кодування зручний спосіб організації документів як на робочому місці так і в структурному підрозділі в цілому. 
                                         Забезпечує швидкий пошук та впорядковане зберігання</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
@@ -154,7 +155,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">Стандарт оформлення справ забезпечує облік, використання, зберігання документів згідно номенклатури справ структурного підрозділу.<br>Забезпечує архівне зберігання
+                                    <h4 class="text-center my-2">Стандарт оформлення справ забезпечує облік, використання, зберігання документів згідно номенклатури справ структурного підрозділу.<br>Забезпечує архівне зберігання
                                         протягом встановленого терміну.</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
@@ -174,7 +175,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="mx-auto">
+                                    <h4 class="text-center my-2">
                                         Метод організації зберігання документів – розділова закладка.
                                         Зручний метод організації невеликого обсягу архівних документів</h4>
                                     <div class="row w-100 mx-0">
@@ -209,7 +210,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">Кращі приклади самоорганізації працівників</h4>
+                                    <h4 class="text-center my-2">Кращі приклади самоорганізації працівників</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image18-office.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -257,6 +258,13 @@
                                             <a data-fancybox="gallery" href="../build/img/media-office/image25-office.jpeg" class="position-relative little-filter-effect d-block height-100p text_color">
                                                 <p class="lead position-absolute mt-1 ml-1 mb-0 px-2 width-content bg_info_through">Відділ кадрів</p>
                                                 <img src="../build/img/media-office/image25-office.jpeg" alt="photo"
+                                                    class="img-fluid p-1 obj-fit w-100 height-100p">
+                                            </a>
+                                        </div>
+                                        <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
+                                            <a data-fancybox="gallery" href="../build/img/media-office/image26-office.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
+                                                <p class="lead position-absolute mt-1 ml-1 mb-0 px-2 width-content bg_info_through">шахта 14-15</p>
+                                                <img src="../build/img/media-office/image26-office.jpg" alt="photo"
                                                     class="img-fluid p-1 obj-fit w-100 height-100p">
                                             </a>
                                         </div>

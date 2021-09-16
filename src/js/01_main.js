@@ -238,6 +238,15 @@ $(() => {
 
 //  end show password ==========================================
 
+// wow js animation
+// ================================================
+//also at the window load event
+$(window).on('load', function(){
+     new WOW().init(); 
+});
+
+// ================================================
+
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
@@ -344,28 +353,11 @@ $(document).ready(function () {
     window.location = $(this).find(".read_more").attr("href");
     return false;
   });
-});
-// wow js animation
-// ================================================
-$(document).ready(function () {
-
-  wow = new WOW(
-    {
-      boxClass: 'wow',      // default
-      animateClass: 'animated', // default
-      offset: 0,          // default
-      mobile: true,       // default
-      live: true        // default
-    }
-  )
-  wow.init();
-
-});
 
 // attension message
 // ================================================
 
-$(document).ready(function () {
+
   $("input").focus(function () {
     $("#attention").addClass("d-block");
   });
