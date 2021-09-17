@@ -28,34 +28,34 @@
                                 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 m-1 text-white bg_headers">
                                 Список зразків кадрових документів
                             </h2>
-                            <p class="lead text-left ml-1">* Оберіть файл який ви бажаете завантажити</p>
+                            <p class="lead text-left mx-2 my-3">* Оберіть файл який ви бажаете завантажити</p>
                         </div>
                         <!-- documents-list -->
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
                             <a href="settingFile.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
-                                на прийняття</a>
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                                на прийняття&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
                             <a href="transfer.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
-                                на переведення</a>
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                                на переведення&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
 
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
                             <a href="firing.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
-                                на звільнення</a>
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                                на звільнення&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
                             <a href="replacement.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
-                                на заміщення</a>
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
+                                на заміщення&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
                             <a href="asked-firing.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
-                                на звільнення</a>
+                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
+                                на звільнення&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
                         <!-- end list -->
                     </div>

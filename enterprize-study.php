@@ -19,38 +19,40 @@
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <?php include_once "left-nav.php"; ?>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
-                    <div id="study-part" class="row mx-0 border border-primary rounded study_bg position-relative">
+                    <div class="row mx-0 p-1 border border-primary rounded study_bg position-relative">
                         <!-- heading -->
-                        <div class="col-12 mx-0 px-0 text-center">
-                            <h2 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_headers">Виробниче навчання</h2>
+                        <div class="col-12 mx-0 px-0 text-center mb-1 mb-md-0">
+                            <h2 class="text-uppercase px-0 py-3 m-0 mb-md-1 text-white bg_headers">Виробниче навчання</h2>
+                        </div>
+                        <div class="col-12 mx-0 px-0 text-center border border-info">
                             <!-- blockquote -->
-                            <div class="d-flex flex-row justify-content-end mx-0 px-2 text-right">
-                                <blockquote class="font-italic mt-2 mb-3">
+                            <div class="d-flex flex-row justify-content-end mx-0 mt-2 px-2 text-right">
+                                <blockquote class="font-italic mt-2 mb-3 study-blockquote">
                                    <p class="mb-0 position-relative">Учітесь, читайте,<br class="d-sm-none"> і чужому научайтесь, <br class="d-md-none">й свого не цурайтесь.</p>
                                    <footer class="blockquote-footer text-right text_color">Т.Г Шевченко.</footer>
                                 </blockquote>
                             </div>
-                        </div>
-                        <!-- description -->
-                        <div class="col-12">
-                            <p class="mb-0">
-                                Формування груп на початок навчання у <b>лютому 2021 р.</b>:
-                            </p>
-                            <ul>
-                                <li class="font-italic">гірник очисного забою</li>
-                            </ul>
-                            <p class="mb-0">
-                                Формування груп на початок навчання у <b>березні 2021 р.</b>:
-                             </p>
-                            <ul>
-                                <li class="font-italic">покрівельник рулонних покрівель та покрівель із штучних матеріалів</li>
-                            </ul>
-                        </div>
-                        <div class="col-12 d-flex flex-column justify-content-end mt-lg-5">
-                            <p class="mb-0 text-right font-weight-bold text-monospace">
-                               *З питань зарахування до групи звертайтесь до осіб, відповідальних за організацію навчання у Вашому цеху.
-                            </p>
-                        </div>
+                            <!-- description -->
+                            <div class="w-100 text-left p-2">
+                                <p class="mb-0 blur">
+                                    Формування груп на початок навчання у <b>лютому 2021 р.</b>:
+                                </p>
+                                <ul>
+                                    <li class="font-italic blur">гірник очисного забою</li>
+                                </ul>
+                                <p class="mb-0 blur">
+                                    Формування груп на початок навчання у <b>березні 2021 р.</b>:
+                                 </p>
+                                <ul>
+                                    <li class="font-italic blur">покрівельник рулонних покрівель та покрівель із штучних матеріалів</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 d-flex flex-column justify-content-end mt-lg-5">
+                                <p class="mb-0 text-right font-weight-bold text-monospace blur">
+                                   *З питань зарахування до групи звертайтесь до осіб, відповідальних за організацію навчання у Вашому цеху.
+                                 </p>
+                            </div>
+                        </div> 
                     </div>
                 </aside>
             </div>

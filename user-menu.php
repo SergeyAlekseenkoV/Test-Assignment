@@ -24,22 +24,22 @@
                 <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
                     <ul class="navbar-nav nav-pills ml-auto mt-1 mb-0">
                         <li class="nav-item d-flex justify-content-center position-relative">
-                            <a class="nav-link text-uppercase my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-white user_menu_item"
-                                 href="salary-list.php" role="button" aria-haspopup="true"
+                            <a class="nav-link text-uppercase my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-white text-center user_menu_item"
+                                href="salary-list.php" role="button" aria-haspopup="true"
                                 aria-expanded="false">Розрахунковий лист</a>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
+                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-center user_menu_item"
                                 href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Форми звернення</a>
                         </li>
                         <li class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
+                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-center user_menu_item"
                                 href="propositions.php" role="button" aria-haspopup="true"
                                 aria-expanded="false">Пропозиції</a>
                         </li>
                         <li id="my-data" class="d-flex justify-content-center nav-item position-relative">
-                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 px-md-1 px-lg-1 px-xl-2 user_menu_item"
+                            <a class="nav-link text-uppercase text-white my-3 my-md-0 py-md-1 px-md-1 px-lg-1 px-xl-2 text-center user_menu_item"
                                 href="my-data.php" role="button" aria-haspopup="true"
                                 aria-expanded="false">Мої дані</a>
                         </li>

@@ -28,7 +28,7 @@
                             <h2 class="text-uppercase px-0 py-3 mx-0 my-0 mb-md-1 text-white bg_headers">Каталог кращих
                                 прикладів</h2>
                         </div>
-                        <div class="col-12 mx-0 px-0 mb-1 mb-md-0 border border-primary position-relative overflow-hidden">
+                        <div class="col-12 mx-0 px-0 mb-0 border border-primary position-relative overflow-hidden">
                             <img src="../build/img/media/bg-office5.jpeg" alt="photo" class="w-100 obj-fit-center height-100p">
                             <div
                                 class="d-flex flex-column justify-content-center align-items-center position-absolute img_button_block bg_dark_through">

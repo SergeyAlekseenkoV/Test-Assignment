@@ -54,41 +54,41 @@
                             <!-- collapsed blocks -->
                             <!-- =========== scheme ========= -->
                             <button id="schemeBtn"
-                                class="btn-collapse d-flex justify-content-around shadow-light align-items-center btn bg-transparent border border-primary my-2 text-uppercase text_color"
+                                class="btn-collapse d-flex justify-content-around shadow-light align-items-center btn bg-transparent border border-primary my-2 text-uppercase text_color little-filter-effect"
                                 data-toggle="collapse" data-target="#scheme-block" role="button" aria-expanded="false"
                                 aria-controls="scheme-block">
                                 Схема безперервного вдосконалення&nbsp;
-                                <i class="fas fa-chevron-down"></i></button>
+                                <i class="fas fa-chevron-right ml-2"></i></button>
                         </div>
                         <div id="scheme-block" class="row collapse mx-0">
                             <h2 class="my-3 text-center w-100"><span>Покращуемо стан робочих місць за Принципами 5C</span></h2>
                             <div class="row w-100 mx-0 my-3 text-center">
                                 <div
-                                    class="col-12 col-md-6 col-lg-4 p-1 little-filter-effect ">
+                                    class="col-12 col-md-6 col-lg-4 p-1">
                                     <img src="../build/img/non-stop/sort1s.jpg" alt="офіс"
                                         class="img-fluid w-100 min-height obj-fit">
                                 </div>
                                 <div
-                                    class="col-12 col-md-6 col-lg-4 p-1 little-filter-effect ">
+                                    class="col-12 col-md-6 col-lg-4 p-1">
                                     <img src="../build/img/non-stop/sort2s.jpg" alt="офіс"
                                         class="img-fluid w-100 min-height obj-fit">
                                 </div>
                                 <div
-                                    class="col-12 col-md-6 col-lg-4 p-1 little-filter-effect ">
+                                    class="col-12 col-md-6 col-lg-4 p-1">
                                     <img src="../build/img/non-stop/sort3s.jpg" alt="офіс"
                                         class="img-fluid w-100 min-height obj-fit">
                                 </div>
                                 <div
-                                    class="col-12 col-md-6 col-lg-4 p-1 little-filter-effect ">
+                                    class="col-12 col-md-6 col-lg-4 p-1">
                                     <img src="../build/img/non-stop/sort4s.jpg" alt="офіс"
                                         class="img-fluid w-100 min-height obj-fit">
                                 </div>
                                 <div
-                                    class="col-12 col-md-6 col-lg-4 p-1 little-filter-effect ">
+                                    class="col-12 col-md-6 col-lg-4 p-1">
                                     <img src="../build/img/non-stop/sort5s5.jpg" alt="офіс"
                                         class="img-fluid w-100 min-height obj-fit">
                                 </div>
-                                <div class="col-12 col-md-6 p-1 col-lg-4 little-filter-effect">
+                                <div class="col-12 col-md-6 p-1 col-lg-4">
                                     <p class="bg_5s d-flex flex-column justify-content-center align-items-stretch lead mb-0 font-weight-bold">
                                         <span class="invisible">5C</span></p>
                                 </div>
@@ -97,11 +97,11 @@
                         <!-- =========== end scheme ========= -->
                         <div class="col-12 px-0 mt-1 mb-3">
                             <button
-                                class="btn-collapse d-flex justify-content-around align-items-center shadow-light btn bg-transparent border border-primary mx-1 my-2 text-uppercase text_color"
+                                class="btn-collapse d-flex justify-content-around align-items-center shadow-light btn bg-transparent border border-primary mx-1 my-2 text-uppercase text_color little-filter-effect"
                                 data-toggle="collapse" data-target="#steps" role="button" aria-expanded="false"
                                 aria-controls="steps">
                                 КРОКИ з удосконалення&nbsp;
-                                <i class="fas fa-chevron-down"></i></button>
+                                <i class="fas fa-chevron-right ml-2"></i></button>
                         </div>
                         <div id="steps" class="row mx-0 collapse">
                             <!-- step 1 -->
