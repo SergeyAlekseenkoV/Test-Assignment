@@ -427,6 +427,11 @@ small.form-text {
     object-position: right;
 }
 
+.obj-fit-contain {
+    object-fit: fill;
+    object-position: center;
+}
+
 /* effects */
 
 .filter-effect {

@@ -44,7 +44,7 @@
                         <div id="block-examples" class="col-12 px-0">
                             <div class="row w-100 mx-0 mt-1 mb-0 bg_info_through">
                                 <div class="col-12 px-0">
-                                    <h4 class="text-center">Шахта 9-10</h4>
+                                    <h4 class="text-center my-3">Шахта 9-10</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media/image2.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -63,7 +63,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">Маркування зон зберігання</h4>
+                                    <h4 class="text-center my-3">Маркування зон зберігання</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media/image4.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -82,7 +82,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">Маркування зон зберігання велико&shy;габаритного пересувного обладнання</h4>
+                                    <h4 class="text-center my-3">Маркування зон зберігання велико&shy;габаритного пересувного обладнання</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media/image6.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -101,7 +101,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">Маркування робочої зони обладнання в ЦМП</h4>
+                                    <h4 class="text-center my-3">Маркування робочої зони обладнання в ЦМП</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media/image8.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -120,7 +120,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">Центральна енерго-механічна лабораторія</h4>
+                                    <h4 class="text-center my-3">Центральна енерго-механічна лабораторія</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media/image10.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -139,7 +139,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">РМЦ</h4>
+                                    <h4 class="text-center my-3">РМЦ</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media/image12.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -165,7 +165,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center">АТЦ</h4>
+                                    <h4 class="text-center my-3">АТЦ</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media/image15.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -184,7 +184,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="mx-auto">Зберігання інструментів</h4>
+                                    <h4 class="mx-auto my-3">Зберігання інструментів</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media/image17.jpeg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -210,7 +210,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center border-top">
-                                    <h4 class="mx-auto"></h4>
+                                    <h4 class="mx-auto my-3"></h4>
                                     <p class="lead pb-0">
                                         <strong>КАТАЛОГ кращих прикладів 5С</strong> - виробництво буде поповнюватися постійно.
                                         Чекаємо ваших фотографій на електронну адресу <address><strong>boumgok@gmail.com</strong></address>

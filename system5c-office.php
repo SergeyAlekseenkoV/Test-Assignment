@@ -44,7 +44,7 @@
                         <div id="block-examples" class="col-12 px-0">
                             <div class="row w-100 mx-0 mt-1 mb-0 bg_info_through">
                                 <div class="col-12 px-0">
-                                    <h4 class="text-center my-2"></h4>
+                                    <h4 class="text-center my-3"></h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image3-office.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -63,7 +63,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center my-2">В відділі кадрів діють сектори по роботі з персоналом, в бухгалтерії організовані місця для оформлення документів для працівників. </h4>
+                                    <h4 class="text-center my-3">В відділі кадрів діють сектори по роботі з персоналом, в бухгалтерії організовані місця для оформлення документів для працівників. </h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image4-office.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -82,7 +82,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center my-2">В канцелярії організовані робочі місця та впровадженні заходи, що забезпечили організований рух документів за функціональним напрямком.</h4>
+                                    <h4 class="text-center my-3">В канцелярії організовані робочі місця та впровадженні заходи, що забезпечили організований рух документів за функціональним напрямком.</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image6-office.png" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -94,7 +94,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center my-2">Метод організації зберігання документів - кольорове кодування за тематикою документів</h4>
+                                    <h4 class="text-center my-3">Метод організації зберігання документів - кольорове кодування за тематикою документів</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image8-office.jpeg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -121,7 +121,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center my-2">Кольорове кодування зручний спосіб організації документів як на робочому місці так і в структурному підрозділі в цілому. 
+                                    <h4 class="text-center my-3">Кольорове кодування зручний спосіб організації документів як на робочому місці так і в структурному підрозділі в цілому. 
                                         Забезпечує швидкий пошук та впорядковане зберігання</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
@@ -155,7 +155,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center my-2">Стандарт оформлення справ забезпечує облік, використання, зберігання документів згідно номенклатури справ структурного підрозділу.<br>Забезпечує архівне зберігання
+                                    <h4 class="text-center my-3">Стандарт оформлення справ забезпечує облік, використання, зберігання документів згідно номенклатури справ структурного підрозділу.<br>Забезпечує архівне зберігання
                                         протягом встановленого терміну.</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
@@ -175,7 +175,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center my-2">
+                                    <h4 class="text-center my-3">
                                         Метод організації зберігання документів – розділова закладка.
                                         Зручний метод організації невеликого обсягу архівних документів</h4>
                                     <div class="row w-100 mx-0">
@@ -210,7 +210,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center">
-                                    <h4 class="text-center my-2">Кращі приклади самоорганізації працівників</h4>
+                                    <h4 class="text-center my-3">Кращі приклади самоорганізації працівників</h4>
                                     <div class="row w-100 mx-0">
                                         <div class="col-6 p-0 thumb mx-auto overflow-hidden height-210">
                                             <a data-fancybox="gallery" href="../build/img/media-office/image18-office.jpg" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -271,7 +271,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 px-0 text-center border-top">
-                                    <h4 class="mx-auto"></h4>
+                                    <h4 class="mx-auto my-3"></h4>
                                     <p class="lead pb-0">
                                         <strong>КАТАЛОГ кращих прикладів 5С</strong> - офіс буде поповнюватися постійно.
                                         Чекаємо ваших фотографій на електронну адресу <address><strong>boumgok@gmail.com</strong></address>
