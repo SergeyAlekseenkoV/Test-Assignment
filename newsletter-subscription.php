@@ -20,7 +20,7 @@
             <div class="row pb-sm-1 ml-0 px-0 mr-0 mb-lg-5">
                 <?php include_once "left-nav.php"; ?>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
-                    <div id="newsletter-subscription" class="row mx-0 border border-primary rounded bg_light_through">
+                    <div class="row mx-0 border border-primary rounded bg_light_through newsletter-subscription">
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2
@@ -28,7 +28,7 @@
                                 Підписка на газету «Гірницький вісник»<br> найчастіші запитання </h2>
                         </div>
                         <!-- description -->
-                        <div class="row mx-1 mb-1 pt-3 bg_subscription">
+                        <div class="row mx-1 mb-1 pt-3 border border-info bg_subscription">
                             <div class="col-12 mx-0 px-3">
                                 <p class="lead text-justify">
                                 Багато з працівників комбінату оформили передплату на газету та щотижня отримують свій екземпляр. 

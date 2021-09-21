@@ -427,11 +427,6 @@ small.form-text {
     object-position: right;
 }
 
-.obj-fit-contain {
-    object-fit: fill;
-    object-position: center;
-}
-
 /* effects */
 
 .filter-effect {
@@ -1919,7 +1914,7 @@ button.fancybox-button[title="Next"] {
         }
     }
 
-    #newsletter-subscription {
+    .newsletter-subscription {
         .bg_subscription {
             background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.9)),
                 url("../img/faq.png") center/contain no-repeat;
@@ -2970,6 +2965,13 @@ media queries for different screen resolutions
 
         .enterprise-5s .title {
             font-size: 1.2em !important;
+        }
+
+        .newsletter-subscription {
+            .bg_subscription {
+                background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.9)),
+                    url("../img/faq.png") top center/contain no-repeat;
+            }
         }
     }
 }
