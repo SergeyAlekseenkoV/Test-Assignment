@@ -20,7 +20,7 @@
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <?php include_once "left-nav.php"; ?>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
-                    <div id="study-part" class="row mx-0 border border-primary rounded bg_light_through">
+                    <div class="row mx-0 border border-primary rounded study_bg study-part">
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2
@@ -29,28 +29,28 @@
                         </div>
                         <!-- study-list -->
                         <div class="col-12 col-md-6 p-1 mx-0">
-                            <a href="#"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect">
+                            <a href="professions-list.php"
+                                class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
                                 <span class="mr-3"><i class="far fa-list-alt"></i></span>Перелік професій</a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
                             <a href="enterprize-study.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect">
+                                class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
                                 <span class="mr-3"><i class="fas fa-user-graduate"></i></span>Виробниче навчання</a>
                         </div>
-                        <div class="col-12 p-1 mx-0">
-                            <a href="#"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
+                            <a href="study-order.php"
+                                class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
                                 <span class="mr-3"><i class="fas fa-list-ol"></i></span>Порядок оформлення заявок</a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
                             <a href="study-groups-making.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect">
+                                class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
                                 <span class="mr-3"><i class="far fa-calendar-alt"></i></span>Розклад занять груп</a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-0">
+                        <div class="col-12 col-md-6 p-1 mx-auto">
                             <a href="medical-course.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect">
+                                class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
                                 <span class="mr-3"><i class="fas fa-database"></i></span>База знань</a>
                         </div>
                         <!-- end list -->

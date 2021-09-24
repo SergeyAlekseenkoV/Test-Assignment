@@ -89,7 +89,7 @@
                         <a href="documents-SVB.php" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Документи СВБ</a>
                         <a href="system5c-interprise.php" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Виробництво 5С</a>
                         <a href="system5c-office.php" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Офіс 5С</a>
-                        <a href="#" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Методичні та наочні матеріали</a>
+                        <a href="visual-materials-5s.php" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Методичні та наочні матеріали</a>
                         <a href="results-SVB.php" class="col-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Результати СВБ</a>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                         <a href="documents-SVB.php" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Документи СВБ</a>
                         <a href="system5c-interprise.php" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Виробництво 5С</a>
                         <a href="system5c-office.php" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Офіс 5С</a>
-                        <a href="#" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Методичні та наочні матеріали</a>
+                        <a href="visual-materials-5s.php" class="col-6 col-md-4 col-lg-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Методичні та наочні матеріали</a>
                         <a href="results-SVB.php" class="col-12 small py-2 py-md-1 py-lg-0 btn-info border-primary text_color">Результати СВБ</a>
                     </div>
                 </div>

@@ -20,7 +20,7 @@
             <div class="row pb-sm-1 ml-0 px-0 mr-0 mb-lg-5">
                 <?php include_once "left-nav.php"; ?>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
-                    <div id="scheduel" class="row mx-0 border border-primary rounded">
+                    <div class="row mx-0 border border-primary rounded scheduel">
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2

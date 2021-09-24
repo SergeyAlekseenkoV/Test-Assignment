@@ -37,6 +37,12 @@
                                     class="img-fluid obj-fit w-100 border border-primary">
                             </a>
                         </div>
+                        <div class="col-12 col-md-6 p-1" 
+                            data-placement="bottom" data-toggle="tooltip" data-original-title="Завантажити PDF файл">
+                            <a href="5s-2-2021-enterprise.php"
+                                class="btn btn-light shadow p-1 text_color border border-info little-filter-effect">
+                                <span class="mr-3 small">Результати аудиту у другому кварталі 2021р.&nbsp;<strong>5С-Виробництво</strong>&nbsp;</span><i class="fas fa-file-pdf"></i></a>
+                        </div>
                         <div class="col-12 p-1 thumb mx-auto min-height">
                             <h3 class="text-center font-weight-bold">5C - Офіс</h3>
                             <a data-fancybox="gallery" href="../build/img/media/results-5s-office.png" class="position-relative little-filter-effect d-block height-100p text_color">
@@ -45,20 +51,13 @@
                                     class="img-fluid obj-fit w-100 border border-primary">
                             </a>
                         </div>
-                        <!-- end photos -->
-                        <div class="row w-100 mx-0">
-                            <p class="col-12 lead text-center mx-3 my-2">* Оберіть файл який ви бажаете завантажити</p>
-                            <div class="col-12 col-md-6 p-1 mx-auto">
-                                <a href="5s-2-2021-enterprise.php"
-                                    class="btn btn-light shadow py-5 w-100 text-uppercase text_color border border-info little-filter-effect">
-                                    <span class="mr-3"></span>Результати аудиту у другому кварталі 2021р. 5С-Виробництво&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
-                            </div>
-                            <div class="col-12 col-md-6 p-1 mx-auto">
-                                <a href="5s-2-2021-office.php"
-                                    class="btn btn-light shadow py-5 w-100 text-uppercase text_color border border-info little-filter-effect">
-                                    <span class="mr-3"></span>Результати аудиту у другому кварталі 2021р. 5С-Офіс&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
-                            </div>
+                        <div class="col-12 col-md-6 p-1" 
+                            data-placement="bottom" data-toggle="tooltip" data-original-title="Завантажити PDF файл">
+                            <a href="5s-2-2021-enterprise.php"
+                                class="btn btn-light shadow p-1 text_color border border-info little-filter-effect">
+                                <span class="mr-3 small">Результати аудиту у другому кварталі 2021р.&nbsp;<strong>5С-Офіс</strong>&nbsp;</span><i class="fas fa-file-pdf"></i></a>
                         </div>
+                        <!-- end photos -->
                     </div>
                 </aside>
             </div>

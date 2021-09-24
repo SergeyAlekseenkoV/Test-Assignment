@@ -20,35 +20,46 @@
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <?php include_once "left-nav.php"; ?>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
-                    <div id="HR-documents-list" class="row mx-0 pb-1 mb-5 border border-primary rounded bg_muted">
+                    <div class="row mx-0 pb-1 mb-5 border border-primary rounded bg_muted">
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
                             <h2
                                 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 m-1 text-white bg_headers">
                                 Список документів СБВ
                             </h2>
-                            <p class="lead text-left mx-3 my-2">* Оберіть файл який ви бажаете завантажити</p>
+                            <p class="text-left mx-3 my-2">* Оберіть файл який ви бажаете завантажити</p>
                         </div>
                         <!-- documents-list -->
-                        <div class="col-12 col-md-6 p-1 mx-auto">
+                        <h2 class="col-12 text-center text-md-left">Накази</h2>
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="order-8.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span>НАКАЗ №8 від 06.01.2021р.&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
+                                class="btn btn-light shadow py-3 w-100 text-uppercase border border-info text_color min-height little-filter-effect">НАКАЗ №8 від 06.01.2021р.&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="order-124.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span>НАКАЗ №124 від 19.04.2021р.&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
+                                class="btn btn-light shadow py-3 w-100 text-uppercase border border-info text_color min-height little-filter-effect">НАКАЗ №124 від 19.04.2021р.&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="order-220.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span>НАКАЗ №220 від 08.07.2021р.&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
+                                class="btn btn-light shadow py-3 w-100 text-uppercase border border-info text_color min-height little-filter-effect">НАКАЗ №220 від 08.07.2021р.&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="list-1.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span>Список 1&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
+                                class="btn btn-light shadow py-3 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Список 1&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
+                        <div class="col-12 col-md-6 p-1 mx-0">
                             <a href="list-2.php"
-                                class="btn btn-light shadow py-5 w-100 text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span>Список 2&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
+                                class="btn btn-light shadow py-3 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Список 2&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
+                        </div>
+                        <h2 class="col-12 text-center text-md-left">Методики</h2>
+                        <div class="col-12 col-md-6 p-1 mx-0">
+                            <a href="list-2.php"
+                                class="btn btn-light shadow py-3 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Методика впровадження системи 5С&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
+                        </div>
+                        <h2 class="col-12 text-center text-md-left">Процедури</h2>
+                        <div class="col-12 col-md-6 p-1 mx-0">
+                            <a href="list-2.php"
+                                class="btn btn-light shadow py-3 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Процедура системи подання пропозицій&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
                         </div>
                         <!-- end list -->
                     </div>

@@ -12,9 +12,9 @@
                     </a>
                 </div>
                 <span
-                    class="font-weight-bold ml-0 ml-md-2 ml-lg-2 ml-xl-2 d-md-none d-lg-inline-block text-logo"><abbr class="d-none d-sm-inline-block">АТ</abbr> "МГЗК"</span>
+                    class="font-weight-bold ml-0 ml-md-2 ml-lg-2 ml-xl-2 d-md-none d-lg-inline-block text-logo shadow-dark"><abbr class="d-none d-sm-inline-block">АТ</abbr> "МГЗК"</span>
                 <span
-                    class="font-weight-bold ml-0 ml-md-2 ml-lg-2 ml-xl-2 d-none d-md-inline-block d-lg-none text-logo">"МГЗК"</span>
+                    class="font-weight-bold ml-0 ml-md-2 ml-lg-2 ml-xl-2 d-none d-md-inline-block d-lg-none text-logo shadow-dark">"МГЗК"</span>
                 <!--menu button-->
                 <button class="navbar-toggler bg-primary border border-transparent" type="button" data-toggle="collapse"
                     data-target="#navbarCollapse">

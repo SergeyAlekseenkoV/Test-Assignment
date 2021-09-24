@@ -19,12 +19,12 @@
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <?php include_once "left-nav.php"; ?>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
-                    <div class="row mx-0 p-1 border border-primary rounded study_bg position-relative">
+                    <div class="row mx-0 p-1 border border-primary rounded position-relative bg_info_through">
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center mb-1 mb-md-0">
                             <h2 class="text-uppercase px-0 py-3 m-0 mb-md-1 text-white bg_headers">Виробниче навчання</h2>
                         </div>
-                        <div class="col-12 mx-0 px-0 text-center border border-info">
+                        <div class="col-12 mx-0 px-0 text-center border border-info study_bg">
                             <!-- blockquote -->
                             <div class="d-flex flex-row justify-content-end mx-0 mt-2 px-2 text-right">
                                 <blockquote class="font-italic mt-2 mb-3 study-blockquote">

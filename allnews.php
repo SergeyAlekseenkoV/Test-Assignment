@@ -24,7 +24,7 @@
                         <!-- mgok news -->
                         <div class="col-6 col-md-3 pt-lg-0 px-0 m-0">
                             <div class="card position-relative mx-0">
-                                <img src="../build/img/pexels-08.jpg" alt="фото" class="card-img-top obj-fit height-100p">
+                                <img src="../build/img/pexels-08.jpg" alt="фото" class="card-img-top obj-fit height-150">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
@@ -40,7 +40,7 @@
                         <!-- city news -->
                         <div class="col-6 col-md-3 pt-lg-0 px-0 m-0">
                             <div class="card position-relative mx-0">
-                                <img src="../build/img/city2.jpg" alt="фото" class="card-img-top obj-fit height-100p">
+                                <img src="../build/img/mgok-logo-power1.jpg" alt="фото" class="card-img-top obj-fit height-150">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
@@ -56,7 +56,7 @@
                         <!-- social news -->
                         <div class="col-6 col-md-3 pt-lg-0 px-0 m-0">
                             <div class="card position-relative mx-0">
-                                <img src="../build/img/social.jpg" alt="фото" class="card-img-top obj-fit height-100p">
+                                <img src="../build/img/social.jpg" alt="фото" class="card-img-top obj-fit height-150">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title text-white mb-1 mt-0 pt-0">
@@ -72,7 +72,7 @@
                         <!-- other news -->
                         <div class="col-6 col-md-3 pt-lg-0 px-0 m-0">
                             <div class="card position-relative mx-0">
-                                <img src="../build/img/another.jpg" alt="фото" class="card-img-top obj-fit height-100p">
+                                <img src="../build/img/another.jpg" alt="фото" class="card-img-top obj-fit height-150">
                                 <div class="d-flex flex-column justify-content-center card-body p-2 position-absolute">
                                     <div class="text-center">
                                         <p class="lead font-weight-bold card-title mb-1 mt-0 pt-0 text_color">

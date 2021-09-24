@@ -466,6 +466,14 @@ small.form-text {
     margin: 0.43em 0 0.43em 0.43em;
 }
 
+@media screen and (max-width: 468px) and (orientation: portrait) {
+    .image_floatleft,
+    .image_floatright {
+        float: unset;
+        margin: 0.43em;
+    }
+}
+
 .float_left {
     float: left;
 }
@@ -1290,6 +1298,9 @@ button.fancybox-button[title="Next"] {
     }
 
     #news-description {
+        p {
+            text-indent: 1em;
+        }
         .card .card-body > p:first-of-type::first-letter {
             font-size: 200%;
             float: left;
@@ -1804,12 +1815,9 @@ button.fancybox-button[title="Next"] {
         }
     }
 
-    #study-part {
+    .study-part {
         min-height: calc(50vh - 66px);
         a.btn-light {
-            border: $primary-common 1px dashed;
-            min-height: 100%;
-
             span {
                 margin-right: 1.5em;
                 transition: all 300ms ease;
@@ -1831,18 +1839,9 @@ button.fancybox-button[title="Next"] {
         }
     }
 
-    #study-part-medical {
-        min-height: calc(50vh - 66px);
-        a.btn-light {
-            display: block;
-            border: $primary-common 1px solid;
-            height: 100%;
-        }
-
-        .bg_sanatorium {
-            background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
-                url("../img/sanatorium/sanatorium15.jpg") center/cover no-repeat;
-        }
+    .bg_sanatorium {
+        background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
+            url("../img/sanatorium/sanatorium15.jpg") center/cover no-repeat;
 
         p.lead {
             line-height: 1.3 !important;
@@ -1943,7 +1942,7 @@ button.fancybox-button[title="Next"] {
         }
     }
 
-    #scheduel {
+    .scheduel {
         .bg_scheduel {
             background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.7)),
                 url("../img/schedule.jpg") center/cover no-repeat;
@@ -1955,13 +1954,13 @@ button.fancybox-button[title="Next"] {
         height: 25em;
     }
 
-    @media screen and(max-width: 767px) and (orientation:landscape) {
+    @media screen and(max-width: 767px) and (orientation: landscape) {
         .enterprise-5s > .row > :nth-of-type(2) {
             height: 18em;
         }
     }
 
-    @media screen and(max-width: 767px) and (orientation:portrait) {
+    @media screen and(max-width: 767px) and (orientation: portrait) {
         .enterprise-5s > .row > :nth-of-type(2) {
             height: 15em;
         }
@@ -2822,7 +2821,7 @@ media queries for different screen resolutions
         border-radius: 0;
 
         &:not(hover),
-        &:not(focus){
+        &:not(focus) {
             border: 0;
         }
 
