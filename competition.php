@@ -43,40 +43,40 @@
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1 little-filter-effect">
                                             <b>Серед основних цехів</b></p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1 little-filter-effect">
                                             <b>ГЗФ</b></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1 little-filter-effect">
                                             <b>Серед допоміжних цехів</b></p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1 little-filter-effect">
                                             <b>ЦПВКМ</b></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1 little-filter-effect">
                                             <b>Серед начальників основних цехів</b></p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1 little-filter-effect">
                                             <b>Пушкар В.В</b><small>(начальник ГЗФ)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 mr-1 mb-2 px-1 little-filter-effect">
                                             <b>Серед начальників допоміжних цехів</b></p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-100 ml-1 mb-2 px-1 little-filter-effect">
                                             <b>Колєснік О.Д</b><small>(начальник ЦПВКМ)</small></p>
                                     </div>
                                 </div>
@@ -91,11 +91,11 @@
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             <b>Головченко О.М.</b> - в.д.шахти №9/10 - шахта №14/15
                                         </p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             126,5%<small>(вик.плану)</small></p>
                                     </div>
                                 </div>
@@ -110,11 +110,11 @@
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             <b>Синенко С.В.</b> - в.д.шахти №9/10 — шахта №14/15
                                         </p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             126,5%<small>(вик.плану)</small></p>
                                     </div>
                                 </div>
@@ -129,11 +129,11 @@
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             <b>Кузьміна А.Ю.</b> - в.д.шахти №9/10 — шахта №14/15
                                         </p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             150,6%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
@@ -148,82 +148,82 @@
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             ГРОЗ - <b>Лашкін В.М.</b> - в.д. шахти № 9/10 - шахта №14/15</p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             150,6%<small>(вик.плану)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             Кріпильник - <b>Деревінський О.П.</b> - в.д.шахти № 9/10 - шахта №14/15</p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             115%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             Машиніст електровоза - <b>Лапко О.А.</b> - в.д.шахти №9/10 - шахта № 14/15
                                         </p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             153,6%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             Слюсар (ел.слюсар) черговий та з ремонту устаткування - <b>Любера Б.О.</b> -
                                             в.д.шахти № 9/10 - шахта №14/15</p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             162,4%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             Машиніст екскаватора</p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             -<small></small></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             Машиніст тепловоза (ЗЦ)</p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-50 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-50 ml-1 mb-2 px-1 little-filter-effect">
                                             <b>Андріянов Ю.О.</b></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             Водій автомобіля (Автоцех)</p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-50 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-50 ml-1 mb-2 px-1 little-filter-effect">
                                             <b>Зозуля О.А.</b></p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             Робочий збагачувальної фабрики</p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-50 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-50 ml-1 mb-2 px-1 little-filter-effect">
                                             <b>Недавня А.С.</b><small>(машиніст конвеєра)</small></p>
                                     </div>
                                 </div>
@@ -237,11 +237,11 @@
                                 <div class="col-12">
                                     <div class="d-flex flex-row justify-content-around text-center">
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-75 mr-1 mb-2 px-1 little-filter-effect">
                                             <b>Онищук В.П.</b> - слюсар-черговий та з ремонту обладнання ДПМВЗР
                                         </p>
                                         <p
-                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1">
+                                            class="d-flex flex-column justify-content-center bg-light rounded shadow w-25 ml-1 mb-2 px-1 little-filter-effect">
                                             120%<small>(норм.вироб)</small></p>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@
                         </div>
                         <!-- end right_lg_list -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h3 class="px-1 px-md-0 py-3 mx-1 my-1 border-top border-secondary text_color">
+                            <h3 class="px-1 px-md-0 py-3 mx-1 my-1 text_color">
                                 * Постанова № 87/29 від 01.07.2021р.
                             </h3>
                         </div>

@@ -57,10 +57,10 @@
                                 class="btn-collapse d-flex justify-content-around shadow-light align-items-center btn bg-transparent border border-primary my-2 text-uppercase text_color little-filter-effect"
                                 data-toggle="collapse" data-target="#scheme-block" role="button" aria-expanded="false"
                                 aria-controls="scheme-block">
-                                Схема безперервного вдосконалення&nbsp;
+                                Безперервне вдосконалення за принципами 5С&nbsp;
                                 <i class="fas fa-chevron-right ml-2"></i></button>
                         </div>
-                        <div id="scheme-block" class="row collapse mx-0">
+                        <div id="scheme-block" class="row collapse show mx-0">
                             <h2 class="my-3 text-center w-100"><span>Покращуемо стан робочих місць за Принципами 5C</span></h2>
                             <div class="row w-100 mx-0 my-3 text-center">
                                 <div
@@ -103,7 +103,7 @@
                                 КРОКИ з удосконалення&nbsp;
                                 <i class="fas fa-chevron-right ml-2"></i></button>
                         </div>
-                        <div id="steps" class="row mx-0 collapse">
+                        <div id="steps" class="row mx-0 collapse show">
                             <!-- step 1 -->
                             <div
                                 class="col-12 col-md-6 col-lg-4 p-1 d-flex flex-column justify-content-center align-items-center little-filter-effect ">

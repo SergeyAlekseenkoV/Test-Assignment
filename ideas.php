@@ -30,16 +30,18 @@
                         <!-- tabs -->
                         <div class="col-12 mx-0 px-1 mt-2">
                             <!-- tabs navigation -->
-                            <ul class="nav nav-tabs" id="ideasTab" role="tablist">
-                                <li class="nav-item w-50 bg-info rounded" role="presentation">
-                                    <a class="nav-link active d-flex align-items-center justify-content-between my-0 py-1 py-md-0 px-1 px-md-2 text_color" id="passed-tab" data-toggle="tab"
+                            <ul class="nav nav-pills nav-fill nav-justified" id="ideasTab" role="tablist">
+                                <li class="nav-item rounded" role="presentation">
+                                    <a class="nav-link active my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" 
+                                        id="passed-tab" data-toggle="pill"
                                         href="#passed" role="tab" aria-controls="passed" aria-selected="true">Подані<br class="d-sm-none">
-                                        пропозиції &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</a>
+                                        пропозиції &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</span></a>
                                 </li>
-                                <li class="nav-item w-50 bg-info rounded" role="presentation">
-                                    <a class="nav-link d-flex align-items-center justify-content-between my-0 py-1 py-md-0 px-1 px-md-2 text_color" id="approved-tab" data-toggle="tab" href="#approved"
+                                <li class="nav-item rounded" role="presentation">
+                                    <a class="nav-link my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" 
+                                        id="approved-tab" data-toggle="pill" href="#approved"
                                         role="tab" aria-controls="approved" aria-selected="false">Пропозиції <br class="d-sm-none">
-                                        тиражування &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</a>
+                                        тиражування &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</span></a>
                                 </li>
                             </ul>
                             <!-- end tabs navigations -->
