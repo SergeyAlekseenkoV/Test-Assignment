@@ -231,9 +231,9 @@
                                                 <!-- end modal -->
                                             </div>
                                             <div class="col-4 col-md-3 px-0">
-                                                <a href="#"
+                                                <a href="HR_movement_lst.php" 
                                                     class="btn btn-lg btn-info w-100 p-0 px-md-3 py-3 border-primary text_color" 
-                                                    data-toggle="modal" data-target="#staticMay21">Травень</a>
+                                                    >Травень</a>
                                                 <!-- Modal -->
                                                 <div class="modal fade" id="staticMay21" data-backdrop="static"
                                                     data-keyboard="false" tabindex="-1"

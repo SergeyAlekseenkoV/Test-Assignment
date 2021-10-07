@@ -12,7 +12,7 @@ $primary-light-through: rgba(192, 192, 192, 0.8);
 $primary-lighter: #d8d8d8;
 $primary-lightest: #f0f0f0;
 $primary-lightest-through: rgba(240, 240, 240, 0.379);
-$dark-overlay: rgba(0, 0, 0, 0.4);
+$dark-overlay: rgba(0, 0, 0, 0.17);
 $light-through: rgba(255, 255, 255, 0.84);
 $nav-link-focus: #4890d8;
 $shadow: #e0e0e0 1px 1px 0;
@@ -226,8 +226,10 @@ input::placeholder:active {
     background-color: $primary-common-light !important;
 }
 
-.btn-info:hover {
+.btn-info:hover,
+.btn-info:focus {
     background-color: $primary-common !important;
+    box-shadow: none !important;
 }
 
 .btn-outline-secondary {
@@ -256,6 +258,7 @@ input::placeholder:active {
 }
 
 /* remove outlines from buttons and select */
+
 .btn:focus {
     box-shadow: none !important;
     outline: none !important;
@@ -326,6 +329,24 @@ select {
     background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
 }
 
+.bg_scheduel {
+    background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.7)),
+        url("../img/schedule.jpg") center/cover no-repeat;
+    min-height: 50vh;
+}
+
+.bg_bus {
+    background: linear-gradient($primary-common-light-through),
+       url('../img/bus_bg.jpg') top/cover no-repeat !important; 
+}
+
+@media screen and (max-width: 767px) {
+    .bg_bus {
+        background: linear-gradient($primary-common-light-through),
+           url('../img/bus_bg.jpg') top/contain repeat-y !important; 
+    }
+}
+
 .bg_5s {
     background: url("../img/bg_5s.png") center/contain no-repeat;
     min-height: 100%;
@@ -350,6 +371,27 @@ select {
     }
 }
 
+.study_bg {
+    background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
+        url("../img/docs_bg.jpg") center/cover repeat-y;
+}
+
+@media screen and (max-width: 767px) {
+    .study_bg {
+        background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
+            url("../img/docs_bg.jpg") center/contain repeat-y;
+    }
+}
+
+.bg_library {
+    background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
+        url("../img/library.jpg") center/cover no-repeat;
+}
+
+.bg_HR {
+    background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
+        url("../img/bg_HR.jpg") center/cover no-repeat;
+}
 /* remove check on the dropdown link */
 li {
     > a.dropdown-toggle {
@@ -384,12 +426,12 @@ small.form-text {
 }
 
 .height-em {
-    height: 30em;
+    height: 35em;
 }
 
 @media screen and (max-width: 991px) {
     .height-em {
-        height: 20em;
+        height: 25em;
     }
 }
 
@@ -1168,23 +1210,23 @@ button.fancybox-button[title="Next"] {
     .ads_page_descr {
         min-height: 105vh;
     }
-
+    /* ======== announcements ======== */
     #announcement-description {
         .card > .row > div > .card-block {
             > img {
                 width: 50%;
             }
-
-            > p {
-                text-align: justify;
-
-                &::first-letter {
-                    font-size: 200%;
-                    float: left;
-                    color: $primary-dark !important;
-                    margin-top: -5px;
-                    margin-right: 0.3em;
-                }
+            
+            p[data-block-key] {
+                text-indent: 1em;
+            }
+    
+            p:first-of-type::first-letter {
+                font-size: 200%;
+                float: left;
+                color: $primary-dark !important;
+                margin-right: 0.3em;
+                margin-top: -5px;
             }
         }
 
@@ -1248,6 +1290,7 @@ button.fancybox-button[title="Next"] {
             cursor: pointer;
             z-index: 1;
             opacity: 0.8;
+            border: $primary-dark 1px solid;
 
             &:hover {
                 opacity: 1;
@@ -1278,7 +1321,7 @@ button.fancybox-button[title="Next"] {
         }
 
         .card-body {
-            box-shadow: inset 0px -11px 8px -10px $primary-dark; 
+            box-shadow: inset 0 -14px 20px -12px $primary-dark; 
         }
         /* label for the img card */
         .span_accent {
@@ -1302,7 +1345,7 @@ button.fancybox-button[title="Next"] {
     }
 
     #news-description {
-        p {
+        p[data-block-key] {
             text-indent: 1em;
         }
 
@@ -1624,6 +1667,10 @@ button.fancybox-button[title="Next"] {
                 opacity: 0.5;
             }
         }
+
+        ol strong.item-set {
+            font-size: 1.3em;
+        }
     }
 
     #HR-movement > #carouselSelection {
@@ -1631,10 +1678,6 @@ button.fancybox-button[title="Next"] {
 
         .carousel-inner .carousel-item a.btn-info {
             border-radius: unset !important;
-
-            &:hover {
-                cursor: crosshair !important;
-            }
         }
 
         .carousel-control-prev,
@@ -1686,8 +1729,8 @@ button.fancybox-button[title="Next"] {
         min-height: 100vh;
     }
 
-    #HR-documents-list > div > a {
-        border: $primary-dark 1px dashed !important;
+    #HR-documents-list .bg_HR .col-12 a {
+        border: $primary-dark 1px solid !important;
 
         > span {
             position: relative;
@@ -1815,11 +1858,6 @@ button.fancybox-button[title="Next"] {
         }
     }
 
-    .study_bg {
-        background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
-            url("../img/study-bg.jpeg") center/cover no-repeat;
-    }
-
     .study-blockquote > p {
         width: fit-content;
         &::before {
@@ -1935,7 +1973,7 @@ button.fancybox-button[title="Next"] {
     }
 
     .bg_subscription {
-        background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.9)),
+        background: linear-gradient(to right, $primary-lightest-through, $primary-light-through),
             url("../img/faq.png") center/contain no-repeat;
 
         p.lead::first-letter {
@@ -1943,7 +1981,7 @@ button.fancybox-button[title="Next"] {
             float: left;
             font-weight: bold;
             color: $primary-dark !important;
-            margin-top: 0;
+            margin-top: -3px;
             margin-right: 0.3em;
         }
 
@@ -1961,14 +1999,6 @@ button.fancybox-button[title="Next"] {
         }
     }
 
-    .scheduel {
-        .bg_scheduel {
-            background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.7)),
-                url("../img/schedule.jpg") center/cover no-repeat;
-            min-height: 50vh;
-        }
-    }
-
     .enterprise-5s > .row > :nth-of-type(2) {
         height: 25em;
     }
@@ -1982,6 +2012,25 @@ button.fancybox-button[title="Next"] {
     @media screen and(max-width: 767px) and (orientation: portrait) {
         .enterprise-5s > .row > :nth-of-type(2) {
             height: 15em;
+        }
+    }
+
+    .route_bus.accordion .card-header,
+    .route_bus.accordion .card,
+    .scheduel_bus.accordion .card-header,
+    .scheduel_bus.accordion .card{
+        border: 0 !important;
+        background-color: transparent !important;
+
+        .table-light {
+            background-color: $primary-common-light-through !important;
+        }
+
+        .table-hover tbody tr:hover,
+        .table-hover tbody tr:focus {
+            color: $primary-color !important;
+            text-shadow: $shadow,$shadow,$shadow;
+            background-color: $dark-overlay !important;
         }
     }
 
@@ -2420,11 +2469,6 @@ media queries for different screen resolutions
             background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
                 url("../img/default-ads-bg.jpg") center/contain repeat-y;
         }
-    }
-
-    .bg_subscription {
-        background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.9)),
-            url("../img/faq.png") 50% 74% / contain repeat-y;
     }
 }
 

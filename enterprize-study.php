@@ -34,17 +34,17 @@
                             </div>
                             <!-- description -->
                             <div class="w-100 text-left p-2">
-                                <p class="mb-0 blur">
+                                <p class="mb-0">
                                     Формування груп на початок навчання у <b>лютому 2021 р.</b>:
                                 </p>
                                 <ul>
-                                    <li class="font-italic blur">гірник очисного забою</li>
+                                    <li class="font-italic">гірник очисного забою</li>
                                 </ul>
-                                <p class="mb-0 blur">
+                                <p class="mb-0">
                                     Формування груп на початок навчання у <b>березні 2021 р.</b>:
                                  </p>
                                 <ul>
-                                    <li class="font-italic blur">покрівельник рулонних покрівель та покрівель із штучних матеріалів</li>
+                                    <li class="font-italic">покрівельник рулонних покрівель та покрівель із штучних матеріалів</li>
                                 </ul>
                             </div>
                             <div class="col-12 d-flex flex-column justify-content-end mt-lg-5">

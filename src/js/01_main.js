@@ -241,9 +241,9 @@ $(() => {
 // wow js animation
 // ================================================
 //also at the window load event
-$(window).on('load', function(){
+// $(window).on('load', function(){
      new WOW().init(); 
-});
+// });
 
 // ================================================
 

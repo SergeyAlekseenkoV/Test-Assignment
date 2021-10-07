@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
                     <ul class="navbar-nav nav-pills ml-0 ml-md-auto my-0">
                         <li class="d-flex justify-content-center nav-item mt-1 position-relative">
-                            <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2" id="navbarDropdownMenuLink"
+                            <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 shadow-dark" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Персонал</a>
                             <ul
@@ -80,15 +80,12 @@
                             </ul>
                         </li>
                         <li class="nav-item mt-1 d-flex justify-content-center position-relative">
-                            <a class="text-uppercase nav-link dropdown-toggle py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-white"
+                            <a class="text-uppercase nav-link dropdown-toggle py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 text-white shadow-dark"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Виробництво</a>
                             <ul
                                 class="dropdown-menu position-absolute dropdown-content p-0 border border-white bg-primary row text-center text-md-left text-lg-left width_dropdown_smallscreen">
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Плани
-                                    виробництва</a></li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Виробничі
-                                    показники</a></li>
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Плани виробництва та Виробничі показники</a></li>
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Підсумки роботи
                                     бригад</a></li>
                             </ul>
@@ -104,14 +101,14 @@
                             </ul>
                         </li>
                         <li class="d-flex justify-content-center nav-item mt-1 position-relative">
-                            <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2"
+                            <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 px-md-1 px-lg-1 px-xl-2 shadow-dark"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Інфо</a>
                             <ul
                                 class="dropdown-menu position-absolute dropdown-menu-md-right dropdown-content p-0 border border-white bg-primary row text-center text-md-right text-lg-right width_dropdown_smallscreen">
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Розклад руху
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="scheduel-bus.php">Розклад руху
                                     автобусів</a></li>
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Маршрут руху
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="routes-bus.php">Маршрут руху
                                     автобусів</a></li>
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="schedule.php">Графік роботи
                                     каси</a></li>
@@ -120,7 +117,7 @@
                             </ul>
                         </li>
                         <li class="d-flex justify-content-center nav-item mt-1 position-relative">
-                            <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1 pl-xl-2 pr-xl-2"
+                            <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1 pl-xl-2 pr-xl-2 shadow-dark"
                                 data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">Гаряча лінія</a>
                             <ul
