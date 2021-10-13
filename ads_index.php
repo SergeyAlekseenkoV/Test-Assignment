@@ -31,9 +31,9 @@
                             <!-- end filter -->
                         </div>
                         <!-- card-item -->
-                        <div class="card m-1 shadow">
+                        <div class="card m-1 shadow height-210">
                             <div class="row">
-                                <div class="col-md-4 pr-md-1 pt-md-2 pt-lg-0 height-210">
+                                <div class="col-md-4 pr-md-1 pt-md-2 pt-lg-0">
                                     <img src="../build/img/carosel1.jpg" alt="фото" class="img-fluid w-100 obj-fit height-100p position-relative ml-md-2 ml-lg-0">
                                 </div>
                                 <div class="col-md-8 px-2">

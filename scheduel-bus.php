@@ -27,14 +27,12 @@
                         <!-- collapsed sections -->
                         <div class="col-12 px-0 text-center border border-info">
                             <div class="scheduel_bus accordion bg_bus" id="scheduelBus">
+                                <!-- ================ scheduel-4 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
-                                        <h2 class="mb-0">
-                                            <!-- ================ scheduel-4 ================ -->
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light mx-auto bg_light_through border border-primary my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-4" role="button" aria-expanded="true" aria-controls="scheduel-4">
-                                                Графік руху автобуса за маршрутом №<strong> 4</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light mx-auto bg_light_through border border-primary my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-4" role="button" aria-expanded="true" aria-controls="scheduel-4">
+                                            Графік руху автобуса за маршрутом №<strong> 4</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-4" aria-labelledby="headingOne" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -249,14 +247,12 @@
                                         </table>
                                     </div>
                                 </div>
+                                <!-- ================ scheduel-5 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingTwo">
-                                        <h2 class="mb-0">
-                                            <!-- ================ scheduel-5 ================ -->
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-5" role="button" aria-expanded="false" aria-controls="scheduel-5">
-                                                Графік руху автобуса за маршрутом №<strong> 5</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-5" role="button" aria-expanded="false" aria-controls="scheduel-5">
+                                            Графік руху автобуса за маршрутом №<strong> 5</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-5" aria-labelledby="headingTwo" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -460,11 +456,9 @@
                                 <!-- ================ scheduel-11 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingThree">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-11" role="button" aria-expanded="false" aria-controls="scheduel-11">
-                                                Графік руху автобуса за маршрутом №<strong> 11</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-11" role="button" aria-expanded="false" aria-controls="scheduel-11">
+                                            Графік руху автобуса за маршрутом №<strong> 11</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-11" aria-labelledby="headingThree" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -619,11 +613,9 @@
                                 <!-- ================ scheduel-14 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingFour">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-14" role="button" aria-expanded="false" aria-controls="scheduel-14">
-                                                Графік руху автобуса за маршрутом №<strong> 14</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-14" role="button" aria-expanded="false" aria-controls="scheduel-14">
+                                            Графік руху автобуса за маршрутом №<strong> 14</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-14" aria-labelledby="headingFour" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -813,11 +805,9 @@
                                 <!-- ================ scheduel-15 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingFive">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-15" role="button" aria-expanded="false" aria-controls="scheduel-15">
-                                                Графік руху автобуса за маршрутом №<strong> 15</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-15" role="button" aria-expanded="false" aria-controls="scheduel-15">
+                                            Графік руху автобуса за маршрутом №<strong> 15</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-15" aria-labelledby="headingFive" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -1007,11 +997,9 @@
                                 <!-- ================ scheduel-16 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingSix">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-16" role="button" aria-expanded="false" aria-controls="scheduel-16">
-                                                Графік руху автобуса за маршрутом №<strong> 16</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-16" role="button" aria-expanded="false" aria-controls="scheduel-16">
+                                            Графік руху автобуса за маршрутом №<strong> 16</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-16" aria-labelledby="headingSix" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -1120,11 +1108,9 @@
                                 <!-- ================ scheduel-17 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingSeven">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-17" role="button" aria-expanded="false" aria-controls="scheduel-17">
-                                                Графік руху автобуса за маршрутом №<strong> 17</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-17" role="button" aria-expanded="false" aria-controls="scheduel-17">
+                                            Графік руху автобуса за маршрутом №<strong> 17</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-17" aria-labelledby="headingSeven" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -1307,11 +1293,9 @@
                                 <!-- ================ scheduel-19 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingEight">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-19" role="button" aria-expanded="false" aria-controls="scheduel-19">
-                                                Графік руху автобуса за маршрутом №<strong> 19</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-19" role="button" aria-expanded="false" aria-controls="scheduel-19">
+                                            Графік руху автобуса за маршрутом №<strong> 19</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-19" aria-labelledby="headingEight" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -1571,11 +1555,9 @@
                                 <!-- ================ scheduel-29 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingNine">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-29" role="button" aria-expanded="false" aria-controls="scheduel-29">
-                                                Графік руху автобуса за маршрутом №<strong> 29</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-29" role="button" aria-expanded="false" aria-controls="scheduel-29">
+                                            Графік руху автобуса за маршрутом №<strong> 29</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-29" aria-labelledby="headingNine" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -1807,11 +1789,9 @@
                                 <!-- ================ scheduel-32 ================ -->
                                 <div class="card">
                                     <div class="card-header" id="headingTen">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link btn-block btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-32" role="button" aria-expanded="false" aria-controls="scheduel-32">
-                                                Графік руху автобуса за маршрутом №<strong> 32</strong>&nbsp;
-                                                <i class="fas fa-chevron-right ml-2"></i></button>
-                                        </h2>
+                                        <button class="btn btn-link btn-collapse d-flex justify-content-center align-items-center shadow-light bg_light_through border border-primary mx-auto my-2 text-uppercase text_color little-filter-effect" data-toggle="collapse" data-target="#scheduel-32" role="button" aria-expanded="false" aria-controls="scheduel-32">
+                                            Графік руху автобуса за маршрутом №<strong> 32</strong>&nbsp;
+                                            <i class="fas fa-chevron-right ml-2"></i></button>
                                     </div>
                                     <div id="scheduel-32" aria-labelledby="headingTen" data-parent="#scheduelBus" class="table table-responsive collapse table-striped table-bordered table-hover mb-0 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -1998,6 +1978,7 @@
                                         </table>
                                     </div>
                                 </div>
+                                <!-- end cards -->
                             </div>
                         </div>
                     </div>

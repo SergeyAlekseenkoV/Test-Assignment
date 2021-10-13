@@ -29,25 +29,24 @@
                         <div class="row w-100 mx-1 p-1 mb-0 bg_HR border border-muted">
                             <p class="col-12 p-1 lead text-left mx-2 my-3">* Оберіть файл який ви бажаете завантажити</p>
                             <!-- documents-list -->
-                            <div class="col-12 col-md-6 p-1 mx-auto">
-                                <a href="settingFile.php" class="btn shadow py-5 w-100 text-uppercase text_color little-filter-effect bg_light_through border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                            <div class="col-12 col-md-6 p-1">
+                                <a href="settingFile.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                     на прийняття&nbsp;<i class="fas fa-file-pdf"></i></a>
                             </div>
-                            <div class="col-12 col-md-6 p-1 mx-auto">
-                                <a href="transfer.php" class="btn shadow py-5 w-100 text-uppercase text_color little-filter-effect bg_light_through border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                            <div class="col-12 col-md-6 p-1">
+                                <a href="transfer.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                     на переведення&nbsp;<i class="fas fa-file-pdf"></i></a>
                             </div>
-
-                            <div class="col-12 col-md-6 p-1 mx-auto">
-                                <a href="firing.php" class="btn shadow py-5 w-100 text-uppercase text_color little-filter-effect bg_light_through border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                            <div class="col-12 col-md-6 p-1">
+                                <a href="firing.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                     на звільнення&nbsp;<i class="fas fa-file-pdf"></i></a>
                             </div>
-                            <div class="col-12 col-md-6 p-1 mx-auto">
-                                <a href="replacement.php" class="btn shadow py-5 w-100 text-uppercase text_color little-filter-effect bg_light_through border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
+                            <div class="col-12 col-md-6 p-1">
+                                <a href="replacement.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
                                     на заміщення&nbsp;<i class="fas fa-file-pdf"></i></a>
                             </div>
-                            <div class="col-12 col-md-6 p-1 mx-auto">
-                                <a href="asked-firing.php" class="btn shadow py-5 w-100 text-uppercase text_color little-filter-effect bg_light_through border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
+                            <div class="col-12 col-md-6 p-1">
+                                <a href="asked-firing.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
                                     на звільнення&nbsp;<i class="fas fa-file-pdf"></i></a>
                             </div>
                             <!-- end list -->

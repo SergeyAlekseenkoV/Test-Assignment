@@ -85,19 +85,19 @@
                                                 <div class="row mx-0">
                                                     <!-- documents-list -->
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative">
-                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">Напрямок1</a>
+                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light">Охорона праці</a>
                                                     </div>
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative">
-                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">Напрямок2</a>
+                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light">Напрямок2</a>
                                                     </div>
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative">
-                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">Напрямок3</a>
+                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light">Напрямок3</a>
                                                     </div>
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative">
-                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">Напрямок4</a>
+                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light">Напрямок4</a>
                                                     </div>
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative invisible">
-                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">Напрямок</a>
+                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light">Напрямок</a>
                                                     </div>
                                                     <!-- end list -->
                                                 </div>

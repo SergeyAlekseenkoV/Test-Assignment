@@ -2,6 +2,7 @@
 <title>Методичні та наочні матеріали</title>
 </head>
 <!-- content -->
+
 <body id="main">
     <?php include_once "menu.php"; ?>
     <!-- main-section-->
@@ -12,8 +13,7 @@
                 <h3 class="d-none d-md-block align-self-baseline d-lg-none pt-sm-2 pt-lg-3 text-left mb-2 text-uppercase text_color">
                     Акціонерне Товариство "Марганецький гірничо-збагачувальний
                     комбінат"</h3>
-                <a href="index.php"
-                    class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-5 mb-3 p-1 text-uppercase border border-primary rounded shadow text_color">
+                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-5 mb-3 p-1 text-uppercase border border-primary rounded shadow text_color">
                     Вихід<i class="fas fa-sign-out-alt ml-2"></i>
                 </a>
             </div>
@@ -23,42 +23,38 @@
                     <div class="row mx-0 pb-1 mb-5 border border-primary rounded bg_muted">
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
-                            <h2
-                                class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 m-1 text-white bg_headers">
+                            <h2 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 m-1 text-white bg_headers">
                                 Перелік матеріалів
                             </h2>
-                            <p class="lead text-left mx-3 my-2">* Оберіть файл який ви бажаете завантажити</p>
                         </div>
-                        <!-- documents-list -->
-                        <div class="col-12 col-md-6 p-1 mx-auto">
-                            <a href="order-8.php"
-                                class="btn btn-light shadow py-4 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Додаток 2.Iнструкція СОП&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
+                        <div class="col-12 mx-0 px-1">
+                            <div class="row mx-0 border border-muted bg_HR">
+                                <p class="lead text-left mx-3 my-2">* Оберіть файл який ви бажаете завантажити</p>
+                                <!-- documents-list -->
+                                <div class="col-12 col-md-6 p-1">
+                                    <a href="order-8.php" class="btn bg_info_through shadow py-4 w-100 text-uppercase border-info text_color min-height little-filter-effect">Додаток 2.Iнструкція СОП&nbsp;<i class="fas fa-file-pdf"></i></a>
+                                </div>
+                                <div class="col-12 col-md-6 p-1">
+                                    <a href="order-124.php" class="btn bg_info_through shadow py-4 w-100 text-uppercase border-info text_color min-height little-filter-effect">Додаток 3.СОП 5С виробництво&nbsp;<i class="fas fa-file-pdf"></i></a>
+                                </div>
+                                <div class="col-12 col-md-6 p-1">
+                                    <a href="order-220.php" class="btn bg_info_through shadow py-4 w-100 text-uppercase border-info text_color min-height little-filter-effect">Додаток 4.СОП 5С офіс&nbsp;<i class="fas fa-file-pdf"></i></a>
+                                </div>
+                                <div class="col-12 col-md-6 p-1">
+                                    <a href="list-1.php" class="btn bg_info_through shadow py-4 w-100 text-uppercase border-info text_color min-height little-filter-effect">Додаток 5.СОП Розмітка поверхонь &nbsp;<i class="fas fa-file-pdf"></i></a>
+                                </div>
+                                <div class="col-12 col-md-6 p-1">
+                                    <a href="list-2.php" class="btn bg_info_through shadow py-4 w-100 text-uppercase border-info text_color min-height little-filter-effect">МЕТОДИ організації та зберігання документів&nbsp;<i class="fas fa-file-pdf"></i></a>
+                                </div>
+                                <div class="col-12 col-md-6 p-1">
+                                    <a href="order-220.php" class="btn bg_info_through shadow py-4 w-100 text-uppercase border-info text_color min-height little-filter-effect">СТАНДАРТ ОФОРМЛЕННЯ СПРАВ&nbsp;<i class="fas fa-file-pdf"></i></a>
+                                </div>
+                                <div class="col-12 col-md-6 p-1">
+                                    <a href="list-1.php" class="btn bg_info_through shadow py-4 w-100 text-uppercase border-info text_color min-height little-filter-effect">Памятка СБВ &nbsp;<i class="fas fa-file-pdf"></i></a>
+                                </div>
+                                <!-- end list -->
+                            </div>
                         </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
-                            <a href="order-124.php"
-                                class="btn btn-light shadow py-4 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Додаток 3.СОП 5С виробництво&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
-                        </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
-                            <a href="order-220.php"
-                                class="btn btn-light shadow py-4 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Додаток 4.СОП 5С офіс&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
-                        </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
-                            <a href="list-1.php"
-                                class="btn btn-light shadow py-4 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Додаток 5.СОП Розмітка поверхонь &nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
-                        </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
-                            <a href="list-2.php"
-                                class="btn btn-light shadow py-4 w-100 text-uppercase border border-info text_color min-height little-filter-effect">МЕТОДИ організації та зберігання документів&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
-                        </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
-                            <a href="order-220.php"
-                                class="btn btn-light shadow py-4 w-100 text-uppercase border border-info text_color min-height little-filter-effect">СТАНДАРТ  ОФОРМЛЕННЯ СПРАВ&nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
-                        </div>
-                        <div class="col-12 col-md-6 p-1 mx-auto">
-                            <a href="list-1.php"
-                                class="btn btn-light shadow py-4 w-100 text-uppercase border border-info text_color min-height little-filter-effect">Памятка СБВ &nbsp;<i class="fas fa-file-pdf fa-2x"></i></a>
-                        </div>
-                        <!-- end list -->
                     </div>
                 </aside>
             </div>
