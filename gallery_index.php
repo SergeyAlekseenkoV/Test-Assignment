@@ -65,6 +65,42 @@
                                     <img src="../build/img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
                                 </a>
                             </div>
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
+                                    <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery</span>
+                                    <img src="../build/img/sanatorium/sanatorium3.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
+                                    <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery with long title</span>
+                                    <img src="../build/img/sanatorium/sanatorium4.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
+                                    <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery</span>
+                                    <img src="../build/img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
+                                    <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery with long title</span>
+                                    <img src="../build/img/sanatorium/sanatorium5.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
+                                    <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery</span>
+                                    <img src="../build/img/sanatorium/sanatorium3.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
+                                <a href="#" class="d-block filter-effect height-100p">
+                                    <span class="position-absolute w-100 font-weight-bold text-uppercase">gallery</span>
+                                    <img src="../build/img/sanatorium/sanatorium3.jpg" alt="фото" class="img-fluid obj-fit-center height-100p w-100">
+                                </a>
+                            </div>
                             <!-- end list -->
                         </div>
                     </div>

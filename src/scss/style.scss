@@ -130,7 +130,7 @@ p.first-letter::first-letter {
 }
 
 .shadow-light {
-    text-shadow: $shadow,$shadow-dark;
+    text-shadow: $shadow, $shadow-dark;
 }
 
 .shadow-dark {
@@ -140,6 +140,21 @@ p.first-letter::first-letter {
 .shadows {
     text-shadow: 0.025em 0.025em 0 white, 0.05em 0.05em 0 $primary-color, 0.075em 0.075em 0 $primary-dark,
         0.075em 0.075em 0 $primary-common;
+}
+
+/* for editable table cells */
+
+td[contenteditable="true"]:hover {
+    background-color: $primary-common !important;
+
+}
+
+td[contenteditable="true"]:focus {
+    outline: 0 !important;
+}
+
+td[contenteditable="true"]:focus-visible {
+    box-shadow: 0 0 0 0.2rem rgba(2, 55, 112, 0.5) !important;
 }
 
 /* styling scrollbars*/
@@ -167,6 +182,13 @@ p.first-letter::first-letter {
     border-radius: 5px;
 }
 /* end scrollbar */
+/* get rid of arrows from input */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 input[type="text"],
 input[type="email"],
@@ -209,6 +231,23 @@ textarea {
 input::placeholder:focus,
 input::placeholder:active {
     color: $primary-color !important;
+}
+
+/* form controls for dynamicaly created input for file uploading */
+
+input[type='file'].form-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: auto !important;
+    width: 80% !important;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $primary-color !important;
+    border: 1px solid $primary-color !important;
 }
 
 .border-primary {
@@ -1240,12 +1279,15 @@ button.fancybox-button[title="Next"] {
                 text-align: justify;
             }
 
-            p:first-of-type::first-letter {
-                font-size: 200%;
-                float: left;
-                color: $primary-dark !important;
-                margin-right: 0.3em;
-                margin-top: -5px;
+            p:first-of-type {
+                text-indent: 0;
+                &::first-letter {
+                    font-size: 200%;
+                    float: left;
+                    color: $primary-dark !important;
+                    margin-right: 0.3em;
+                    margin-top: -5px;
+                }
             }
         }
 
@@ -1938,24 +1980,12 @@ button.fancybox-button[title="Next"] {
             background-color: $primary-common-through;
             background-clip: content-box;
             color: $primary-color;
-
-            a:hover,
-            a:focus {
-                border-top-color: $white-color;
-                border-bottom-color: $white-color;
-            }
         }
 
         > :nth-of-type(odd) {
             background-color: $primary-common-light-through;
             background-clip: content-box;
             color: $primary-color;
-
-            a:hover,
-            a:focus {
-                border-top-color: $primary-common;
-                border-bottom-color: $primary-common;
-            }
         }
 
         .img-fluid {
@@ -2675,25 +2705,13 @@ media queries for different screen resolutions
             .col-12.col-md-6.col-lg-4::after {
                 font-size: 1.2em;
             }
+            /*/ ========= max ammount of blocks per page - 9 ========/*/
+            > :nth-of-type(n) {
+                background-color: $primary-common-light;
+            }
 
             > :nth-of-type(3n) {
                 background-color: $primary-common;
-
-                a:hover,
-                a:focus {
-                    border-top-color: $white-color;
-                    border-bottom-color: $white-color;
-                }
-            }
-
-            > :nth-of-type(3n + 1) {
-                background-color: $primary-common-light;
-
-                a:hover,
-                a:focus {
-                    border-top-color: $primary-common;
-                    border-bottom-color: $primary-common;
-                }
             }
         }
 
