@@ -32,71 +32,71 @@
                                         Курс медична допомога</h3>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-skull-crossbones"></i></span><span class="small">Гострі отруєння</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-male"></i></span><span class="small">Основи анатомії та фізіології людини</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-1"><i class="fas fa-hand-holding-medical"></i></span><span class="small">Основні правила надання домедичної допомоги при ранах</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-1"><i class="fas fa-first-aid"></i></span><span class="small">Основні правила надання домедичної допомоги</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-1"><i class="fas fa-briefcase-medical"></i></span><span class="small">Домедична допомога постраждалим без свідомості</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-hand-holding-medical"></i></span><span class="small">Домедична допомога постраждалим при падінні з висоти</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-sun"></i></span><span class="small">Домедична допомога постраждалим при перегріванні</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-user-injured"></i></span><span class="small">Домедична допомога при підозрі на пошкодження живота</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-3"><i class="fas fa-user-injured"></i></span><span class="small">Домедична допомога при підозрі на пошкодження хребта</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-user-injured"></i></span><span class="small">Домедична допомога постраждалим при підозрі на травму голови</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-user-injured"></i></span><span class="small">Домедична допомога при підозрі на травму грудної клітини</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-heart-broken"></i></span><span class="small">Домедична допомога постраждалим при серцевому нападі</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-user-injured"></i></span><span class="small">Домедична допомога постраждалим при травматичній ампутації</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="study-groups-making.php" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="study-groups-making.php" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="far fa-eye"></i></span><span class="small">Домедична допомога постраждалим при травмах та пошкодженнях очей</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-spider"></i></span><span class="small">Домедична допомога постраждалим від укусів тварин та комах</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-bolt"></i></span><span class="small">Домедична допомога при ураженні електричним струмом та блискавкою</span></a>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-1 mx-0">
-                                    <a href="#" class="btn bg-light opacity min-height shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">
+                                    <a href="#" class="btn bg_light_through min-height shadow_inset_info py-3 w-100 text-uppercase text_color little-filter-effect">
                                         <span class="mr-2"><i class="fas fa-heartbeat"></i></span><span class="small">Серцево-легенева реанімація. Штучне дихання та непрямий масаж серця</span></a>
                                 </div>
                             </div>

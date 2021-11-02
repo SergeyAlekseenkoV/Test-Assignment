@@ -75,7 +75,7 @@
                             <h4 class="col-12 p-1 my-2 text-center">
                                 Зайва обробка - видозміна виробу, надання йому властивостей і якостей, що не дoдають цінності, зайві операції в виробничому процесі</h4>
                             <div class="col-12 p-1 text-indent">
-                                <img src="../build/img/media-office/losses/loss1.jpg" alt="малюнок" class="img-fluid w-25 obj-fit image_floatleft">
+                                <img src="../build/img/media-office/losses/loss1.jpg" alt="малюнок" class="img-fluid w-25 obj-fit float_left mr-1">
                                 <div>
                                     <p class="lead mb-0 font-weight-bold">Причини винекнення:</p>
                                     <ul class="list-unstyled">
@@ -102,7 +102,7 @@
                             <div class="col-12 p-1 text-indent">
                                 <h4 class="col-12 p-1 my-2 text-center">
                                     Надвиробництво</h4>
-                                <img src="../build/img/media-office/losses/loss2.jpg" alt="малюнок" class="img-fluid w-25 obj-fit image_floatleft">
+                                <img src="../build/img/media-office/losses/loss2.jpg" alt="малюнок" class="img-fluid w-25 obj-fit float_left mr-1">
                                 <div>
                                     <p class="lead mb-0 font-weight-bold">Причини винекнення:</p>
                                     <ul class="list-unstyled">
@@ -127,7 +127,7 @@
                             <div class="col-12 p-1 text-indent">
                                 <h4 class="col-12 p-1 my-2 text-center">
                                     Транспортування</h4>
-                                <img src="../build/img/media-office/losses/loss3.jpg" alt="малюнок" class="img-fluid w-25 obj-fit image_floatleft">
+                                <img src="../build/img/media-office/losses/loss3.jpg" alt="малюнок" class="img-fluid w-25 obj-fit float_left mr-1">
                                 <div>
                                     <p class="mb-0">Безумовно, транспортування це невід'ємна частина 
                                         виробничого процесу. 
@@ -141,7 +141,7 @@
                             <div class="col-12 p-1 text-indent">
                                 <h4 class="col-12 p-1 my-2 text-center">
                                    Непотрібні пересування</h4>
-                                <img src="../build/img/media-office/losses/loss4.jpg" alt="малюнок" class="img-fluid w-25 obj-fit image_floatleft">
+                                <img src="../build/img/media-office/losses/loss4.jpg" alt="малюнок" class="img-fluid w-25 obj-fit float_left mr-1">
                                 <div>
                                     <p class="mb-0">Непотрібні пересування - 
                                         це переміщення матеріалів, деталей і готових виробів, 
@@ -160,7 +160,7 @@
                             <div class="col-12 p-1 text-indent">
                                 <h4 class="col-12 p-1 my-2 text-center">
                                     Дефекти</h4>
-                                <img src="../build/img/media-office/losses/loss5.jpg" alt="малюнок" class="img-fluid w-25 obj-fit image_floatleft">
+                                <img src="../build/img/media-office/losses/loss5.jpg" alt="малюнок" class="img-fluid w-25 obj-fit float_left mr-1">
                                 <div>
                                     <p class="mb-0">Втрати, що виникають із-за виробництва продукту або послуг з дефектами, виправлення дефектів.</p>
                                         <br>
@@ -174,7 +174,7 @@
                             <div class="col-12 p-1 text-indent">
                                 <h4 class="col-12 p-1 my-2 text-center">
                                     Надлишкові запаси</h4>
-                                <img src="../build/img/media-office/losses/loss6.jpg" alt="малюнок" class="img-fluid w-25 obj-fit image_floatleft">
+                                <img src="../build/img/media-office/losses/loss6.jpg" alt="малюнок" class="img-fluid w-25 obj-fit float_left mr-1">
                                 <div>
                                     <p class="mb-0">Зберігання ресурсів, які не потрібні (зайві), що не створюють цінності і займають місце і час </p>
                                         <br>
@@ -187,7 +187,7 @@
                                 <h4 class="col-12 p-1 my-2 text-center">
                                     Простої або очікування - це час, який обладнання або персонал проводить в 
                                     бездіяльності, тобто не створюючи цінність.</h4>
-                                <img src="../build/img/media-office/losses/loss7.jpg" alt="малюнок" class="img-fluid w-25 obj-fit image_floatleft">
+                                <img src="../build/img/media-office/losses/loss7.jpg" alt="малюнок" class="img-fluid w-25 obj-fit float_left mr-1">
                                 <div>
                                     <p class="mb-0">До очікування відноситься: спостереження за роботою автоматичного устаткування, простої 
                                         в очікуванні чергової робочої операції, деталей, інструменту, поломки устаткування.</p>
@@ -201,7 +201,7 @@
                             <div class="col-12 p-1 text-indent">
                                 <h4 class="col-12 p-1 my-2 text-center">
                                     Невикористаний або нереалізований потенціал - це не увага до  особистих якостей, знань, умінь і навичок співробітника. </h4>
-                                <img src="../build/img/media-office/losses/loss8.jpg" alt="малюнок" class="img-fluid w-25 obj-fit image_floatleft">
+                                <img src="../build/img/media-office/losses/loss8.jpg" alt="малюнок" class="img-fluid w-25 obj-fit float_left mr-1">
                                 <div>
                                     <p class="mb-0">Залишити ідеї співробітників без уваги або не дати їм можливості висловити свої 
                                         пропозиції означає втратити найцінніше - потенціал співробітника.</p>

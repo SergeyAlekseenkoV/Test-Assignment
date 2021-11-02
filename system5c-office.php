@@ -30,18 +30,18 @@
                         </div>
                         <div class="col-12 mx-0 px-0 mb-0 border border-primary position-relative overflow-hidden">
                             <img src="../build/img/media/bg-office5.jpeg" alt="photo" class="w-100 obj-fit-center height-100p">
-                            <div
+                            <!-- <div
                                 class="d-flex flex-column justify-content-center align-items-center position-absolute img_button_block bg_dark_through">
                                 <button id="show-btn"
                                     class="w-100 min-height btn-transparent position-absolute">
                                     <span data-toggle="tooltip" data-placement="bottom" data-original-title="Каталог кращих прикладів">&#10095;</span></button>
-                            </div>
+                            </div> -->
                             <div
-                                class="d-flex flex-column justify-content-center align-items-center title position-absolute bg_info_through">
+                                class="d-flex flex-column justify-content-center align-items-center title position-absolute bg_info_through rightAnimation">
                                 <span class="text-uppercase"><strong class="shadows">5С-Офіс</strong></span>
                             </div>
                         </div>
-                        <div id="block-examples" class="col-12 px-0">
+                        <div id="block-examples" class="col-12 px-0 fadeInAnimation">
                             <div class="row w-100 mx-0 mt-1 mb-0 bg_info_through">
                                 <div class="col-12 px-0">
                                     <h4 class="text-center my-3"></h4>
@@ -285,11 +285,11 @@
         </div>
     </section>
     <!--footer-->
-    <script>
+    <!-- <script>
         $(document).ready(function () {
             $("#show-btn").click(function () {
                 $("#block-examples").slideToggle();
             });
         });
-    </script>
+    </script> -->
     <?php include_once "footer.php"; ?>

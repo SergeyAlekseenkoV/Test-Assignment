@@ -85,7 +85,7 @@
                                 aria-expanded="false">Виробництво</a>
                             <ul
                                 class="dropdown-menu position-absolute dropdown-content p-0 border border-white bg-primary row text-center text-md-left text-lg-left width_dropdown_smallscreen">
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Плани виробництва та Виробничі показники</a></li>
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="diagrams.php">Плани виробництва та Виробничі показники</a></li>
                                 <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Підсумки роботи
                                     бригад</a></li>
                             </ul>

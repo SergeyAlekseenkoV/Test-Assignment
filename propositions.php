@@ -242,20 +242,20 @@
                                     <!-- end file -->
                                     <p class="my-3">Чи є у Вас досвід впровадження <em class="font-weight-bold">аналогічних пропозицій?</em></p>
                                     <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="radioProp1" name="customRadioInline" class="custom-control-input" required>
+                                        <input checked type="radio" id="radioProp1" name="radioExperience" class="custom-control-input">
                                         <label class="custom-control-label" for="radioProp1">Так</label>
                                     </div>
                                     <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="radioProp2" name="customRadioInline" class="custom-control-input">
+                                        <input type="radio" id="radioProp2" name="radioExperience" class="custom-control-input">
                                         <label class="custom-control-label" for="radioProp2">Ні</label>
                                     </div>
                                     <p class="my-3">Чи хотіли б Ви взяти участь у впровадженні цієї <em class="font-weight-bold">ідеї?</em></p>
                                     <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="radioPart1" name="customRadio" class="custom-control-input" required>
+                                        <input checked type="radio" id="radioPart1" name="radioWish" class="custom-control-input">
                                         <label class="custom-control-label" for="radioPart1">Так</label>
                                     </div>
                                     <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="radioPart2" name="customRadio" class="custom-control-input">
+                                        <input type="radio" id="radioPart2" name="radioWish" class="custom-control-input">
                                         <label class="custom-control-label" for="radioPart2">Ні</label>
                                     </div>
                                 </div>

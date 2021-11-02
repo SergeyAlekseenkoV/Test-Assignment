@@ -363,7 +363,7 @@
                                 <!-- =========== Justing delivery ==========-->
                                 <div class="col-12 px-0 mt-0 mb-3 pb-3 flex-row border-bottom">
                                     <div class="form-check pl-0 w-100 d-flex flex-row justify-content-between align-items-center">
-                                        <input class="form-check-input m-0" type="radio" name="delivery" id="Justin" 
+                                        <input class="form-check-input m-0" type="radio" checked name="delivery" id="Justin" 
                                             value="option2" data-toggle="collapse" data-target="#collapseJustin" aria-expanded="true" aria-controls="collapseJustin">
                                         <label id="choice-2" class="w-100 form-check-label d-flex flex-row justify-content-between align-items-center ml-5" 
                                             for="Justin" data-toggle="collapse" data-target="#collapseJustin" aria-expanded="true" aria-controls="collapseJustin">

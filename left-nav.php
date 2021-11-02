@@ -1,5 +1,5 @@
-<article class="col-sm-12 col-lg-2 mx-0 text-center wow slideInLeft" data-animation="slideInLeft">
-    <nav class="sticky-top accordion row" id="accordionLib">
+<article class="col-sm-12 col-lg-2 mx-0 text-center leftAnimation">
+    <nav class="sticky-top accordion row shadow" id="accordionLib">
         <!-- home card -->
         <div class="col-4 col-lg-12 px-0 card bg-transparent">
             <div class="card-header p-0 bg_linear_dark light">

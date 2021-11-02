@@ -28,23 +28,23 @@
                             <div class="row w-100 mx-0 mt-0 mb-1 border border-muted study_bg">
                                 <!-- study-list -->
                                 <div class="col-12 col-md-6 p-1 mx-0">
-                                    <a href="professions-list.php" class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
+                                    <a href="professions-list.php" class="btn bg_light_through py-5 w-100 text-uppercase min-height shadow_inset_info text_color little-filter-effect">
                                         <span class="mr-3"><i class="far fa-list-alt"></i></span>Перелік професій</a>
                                 </div>
                                 <div class="col-12 col-md-6 p-1 mx-auto">
-                                    <a href="enterprize-study.php" class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
+                                    <a href="enterprize-study.php" class="btn bg_light_through py-5 w-100 text-uppercase min-height shadow_inset_info text_color little-filter-effect">
                                         <span class="mr-3"><i class="fas fa-user-graduate"></i></span>Виробниче навчання</a>
                                 </div>
                                 <div class="col-12 col-md-6 p-1 mx-auto">
-                                    <a href="study-order.php" class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
+                                    <a href="study-order.php" class="btn bg_light_through py-5 w-100 text-uppercase min-height shadow_inset_info text_color little-filter-effect">
                                         <span class="mr-3"><i class="fas fa-list-ol"></i></span>Порядок оформлення заявок</a>
                                 </div>
                                 <div class="col-12 col-md-6 p-1 mx-auto">
-                                    <a href="study-groups-making.php" class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
+                                    <a href="study-groups-making.php" class="btn bg_light_through py-5 w-100 text-uppercase min-height shadow_inset_info text_color little-filter-effect">
                                         <span class="mr-3"><i class="far fa-calendar-alt"></i></span>Розклад занять груп</a>
                                 </div>
                                 <div class="col-12 col-md-6 p-1 mx-auto">
-                                    <a href="medical-course.php" class="btn btn-light shadow py-5 w-100 text-uppercase min-height border border-info text_color little-filter-effect">
+                                    <a href="medical-course.php" class="btn bg_light_through py-5 w-100 text-uppercase min-height shadow_inset_info text_color little-filter-effect">
                                         <span class="mr-3"><i class="fas fa-database"></i></span>База знань</a>
                                 </div>
                                 <!-- end list -->

@@ -237,27 +237,45 @@ $(() => {
 })
 
 //  end show password ==========================================
+/* ====== animation effects onload ======= */
+window.addEventListener('DOMContentLoaded', () => {
+  let leftElement = document.querySelectorAll('.leftAnimation'),
+    rightElement = document.querySelectorAll('.rightAnimation'),
+    fadeInElement = document.querySelectorAll('.fadeInAnimation');
+  const transformPositionX = 'transform: translate(0)',
+    transformFilter = 'filter: opacity(1)';
+
+  if (window.screen.width >= 768) {
+    leftElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
+    rightElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
+    fadeInElement.forEach(elem => elem.style.cssText = `${transformFilter}`);
+  } else {
+    leftElement.forEach(elem => elem.classList.remove('leftAnimation'));
+    rightElement.forEach(elem => elem.classList.remove('rightAnimation'));
+    fadeInElement.forEach(elem => elem.classList.remove('fadeInAnimation'));
+  }
+});
+
+// ================================================ //
 
 // wow js animation
-// ================================================
 //also at the window load event
 // $(window).on('load', function(){
-     new WOW().init(); 
-// });
-
-// ================================================
-
+//      new WOW().init(); 
+// // });
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
+window.addEventListener('scroll', () => {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbarUp").style.top = "0";
+    document.querySelector('#navbarUp').style.top = "0";
   } else {
-    document.getElementById("navbarUp").style.top = "-80px";
+    document.querySelector('#navbarUp').style.top = "-80px";
   }
   prevScrollpos = currentScrollPos;
-}
+});
+// ================================================
+
 /* modes detecting for changing favicon icon */
 $(document).ready(function () {
   if (!window.matchMedia)
@@ -354,8 +372,8 @@ $(document).ready(function () {
     return false;
   });
 
-// attension message
-// ================================================
+  // attension message
+  // ================================================
 
 
   $("input").focus(function () {

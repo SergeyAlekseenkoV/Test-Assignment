@@ -29,26 +29,26 @@
                         <div class="row w-100 mx-1 p-1 mb-0 bg_HR border border-muted">
                             <p class="col-12 p-1 lead text-left mx-2 my-3">* Оберіть файл який ви бажаете завантажити</p>
                             <!-- documents-list -->
-                            <div class="col-12 col-md-6 p-1">
-                                <a href="settingFile.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                            <!-- <div class="col-12 col-md-6 p-1"> -->
+                                <a href="settingFile.php" class="d-block col-12 col-md-6 doc_btn btn py-3 bg_info_through text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                     на прийняття&nbsp;<i class="fas fa-file-pdf"></i></a>
-                            </div>
-                            <div class="col-12 col-md-6 p-1">
-                                <a href="transfer.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                            <!-- </div> -->
+                            <!-- <div class="col-12 col-md-6 p-1"> -->
+                                <a href="transfer.php" class="d-block col-12 col-md-6 doc_btn btn py-3 bg_info_through text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                     на переведення&nbsp;<i class="fas fa-file-pdf"></i></a>
-                            </div>
-                            <div class="col-12 col-md-6 p-1">
-                                <a href="firing.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
+                            <!-- </div> -->
+                            <!-- <div class="col-12 col-md-6 p-1"> -->
+                                <a href="firing.php" class="d-block col-12 col-md-6 doc_btn btn py-3 bg_info_through text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Заява
                                     на звільнення&nbsp;<i class="fas fa-file-pdf"></i></a>
-                            </div>
-                            <div class="col-12 col-md-6 p-1">
-                                <a href="replacement.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
+                            <!-- </div> -->
+                            <!-- <div class="col-12 col-md-6 p-1"> -->
+                                <a href="replacement.php" class="d-block col-12 col-md-6 doc_btn btn py-3 bg_info_through text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
                                     на заміщення&nbsp;<i class="fas fa-file-pdf"></i></a>
-                            </div>
-                            <div class="col-12 col-md-6 p-1">
-                                <a href="asked-firing.php" class="btn shadow py-3 min-height bg_info_through w-100 text-uppercase text_color little-filter-effect border border-info"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
+                            <!-- </div> -->
+                            <!-- <div class="col-12 col-md-6 p-1"> -->
+                                <a href="asked-firing.php" class="d-block col-12 col-md-6 doc_btn btn py-3 bg_info_through text-uppercase text_color little-filter-effect"><span class="mr-3"><i class="fas fa-pencil-alt"></i></span> Подання
                                     на звільнення&nbsp;<i class="fas fa-file-pdf"></i></a>
-                            </div>
+                            <!-- </div> -->
                             <!-- end list -->
                         </div>
                     </div>

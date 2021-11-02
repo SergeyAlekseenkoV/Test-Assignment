@@ -33,7 +33,7 @@
                                 </blockquote>
                             </div>
                             <!-- description -->
-                            <div class="w-100 text-left p-2">
+                            <div class="w-100 text-left p-2 bg_light_through border-top border-bottom">
                                 <p class="mb-0">
                                     Формування груп на початок навчання у <b>лютому 2021 р.</b>:
                                 </p>

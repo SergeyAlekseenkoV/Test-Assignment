@@ -26,21 +26,28 @@
                         </div>
                         <div class="row w-100 mx-1 mb-1 mt-0">
                             <!-- tabs -->
-                            <div class="col-12 mx-0 px-1 mt-1 border border-secondary bg_library">
+                            <div class="col-12 mx-0 px-1 mt-1 border border-secondary bg_HR">
                                 <!-- tabs navigation -->
                                 <ul class="nav nav-pills nav-fill nav-justified mt-1" id="ideasTab" role="tablist">
                                     <li class="nav-item rounded" role="presentation">
-                                        <a class="nav-link active my-0 p-1 py-md-0 px-md-2 text_color font-weight-bold" id="basis" data-toggle="pill" href="#basis-tab" role="tab" aria-controls="basis-tab" aria-selected="true">
+                                        <!-- ===== basis tab ===== -->
+                                        <a class="nav-link active my-0 p-1 py-md-0 px-md-2 text_color font-weight-bold" id="basis" data-toggle="pill" href="#basis-tab" role="tab" 
+                                            aria-controls="basis-tab" aria-selected="true">
                                             Нормативно-<br class="d-sm-none">правова база &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</span></a>
+                                        <!-- ====== end ====== -->
                                     </li>
                                     <li class="nav-item rounded" role="presentation">
-                                        <a class="nav-link my-0 p-1 py-md-0 px-md-2 text_color font-weight-bold" id="monitoring" data-toggle="pill" href="#monitoring-tab" role="tab" aria-controls="monitoring-tab" aria-selected="false">
+                                        <!-- ++++ ===== monitoring tab ===== ++++ -->
+                                        <a class="nav-link my-0 p-1 py-md-0 px-md-2 text_color font-weight-bold" id="monitoring" data-toggle="pill" href="#monitoring-tab" role="tab" 
+                                            aria-controls="monitoring-tab" aria-selected="false">
                                             Моніторинг <br class="d-sm-none">законо&shy;давства &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</span></a>
+                                        <!-- ++++++ end ++++++ -->
                                     </li>
                                 </ul>
                                 <!-- end tabs navigations -->
                                 <!-- tabs content blocks -->
                                 <div class="tab-content px-0" id="myTabContent">
+                                    <!-- ===== basis tab ===== -->
                                     <div class="tab-pane fade show active" id="basis-tab" role="tabpanel" aria-labelledby="basis">
                                         <!-- collapsed blocks -->
                                         <div class="row mx-0 px-0">
@@ -49,9 +56,8 @@
                                                     Організаційно-розпорядчі документи (загальні питання)&nbsp;
                                                     <i class="fas fa-chevron-right ml-2"></i></button>
                                             </div>
-                                            <div id="common-block" class="collapse show col-12 px-0">
+                                            <div id="common-block" class="collapse show row w-100 mx-1 px-0">
                                                 <!-- ========= collapse block ========= -->
-                                                <div class="row mx-0">
                                                     <!-- documents-list -->
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative">
                                                         <a href="settingFile.php" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">Документ&nbsp;<i class="fas fa-file-pdf"></i></a>
@@ -72,7 +78,6 @@
                                                         <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info">Документ&nbsp;<i class="fas fa-file-pdf"></i></a>
                                                     </div>
                                                     <!-- end list -->
-                                                </div>
                                                 <!-- ========= end block ========= -->
                                             </div>
                                             <div class="col-12 px-0">
@@ -85,10 +90,10 @@
                                                 <div class="row mx-0">
                                                     <!-- documents-list -->
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative">
-                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light">Охорона праці</a>
+                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light"><strong>Охорона праці</strong></a>
                                                     </div>
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative">
-                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light">Напрямок2</a>
+                                                        <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light"><strong>Діловодство</strong></a>
                                                     </div>
                                                     <div class="col-12 col-md-6 p-1 my-1 mx-0 position-relative">
                                                         <a href="#" class="btn bg_info_through shadow py-3 w-100 text-uppercase text_color little-filter-effect border border-info shadow-light">Напрямок3</a>
@@ -105,6 +110,8 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- ====== end ======= -->
+                                    <!-- ++++ ===== monitoring tab ===== ++++ -->
                                     <div class="tab-pane fade" id="monitoring-tab" role="tabpanel" aria-labelledby="monitoring">
                                         <!-- collapsed blocks -->
                                         <div class="row mx-0 px-1">
@@ -174,6 +181,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- ++++++ end ++++++ -->
                                 </div>
                             </div>
                         </div>
