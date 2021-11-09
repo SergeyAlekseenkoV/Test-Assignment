@@ -239,25 +239,6 @@ $(() => {
 //  end show password ==========================================
 /* ====== animation effects onload ======= */
 
-// window.addEventListener('DOMContentLoaded', () => {
-//   let leftElement = document.querySelectorAll('.leftAnimation'),
-//     rightElement = document.querySelectorAll('.rightAnimation'),
-//     fadeInElement = document.querySelectorAll('.fadeInAnimation');
-//   const transformPositionX = 'transform: translate(0)',
-//     transformFilter = 'filter: opacity(1)';
-  
-//   if (window.screen.width >= 768) {
-//     leftElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
-//     rightElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
-//     fadeInElement.forEach(elem => elem.style.cssText = `${transformFilter}`);
-    
-//   } else {
-//     leftElement.forEach(elem => elem.classList.remove('leftAnimation'));
-//     rightElement.forEach(elem => elem.classList.remove('rightAnimation'));
-//     fadeInElement.forEach(elem => elem.classList.remove('fadeInAnimation'));
-//   }
-// });
-
 window.addEventListener('DOMContentLoaded', () => {
   let leftElement = document.querySelectorAll('[data-leftanimation]'),
       rightElement = document.querySelectorAll('[data-rightanimation]'),
@@ -272,13 +253,18 @@ window.addEventListener('DOMContentLoaded', () => {
     leftAnime();
     rightAnime();
     fadeAnime();
-    console.log(window.innerWidth);
-    console.log(document.documentElement.clientWidth);
-    console.log(window.screen.width);
   } else {
     leftElement.forEach(elem => elem.classList.remove('leftAnimation'));
     rightElement.forEach(elem => elem.classList.remove('rightAnimation'));
     fadeInElement.forEach(elem => elem.classList.remove('fadeInAnimation'));
+    /* adding autoscrolling  on small devices */
+    setTimeout(function() {
+      window.scrollTo({
+        top: 300,
+        left: 0,
+        behavior: "smooth"
+      });
+    }, 1000);
   }
 
   function leftAnime() {

@@ -21,6 +21,7 @@ $shadow-dark-primary: $primary-dark 1px 1px 0;
 $box-shadow-dark: inset 0px 0px 4px 1px rgba(48, 72, 120, 0.9);
 $box-shadow-info: inset 0px 0px 4px 1px rgba(101, 158, 215, 0.8);
 $bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
+$size: 60px;
 
 /* GLOBALS */
 
@@ -69,13 +70,13 @@ body {
 .leftAnimation {
     transform: translateX(-100%);
     filter: opacity(0);
-    transition: transform 1500ms ease-out,filter 1500ms ease-in-out;
+    transition: transform 1500ms ease-out, filter 1500ms ease-in-out;
 }
 
 .rightAnimation {
     transform: translateX(100%);
     filter: opacity(0);
-    transition: transform 1500ms ease,filter 1500ms ease-in-out;
+    transition: transform 1500ms ease, filter 1500ms ease-in-out;
 }
 
 .fadeInAnimation {
@@ -262,6 +263,76 @@ input::placeholder:active {
     color: $primary-color !important;
 }
 
+/* ============= form search for ideas (animated) ============== */
+.search_bar {
+    display: flex;
+    border: 2px solid $primary-color;
+    border-radius: 100px;
+    overflow: hidden;
+    width: $size;
+    height: $size;
+    transition: width 450ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    padding: 2px;
+    &:hover {
+        background-color: $primary-common-light-through;
+        box-shadow: 0 0 1px 1px $primary-dark;
+    }
+}
+
+.search_bar_input {
+    border: 0 !important;
+    padding: 0.25em 1em;
+    flex-grow: 1;
+    outline: 0 !important;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.search_bar_submit {
+    margin-left: auto;
+    background: 0;
+    border: 0 !important;
+    cursor: pointer;
+    border-radius: 100em;
+    transition: background-color 800ms ease-out;
+    width: calc($size - 10px);
+    height: calc($size - 10px);
+    color: $primary-color;
+    font-size: 1.5rem;
+}
+
+.search_bar:focus-within {
+    // width: 100%;
+
+    .search_bar_input {
+        opacity: 1;
+        z-index: initial;
+        cursor: initial;
+        width: 100%;
+    }
+
+    .search_bar_submit {
+        background-color: $primary-color-through !important;
+        color: white;
+        z-index: 3;
+        > svg {
+            margin-left: 5px;
+        }
+        
+        &:hover,
+        &:focus {
+          outline: 0;
+          color: $primary-dark;
+        }
+    }
+}
+
 /* ============= form controls for dynamicaly created input for file uploading ==============*/
 
 input[type="file"].form-control {
@@ -406,8 +477,8 @@ blockquote p {
 /* =========== backgrounds ============ */
 .bg_warning {
     background-color: $nav-link-focus !important;
-    &:hover{
-        filter: opacity(.7) !important;
+    &:hover {
+        filter: opacity(0.7) !important;
     }
 }
 
@@ -906,11 +977,11 @@ button.fancybox-button[title="Next"] {
     background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)),
         url("../img/mgok-video.jpg") center/cover no-repeat;
     border-bottom: $white-color 3px solid;
-    filter: opacity(.95) !important;
+    filter: opacity(0.95) !important;
     transition: top 500ms ease-in-out;
     overflow-y: unset;
     &:hover {
-        filter: opacity(.95) !important;
+        filter: opacity(0.95) !important;
     }
 
     /* nav-links on focus/hover */
@@ -927,11 +998,13 @@ button.fancybox-button[title="Next"] {
     .navbar-nav :nth-child(10) > .nav-link:focus {
         background-color: transparent !important;
     }
-        
-    .navbar-toggler .icon-bar + .icon-bar { margin-top: 4px; } 
+
+    .navbar-toggler .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
 
     /*toggler button*/
-   
+
     @-moz-document url-prefix() {
         button.navbar-toggler {
             margin-right: 0;
@@ -943,11 +1016,11 @@ button.fancybox-button[title="Next"] {
     }
 
     .navbar-toggler {
-        background-color: transparent!important;
+        background-color: transparent !important;
         border: 0 !important;
         .icon-bar {
-            display: block; 
-            border-radius: 1px; 
+            display: block;
+            border-radius: 1px;
             transition: 300ms ease-in-out;
             background-color: $primary-dark;
             position: relative;
@@ -955,7 +1028,7 @@ button.fancybox-button[title="Next"] {
             height: 3px;
             border: 1px$white-color solid;
         }
-        
+
         .icon-bar:nth-child(2) {
             transform: rotate(45deg);
             top: 0px;
@@ -972,7 +1045,7 @@ button.fancybox-button[title="Next"] {
 
         &.collapsed {
             .icon-bar {
-                transform: rotate(0deg);        
+                transform: rotate(0deg);
                 top: 0;
                 opacity: 1;
             }
@@ -1003,12 +1076,12 @@ button.fancybox-button[title="Next"] {
         }
     }
 
-/* reset bootstrap styling */
+    /* reset bootstrap styling */
 
     .nav-link:focus,
     .nav-link:active,
     .nav-pills .nav-link.active,
-    .nav-pills .show >.nav-link {
+    .nav-pills .show > .nav-link {
         background-color: $nav-link-focus !important;
     }
 
@@ -2350,6 +2423,7 @@ button.fancybox-button[title="Next"] {
                 .R21C9,
                 .R22C16,
                 .R23C16,
+                .R26C16,
                 .R27C16,
                 .R28C16,
                 .R37C16,
@@ -2554,13 +2628,13 @@ media queries for different screen resolutions
 }
 
 @media screen and (max-width: 576px) {
-        blockquote  p {
-            font-size: 1em;
-        }
+    blockquote p {
+        font-size: 1em;
+    }
 
-        blockquote::before {
-            display: none;
-        }
+    blockquote::before {
+        display: none;
+    }
 
     #main {
         #news-category {
@@ -2908,7 +2982,7 @@ media queries for different screen resolutions
 }
 
 @media screen and (max-width: 767px) {
-    blockquote  p {
+    blockquote p {
         font-size: 1.1em;
     }
 
