@@ -27,7 +27,7 @@
                                 class="d-flex flex-row justify-content-center align-items-center flex-wrap text-uppercase px-1 py-3 mx-1 my-1 text-white bg_headers">
                                 Галерея - Розділи </h2>
                         </div>
-                        <div id="gallary-index-page" class="row mx-0 fadeInAnimation">
+                        <div id="gallary-index-page" class="row mx-0 fadeInAnimation" data-fadeinanimation>
                             <!-- gallary-list -->
                             <div class="col-12 col-md-6 col-lg-4 p-1 mx-0 height-210 overflow-hidden">
                                 <a href="gallery-item-page.php" class="d-block filter-effect height-100p">

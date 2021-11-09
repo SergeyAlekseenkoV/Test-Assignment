@@ -238,24 +238,82 @@ $(() => {
 
 //  end show password ==========================================
 /* ====== animation effects onload ======= */
-window.addEventListener('DOMContentLoaded', () => {
-  let leftElement = document.querySelectorAll('.leftAnimation'),
-    rightElement = document.querySelectorAll('.rightAnimation'),
-    fadeInElement = document.querySelectorAll('.fadeInAnimation');
-  const transformPositionX = 'transform: translate(0)',
-    transformFilter = 'filter: opacity(1)';
 
+// window.addEventListener('DOMContentLoaded', () => {
+//   let leftElement = document.querySelectorAll('.leftAnimation'),
+//     rightElement = document.querySelectorAll('.rightAnimation'),
+//     fadeInElement = document.querySelectorAll('.fadeInAnimation');
+//   const transformPositionX = 'transform: translate(0)',
+//     transformFilter = 'filter: opacity(1)';
+  
+//   if (window.screen.width >= 768) {
+//     leftElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
+//     rightElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
+//     fadeInElement.forEach(elem => elem.style.cssText = `${transformFilter}`);
+    
+//   } else {
+//     leftElement.forEach(elem => elem.classList.remove('leftAnimation'));
+//     rightElement.forEach(elem => elem.classList.remove('rightAnimation'));
+//     fadeInElement.forEach(elem => elem.classList.remove('fadeInAnimation'));
+//   }
+// });
+
+window.addEventListener('DOMContentLoaded', () => {
+  let leftElement = document.querySelectorAll('[data-leftanimation]'),
+      rightElement = document.querySelectorAll('[data-rightanimation]'),
+      fadeInElement = document.querySelectorAll('[data-fadeinanimation]');
+
+  const transformPositionX = 'transform: translate(0)',
+        transformFilter = 'filter: opacity(1)',
+        timeOut = 2200;
+  
+  /* if screen width of a device smaller than 768px - animation isn't working */
   if (window.screen.width >= 768) {
-    leftElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
-    rightElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
-    fadeInElement.forEach(elem => elem.style.cssText = `${transformFilter}`);
+    leftAnime();
+    rightAnime();
+    fadeAnime();
+    console.log(window.innerWidth);
+    console.log(document.documentElement.clientWidth);
+    console.log(window.screen.width);
   } else {
     leftElement.forEach(elem => elem.classList.remove('leftAnimation'));
     rightElement.forEach(elem => elem.classList.remove('rightAnimation'));
     fadeInElement.forEach(elem => elem.classList.remove('fadeInAnimation'));
   }
-});
 
+  function leftAnime() {
+    leftElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
+    function removeLeftAnimationClass() {
+      leftElement.forEach(elem => elem.classList.remove('leftAnimation'));
+    }
+    setTimeout(function(){
+      removeLeftAnimationClass()}, 
+      timeOut
+    );
+  }
+
+  function rightAnime() {
+    rightElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
+    function removeRightAnimationClass() {
+      rightElement.forEach(elem => elem.classList.remove('rightAnimation'));
+    }
+    setTimeout(function() {
+      removeRightAnimationClass()}, 
+      timeOut
+    );
+  }
+
+  function fadeAnime() {
+    fadeInElement.forEach(elem => elem.style.cssText = `${transformFilter}`);
+    function removeFadeInAnimationClass() {
+      fadeInElement.forEach(elem => elem.classList.remove('fadeInAnimation'));
+    }
+    setTimeout(function() {
+      removeFadeInAnimationClass()}, 
+      timeOut
+    );
+  }
+});
 // ================================================ //
 
 // wow js animation

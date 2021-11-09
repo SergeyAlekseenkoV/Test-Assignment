@@ -7,7 +7,7 @@
     <!-- main-section-->
     <section id="home" class="mt-0 pt-3 pb-5">
         <div class="container py-2 px-sm-0 pb-lg-3 px-md-3 px-lg-3">
-            <div class="d-flex justify-content-between align-items-baseline pl-2 ml-1 pl-md-0 ml-md-0 mt-3 mt-md-3 mt-lg-3 mt-xl-4 leftAnimation">
+            <div class="d-flex justify-content-between align-items-baseline pl-2 ml-1 pl-md-0 ml-md-0 mt-3 mt-md-3 mt-lg-3 mt-xl-4 leftAnimation" data-leftanimation>
                 <h3 class="d-md-none pt-1 text-left text-uppercase mb-0 text_color"><i class="fas fa-home"></i></h3>
                 <h3 class="d-none d-md-block pt-md-0 pt-lg-3 text-left text-uppercase text_color">
                     Акціонерне Товариство "Марганецький гірничо-збагачувальний комбінат"</h3>
@@ -20,7 +20,7 @@
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
                     <!-- announcement block -->
                     <div class="d-block mt-0 mb-3 overflow-hidden border border-primary bg_announcement rightAnimation"
-                        data-animation="fadeInUp">
+                        data-rightanimation>
                         <!-- <div class="text-justify pt-3 m-4 rounded border text-white bg_dark_through width_announcement"> -->
                         <h4 class="px-0 mx-auto mt-2 text-center text-white">
                             Оголошення</h4>
@@ -43,7 +43,7 @@
                     <!-- carousel slider -->
                     <div id="carouselIndicators"
                         class="d-none d-md-block carousel slide carousel-fade bg-transparent border border-primary fadeInAnimation"
-                        data-ride="carousel" keyboard="true">
+                        data-ride="carousel" keyboard="true" data-fadeinanimation>
                         <ol class="carousel-indicators d-none d-lg-flex">
                             <li data-target="#carouselIndicators" data-slide-to="0" class="active text_color"></li>
                             <li data-target="#carouselIndicators" data-slide-to="1"></li>

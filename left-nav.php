@@ -1,4 +1,4 @@
-<article class="col-sm-12 col-lg-2 mx-0 text-center leftAnimation">
+<article class="col-sm-12 col-lg-2 mx-0 text-center leftAnimation" data-leftanimation>
     <nav class="sticky-top accordion row shadow" id="accordionLib">
         <!-- home card -->
         <div class="col-4 col-lg-12 px-0 card bg-transparent">

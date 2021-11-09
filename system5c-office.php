@@ -37,11 +37,11 @@
                                     <span data-toggle="tooltip" data-placement="bottom" data-original-title="Каталог кращих прикладів">&#10095;</span></button>
                             </div> -->
                             <div
-                                class="d-flex flex-column justify-content-center align-items-center title position-absolute bg_info_through rightAnimation">
+                                class="d-flex flex-column justify-content-center align-items-center title position-absolute bg_info_through rightAnimation" data-rightanimation>
                                 <span class="text-uppercase"><strong class="shadows">5С-Офіс</strong></span>
                             </div>
                         </div>
-                        <div id="block-examples" class="col-12 px-0 fadeInAnimation">
+                        <div id="block-examples" class="col-12 px-0 fadeInAnimation" data-fadeinanimation>
                             <div class="row w-100 mx-0 mt-1 mb-0 bg_info_through">
                                 <div class="col-12 px-0">
                                     <h4 class="text-center my-3"></h4>
