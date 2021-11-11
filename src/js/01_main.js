@@ -239,7 +239,7 @@ $(() => {
 //  end show password ==========================================
 /* ====== animation effects onload ======= */
 
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   let leftElement = document.querySelectorAll('[data-leftanimation]'),
       rightElement = document.querySelectorAll('[data-rightanimation]'),
       fadeInElement = document.querySelectorAll('[data-fadeinanimation]');

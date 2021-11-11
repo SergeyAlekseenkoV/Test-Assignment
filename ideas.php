@@ -17,7 +17,7 @@
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <?php include_once "left-nav.php"; ?>
-                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
+                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 fadeInAnimation" data-fadeinanimation>
                     <div id="ideas-storage" class="row mx-0 border border-primary rounded bg_muted">
                         <!-- heading -->
                         <div class="col-12 mx-0 px-0 text-center">
@@ -29,11 +29,13 @@
                             <!-- tabs navigation -->
                             <ul class="nav nav-pills nav-fill nav-justified" id="ideasTab" role="tablist">
                                 <li class="nav-item rounded" role="presentation">
-                                    <a class="nav-link active my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" id="passed-tab" data-toggle="pill" href="#passed" role="tab" aria-controls="passed" aria-selected="true">Подані<br class="d-sm-none">
+                                    <a class="nav-link active my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" id="passed-tab" 
+                                        data-toggle="pill" href="#passed" role="tab" aria-controls="passed" aria-selected="true">Подані<br class="d-sm-none">
                                         пропозиції &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</span></a>
                                 </li>
                                 <li class="nav-item rounded" role="presentation">
-                                    <a class="nav-link my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" id="approved-tab" data-toggle="pill" href="#approved" role="tab" aria-controls="approved" aria-selected="false">Пропозиції <br class="d-sm-none">
+                                    <a class="nav-link my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" id="approved-tab" 
+                                        data-toggle="pill" href="#approved" role="tab" aria-controls="approved" aria-selected="false">Пропозиції <br class="d-sm-none">
                                         тиражування &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</span></a>
                                 </li>
                             </ul>
@@ -41,12 +43,14 @@
                             <!-- tabs content blocks -->
                             <div class="tab-content px-0" id="myTabContent">
                                 <div class="tab-pane fade show active" id="passed" role="tabpanel" aria-labelledby="passed-tab">
-                                    <div class="mt-2 mb-0 position-relative">
+                                    <div class="mt-2 mb-0 position-relative search_bar_wrapper">
                                         <form class="search_bar position-relative">
-                                            <input type="text" name="search" class="search_bar_input position-absolute shadow" placeholder="Пошук" id="searchInput" aria-label="search">
+                                            <input type="text" name="search" class="search_bar_input position-absolute shadow" 
+                                                maxlength="70" placeholder="Пошук" id="searchInput" aria-label="search">
                                             <button type="submit" class="btn search_bar_submit" aria-label="submit search">
                                                 <i class="fas fa-search"></i></button>
                                         </form>
+                                        <!-- <span class="ml-4 text_color small font-weight-bold counter">Максимальна кількість символів 70</span> -->
                                     </div>
                                     <div class="my-1 d-flex flex-wrap justify-content-between align-items-baseline">
                                         <div class="align-self-start">
@@ -133,13 +137,6 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="approved" role="tabpanel" aria-labelledby="approved-tab">
-                                    <div class="mt-2 mb-0 position-relative">
-                                        <form class="search_bar position-relative">
-                                            <input type="text" name="search" class="search_bar_input position-absolute shadow" placeholder="Пошук" aria-label="search">
-                                            <button type="submit" class="btn search_bar_submit" aria-label="submit search">
-                                                <i class="fas fa-search"></i></button>
-                                        </form>
-                                    </div>
                                     <div class="my-1 text-right">
                                         <span class="bg-light border-right border-bottom rounded px-1 shadow text_color"><small>ПропозиціЇ для тиражування: </small> <b>1233</b></span>
                                     </div>
@@ -212,19 +209,60 @@
         </div>
     </section>
     <!--footer-->
+    <?php include_once "footer.php"; ?>
     <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            const btnSearch = document.querySelectorAll('.search_bar_input'),
-                searchInput = document.querySelectorAll('.search_bar');
-
-                btnSearch.forEach(button => button.addEventListener('focus', () => {
-                    searchInput.forEach(bar => bar.style.width = "100%");
-                }));
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.querySelector('.search_bar_input'),
+                txtItemLimit = searchInput.getAttribute('maxlength'),
+                formInput = document.querySelector('.search_bar');
+            // let spanToCount = document.querySelector('.counter');
+            /* hide span */
+            // function hideSpan () {
+            //     spanToCount.classList.add("d-none");
+            // }
+            /* hide it by default */
+            // hideSpan();
+            /* on focus event */
+            searchInput.addEventListener('focus', () => {
+                formInput.style.width = "100%";
+                // showSpan();
+            });
+            /* close by escape key */
             document.addEventListener('keyup', (event) => {
                 if(event.code === 'Escape') {
-                    searchInput.forEach(bar => bar.style.width = "");
+                    closeBarInput();
+                    // hideSpan();
                 }
             });
+            /* counter for characters */
+            // formInput.addEventListener('keyup', txtSetCounter);
+            /* if key is pressed and repeating */
+            // formInput.addEventListener('keydown', function(event) {
+            //     if(event.repeat){txtSetCounter()}
+            // });
+            /* show the rest of characters to type */
+            // function txtSetCounter() {
+            //     const txtCounterResult = txtItemLimit - searchInput.value.length;
+            //     spanToCount.innerHTML = `Лишилося символів ${txtCounterResult}`;
+            // }
+            /* show span */
+            // function showSpan () {
+            //     spanToCount.classList.remove("d-none");
+            // }
+            /* close input by changing width to default value*/
+            function closeBarInput() {
+                formInput.style.width = "";
+                // hideSpan();
+            }
+            /* close input by clicking somewhere except the .tab-pane block */
+            function closeBarInputOutside(event){
+                if (!event.target.closest('.tab-pane')) {
+                    closeBarInput();
+                    // console.log(event.target);
+                }
+            }
+            document.addEventListener('click',closeBarInputOutside);
         });
     </script>
-    <?php include_once "footer.php"; ?>
+    </body>
+</html>

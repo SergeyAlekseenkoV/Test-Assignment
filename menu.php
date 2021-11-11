@@ -1,6 +1,6 @@
     <!--navigation-->
     <header>
-        <nav id="navbarUp" class="navbar navbar-dark navbar-expand-md fixed-top pr-3 pr-md-3 shadow">
+        <nav id="navbarUp" class="navbar navbar-dark navbar-expand-md fixed-top pr-3 shadow">
             <div class="container">
                 <!--LOGO-->
                 <div class="logo mr-0 mt-md-0 d-flex justify-content-center align-items-center">
