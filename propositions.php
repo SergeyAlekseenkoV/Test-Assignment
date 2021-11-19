@@ -225,13 +225,21 @@
                                         <label class="custom-control-label" for="radioPart2">Ні</label>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-primary w-50 mx-1 mt-4 py-2 py-md-3 shadow">Подати
+                                <button type="submit" id="sendBtn" class="btn btn-lg btn-primary btn-block mx-1 mt-4 py-2 py-md-3 shadow">Подати
                                     пропозицію</button>
+                                <button type="submit" id="saveBtn" 
+                                    class="btn btn-lg btn-info w-75 mx-auto mt-4 py-2 py-md-3 shadow border border-primary text_color shadow-light">Зберегти чернетку</button>
                             </fieldset>
                         </form>
-                        <div id="successSent" class="d-none justify-content-center align-items-center my-5 py-5">
+                        <div id="successSaved" class="d-none justify-content-center align-items-center my-5 p-5">
+                            <p class="lead mb-0">* Чернетку пропозиції успішно збережено! <br>Відредагуйте її за бажанням.</p>
+                            <br>
+                            <button type="button" id="writeAgain" class="btn btn-light btn-lg text_color border-primary">Редагувати</button>
+                        </div>
+                        <div id="successSent" class="d-none justify-content-center align-items-center my-5 p-5">
                             <p class="lead mb-0">* Пропозиція успішно надіслана <br>та буде розглянута найближчим часом!</p>
                         </div>
+                        
                     </aside>
                 </div>
             </div>
@@ -240,6 +248,7 @@
     <!--footer-->
     <?php include_once "footer.php"; ?>
     <script>
+
         $(document).ready(function() {
 
             /* select in propositions page */
@@ -252,18 +261,31 @@
                 }
             });
 
-            $("#sendingForm").submit(function(event) {
-                $(this).removeClass("d-block");
-                $(this).addClass("d-none");
+            $("#sendBtn").submit(function(event) {
+                $('form').removeClass("d-block");
+                $('form').addClass("d-none");
+                $("#successSent").removeClass("d-none");
                 $("#successSent").addClass("d-flex");
                 event.preventDefault();
+            });
+
+            $("#saveBtn").click(function(event) {
+                $('form').removeClass("d-block");
+                $('form').addClass("d-none");
+                $("#successSaved").removeClass("d-none");
+                $("#successSaved").addClass("d-flex,flex-column");
+                event.preventDefault();
+            });
+
+            $('#writeAgain').click(function(event) { 
+                $('form').removeClass('d-none');
+                $('#successSaved').toggleClass('d-none');
             });
 
             /* if entered data is not sent confirm the action of leaving the page */
 
             window.addEventListener('beforeunload', (event) => {
-                event = event || window.event;
-                let formIsSent = document.querySelector('#sendingForm');
+                let formIsSent = document.querySelector('#sendingForm');// proposal_form
                 if (formIsSent.classList.contains('d-block')) {
                     let inputs = document.querySelectorAll('textarea');
                     inputs.forEach(function(input) {
@@ -277,15 +299,50 @@
                             }
                         }
                     });
-                /* when the proposition form is sent default behavior of th browser */
+                    /* when the proposition form is sent default behavior of the browser */
 
                 } else if (formIsSent.classList.contains('d-none')) {
                     beforeUnLoad();
-                    // function beforeUnLoad(event) {
-                    //     event.preventDefault() = 0;
-                    // }
                 }
             });
+
+            const fileInput = document.querySelector('input[type="file"]');
+            fileInput.addEventListener('change', () => {
+                let selectedFile = fileInput.files[0];
+
+                let fileUrl = URL.createObjectURL(selectedFile);
+
+                fileInput.parentElement.insertAdjacentHTML(
+                    "beforeend",
+                    `<div class="col-12 px-0 d-flex align-items-center">
+                        <figure class="d-inline-flex align-items-center pt-3 w-100">
+                            <img alt="файл" width="25%" height="auto" class="img-fluid bg-info my-0 border border-info d-block" src="${fileUrl}">
+                            <figcaption class="small align-self-center mb-2 mt-0">
+                                <strong class="mb-3 ml-2">${selectedFile.name}</strong>
+                            </figcaption>
+                        </figure>
+                        <button type="button" class="btn p-1 small btn-info removeFile text_color shadow-light">Видалити</button>
+                    </div>
+                    `
+                );
+                let btnFileRemove = document.querySelectorAll('.removeFile');
+                btnFileRemove.forEach(btn => btn.addEventListener('click', (e) => {
+                    function deleteBlock() {
+                        e.target.parentElement.remove();
+                    }
+                    deleteBlock();
+                }))
+            });
+            
+            // let flag = document.querySelector('[name="nestedfile-clear"]'),
+            //     fileToUploarInput = document.querySelector('[type="file"]');
+            //     fileToUploarInput.addEventListener('change', () => {
+            //         flag.checked = false;
+            //         flag.disabled = true;
+            // });   
+            
+            let divAll = document.divs;
+                divAll.style.border = "1px black solid";
         });
     </script>
 </body>

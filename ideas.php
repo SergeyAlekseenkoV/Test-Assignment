@@ -29,13 +29,11 @@
                             <!-- tabs navigation -->
                             <ul class="nav nav-pills nav-fill nav-justified" id="ideasTab" role="tablist">
                                 <li class="nav-item rounded" role="presentation">
-                                    <a class="nav-link active my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" id="passed-tab" 
-                                        data-toggle="pill" href="#passed" role="tab" aria-controls="passed" aria-selected="true">Подані<br class="d-sm-none">
+                                    <a class="nav-link active my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" id="passed-tab" data-toggle="pill" href="#passed" role="tab" aria-controls="passed" aria-selected="true">Подані<br class="d-sm-none">
                                         пропозиції &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</span></a>
                                 </li>
                                 <li class="nav-item rounded" role="presentation">
-                                    <a class="nav-link my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" id="approved-tab" 
-                                        data-toggle="pill" href="#approved" role="tab" aria-controls="approved" aria-selected="false">Пропозиції <br class="d-sm-none">
+                                    <a class="nav-link my-0 p-1 py-md-0 px-md-2 font-weight-bold text_color" id="approved-tab" data-toggle="pill" href="#approved" role="tab" aria-controls="approved" aria-selected="false">Пропозиції <br class="d-sm-none">
                                         тиражування &nbsp;&nbsp;<span class="text-white mb-1">&raquo;</span></a>
                                 </li>
                             </ul>
@@ -45,8 +43,7 @@
                                 <div class="tab-pane fade show active" id="passed" role="tabpanel" aria-labelledby="passed-tab">
                                     <div class="mt-2 mb-0 position-relative search_bar_wrapper">
                                         <form class="search_bar position-relative">
-                                            <input type="text" name="search" class="search_bar_input position-absolute shadow" 
-                                                maxlength="70" placeholder="Пошук" id="searchInput" aria-label="search">
+                                            <input type="text" name="search" class="search_bar_input position-absolute shadow" maxlength="70" placeholder="Пошук" id="searchInput" aria-label="search">
                                             <button type="submit" class="btn search_bar_submit" aria-label="submit search">
                                                 <i class="fas fa-search"></i></button>
                                         </form>
@@ -89,7 +86,7 @@
                                             </thead>
                                             <tbody>
                                                 <tr class="text-center">
-                                                    <th scope="row"><a href="proposition-description.php">1&nbsp;&raquo;</a></th>
+                                                    <th scope="row"><a href="proposition-description.php" class="read_more min-height d-block" data-link>1&nbsp;&raquo;</a></th>
                                                     <td>СПП</td>
                                                     <td>Дуже дієва пропозиція з використання нових технологій</td>
                                                     <td>Деякий автор та співавтор</td>
@@ -97,10 +94,11 @@
                                                     <td>Начальник дільниці ВШТ та ПВС</td>
                                                     <td>Тут буде детальний опис дуже дієвої пропозиції з використання нових технологій
                                                         під час ремонту вагонів ВГ-1</td>
-                                                    <td>Розглядається</td>
+                                                    <td><a href="#" class="position-relative" style="z-index: 10" id="proposal_upd"><img src="ll.png" width="15" class="mr-0 mr-md-3 crud_img_link" data-original-title="Редагувати" data-toggle="tooltip" data-placement="bottom">
+                                                        </a></td>
                                                 </tr>
                                                 <tr class="text-center">
-                                                    <th scope="row"><a href="proposition-description.php">2&nbsp;&raquo;</a></th>
+                                                    <th scope="row"><a href="proposition-description.php" class="read_more">2&nbsp;&raquo;</a></th>
                                                     <td>СПП</td>
                                                     <td>Дуже дієва пропозиція з використання нових технологій</td>
                                                     <td>Деякий автор</td>
@@ -111,7 +109,7 @@
                                                     <td>Відхилено</td>
                                                 </tr>
                                                 <tr class="text-center">
-                                                    <th scope="row"><a href="proposition-description.php">3&nbsp;&raquo;</a></th>
+                                                    <th scope="row"><a href="proposition-description.php" class="read_more">3&nbsp;&raquo;</a></th>
                                                     <td>СПП</td>
                                                     <td>Дуже дієва пропозиція з використання нових технологій</td>
                                                     <td>Деякий автор</td>
@@ -122,7 +120,7 @@
                                                     <td>Розглядається</td>
                                                 </tr>
                                                 <tr class="text-center">
-                                                    <th scope="row"><a href="proposition-description.php">4&nbsp;&raquo;</a></th>
+                                                    <th scope="row"><a href="proposition-description.php" class="read_more">4&nbsp;&raquo;</a></th>
                                                     <td>СПП</td>
                                                     <td>Дуже дієва пропозиція з використання нових технологій</td>
                                                     <td>Деякий автор</td>
@@ -139,6 +137,14 @@
                                 <div class="tab-pane fade" id="approved" role="tabpanel" aria-labelledby="approved-tab">
                                     <div class="my-1 text-right">
                                         <span class="bg-light border-right border-bottom rounded px-1 shadow text_color"><small>ПропозиціЇ для тиражування: </small> <b>1233</b></span>
+                                    </div>
+                                    <div class="mt-2 mb-0 position-relative search_bar_wrapper">
+                                        <form class="search_bar position-relative mb-3">
+                                            <input type="text" name="search" class="search_bar_input position-absolute shadow" maxlength="70" placeholder="Пошук" id="searchInput" aria-label="search">
+                                            <button type="submit" class="btn search_bar_submit" aria-label="submit search">
+                                                <i class="fas fa-search"></i></button>
+                                        </form>
+                                        <!-- <span class="ml-4 text_color small font-weight-bold counter">Максимальна кількість символів 70</span> -->
                                     </div>
                                     <div class="table table-responsive table-striped table-bordered table-hover mb-1 border-primary">
                                         <table class="table table-light table-striped table-sm mb-0 border border-primary text_color">
@@ -212,9 +218,27 @@
     <?php include_once "footer.php"; ?>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const searchInput = document.querySelector('.search_bar_input'),
-                txtItemLimit = searchInput.getAttribute('maxlength'),
-                formInput = document.querySelector('.search_bar');
+            const searchInput = document.querySelectorAll('.search_bar_input'),
+                // txtItemLimit = searchInput.getAttribute('maxlength'),
+                formInput = document.querySelectorAll('.search_bar');
+
+            // searchInput.focus();
+            // setTimeout(() => {
+            //     searchInput.blur();
+            // }, 1500);
+
+            searchInput.forEach(function(input) {
+                input.focus();
+                setTimeout(() => {
+                    input.blur();
+                }, 1500);
+            });
+
+            searchInput.forEach(elem => elem.addEventListener('focus', () => {
+                formInput.forEach(bar => bar.style.width = "100%");
+            }));
+
+
             // let spanToCount = document.querySelector('.counter');
             /* hide span */
             // function hideSpan () {
@@ -223,24 +247,21 @@
             /* hide it by default */
             // hideSpan();
             /* on focus event */
-            searchInput.addEventListener('focus', () => {
-                formInput.style.width = "100%";
-                // showSpan();
-            });
+            // searchInput.addEventListener('focus', () => {
+            //     formInput.style.width = "100%";
+            //     // showSpan();
+            // });
             /* close by escape key */
             document.addEventListener('keyup', (event) => {
-                if(event.code === 'Escape') {
+                if (event.code === 'Escape') {
                     closeBarInput();
                     // hideSpan();
                 }
             });
             /* counter for characters */
-            // formInput.addEventListener('keyup', txtSetCounter);
-            /* if key is pressed and repeating */
-            // formInput.addEventListener('keydown', function(event) {
-            //     if(event.repeat){txtSetCounter()}
-            // });
-            /* show the rest of characters to type */
+            // formInput.addEventListener('input', txtSetCounter);
+
+            /* output the rest of characters to type */
             // function txtSetCounter() {
             //     const txtCounterResult = txtItemLimit - searchInput.value.length;
             //     spanToCount.innerHTML = `Лишилося символів ${txtCounterResult}`;
@@ -251,18 +272,24 @@
             // }
             /* close input by changing width to default value*/
             function closeBarInput() {
-                formInput.style.width = "";
+                formInput.forEach(bar => bar.style.width = "");
                 // hideSpan();
             }
             /* close input by clicking somewhere except the .tab-pane block */
-            function closeBarInputOutside(event){
+            function closeBarInputOutside(event) {
                 if (!event.target.closest('.tab-pane')) {
                     closeBarInput();
                     // console.log(event.target);
                 }
             }
-            document.addEventListener('click',closeBarInputOutside);
+            document.addEventListener('click', closeBarInputOutside);
+
+            $("tr").click(function() {
+                window.location = $(this).find(".read_more").attr("href");
+                return false;
+            });
         });
     </script>
-    </body>
+</body>
+
 </html>

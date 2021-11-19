@@ -20,8 +20,7 @@ $shadow-dark: $dark-overlay 1px 1px 0;
 $shadow-dark-primary: $primary-dark 1px 1px 0;
 $box-shadow-dark: inset 0px 0px 4px 1px rgba(48, 72, 120, 0.9);
 $box-shadow-info: inset 0px 0px 4px 1px rgba(101, 158, 215, 0.8);
-$bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
-$size: 40px;
+$bg-navbar: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8));
 
 /* GLOBALS */
 
@@ -39,15 +38,11 @@ $size: 40px;
 // @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700");
 /*font-family: 'Fira Sans', sans-serif;*/
 
-/* hide horizontal scroll */
+
 html {
     width: 100%;
     height: 100%;
     margin: 0;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    scrollbar-color: $primary-color transparent;
-    scrollbar-width: 5px;
 }
 
 ::selection {
@@ -65,6 +60,12 @@ body {
     color: $primary-color;
     font-weight: normal;
     font-size: 16px;
+    /* hide horizontal scroll */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* styling scrollbar */
+    scrollbar-color: $primary-color transparent;
+    scrollbar-width: 5px;
 }
 
 .leftAnimation {
@@ -158,8 +159,10 @@ small.form-text {
 }
 
 .shadows {
-    text-shadow: 0.025em 0.025em 0 white, 0.05em 0.05em 0 $primary-color, 0.075em 0.075em 0 $primary-dark,
-        0.075em 0.075em 0 $primary-common;
+    text-shadow: 0.025em 0.025em 0 white,
+    0.05em 0.05em 0 $primary-color,
+    0.075em 0.075em 0 $primary-dark,  
+    0.075em 0.075em 0 $primary-common;
 }
 
 .shadow_inset_dark {
@@ -225,7 +228,6 @@ input[type="number"],
 input[type="tel"] {
     font-size: 1.2em;
     color: $primary-color;
-    border: 1px $primary-color solid;
 }
 
 input[type="checkbox"]:focus,
@@ -269,9 +271,9 @@ input::placeholder:active {
     border: 2px solid $primary-color;
     border-radius: 100px;
     overflow: hidden;
-    width: $size;
-    height: $size;
-    transition: width 450ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    width: 40px;
+    height: 40px;
+    transition: width 450ms cubic-bezier(0.18, 0.89, 0.32, 1.2);
     padding: 2px;
     &:hover {
         background-color: $primary-common-light-through;
@@ -303,8 +305,8 @@ input::placeholder:active {
     cursor: pointer;
     border-radius: 100em;
     transition: background-color 800ms ease-out;
-    width: calc($size - 6px);
-    height: calc($size - 6px);
+    width: calc(40px - 6px);
+    height: calc(40px - 6px);
     color: $primary-color;
     font-size: 1rem;
     > svg {
@@ -324,7 +326,8 @@ input::placeholder:active {
     .search_bar_submit {
         background-color: $primary-color-through !important;
         color: white;
-        padding: .25rem .65rem !important;
+        padding: .15rem .58rem !important;
+        margin-top: -1px;
         z-index: 3;
         > svg {
             margin-left: -1px 0 -2px;
@@ -524,22 +527,22 @@ blockquote p {
 }
 
 .bg_linear_dark {
-    background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8)) !important;
+    background: linear-gradient(to bottom, rgba(48, 72, 120, 0.9), rgba(72, 144, 216, 0.8));
 }
 
 .bg_scheduel {
-    background: linear-gradient(to right, rgba(254, 255, 255, 0.55), rgba(228, 225, 225, 0.7)),
+    background: linear-gradient(to bottom, rgba(254, 255, 255, 0.8), rgba(228, 225, 225, 0.8)),
         url("../img/schedule.jpg") center/cover no-repeat;
     min-height: 50vh;
 }
 
 .bg_bus {
-    background: linear-gradient($primary-common-light-through), url("../img/bus_bg.jpg") top/cover no-repeat !important;
+    background: linear-gradient($primary-common-light-through), url("../img/bus_bg.jpg") top/cover no-repeat;
 }
 
 @media screen and (max-width: 767px) {
     .bg_bus {
-        background: linear-gradient($primary-common-light-through), url("../img/bus_bg.jpg") top/contain repeat-y !important;
+        background: linear-gradient($primary-common-light-through), url("../img/bus_bg.jpg") top/contain repeat-y;
     }
 }
 
@@ -592,6 +595,7 @@ li {
         }
     }
 }
+/* === */
 
 .width-content {
     width: fit-content;
@@ -655,6 +659,8 @@ li {
         height: calc(1520px + 1em);
     }
 }
+
+/* === */
 
 .obj-fit {
     object-fit: cover;
@@ -728,7 +734,7 @@ li {
     }
 }
 
-/* ========== RichTextField image classes =========== */
+/* ========== RichTextField (Django) image classes =========== */
 
 .image_floatleft {
     float: left;
@@ -751,7 +757,7 @@ li {
     float: left;
 }
 
-/* ========= styling fancybox buttons(for galleries) ========= */
+/* ========= restyling fancybox buttons(for galleries) ========= */
 
 .fancybox-progress {
     background: $primary-dark !important;
@@ -920,6 +926,11 @@ button.fancybox-button[title="Next"] {
 
 /* end GLOBALS */
 
+/* navigation */
+#navbarUp * {
+    backface-visibility: hidden;
+}
+
 /* animated logo */
 .logo {
     border: 2px $white-color solid;
@@ -956,7 +967,6 @@ button.fancybox-button[title="Next"] {
 
 /* size of the logo text */
 .text-logo {
-    backface-visibility: hidden;
     background-color: transparent;
     font-size: 2.2em !important;
     color: $white-color;
@@ -966,11 +976,6 @@ button.fancybox-button[title="Next"] {
     .text-logo {
         font-size: 1.8em !important;
     }
-}
-
-/* navigation */
-#navbarUp * {
-    backface-visibility: hidden;
 }
 
 .navbar {
@@ -1162,6 +1167,29 @@ button.fancybox-button[title="Next"] {
             right: 1px;
             border-radius: 0.25em;
             border: 1px solid $white-color;
+        }
+    }
+}
+
+#ideas-storage {
+    div.table-responsive table.table {
+        line-height: 1.2 !important;
+
+        thead {
+            > :first-child {
+                min-width: 2.4em;
+            }
+
+            > :nth-of-type(3),
+            > :nth-of-type(7) {
+                min-width: 10em;
+            }
+        }
+
+        tbody > tr > td {
+            font-size: 0.8rem !important;
+            text-align: justify;
+            overflow: hidden;
         }
     }
 }
@@ -1366,30 +1394,30 @@ button.fancybox-button[title="Next"] {
             }
         }
     }
+}
 
-    #accordionProp {
-        .card-header > a {
-            text-shadow: $shadow-dark;
-            font-size: 1rem;
+#accordionProp {
+    .card-header > a {
+        text-shadow: $shadow-dark;
+        font-size: 1rem;
+    }
+
+    .card:hover {
+        .card-header {
+            transition: all 450ms ease-in-out;
+        }
+    }
+
+    .card > .card-header > button {
+        > span > svg {
+            transition: all 450ms ease-in-out;
         }
 
-        .card:hover {
-            .card-header {
-                transition: all 450ms ease-in-out;
-            }
-        }
-
-        .card > .card-header > button {
+        &:hover,
+        &:focus,
+        &:active {
             > span > svg {
-                transition: all 450ms ease-in-out;
-            }
-
-            &:hover,
-            &:focus,
-            &:active {
-                > span > svg {
-                    transform: rotateZ(90deg);
-                }
+                transform: rotateZ(90deg);
             }
         }
     }
@@ -2066,28 +2094,6 @@ button.fancybox-button[title="Next"] {
                 z-index: 3;
             }
         }
-
-        .tab-content > .tab-pane > div.table > table {
-            line-height: 1.2 !important;
-
-            thead {
-                > :first-child {
-                    width: 2.4em;
-                }
-
-                > :nth-of-type(3),
-                > :nth-of-type(7) {
-                    width: 10em;
-                }
-            }
-
-            tbody > tr > td {
-                font-size: 0.8rem !important;
-                height: 3em;
-                text-align: justify;
-                overflow: hidden;
-            }
-        }
     }
 
     .study-part {
@@ -2311,7 +2317,7 @@ button.fancybox-button[title="Next"] {
             width: 10em;
             border-radius: 50%;
             border: 1em solid $primary-light;
-            animation: 3s pre linear infinite;
+            animation: 3000ms pre linear infinite;
         }
         /* ===================== animation rotation =================== */
         @keyframes pre {

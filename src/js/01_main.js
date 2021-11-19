@@ -241,24 +241,89 @@ $(() => {
 
 document.addEventListener('DOMContentLoaded', () => {
   let leftElement = document.querySelectorAll('[data-leftanimation]'),
-      rightElement = document.querySelectorAll('[data-rightanimation]'),
-      fadeInElement = document.querySelectorAll('[data-fadeinanimation]');
+    rightElement = document.querySelectorAll('[data-rightanimation]'),
+    fadeInElement = document.querySelectorAll('[data-fadeinanimation]');
 
   const transformPositionX = 'transform: translate(0)',
-        transformFilter = 'filter: opacity(1)',
-        timeOut = 2200;
-  
+    transformFilter = 'filter: opacity(1)',
+    timeOut = 2200;
+  // let scrWidth = window.innerWidth || document.documentElement.clientWidth ||
+  //   document.body.clientWidth;
+  /* if screen width of a device smaller than 768px - animation isn't working */
+  // if (scrWidth >= 768) {
+  //   sideAnime(leftElement);
+  //   sideAnime(rightElement);
+  //   fadeInAnime(fadeInElement);
+  //   setTimeout(function () {
+  //     removeAnime('leftAnimation', leftElement);
+  //     removeAnime('rightAnimation', rightElement);
+  //     removeAnime('fadeInAnimation', fadeInElement);
+  //   },
+  //     timeOut
+  //   );
+  // } else {
+  //   removeAnime('leftAnimation', leftElement);
+  //   removeAnime('rightAnimation', rightElement);
+  //   removeAnime('fadeInAnimation', fadeInElement);
+  //   /* adding autoscrolling  on small devices */
+  //   setTimeout(function () {
+  //     window.scrollTo({
+  //       top: 300,
+  //       left: 0,
+  //       behavior: "smooth"
+  //     });
+  //   }, 1000);
+  // }
+
+  // function removeAnime(className, element) {
+  //   element.forEach(elem => {
+  //     elem.classList.remove(className);
+  //     elem.removeAttribute('style');
+  //   });
+  // }
+
+  // function sideAnime(element) {
+  //   element.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
+  // }
+
+  // function fadeInAnime(element) {
+  //   element.forEach(elem => elem.style.cssText = `${transformFilter}`);
+  // }
+  /* ======== or it could be done through the map ========= */
+  elements = new Map([
+    ['leftAnimation', { 'element': leftElement, 'class_value': `${transformPositionX};${transformFilter}` }],
+    ['rightAnimation', { 'element': rightElement, 'class_value': `${transformPositionX};${transformFilter}` }],
+    ['fadeInAnimation', { 'element': fadeInElement, 'class_value': `${transformFilter}` }]
+  ]
+  );
+
+  function Anime(value, key, map) {
+    value['element'].forEach(elem => elem.style.cssText = value['class_value']);
+  };
+
+  function removeAnimation(value, key, map) {
+    // console.log("=>value " + key)
+    // console.log("=>value[element] " + value['element'])
+    value['element'].forEach(elem => {
+      elem.removeAttribute('style');
+      elem.classList.remove(key);
+    });
+  }
+
   /* if screen width of a device smaller than 768px - animation isn't working */
   if (window.screen.width >= 768) {
-    leftAnime();
-    rightAnime();
-    fadeAnime();
+    elements.forEach(Anime);
+
+    setTimeout(function () {
+      elements.forEach(removeAnimation);
+    },
+      timeOut
+    );
+
   } else {
-    leftElement.forEach(elem => elem.classList.remove('leftAnimation'));
-    rightElement.forEach(elem => elem.classList.remove('rightAnimation'));
-    fadeInElement.forEach(elem => elem.classList.remove('fadeInAnimation'));
+    elements.forEach(removeAnimation);
     /* adding autoscrolling  on small devices */
-    setTimeout(function() {
+    setTimeout(function () {
       window.scrollTo({
         top: 300,
         left: 0,
@@ -266,49 +331,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }, 1000);
   }
-
-  function leftAnime() {
-    leftElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
-    function removeLeftAnimationClass() {
-      leftElement.forEach(elem => elem.classList.remove('leftAnimation'));
-    }
-    setTimeout(function(){
-      removeLeftAnimationClass()}, 
-      timeOut
-    );
-  }
-
-  function rightAnime() {
-    rightElement.forEach(elem => elem.style.cssText = `${transformPositionX};${transformFilter}`);
-    function removeRightAnimationClass() {
-      rightElement.forEach(elem => elem.classList.remove('rightAnimation'));
-    }
-    setTimeout(function() {
-      removeRightAnimationClass()}, 
-      timeOut
-    );
-  }
-
-  function fadeAnime() {
-    fadeInElement.forEach(elem => elem.style.cssText = `${transformFilter}`);
-    function removeFadeInAnimationClass() {
-      fadeInElement.forEach(elem => elem.classList.remove('fadeInAnimation'));
-    }
-    setTimeout(function() {
-      removeFadeInAnimationClass()}, 
-      timeOut
-    );
-  }
 });
 // ================================================ //
-
-// wow js animation
-//also at the window load event
-// $(window).on('load', function(){
-//      new WOW().init(); 
-// // });
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
+
 window.addEventListener('scroll', () => {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -317,7 +344,30 @@ window.addEventListener('scroll', () => {
     document.querySelector('#navbarUp').style.top = "-80px";
   }
   prevScrollpos = currentScrollPos;
+
+  /* prevent scrolling content when toggler is clicked */
+
+  const navCollapse = document.querySelector('#navbarCollapse'),
+    bodyContent = document.querySelector('body'),
+    btnToggler = document.querySelector('.navbar-toggler');
+
+  btnToggler.addEventListener('click', () => {
+    function stopScrollingOn() {
+      bodyContent.style.overflow = 'hidden';
+    }
+
+    function stopScrollingOff() {
+      bodyContent.style.overflow = '';
+    }
+
+    if (navCollapse.classList.contains('show')) {
+      stopScrollingOff();
+    } else {
+      stopScrollingOn();
+    }
+  });
 });
+
 // ================================================
 
 /* modes detecting for changing favicon icon */
