@@ -105,7 +105,7 @@
                         <li class="d-flex justify-content-center nav-item mt-1 position-relative">
                             <a class="text-uppercase nav-link dropdown-toggle text-white py-3 py-md-1 py-lg-1 pl-md-1 pr-md-1 pl-lg-1 pr-lg-1 pl-xl-2 pr-xl-2 shadow-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Гаряча лінія</a>
                             <ul class="dropdown-menu dropdown-menu-md-right dropdown-content position-absolute p-0 border border-white bg-primary row text-center text-md-right text-lg-right width_dropdown_smallscreen">
-                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="#">Повідомити про
+                                <li><a class="dropdown-item text-white px-md-1 px-lg-1 px-xl-2" href="alertpage.php">Повідомити про
                                         порушення</a></li>
                             </ul>
                         </li>

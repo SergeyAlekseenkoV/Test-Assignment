@@ -1,7 +1,6 @@
 <?php include_once "header.php"; ?>
 <title>Портал-Головна</title>
 </head>
-
 <body id="main">
     <?php include_once "menu.php"; ?>
     <!-- main-section-->
@@ -11,16 +10,14 @@
                 <h3 class="d-md-none pt-1 text-left text-uppercase mb-0 text_color"><i class="fas fa-home"></i></h3>
                 <h3 class="d-none d-md-block pt-md-0 pt-lg-3 text-left text-uppercase text_color">
                     Акціонерне Товариство "Марганецький гірничо-збагачувальний комбінат"</h3>
-                <a href="index.php"
-                    class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-5 mb-3 p-1 text-uppercase border border-primary rounded shadow text_color">
+                <a href="index.php" class="align-self-baseline d-flex flex-row align-items-center flex-nowrap bg-light mt-5 mb-3 p-1 text-uppercase border border-primary rounded shadow text_color">
                     Вихід<i class="fas fa-sign-out-alt ml-2"></i></a>
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <?php include_once "left-nav.php"; ?>
                 <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0">
                     <!-- announcement block -->
-                    <div class="d-block mt-0 mb-3 overflow-hidden border border-primary bg_announcement rightAnimation"
-                        data-rightanimation>
+                    <div class="d-block mt-0 mb-3 overflow-hidden border border-primary bg_announcement rightAnimation" data-rightanimation>
                         <!-- <div class="text-justify pt-3 m-4 rounded border text-white bg_dark_through width_announcement"> -->
                         <h4 class="px-0 mx-auto mt-2 text-center text-white">
                             Оголошення</h4>
@@ -30,7 +27,8 @@
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
                                     culpa consequatur,
                                     modi autem sequi ullam dolores laboriosam, voluptates et dolore placeat. Tempora,
-                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a></li>
+                                    porro cumque?<span class="pr-1">. . . &raquo;</span></a>
+                            </li>
                             <!-- <li class="mb-3">&nbsp;
                                 <a href="#" class="text-white">Оголошення друге Lorem ipsum dolor sit
                                     amet consectetur adipisicing elit. Adipisci mollitia sint iste, eos voluptate harum
@@ -41,9 +39,7 @@
                         <!-- </div> -->
                     </div>
                     <!-- carousel slider -->
-                    <div id="carouselIndicators"
-                        class="d-none d-md-block carousel slide carousel-fade bg-transparent border border-primary fadeInAnimation"
-                        data-ride="carousel" keyboard="true" data-fadeinanimation>
+                    <div id="carouselIndicators" class="d-none d-md-block carousel slide carousel-fade bg-transparent border border-primary fadeInAnimation" data-ride="carousel" keyboard="true" data-fadeinanimation>
                         <ol class="carousel-indicators d-none d-lg-flex">
                             <li data-target="#carouselIndicators" data-slide-to="0" class="active text_color"></li>
                             <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -56,36 +52,36 @@
                                 <!-- first new -->
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">1 Lorem ipsum dolor,
-                                        sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
-                                        distinctio
-                                        a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
+                                            sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
+                                            distinctio
+                                            a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
                             <div class="carousel-item height-em" data-touch="true">
                                 <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel2.jpg" alt="people">
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">2 Lorem ipsum dolor,
-                                        sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
-                                        distinctio
-                                        a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
+                                            sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
+                                            distinctio
+                                            a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
                             <div class="carousel-item height-em" data-touch="true">
                                 <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel3.png" alt="track">
                                 <div class="carousel-caption p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">3 Lorem ipsum dolor,
-                                        sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
-                                        distinctio
-                                        a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
+                                            sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
+                                            distinctio
+                                            a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
                             <div class="carousel-item height-em" data-touch="true">
                                 <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel4.jpg" alt="people">
                                 <div class="carousel-caption bg_dark_overlay p-2 border rounded text_color">
                                     <p class="lead font-weight-bold rounded"><a href="#">4 Lorem ipsum dolor,
-                                        sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
-                                        distinctio
-                                        a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
+                                            sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
+                                            distinctio
+                                            a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
                                 </div>
                             </div>
                         </div>
@@ -153,31 +149,24 @@
                             <a href="#" class="btn btn-info border border-primary text_color">Усі новини &raquo;</a>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-end justify-content-lg-end mt-3 overflow-hidden wow fadeInUp"
-                        data-animation="fadeInUp">
-                            <!-- you tube embeded -->
-                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/gvvHIsL5lSU" title="YouTube video player"
-                                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                    </div>  
+                    <div class="d-flex justify-content-end justify-content-lg-end mt-3 overflow-hidden wow fadeInUp" data-animation="fadeInUp">
+                        <!-- you tube embeded -->
+                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/gvvHIsL5lSU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
                     <div class="d-flex justify-content-center justify-content-lg-end text-right mt-3 wow fadeInUp">
                         <!-- blockquote -->
                         <blockquote id="blockquote" class="pr-2 my-0 text-right">
                             <p class="mb-0 text_color">Per aspera ad astra</p>
                             <footer class="blockquote-footer text-right text_color">Lucius Annaeus Seneca</footer>
                         </blockquote>
-                    </div> 
-                    <div class="d-flex justify-content-center mt-3 overflow-hidden wow fadeInUp"
-                        data-animation="fadeInUp">
-                            <!-- you tube embeded -->
-                            <iframe width="100%" height="480" src="https://www.youtube.com/embed/iGWQFQA-LgY" title="YouTube video player" 
-                                frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen></iframe>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3 overflow-hidden wow fadeInUp" data-animation="fadeInUp">
+                        <!-- you tube embeded -->
+                        <iframe width="100%" height="480" src="https://www.youtube.com/embed/iGWQFQA-LgY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <!-- birthday block -->
-                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden position-relative border border-primary bg_dark_through particles wow fadeInUp"
-                        data-animation="fadeInUp">
+                    <div class="d-flex justify-content-center text-left mt-3 overflow-hidden position-relative border border-primary bg_dark_through particles wow fadeInUp" data-animation="fadeInUp">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -232,7 +221,7 @@
                                     Головний інженер</li>
                             </ul>
                         </div>
-                    </div> 
+                    </div>
                 </aside>
             </div>
         </div>
@@ -240,9 +229,9 @@
     <!--footer-->
     <?php include_once "footer.php"; ?>
     <script>
-        $(document).on("pagecreate","#pageone",function(){
-            $(".carousel-item").on("swipe",function(){
-              $(this).hide();
-            });                       
+        $(document).on("pagecreate", "#pageone", function() {
+            $(".carousel-item").on("swipe", function() {
+                $(this).hide();
+            });
         });
     </script>
