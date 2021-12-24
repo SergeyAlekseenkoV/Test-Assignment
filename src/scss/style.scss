@@ -608,8 +608,7 @@ blockquote p {
 }
 
 .bg_alert {
-    background: linear-gradient(to left, rgba(254, 255, 255, 0.96), rgba(228, 225, 225, 0.6)),
-        url("../img/crime.jpeg") center/cover no-repeat;
+    min-height: 80vh;
 }
 /* ============= remove check on the dropdown link ============== */
 li {
@@ -1319,9 +1318,10 @@ button.fancybox-button[title="Next"] {
         height: auto !important;
     }
 
-    /*carousel*/
+    /*carousel homepage */
 
     .carousel-item > .carousel-caption {
+        height: 65px;
         background-color: $primary-common-light-through;
         transition: all 500ms ease;
 
@@ -1340,6 +1340,13 @@ button.fancybox-button[title="Next"] {
             text-shadow: $shadow;
             opacity: 1 !important;
         }
+    }
+    
+    /* reassign bootstrap default indicators */
+    .carousel-indicators {
+        left: 50% !important;
+        transform: translateX(-50%);
+        border-radius: 25%;
     }
 
     .carousel-indicators li {
@@ -1835,6 +1842,15 @@ button.fancybox-button[title="Next"] {
         > :first-child {
             background-color: $primary-common-light-through;
             transition: all 500ms ease;
+
+            > :nth-of-type(2) {
+                div.row {
+                    min-height: calc(25% - 8px);
+                    > .col-12 > .d-flex.flex-row {
+                        min-height: 100%;
+                    }
+                }
+            }
         }
 
         p.d-flex {
@@ -2717,6 +2733,16 @@ media queries for different screen resolutions
 
                 p {
                     line-height: 1 !important;
+                }
+            }
+        }
+    }
+
+    #competition-list {
+        > :first-child {
+            > :nth-of-type(2) {
+                div.row {
+                    min-height: auto;
                 }
             }
         }

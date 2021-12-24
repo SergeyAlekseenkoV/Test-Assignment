@@ -20,9 +20,14 @@
             </button>
             <!--dropdowns-->
             <div class="collapse navbar-collapse text-center text-md-left text-lg-left" id="navbarCollapse">
-                <ul class="navbar-nav nav-pills ml-auto mt-1 mb-0">
+                <ul class="navbar-nav nav-pills ml-auto mt-1 mb-0 d-flex justify-content-center align-items-center my-4 my-md-0">
                     <li class="d-flex justify-content-center nav-item text-uppercase text-white">
                         Тільки для працівників АТ "МГЗК"
+                    </li>
+                    <li class="d-flex justify-content-center nav-item text-uppercase text-white my-4 my-md-0">
+                        <a href="vacancy-list.php" class="btn btn-link btn-light text_color ml-3">
+                            Вакансії
+                        </a>
                     </li>
                 </ul>
             </div>

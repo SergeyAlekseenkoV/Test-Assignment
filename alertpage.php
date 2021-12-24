@@ -17,29 +17,31 @@
             </div>
             <div class="row pb-sm-1 ml-0 px-0 mr-0">
                 <?php include_once "left-nav.php"; ?>
-                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 fadeInAnimation" data-fadeinanimation>
+                <aside class="col-sm-12 col-lg-10 px-0 px-sm-0 pl-md-0 pl-lg-1 py-3 py-lg-0 fadeInAnimation bg_light_through" data-fadeinanimation>
                     <div id="open-positions" class="row mx-0 border border-primary rounded bg_alert py-3 py-lg-5">
                         <!-- text-positions -->
                         <div class="col-12 mx-0 px-2">
                             <div class="d-flex flex-column fustify-content-center align-items-center py-3 py-md-5 blur">
-                                <h2 class="text-center text-italic display-2 shadows d-none d-lg-block">Увага !</h2>
+                                <h2 class="text-center text-italic display-3 shadows d-none d-lg-block">Увага !</h2>
                                 <h2 class="text-center text-italic display-4 shadows d-block d-lg-none">Увага !</h2>
                                 <div class="col-10 col-md-8 col-xl-6 my-1 my-md-3 px-0 px-md-3">
                                     <p class="lead text-justify font-weight-bold shadow-light">
                                         Якщо вам стало відомо про викрадення товарно-матеріальних цінностей
-                                        підприємства або інші правопорушення ви можете повідомити про це за</p>
+                                        підприємства або інші правопорушення ви можете повідомити про це</p>
                                     <p class="lead font-weight-bolder text-center">Анонімність гарантується.</p>
                                     <p class="lead text-center font-weight-bolder">
                                         <br class="d-md-none">
                                         <em class="bg_dark_through text-white shadow-dark px-1 rounded">
-                                            "телефоном довіри": 51-15</em><br>
+                                            "телефон довіри": 51-15</em>
+                                        <br>
                                             або повідомити про це у режимі онлайн 
                                     </p>
-                                    <p class="text-center text-info"><i class="far fa-hand-point-down fa-3x"></i></p>
+                                    <!-- <p class="text-center text-info"><i class="far fa-hand-point-down fa-3x"></i></p> -->
                                     
                                 </div>
                                 <div class="col-10 col-md-8 col-xl-6 px-0 px-md-3 text-center text-md-left">
-                                    <button id="show_form_button" class="btn btn-lg btn-block btn-dark text-uppercase mx-auto mx-md-0 shadow border-danger text-danger shadow-light" data-toggle="modal" data-target="#position-form">Надіслати повідомлення</button>
+                                    <button id="show_form_button" class="btn btn-lg btn-block btn-dark text-uppercase mx-auto mx-md-0 shadow-dark border text-white shadow-light" 
+                                        data-toggle="modal" data-target="#position-form">Надіслати повідомлення</button>
                                 </div>
 
                             </div>

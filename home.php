@@ -39,19 +39,20 @@
                         <!-- </div> -->
                     </div>
                     <!-- carousel slider -->
-                    <div id="carouselIndicators" class="d-none d-md-block carousel slide carousel-fade bg-transparent border border-primary fadeInAnimation" data-ride="carousel" keyboard="true" data-fadeinanimation>
-                        <ol class="carousel-indicators d-none d-lg-flex">
-                            <li data-target="#carouselIndicators" data-slide-to="0" class="active text_color"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                    <div id="carouselIndicators" class="d-none d-md-block carousel slide carousel-fade bg-transparent border border-primary fadeInAnimation" 
+                        data-ride="carousel" keyboard="true" data-fadeinanimation>
+                        <ol class="carousel-indicators d-none d-lg-flex width-content mx-0">
+                            <li data-target="#carouselIndicators" data-slide-to="0" class="active text_color mt-2"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="1" class="mt-2"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="2" class="mt-2"></li>
+                            <li data-target="#carouselIndicators" data-slide-to="3" class="mt-2"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active height-em" data-touch="true">
                                 <img class="d-block w-100 height-100p obj-fit" src="../build/img/pexels-08.png" alt="people">
                                 <!-- first new -->
-                                <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="lead font-weight-bold rounded"><a href="#">1 Lorem ipsum dolor,
+                                <div class="carousel-caption p-0 border rounded text_color overflow-hidden">
+                                    <p class="lead font-weight-bold rounded mb-0 height-100p"><a class="p-2 height-100p d-block" href="#">1 Lorem ipsum dolor,
                                             sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
                                             distinctio
                                             a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
@@ -59,8 +60,8 @@
                             </div>
                             <div class="carousel-item height-em" data-touch="true">
                                 <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel2.jpg" alt="people">
-                                <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="lead font-weight-bold rounded"><a href="#">2 Lorem ipsum dolor,
+                                <div class="carousel-caption p-0 border rounded text_color overflow-hidden">
+                                    <p class="lead font-weight-bold rounded mb-0 height-100p"><a class="p-2 height-100p d-block" href="#">2 Lorem ipsum dolor,
                                             sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
                                             distinctio
                                             a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
@@ -68,8 +69,8 @@
                             </div>
                             <div class="carousel-item height-em" data-touch="true">
                                 <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel3.png" alt="track">
-                                <div class="carousel-caption p-2 border rounded text_color">
-                                    <p class="lead font-weight-bold rounded"><a href="#">3 Lorem ipsum dolor,
+                                <div class="carousel-caption p-0 border rounded text_color overflow-hidden">
+                                    <p class="lead font-weight-bold rounded mb-0 height-100p"><a class="p-2 height-100p d-block" href="#">3 Lorem ipsum dolor,
                                             sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
                                             distinctio
                                             a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
@@ -77,8 +78,8 @@
                             </div>
                             <div class="carousel-item height-em" data-touch="true">
                                 <img class="d-block w-100 height-100p obj-fit" src="../build/img/carosel4.jpg" alt="people">
-                                <div class="carousel-caption bg_dark_overlay p-2 border rounded text_color">
-                                    <p class="lead font-weight-bold rounded"><a href="#">4 Lorem ipsum dolor,
+                                <div class="carousel-caption p-0 border rounded text_color overflow-hidden">
+                                    <p class="lead font-weight-bold rounded mb-0 height-100p"><a class="p-2 height-100p d-block" href="#">4 Lorem ipsum dolor,
                                             sit amet consectetur adipisicing elit. Necessitatibus, similique? Molestias
                                             distinctio
                                             a nemo veniam ab, magni tempora hic nihil!&nbsp;.&nbsp;.&nbsp;.&raquo;</a></p>
